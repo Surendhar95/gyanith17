@@ -46,13 +46,13 @@
                         left: 720px;
 			background: transparent url(images/balloons.png) 0 0 repeat-y;
 		}
-		#ironman {
-			background: transparent url(images/ironman.png) 0 0 no-repeat;
+		#spaceship {
+			background: transparent url(images/spaceship.png) 0 0 no-repeat;
 			position: absolute;
 			top: 40%;
-			left: 10%px;
-			width: 440px;
-			height: 200px;
+			left: 10%;
+			width: 180px;
+			height: 120px;
 			z-index: 2000;
 			cursor: pointer;
 		}
@@ -84,36 +84,36 @@
             init: function() {
 
                 // spritely methods...
-                $('#ironman')
-                    .sprite({fps: 1, no_of_frames: 3})
+                $('#spaceship')
+                    .sprite({fps: 3, no_of_frames: 3})
                     .isDraggable({
                         start: function() {
                             if (!$.browser.msie) {
-                                $('#ironman').fadeTo('fast', 0.7);
+                                $('#spaceship').fadeTo('fast', 0.7);
                             }
                         },
                         stop: function() {
                             if (!$.browser.msie) {
-                                $('#ironman').fadeTo('slow', 1);
+                                $('#spaceship').fadeTo('slow', 1);
                             }
                         }
                     })
-                                if (document.location.href.indexOf('/tools') == -1) {
-                                    $('#ironman')
+                    if (document.location.href.indexOf('/tools') == -1) {
+                    $('#spaceship')
                     .activeOnClick()
                     .active();
                                 }
-                $('#ironman2')
+                $('#spaceship2')
                     .sprite({fps: 12, no_of_frames: 3})
                     .isDraggable({
                         start: function() {
                             if (!$.browser.msie) {
-                                $('#ironman2').fadeTo('fast', 0.7);
+                                $('#spaceship2').fadeTo('fast', 0.7);
                             }
                         },
                         stop: function() {
                             if (!$.browser.msie) {
-                                $('#ironman2').fadeTo('slow', 1);
+                                $('#spaceship2').fadeTo('slow', 1);
                             }
                         }
                     })
@@ -127,19 +127,19 @@
                 if (!window.app.is_ipad && document.location.hash.indexOf('iphone') > -1 ) {
                     // iPhone/iPad
                     $('body').addClass('platform-iphone');
-                    // ironman constraint is slightly smaller
-                    $('#ironman').spRandom({top: -10, left: -10, right: 150, bottom: 100, speed: 3500, pause: 5000});
-                    $('#ironman2').spRandom({top: 70, left: 100, right: 200, bottom: 340, speed: 4000, pause: 3000});
+                    // spaceship constraint is slightly smaller
+                    $('#spaceship').spRandom({top: -10, left: -10, right: 150, bottom: 100, speed: 3500, pause: 5000});
+                    $('#spaceship2').spRandom({top: 70, left: 100, right: 200, bottom: 340, speed: 4000, pause: 3000});
                     if (document.location.hash.indexOf('iphone') > -1) {
                         $('body').addClass('platform-iphone');
                     }
                 } else {
                     // non-iPhone
-                    // ironman constraint is slightly wider
+                    // spaceship constraint is slightly wider
                     var stage_left = (($('body').width() - 866) / 2);
                     var stage_top = 30;
-                    $('#ironman').spRandom({top: stage_top - 20, left: stage_left - 20, right: 400, bottom: 140, speed: 3500, pause: 5000});
-                    $('#ironman2').spRandom({top: stage_top + 70, left: stage_left + 100, right: 200, bottom: 340, speed: 4000, pause: 3000});
+                    $('#spaceship').spRandom({top: stage_top - 20, left: stage_left - 20, right: 400, bottom: 140, speed: 3500, pause: 5000});
+                    $('#spaceship2').spRandom({top: stage_top + 70, left: stage_left + 100, right: 200, bottom: 340, speed: 4000, pause: 3000});
                 }
                 if (window.app.is_ipad) {
                     $('#dragMe, .ui-slider-handle').hide();
@@ -194,22 +194,22 @@
                   var sliderSpeed = val;
                 if (sliderSpeed < 0) {
                     var sliderSpeed = String(sliderSpeed).split('-')[1];
-                    $('#ironman, #ironman2').spState(2);
+                    $('#spaceship, #spaceship2').spState(2);
                     $('#hill1, #hill2, #clouds').spChangeDir('right');
                 } else {
-                    $('#ironman, #ironman2').spState(1);
+                    $('#spaceship, #spaceship2').spState(1);
                     $('#hill1, #hill2, #clouds').spChangeDir('left');
                 }
                 $('#hill1, #hill2, #clouds').spRelSpeed(sliderSpeed);
 
-                var ironmanSpeed = sliderSpeed;
+                var spaceshipSpeed = sliderSpeed;
                 if (sliderSpeed < 12) {
-                    var ironmanSpeed = 12;
+                    var spaceshipSpeed = 12;
                 } else if (sliderSpeed > 24) {
-                    var ironmanSpeed = sliderSpeed / 2;
+                    var spaceshipSpeed = sliderSpeed / 2;
                 }
-                $('#ironman').fps(ironmanSpeed - 3);
-                $('#ironman2').fps(ironmanSpeed);
+                $('#spaceship').fps(spaceshipSpeed - 3);
+                $('#spaceship2').fps(spaceshipSpeed);
 
             }
 
@@ -307,7 +307,7 @@
 
 
 	</div>
-	<div id="ironman"></div>
+	<div id="spaceship"></div>
 
 
 
