@@ -99,8 +99,24 @@ pre {
 
 .land-content {
 	color: white;
+	position:absolute;
+	top:500px;
 
 }
 p {
 	color: white;
 }
+.logo h3{
+	color:white;
+	text-align: center;
+	width:500px;
+	position: absolute;
+	left:60px;
+	top:190px;
+	opacity:0.3;
+	font-family: 'Exo 2', sans-serif;
+	font-style: italic;
+}
+.logo h3:hover{
+	opacity:1.0;
+};
