@@ -1,0 +1,11 @@
+#logo{
+ position: absolute;
+top:30%;
+left:30%;
+max-width:1000px;
+z-index:6000;
+}
+#logo img{
+width:500px;
+}
+

@@ -1,0 +1,31 @@
+.a{
+position:absolute;
+top:60%;
+left:28%;
+ list-style-type:none;
+ z-index:7000;
+}
+
+
+.a li{
+float:left;
+margin-right:60px;
+font-size:30px;
+font-family: "jokerman";
+
+}
+.a li a{
+z-index:10000;
+text-decoration:none;
+font-style: oblique;
+font-size: 30px;
+color:white;
+}
+
+.a li:hover{
+font-size:5em;
+}
+.a li a:hover{
+font-variant: small-caps;
+color:cornflowerblue;
+}
