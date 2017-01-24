@@ -21,18 +21,22 @@
 	}
 
 	function initEvents() {
+		//if(openbtn){//abhi add
 		openbtn.addEventListener( 'click', toggleMenu );
+	//}//abhi add
 		if( closebtn ) {
 			closebtn.addEventListener( 'click', toggleMenu );
 		}
 
 		// close the menu element if the target it´s not the menu element or one of its descendants..
+		if(content){//add by abhi
 		content.addEventListener( 'click', function(ev) {
 			var target = ev.target;
 			if( isOpen && target !== openbtn ) {
 				toggleMenu();
 			}
 		} );
+	}//add by abhi
 	}
 
 	function toggleMenu() {

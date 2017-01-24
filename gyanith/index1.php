@@ -25,10 +25,7 @@
 	
       <script src="js/material.min.js"></script>
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<style>
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-</style>
-
+	
 	<!--
   <link rel="stylesheet" type="text/css" href="css/style_index.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
@@ -40,74 +37,6 @@
 	 <script src="js/material.min.js"></script>
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	-->
-  <script>
-  
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-//alert("pop");
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-  </script>
-  <style>
-.dropbtn {
-    /*background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;*/
-    border: none;
-    cursor: pointer;
-    z-index:12000;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
-}
-
-.dropdown {
-    position: absolute;
-    display: inline-block;
-    top:5%;
-    right:5%;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 100px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    opacity:0.7;
-}
-
-.dropdown a:hover {background-color: #94baf7;
-opacity:1;
-}
-
-.show {display:block;}
-</style>
     <script>
 
   var colors = new Array(
@@ -308,17 +237,16 @@ var timeline = new mojs.Timeline({
 
   <!--<div class="contain"style="background:transparent;">-->
   <!--changd position property as absolute from relative-->
-  <!--old drop begn-->
-				<!--	<div style="position:absolute;top:0%;right:0%;">
+					<div style="position:absolute;top:0%;right:0%;">
 					
 					<div class="menuBackground">
 					<div class="center">
 					<ul class="dropDownMenu">
 			
 					<li><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                        <i class="material-icons md-light md-48">account_circle</i>
+                        <i class="material-icons">account_circle</i>
 						
-                   </button>
+                    </button>
 					<ul>
 					<li><a href="log.php">Login</a></li>
 					<li><a href="#">Schedule</a></li>
@@ -327,22 +255,8 @@ var timeline = new mojs.Timeline({
 					</ul>
 					</div>
 				</div>
-				 </div>-->
-         <!--old drop end-->
-         <!--new drop begn-->
-         <div class="dropdown">
-
-<button onclick="myFunction()" class="dropbtn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                      <i class="material-icons md-light md-48">account_circle</i>
+				 </div>	
 						
-                   </button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#home">Login</a>
-    <a href="#about">Schedule</a>
-    
-  </div>
-</div>
-         <!--new drop end-->
 	
 			<div class="menu-wrap">
 				<nav class="menu">
@@ -364,11 +278,11 @@ var timeline = new mojs.Timeline({
 <div id="logo">
 <img src="images/logo.svg"/>
 </div>
-<div id="hmenu"  style="text-align:center;">
+<div id="hmenu">
 <ul class="a">
-<li><a href="#" style="margin-left:2px;">Events</a></li>
-<li><a href="#">Workshops</a></li>
-<li><a href="#" style="margin-right:0;">Guest talk</a></li>
+<li><a href="#">Events</a></li>
+<li><a href="#">Schedule</a></li>
+<li><a href="#">Workshop</a></li>
 </ul>
 </div>
 

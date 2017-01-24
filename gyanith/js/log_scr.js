@@ -72,6 +72,8 @@ $('document').ready(function()
 									//$("#btn-submit").html( 'Logging In ...');
 									$('#btn-submit1').val('Logging In ...');
 									setTimeout('$(".login-wrap").fadeOut(500, function(){ window.location.replace("index.php"); }); ',5000);
+									//for dashboard test
+									//setTimeout('$(".login-wrap").fadeOut(500, function(){ window.location.replace("dashboard.php"); }); ',5000);
 									
 								}
 								else{

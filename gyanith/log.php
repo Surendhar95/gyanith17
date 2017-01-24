@@ -23,9 +23,35 @@
 	 $('#signup-form')[0].reset();
 	 }
 	 </script>
+	  <style>
+      .glyphicon-remove {
+   opacity:0;
+   }
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input1  { padding-left:  30px; }
+.right-addon input1 { padding-right: 30px; }
+
+      </style>
 </head>
 
-<body>
+<body style="background-color:#0f2851">
   <div class="login-wrap">
 	<div class="login-html">
 		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab" onclick=clr()>Sign In</label>
@@ -34,6 +60,7 @@
 		<!--login form begin-->
 			 
 			<div class="sign-in-htm">
+			<br/><br/><br/><br/><br/>
 			<form class="form-signin" method="post" id="log-form" autocomplete="off"><br/><br/>
 			<div id="error1">
         <!-- error will be showen here ! 
@@ -52,7 +79,7 @@
 				</div>
 				<div class="hr"></div>
 				<div class="foot-lnk">
-					<label for="tab-2" onclick=clr1()>Don't have an Account?<span class="und">Signup</span></a>
+					<label for="tab-2" onclick=clr1()>Don't have an Account?<span class="und" style="color:blue;">Signup</span></a>
 				</div>
 				</form>
 			</div>
@@ -82,10 +109,18 @@
 					<label for="pass" class="label">Password</label>
 					<input name="password" id="password" type="password" class="input" >
 				</div>
-				<div class="group">
+				<!--<div class="group">
 					<label for="pass" class="label">Confirm Password</label>
 					<input name="cpassword" id="cpassword" type="password" class="input" >
-					<i class="glyphicon"></i>
+					<i class="glyphicon glyphicon-remove"></i>
+				</div>-->
+				<!--abhi add-->
+				<div class="group">
+					<label for="pass" class="label">Confirm Password</label>
+					<div class="inner-addon right-addon group">
+    					<input name="cpassword" id="cpassword" type="password" class="input1 form-control input" />
+						<i class="test glyphicon glyphicon-remove" style="color:#17680c"></i>
+					</div>
 				</div>
 				<div class="group" style="text-align:center;">
 					<label for="pass" class="label">Gender</label>
@@ -101,14 +136,14 @@
 					<input id="pass" type="text" pattern="[789]{1}[0-9]{9}" title='Enter valid phone number' class="input" name="phone" id="phone">
 				</div><br>
 				<div class="group">
-				<div class="g-recaptcha" style="position:relative;left:40px;" data-sitekey="6Ld3lhEUAAAAABmQ8BNIvQHpk8ZijgjE3TgWsPO1"></div>
+			<!--	<div class="g-recaptcha" style="position:relative;left:40px;" data-sitekey="6Ld3lhEUAAAAABmQ8BNIvQHpk8ZijgjE3TgWsPO1"></div>-->
 				</div>
 				<div class="group">
 					<input type="submit" class="button" value="Create Account" name="submit" id="btn-submit">
 				</div>
 				<div class="hr"></div>
 				<div class="foot-lnk">
-					<label for="tab-1" onclick=clr()>Already Member?<span class="und">Sign In</span></a>
+					<label for="tab-1" onclick=clr()>Already Member?<span class="und" style="color:blue;">Sign In</span></a>
 				</div>
 				</form>
 			</div>

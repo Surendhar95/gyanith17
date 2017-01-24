@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dashboard</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<style>
+#cdbug {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    color:white;
+}
+div{
+cursor:default;
+display:none;
+}
+</style>
+<script>
+ $(document).ready(function (){
+            $("#events").change(function() {
+                if ($(this).val() == "dbugcbug") {
+                    $("#dbug").fadeIn();
+					$("#dbug").css({"display":"inline-block"});
+					$("#cdbug").show();
+					$("#cdbug").css({"display":"inline-block"});
+                }else{
+                   // $("#").hide();
+                } 
+            });
+			$('#cdbug').click(function() { 
+    $('#dbug').fadeOut();
+  });
+			
+        });
+</script>
+</head>
+<body>
+<form id="drop">
+<select name="events" id="events">
+<option value="dbugcbug">D-Bug C-Bug</option>
+<option value="weblicate">Weblicate</option>
+<option value="enigma">Enigma</option>
+<option value="antagon">Antagon</option>
+</select>
+</form>
+<div style="background-color:gray" id="dbug">Dbugcbug&nbsp;&nbsp;<span class="clbtn" id='cldbug'>X</span></div>
+<div style="background-color:gray" id="web">Weblicate&nbsp;&nbsp;<span class="clbtn" id='clweb'>X</span></div>
+<div style="background-color:gray" id='eni'>Enigma&nbsp;&nbsp;<span class="clbtn" id='cleni'>X</span></div>
+<div style="background-color:gray" id="ant">Antagon&nbsp;&nbsp;<span class="clbtn" id='clant'>X</span></div>
+</body>
+</html>

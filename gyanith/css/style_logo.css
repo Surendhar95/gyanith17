@@ -1,3 +1,4 @@
+/* old *//*
 #logo{
  position: absolute;
 top:30%;
@@ -7,5 +8,23 @@ z-index:6000;
 }
 #logo img{
 width:500px;
+}
+
+*/
+
+#logo{
+
+position: fixed;
+  top: 50%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+}
+@media screen and (min-width:768px){
+
+#logo img{
+
+transform: scale(2, 2);
+}
 }
 

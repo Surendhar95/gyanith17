@@ -1,118 +1,4 @@
-/*style-slide drop.css begin*/
-/* Menu General Styles */
-.menuBackground{
-/*float:right;*/
-height: 70px;
-width:70px;
-margin:30px 40px;
-
-
-}
-.dropDownMenu a {
-	color: black;
-}
-.dropDownMenu,
-.dropDownMenu ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.dropDownMenu li {
-	position: relative;
-}
-.dropDownMenu a ,.dropDownMenu>li>img{
-	padding: 10px 20px;
-	display: block;
-	text-decoration: none;
-}
-.dropDownMenu a:hover {
-	background: sandybrown;
-	
-}
-.dropDownMenu li>a>img:hover {
-	background: yellow;
-}
-
-/* Level 1 Drop Down Menu */
-.dropDownMenu > li {
-	display: inline-block;
-	vertical-align: top;
-	margin-left: -4px; /* solve the 4 pixels spacing between list-items */
-}
-.dropDownMenu > li:first-child {
-	margin-left: 0;
-}
-.dropDownMenu > li > a {}
-.dropDownMenu > li > a:hover {}
-
-
-
-
-.dropDownMenu > li > ul {
-	text-align: left;
-	width: auto; /* change auto value with 200px if you want a bigger menu */
-	display: none;
-	background:powderblue;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	z-index: 9999999; /* if you have YouTube iframes, is good to have a bigger z-index so the video can appear above the video */
-}
-.dropDownMenu > li:hover > ul {
-	display: block;
-}
-/*style-menu.css end*/
-
-/*style-menu.css begin*/
-.a{
-position:absolute;
-top:60%;
-left:28%;
- list-style-type:none;
- z-index:7000;
-}
-
-
-.a li{
-float:left;
-margin-right:60px;
-font-size:30px;
-font-family: "jokerman";
-
-}
-.a li a{
-z-index:10000;
-text-decoration:none;
-font-style: oblique;
-font-size: 30px;
-color:white;
-}
-
-.a li:hover{
-font-size:5em;
-}
-.a li a:hover{
-font-variant: small-caps;
-color:cornflowerblue;
-}
-
-/*style-menu.css end*/
-
-/*style-logo.css begn*/
-#logo{
- position: absolute;
-top:30%;
-left:30%;
-max-width:1000px;
-z-index:6000;
-}
-#logo img{
-width:500px;
-}
-
-/*style-logo.css end*/
-
-/*style-menu-sideslide.css end*/
+/*menu side slide*/
 html, 
 .contain, 
 .content-wrap {
@@ -344,4 +230,195 @@ html,
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
-/*menu side slide .css end*/
+
+/*styrl click drop*/
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+/*style logo*/
+/* old *//*
+#logo{
+ position: absolute;
+top:30%;
+left:30%;
+max-width:1000px;
+z-index:6000;
+}
+#logo img{
+width:500px;
+}
+
+*/
+
+#logo{
+
+position: fixed;
+  top: 50%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+}
+@media screen and (min-width:768px){
+
+#logo img{
+
+transform: scale(2, 2);
+}
+}
+
+/*style menu*/
+
+/*
+   #hmenu
+{
+    display:inline;
+    position: fixed;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+ z-index:7000;
+}/*
+@media screen and (max-width:450px){
+    .a li a{
+    font-size:12px;
+    margin-right:7px;
+    }
+    #hmenu{
+        position:fixed;
+        left:41%;
+        top:60%;
+    }
+}
+@media screen and (min-width:500px){
+    .a li a{
+    font-size:30px;
+    margin-right:60px;
+    }
+ 
+}*/
+/*
+
+.a li a{
+font-size: auto;
+margin-right:auto; 
+
+
+}
+
+#hmenu{
+    position:fixed;
+    left:auto;
+    top:auto;
+}
+
+*/
+/**//*
+.a{
+position:absolute;
+top:60%;
+left:28%;
+ list-style-type:none;
+ z-index:7000;
+}
+/**/
+/*
+.a{list-style-type:none;}
+.a li{
+float:left;
+
+
+font-family: "jokerman";
+
+}
+.a li a{
+z-index:10000;
+text-decoration:none;
+font-style: oblique;
+/*font-size: 30px;margin-right:50px;/**//*
+color:white;
+opacity:0.7;
+}
+
+.a li:hover{
+font-size:5em;
+
+}
+.a li a:hover{
+font-variant: small-caps;
+color:black;
+opacity:1;
+}
+
+*/
+
+.a{
+position:absolute;
+top:62%;
+left:28%;
+ list-style-type:none;
+ z-index:7000;
+}
+
+
+.a li{
+float:left;
+margin-right:60px;
+font-size:30px;
+font-family: "jokerman";
+
+}
+.a li a{
+z-index:10000;
+text-decoration:none;
+font-style: oblique;
+font-size: 30px;
+color:black;
+opacity:0.5;
+}
+
+.a li:hover{
+font-size:5em;
+
+}
+.a li a:hover{
+font-variant: small-caps;
+color:white;
+opacity:1;
+}

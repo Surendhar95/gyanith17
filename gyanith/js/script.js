@@ -1,27 +1,12 @@
 
 $('document').ready(function()
 { 
-    	var err="glyphicon-remove";
-		var succ="glyphicon-ok";
+    	// var err="glyphicon-remove";
+	//	var succ="glyphicon-ok";
 	 $("#signup-form").validate(
 	{
 	
-		unhighlight: function (element,succ,err) {
-if ($(element).is("input#cpassword")) {
-			 
-		   $(element).next('i').removeClass('err');
-		   $(element).next('i').addClass('succ');    
-		   
-	    }	},
 		
-highlight: function (element,succ,err) {
-if ($(element).is("input#cpassword")) {
-  $(element).next('i').removeClass('succ');
-  
-  $(element).next('i').addClass('err');    
-  
-}
-	},
       rules:
 	  {
 			first_name: {
@@ -74,16 +59,31 @@ if ($(element).is("input#cpassword")) {
             email: "Please enter a valid email address",
 			cpassword:{
 						required: "Please retype your password",
-						equalTo: "Password doesn't match !",
-		
-            					  },
+						equalTo: "Password doesn't match !"},
 			college: 'Please enter college name',
 			phone: 'Please enter phone number',
-			
+	   },
+	
+	unhighlight: function (element) {
+if ($(element).is("input#cpassword")) {
+	//alert("pop unhigh");
+			$(element).next('i').removeClass('glyphicon'); 
+		   $(element).next('i').removeClass('glyphicon-remove');
+		   $(element).next('i').addClass('glyphicon');
+		   $(element).next('i').addClass('glyphicon-ok');    
+		   
+	    }	},
+		
+highlight: function (element) {//alert("pop high");
+if ($(element).is("input#cpassword")) {
+  $(element).next('i').removeClass('glyphicon-ok');
+  $(element).next('i').removeClass('glyphicon'); 
+  $(element).next('i').addClass('glyphicon-remove');    
+   $(element).next('i').addClass('glyphicon');
+}
 	},
- 
-       
-	 submitHandler: submitForm
+        
+	 submitHandler: submitForm,
 	 
 });
 
