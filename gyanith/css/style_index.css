@@ -1,5 +1,15 @@
 /*style-slide drop.css begin*/
 /* Menu General Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+
+p,h1,h2,h4,h5{
+	 font-family: 'Droid Sans', sans-serif;
+
+}
+
+   
+
 .menuBackground{
 /*float:right;*/
 height: 70px;

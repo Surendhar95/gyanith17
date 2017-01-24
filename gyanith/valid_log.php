@@ -3,7 +3,7 @@ session_start();
 	
 	try{
 		
-include("C:/wamp/www/gyanith/dbcon.php");
+include("dbcon.php");
 //$db=new PDO("mysql:host=$host;dbname=$dbase",$username,$password);
 $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
 	if(isset($_POST['login1'])){

@@ -9,9 +9,9 @@
   <meta property="og:title" content="Gyanith 17" />
 <meta property="og:description" content="Annual technical fest by NIT Puducherry" />
 <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
-
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> 
   <link rel="stylesheet" media="screen" href="css/style_slide_drop.css">
- 
+ <script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style_menu.css" />
@@ -26,17 +26,6 @@
       <script src="js/material.min.js"></script>
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	
-	<!--
-  <link rel="stylesheet" type="text/css" href="css/style_index.css" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="css/material.min.css">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
-	 <script src="js/material.min.js"></script>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	-->
     <script>
 
   var colors = new Array(
@@ -257,21 +246,9 @@ var timeline = new mojs.Timeline({
 				</div>
 				 </div>	
 						
-	
-			<div class="menu-wrap">
-				<nav class="menu">
-					<div class="icon-list">
-						<a href="#"><i class="fa fa-fw fa-star-o"></i><span>Events</span></a>
-						<a href="#"><i class="fa fa-fw fa-bell-o"></i><span>Workshops</span></a>
-						<a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>Guest Lectures</span></a>
-						<a href="#"><i class="fa fa-fw fa-comment-o"></i><span>Non Technical</span></a>
-						<a href="#"><i class="fa fa-fw fa-bar-chart-o"></i><span>Hospitality</span></a>
-						<a href="#"><i class="fa fa-fw fa-newspaper-o"></i><span>Teams</span></a>
-						<a href="#"><i class="fa fa-fw fa-newspaper-o"></i><span>About Us</span></a>
-					</div>
-				</nav>
-				<button class="close-button" id="close-button">Close Menu</button>
-			</div>
+	<?php 
+    include("sidebar.php");
+  ?>
 			<button class="menu-button" id="open-button">Open Menu</button>
 	<!--</div>-->
 <!--image add begin-->
