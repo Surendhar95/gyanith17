@@ -1,4 +1,6 @@
 $(document).ready(function (){
+	$("#createteam").hide();
+	$("#wcreateteam").hide();
 	//alert('ready');
            //events drop down
 /*            $("#events").change(function() {
@@ -78,13 +80,31 @@ $(document).ready(function (){
                 success: function(data){
 					$('#alerteve').html('');
 					$("#submiteve").val("Register for events");
+					var ind=data.indexOf("bltm");
 					if(data.startsWith("upd")){
-                       
-					    $("#infoeve").append("<div class='tnote'>"+data.substring(4)+"</div>");
+                      // $("#infoeve").append("<div class='tnote'>"+data.substring(4)+"</div>");
+						$("#infoeve").append("<div class='tnote'>"+data.substring(4,(ind-1))+"</div>");
+						//$("#infoeve").append("<div class='tnote'>"+data.substring(4,(ind-1))+"  "+data.substring((ind+5))+"</div>");
+						if(data.substring((ind+5))=='1'){
+						$("#dispeve").hide();
+					//	$("#createteam").hide();
+					if(!$('#createteam1').is(':visible'))
+						{
+						$("#createteam").show();}
+					}
+						
 					}
 					else if(data.startsWith("ins")){
 						//$("#infoeve").append("<div>Registered events are:<br/><div>");
-						$("#infoeve").append("<div class='tnote'>"+data.substring(4)+"</div>");
+						$("#infoeve").append("<div class='tnote'>"+data.substring(4,(ind-1))+"</div>");
+						//$("#infoeve").append("<div class='tnote'>"+data.substring(4,(ind-1))+"  "+data.substring((ind+5))+"</div>");
+						if(data.substring((ind+5))=='1'){
+						$("#dispeve").hide();
+						//$("#createteam").hide();
+						if(!$('#createteam1').is(':visible'))
+						{
+							$("#createteam").show();}
+						}
 					}
 					else{
 						$("#alerteve").append("<div class='tnote'>"+data+"</div>");
@@ -111,13 +131,28 @@ $(document).ready(function (){
                 success: function(data){
 					$('#alertwrk').html('');
 					$("#submitwrk").val("Register for events");
+					var ind=data.indexOf("bltm");
 					if(data.startsWith("upd")){
                        
-					    $("#infowrk").append("<div class='tnote'>"+data.substring(4)+"</div>");
+					    $("#infowrk").append("<div class='tnote'>"+data.substring(4,(ind-1))+"</div>");
+						if(data.substring((ind+5))=='1'){
+						$("#dispwrk").hide();
+					//	$("#createteam").hide();
+					if(!$('#wcreateteam1').is(':visible'))
+						{
+						$("#wcreateteam").show();}
+					}
 					}
 					else if(data.startsWith("ins")){
 						//$("#infoeve").append("<div>Registered events are:<br/><div>");
-						$("#infowrk").append("<div class='tnote'>"+data.substring(4)+"</div>");
+						$("#infowrk").append("<div class='tnote'>"+data.substring(4,(ind-1))+"</div>");
+						if(data.substring((ind+5))=='1'){
+							$("#dispwrk").hide();
+					//	$("#createteam").hide();
+					if(!$('#wcreateteam1').is(':visible'))
+						{
+						$("#wcreateteam").show();}
+						}
 					}
 					else{
 						$("#alertwrk").append("<div class='tnote'>"+data+"</div>");

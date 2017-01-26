@@ -163,7 +163,7 @@ $tid = $result['t_id'];
 if($tid==null){
     if($test==1){
 ?>
-
+<div id="createteam1">
 <button id="plus" class="plus">+</button>
 <form id="teamevents" method="post">
 <div id="txtsub" name="txtsub">
@@ -178,10 +178,11 @@ if($tid==null){
 </div>
 </form>
 <div id="tnmshow"></div>
+</div>
 <?php }
-else{
-    echo'<div class="label">&nbsp;Register in a team event to create team</div>';
-}
+else{?>
+    <div class="label" id="dispeve">&nbsp;Register in a team event to create team</div>
+<?php }
 }else{
 $sql="SELECT tname FROM team WHERE t_id=:tid";
 $stmt1 = $db->prepare($sql);
@@ -191,6 +192,23 @@ $tname = $result['tname'];
 //echo'You are in team: '.$tname;
 echo'<div class="label">&nbsp;You are in team:&nbsp;&nbsp;<span class="tnote"> '.$tname.'</span></div>';
 }?>
+<div id="createteam">
+<button id="plus" class="plus">+</button>
+<form id="teamevents" method="post">
+<div id="txtsub" name="txtsub">
+<input type="text" id="etname" name="etname" class="txtinp" placeholder="Enter team name"/><br/>
+<input type="text" id="emate1" name="emate1" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<input type="text" id="emate2" name="emate2" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<input type="text" id="emate3" name="emate3" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<input type="text" id="emate4" name="emate4" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<input type="text" id="emate5" name="emate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div class="label">Refer events details for number of members in team</div>
+<input type="submit" id="submittmeve" name="submittmeve"  class="bttn"/>
+</div>
+</form>
+<div id="tnmshow"></div>
+</div>
+
 </div>
 
 <br/><br/>
@@ -205,6 +223,7 @@ $tid = $result['t_id'];
 if($tid==null){
      if($wtest==1){
 ?>
+<div id="wcreateteam1">
 <button id="wplus" class="plus">+</button>
 <form id="teamworkshops" method="post">
     <div id="wtxtsub" name="wtxtsub">
@@ -219,11 +238,12 @@ if($tid==null){
 </div>
 </form>
 <div id="wtnmshow"></div>
+</div>
 <?php 
 }
-else{
-    echo'<div class="label">&nbsp;Register in a team Workshops to create team</div>';
-}
+else{?>
+    <div class="label" id="dispwrk">&nbsp;Register in a team Workshops to create team</div>
+<?php }
 }else{
   $sql="SELECT tname FROM wrkteam WHERE t_id=:tid";  
   $stmt1 = $db->prepare($sql);
@@ -232,6 +252,22 @@ $result=$stmt1->fetch();
 $tname = $result['tname'];
 echo'<div class="label">You are in team:&nbsp;&nbsp;<span class="tnote"> '.$tname.'</span></div>';
 }?>
+<div id="wcreateteam">
+<button id="wplus" class="plus">+</button>
+<form id="teamworkshops" method="post">
+    <div id="wtxtsub" name="wtxtsub">
+<input type="text" id="wtname" name="wtname" class="txtinp" placeholder="Enter team name" /><br/>
+<input type="text" id="wemate1" name="wemate1" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<input type="text" id="wemate2" name="wemate2" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<input type="text" id="wemate3" name="wemate3" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<input type="text" id="wemate4" name="wemate4" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<input type="text" id="wemate5" name="wemate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div class="label">Refer Workshop details for number of members in team</div>
+<input type="submit" id="submittmwrk" name="submittmwrk" class="bttn" />
+</div>
+</form>
+<div id="wtnmshow"></div>
+</div>
 </div>
 
 </div>

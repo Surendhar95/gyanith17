@@ -7,6 +7,12 @@ $g_id=$_SESSION['g_id'];
 if(isset($_POST['submitwrk'])){
    //find whether present in table
       $select=$_POST['workshops'];
+
+        $teame=0;
+      if($select!='android'){// || $select!='weblicate' || $select!='antagon'){
+        $teame=1;
+      }
+
       $sql="SELECT * FROM workshops WHERE g_id=:gid";
       $stmt1 = $db->prepare($sql);
       $stmt1->execute(array(':gid'=>$g_id));
@@ -22,7 +28,7 @@ if(isset($_POST['submitwrk'])){
       $sql = "UPDATE workshops SET ".$select."=1 WHERE g_id=:gid";
       $stmt2 = $db->prepare($sql);
       $stmt2->execute(array(':gid'=>$g_id));
-      echo "upd ".$select;
+      echo "upd ".$select." bltm ".$teame;
       }
       else{
         echo "Already registered";
@@ -32,7 +38,7 @@ if(isset($_POST['submitwrk'])){
      $sql="insert into workshops(g_id,".$select.") values (:gid,1)";
      $stmt3 = $db->prepare($sql);
     $stmt3->execute(array(':gid'=>$g_id));
-    echo "ins ".$select;
+    echo "ins ".$select." bltm ".$teame;
    }
 
 }

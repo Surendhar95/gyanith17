@@ -136,7 +136,7 @@ if(isset($_POST['submittmeve'])){
       }
       }
 
-
+echo 'success '.$tnm;
      // echo $tnm;
 
 }

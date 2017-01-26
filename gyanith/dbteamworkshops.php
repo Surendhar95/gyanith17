@@ -133,6 +133,8 @@ if(isset($_POST['submittmwrk'])){
         echo 'Your team member '.$emt5.'has not registered with any events';
       }
       }
+      echo 'success '.$tnm;
+      
 }
 }
 catch(PDOException $e){
