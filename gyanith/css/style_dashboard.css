@@ -1,9 +1,12 @@
 *,:after,:before{box-sizing:border-box}
 .clearfix:after,.clearfix:before{content:'';display:table}
 .clearfix:after{clear:both;display:block}
-
+body{
+	text-align: center;
+}
 .login-wrap{
 	width:100%;
+	text-align:center;
 	margin:auto;
 	max-width:525px;
 	min-height:2200px;
@@ -13,11 +16,13 @@
     font-weight: bold;
 }
 .login-html{
-	width:100%;
+	font-size: 18px;
+	width:130%;
+	margin-left: -13%;
 	height:100%;
 	position:absolute;
 	padding:40px 70px 20px 70px;
-	background:#999;
+	background:#b3b3b3;
 }
 
 .hr{
@@ -30,10 +35,11 @@
 	display:block;
 	position:relative;
 	color: #000;
-	font-size:17px;
+	font-size:18px;
     margin-bottom: 3px;
 }
 .txtval{
+font-size: 18px;
 background:#052f72; 
 border-radius: 6px;
 padding:3px;
@@ -42,10 +48,12 @@ box-shadow: 0 0 7px rgba(0,0,0,1);
 }
 
 .hdng{
+	font-size: 19px;
     color:white;
-    font-size: 1.5em;
+   
 }
 .selectdrp{
+	font-size: 18px;
     background-color:black;
     color: white; 
     width:100%;
@@ -74,6 +82,7 @@ box-shadow: 0 0 7px rgba(0,0,0,1);
     background-color: #000;
 }
 .tnote{
+font-size: 18px;
 cursor:default;
 background-color:white;
 margin-right:6px;

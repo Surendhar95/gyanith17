@@ -724,7 +724,7 @@ html,
 	margin-left: 30%;
 	margin-top: auto;
 	text-align:center;
-	height:150px;
+	height:auto;
 	background-color: red;
 }
 
@@ -734,25 +734,69 @@ html,
 	display: inline-block;
 	left: 25%;
 	height:400px;
-	background-color: blue;
+	text-align: center;
+	background-color: ;
 }
 .dept-list {
 	position: absolute;
 	width: 90%;
 	margin-left: 5%;
-	height:200px;
+	height:auto;
 	text-align: center;
-	background-color: yellow;
+	
 }
 .dept-list .list-1 {
-	width:100%;
+	width:90%;
+	margin-left: 5%;
 	height: 50%;
 	text-align: center;
-	background-color: green;
+	
+	
 }
-.list-2 {
-	width:100%;
+.dept-list .list-2 {
+	width:90%;
+	margin-left: 5%;
 	height: 50%;
 	text-align: center;
-	background-color: grey;
+	
+	
+}
+
+.event-gradient {
+	 background: #a9e4f7; /* Old browsers */
+  background-color:#222222;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#222222, endColorstr=#00ACE9);
+ background-image:-moz-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+background-image:linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+background-image:-webkit-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+background-image:-o-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+ 
+  background-attachment: fixed;
+}
+
+.dept-name {
+	cursor: pointer;
+	margin-top: 2%;
+	text-align: center;
+	border: white solid 2px;
+	background: #a9e4f7; /* Old browsers */
+  background-color:#222222;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#5B5B5B, endColorstr=#AAAAAA);
+ background-image:-moz-linear-gradient(top, #5B5B5B 0%, #AAAAAA 50%,#5B5B5B 100%);
+background-image:linear-gradient(top, #5B5B5B 0%, #AAAAAA 50%,#5B5B5B 100%);
+background-image:-webkit-linear-gradient(top, #5B5B5B 0%, #AAAAAA 50%,#5B5B5B 100%);
+background-image:-o-linear-gradient(top,#5B5B5B 0%, #AAAAAA 50%,#5B5B5B 100%);
+background-image:-ms-linear-gradient(top, #5B5B5B 0%, #AAAAAA 50%,#5B5B5B 100%);
+ 
+  background-attachment: fixed;
+  opacity:0.6;
+  color:white;
+}
+.dept-name:hover {
+	opacity: 1;
+	color:#19f6e8;
+}
+.detail-div {
+	display: none;
 }
