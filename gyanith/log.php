@@ -57,7 +57,7 @@
       </style>-->
 </head>
 
-<body style="background-color:#0f2851">
+<body><!-- style="background-color:#0f2851">-->
   <div class="login-wrap">
 	<div class="login-html">
 	<div id="mainpage1">

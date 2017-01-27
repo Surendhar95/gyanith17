@@ -1,5 +1,18 @@
+body {  
+  background: #a9e4f7; /* Old browsers */
+  background: -moz-linear-gradient(135deg,  #00ACE9 0%,#222222 100%); /* FF3.6+ */
+  background: -webkit-gradient(left top, right bottom, color-stop(30%,#00ACE9), color-stop(70%, #222222 )); /* Chrome,Safari4+ */ 
+  background: -webkit-linear-gradient(135deg,  #00ACE9 0%,#222222 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(135deg, #00ACE9 0%,#222222 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(135deg, #00ACE9 0%,#222222 100%); /* IE10+ */
+  background: linear-gradient(135deg,#00ACE9,#222222); /* W3C */ 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ACE9', endColorstr='#222222',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/*background: linear-gradient(#000000 0%,#050858 100%);*/
+  background-attachment: fixed;
+}
 
-..und,.undfrgt{
+
+.und,.undfrgt{
 	text-decoration: underline;
 	cursor:pointer;
 }
