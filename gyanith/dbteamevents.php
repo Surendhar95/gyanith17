@@ -42,7 +42,12 @@ if(isset($_POST['submittmeve'])){
       echo 'success '.$tnm;
       }
       else{
-        echo 'Your team member '.$emt1.'has not registered with any events';
+       // echo 'Your team member '.$emt1.'has not registered with any events';
+          $sql="insert into events(g_id,t_id) values (:gid,:tid)";
+          $stmt3 = $db->prepare($sql);
+          $stmt3->execute(array(':gid'=>$emate1,':tid'=>$tid));
+          echo 'success '.$tnm;
+      
       }
      /* else{
         $sql="insert into events(g_id,t_id) values (:gid,:tid)";
@@ -69,7 +74,11 @@ if(isset($_POST['submittmeve'])){
       echo 'success '.$tnm;
       }
         else{
-        echo 'Your team member '.$emt2.' has not registered with any events';
+       // echo 'Your team member '.$emt2.' has not registered with any events';
+       $sql="insert into events(g_id,t_id) values (:gid,:tid)";
+          $stmt3 = $db->prepare($sql);
+          $stmt3->execute(array(':gid'=>$emate2,':tid'=>$tid));
+          echo 'success '.$tnm;
       }
       }
       
@@ -89,7 +98,11 @@ if(isset($_POST['submittmeve'])){
      echo 'success '.$tnm;
       }
       else{
-        echo 'Your team member '.$emt3.'has not registered with any events';
+       // echo 'Your team member '.$emt3.'has not registered with any events';
+       $sql="insert into events(g_id,t_id) values (:gid,:tid)";
+          $stmt3 = $db->prepare($sql);
+          $stmt3->execute(array(':gid'=>$emate3,':tid'=>$tid));
+          echo 'success '.$tnm;
       }
       
       }
@@ -111,7 +124,11 @@ if(isset($_POST['submittmeve'])){
       echo 'success '.$tnm;
       }
       else{
-        echo 'Your team member '.$emt4.'has not registered with any events';
+        //echo 'Your team member '.$emt4.'has not registered with any events';
+        $sql="insert into events(g_id,t_id) values (:gid,:tid)";
+          $stmt3 = $db->prepare($sql);
+          $stmt3->execute(array(':gid'=>$emate4,':tid'=>$tid));
+          echo 'success '.$tnm;
       }
       }
       
@@ -132,11 +149,15 @@ if(isset($_POST['submittmeve'])){
       echo 'success '.$tnm;
       }
       else{
-        echo 'Your team member '.$emt5.'has not registered with any events';
+        //echo 'Your team member '.$emt5.'has not registered with any events';
+        $sql="insert into events(g_id,t_id) values (:gid,:tid)";
+          $stmt3 = $db->prepare($sql);
+          $stmt3->execute(array(':gid'=>$emate5,':tid'=>$tid));
+          echo 'success '.$tnm;
       }
       }
 
-echo 'success '.$tnm;
+//echo 'success '.$tnm;
      // echo $tnm;
 
 }

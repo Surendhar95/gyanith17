@@ -16,14 +16,20 @@
 	 <script>
 	 function clr(){
 			document.getElementById("error1").innerHTML = "";
-	 $('#log-form')[0].reset();
+			 $('#log-form')[0].reset();
 	 }
 	  function clr1(){
 		document.getElementById("error").innerHTML = "";
-	 $('#signup-form')[0].reset();
+	    $('#signup-form')[0].reset();
 	 }
+	 function frgtpass(){
+		 $('#mainpage1').load('frgtpasswd.php');
+			$("title").html("Forget Password");
+						return false;
+		}
+	 
 	 </script>
-	  <style>
+	<!--  <style>
       .glyphicon-remove {
    opacity:0;
    }
@@ -48,12 +54,13 @@
 .left-addon input1  { padding-left:  30px; }
 .right-addon input1 { padding-right: 30px; }
 
-      </style>
+      </style>-->
 </head>
 
 <body style="background-color:#0f2851">
   <div class="login-wrap">
 	<div class="login-html">
+	<div id="mainpage1">
 		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab" onclick=clr()>Sign In</label>
 		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab" onclick=clr1()>Sign Up</label>
 		<div class="login-form">
@@ -73,7 +80,9 @@
 				<div class="group">
 					<label for="password1" class="label">Password</label>
 					<input name="password1" id="password1" type="password" class="input" data-type="password">
-				</div><br>
+				</div>
+				<!--<div class="label"><a href="forgetPass.php">Forget Password?</a></div>-->
+				<!--<label>--><span class="undfrgt" style="color:blue;" onclick=frgtpass()>Forgot Password?</span></a><!--</label>--><br/>
 				<div class="group">
 					<input type="submit" class="button" value="Sign In" name="login1" id="btn-submit1">
 				</div>
@@ -150,6 +159,7 @@
 			
 			
 			<!--sign form end-->
+		</div>
 		</div>
 	</div>
 </div>

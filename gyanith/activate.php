@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 	
-		
 
 <html lang="en">
 
@@ -27,7 +26,7 @@
 	</head>
 
 	
-		<body>
+		<body style="background-color:#0f2851">
 	<div id="mainpage">
 
 	</div>

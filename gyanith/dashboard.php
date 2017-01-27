@@ -189,9 +189,9 @@ $stmt1 = $db->prepare($sql);
 $stmt1->execute(array(':tid'=>$tid));
 $result=$stmt1->fetch();
 $tname = $result['tname'];
-//echo'You are in team: '.$tname;
-echo'<div class="label">&nbsp;You are in team:&nbsp;&nbsp;<span class="tnote"> '.$tname.'</span></div>';
-}?>
+//echo'You are in team: '.$tname;?>
+<div class="label" id="msgeve">&nbsp;You are in team:&nbsp;&nbsp;<span class="tnote"> <?php echo $tname ?></span></div>
+<?php }?>
 <div id="createteam">
 <button id="plus" class="plus">+</button>
 <form id="teamevents" method="post">
@@ -250,8 +250,9 @@ else{?>
 $stmt1->execute(array(':tid'=>$tid));
 $result=$stmt1->fetch();
 $tname = $result['tname'];
-echo'<div class="label">You are in team:&nbsp;&nbsp;<span class="tnote"> '.$tname.'</span></div>';
-}?>
+?>
+<div class="label" id="msgwrk">You are in team:&nbsp;&nbsp;<span class="tnote"><?php echo $tname ?></span></div>
+<?php }?>
 <div id="wcreateteam">
 <button id="wplus" class="plus">+</button>
 <form id="teamworkshops" method="post">

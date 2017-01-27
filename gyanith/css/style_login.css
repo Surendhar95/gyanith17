@@ -1,6 +1,7 @@
 
-.und{
+.und,.undfrgt{
 	text-decoration: underline;
+	cursor:hand;
 }
 .label{
 	text-align: left;
@@ -14,8 +15,8 @@
 body{
 	margin:0;
 	/*color:#6a6f8c;
-	background-color:blue;*/
-	font:600 16px/14px 'Open Sans',sans-serif;
+	background-color:blue;
+	font:600 16px/14px 'Open Sans',sans-serif;*/
 }
 *,:after,:before{box-sizing:border-box}
 .clearfix:after,.clearfix:before{content:'';display:table}
@@ -190,3 +191,27 @@ a{color:inherit;text-decoration:none}
 	text-align:center;
 	
 }
+
+ .glyphicon-remove {
+   opacity:0;
+   }
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input1  { padding-left:  30px; }
+.right-addon input1 { padding-right: 30px; }
