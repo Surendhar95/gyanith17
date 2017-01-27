@@ -1,15 +1,17 @@
-html, 
-.contain, 
+/*html, 
+.contain, */
+
+
 .content-wrap {
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
 }
-		body{
+		/*body{
 	 background-color: #000000;
    padding: 0px;
    margin: 0px;
- }
+ }*/
 
 #gradient,particles-js
 {
@@ -22,7 +24,8 @@ html,
 
 
 .menu-wrap a {
-	color: #b8b7ad;
+	/*color: #b8b7ad;*/color: #fff;
+	
 }
 
 .menu-wrap a:hover,

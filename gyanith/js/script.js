@@ -1,8 +1,30 @@
+//functions for clearing and forgot password load for log.php.
 
+function clr(){
+	document.getElementById("error1").innerHTML = "";
+	$('#log-form')[0].reset();
+}
+function clr1(){
+	document.getElementById("error").innerHTML = "";
+	$('#signup-form')[0].reset();
+}
+function frgtpass(){
+	$('#mainpage1').load('frgtpasswd.php');
+	$("title").html("Forgot Password");
+	return false;
+}
+
+
+//for right side drop menu
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+
+//validation and submit handling of signup
 $('document').ready(function()
 { 
-    	// var err="glyphicon-remove";
-	//	var succ="glyphicon-ok";
 	 $("#signup-form").validate(
 	{
 	
@@ -115,6 +137,7 @@ if ($(element).is("input#cpassword")) {
 											$("#error").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; Sorry email already taken !</div>');
 											
 											$("#btn-submit").val('Create Account');
+											//$('#signup-form')[0].reset();
 										
 									});
 																				
@@ -123,7 +146,7 @@ if ($(element).is("input#cpassword")) {
 								{
 									
 									$("#btn-submit").val(' Signing Up ...');
-									$('#signup-form')[0].reset();
+									//$('#signup-form')[0].reset();
 									//$('#signup-form').children('input').val('');
 									//setTimeout('$(".form-signin").fadeOut(500, function(){ $(".signin-form").load("reg_success.php"); }); ',5000);
 								
@@ -133,6 +156,7 @@ if ($(element).is("input#cpassword")) {
 									$("#error").fadeIn(1000, function(){
 									$("#error").html('<div class="alert alert-danger"><span class="glyphicon glyphicon-info-sign"></span> &nbsp;'+data+' !</div>');	
 									$("#btn-submit").val('Create Account');
+									//$('#signup-form')[0].reset();
 										
 									});
 											

@@ -1,66 +1,56 @@
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Login Form</title>
- 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/validation.min.js"></script>
-    
-    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
-	<script src='https://www.google.com/recaptcha/api.js'></script>
-    <link rel="stylesheet" href="css/style_login.css">
-	 <script src="js/script.js" type="text/javascript"></script>
-	 <script type="text/javascript" src="js/log_scr.js"></script>
-	 <script>
-	 function clr(){
-			document.getElementById("error1").innerHTML = "";
-			 $('#log-form')[0].reset();
-	 }
-	  function clr1(){
-		document.getElementById("error").innerHTML = "";
-	    $('#signup-form')[0].reset();
-	 }
-	 function frgtpass(){
-		 $('#mainpage1').load('frgtpasswd.php');
-			$("title").html("Forget Password");
-						return false;
-		}
-	 
-	 </script>
-	<!--  <style>
-      .glyphicon-remove {
-   opacity:0;
-   }
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+  		<title>Login Form</title>
 
-/* enable absolute positioning */
-.inner-addon { 
-    position: relative; 
-}
+		<script type="text/javascript" src="js/jquery.js"></script>
+    	<script type="text/javascript" src="js/validation.min.js"></script>
+    	<script type="text/javascript" src="js/material.min.js"></script>
+		<script type="text/javascript" src="js/script.js" ></script>
+		<script type="text/javascript" src="js/log_scr.js"></script>
+	    <script src="js/material.min.js"></script>
+      
+	
+	
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
+		<link rel="stylesheet" type="text/css" href="css/style_login.css">
+		<link rel="stylesheet" type="text/css" href="css/material.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style_click_drop.css">
+		
+    	<script src='https://www.google.com/recaptcha/api.js'></script>
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
 
-/* style icon */
-.inner-addon .glyphicon {
-  position: absolute;
-  padding: 10px;
-  pointer-events: none;
-}
 
-/* align icon */
-.left-addon .glyphicon  { left:  0px;}
-.right-addon .glyphicon { right: 0px;}
 
-/* add padding  */
-.left-addon input1  { padding-left:  30px; }
-.right-addon input1 { padding-right: 30px; }
+	</head>
+	<body>
 
-      </style>-->
-</head>
-
-<body><!-- style="background-color:#0f2851">-->
-  <div class="login-wrap">
+		<div class="container">
+		<div class="dropdown">
+					<button onclick="myFunction()" class="dropbtn mdl-button mdl-button--raised mdl-js-button mdl-button--fab mdl-js-ripple-effect" style="background-color:#fff;">
+                         <i class="material-icons md-48" style="color:black;">account_circle</i>
+                    </button>
+					<div id="myDropdown" class="dropdown-content">
+    					<a href="log.php">Login</a>
+  						<a href="#about">Schedule</a>
+    				</div>
+		</div>	
+				 
+				 <?php include 'sidebar.php'; ?>
+				
+            <div class="login-wrap">
 	<div class="login-html">
 	<div id="mainpage1">
+
+
+
 		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab" onclick=clr()>Sign In</label>
 		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab" onclick=clr1()>Sign Up</label>
 		<div class="login-form">
@@ -133,8 +123,8 @@
 				</div>
 				<div class="group" style="text-align:center;">
 					<label for="pass" class="label">Gender</label>
-					<input type="radio" name="sex" id="inlineRadio1" value="male" class="radiov"> Male  &nbsp;
-					<input type="radio" name="sex" id="inlineRadio2" value="female" class="radiov"> Female<br>
+					<input type="radio" name="sex" id="inlineRadio1" value="male" class="radiov"> <span class="label" style="display:inline;">Male  &nbsp;</span>
+					<input type="radio" name="sex" id="inlineRadio2" value="female" class="radiov"><span class="label" style="display:inline;"> Female</span><br>
 				</div>
 				<div class="group">
 					<label for="pass" class="label">College</label>
@@ -147,6 +137,11 @@
 				<div class="group">
 			<!--	<div class="g-recaptcha" style="position:relative;left:40px;" data-sitekey="6Ld3lhEUAAAAABmQ8BNIvQHpk8ZijgjE3TgWsPO1"></div>-->
 				</div>
+
+				<div class="group">
+					&nbsp;&nbsp;&nbsp;<input type="checkbox" name="hospitality" value="hospitality" style="-ms-transform: scale(2, 2);  -webkit-transform: scale(2, 2);  transform: scale(2, 2);"/><span class="label" style="display:inline;">Register for accomodation</span><br>
+				</div>
+
 				<div class="group">
 					<input type="submit" class="button" value="Create Account" name="submit" id="btn-submit">
 				</div>
@@ -163,7 +158,12 @@
 		</div>
 	</div>
 </div>
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</body>
+  <!--
+</div>   <!-- /content-wrap -->
+		</div>-->
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
 </html>
