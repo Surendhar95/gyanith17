@@ -1,0 +1,1 @@
+<p> Min. Prize Money : Rs 8k </p>

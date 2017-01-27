@@ -2,21 +2,25 @@
 	<head>
 
 		<meta charset="utf-8">
-  		<title>Gyanith '17  | Feb 24-26</title>
+  		<title>Gyanith '17  | CSE Events</title>
   		<link rel="stylesheet" href="css/style.css">
   		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
+
   		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
-  		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+  		
 		<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="css/material.min.css">
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  		<script type="text/javascript" src="js/snap.svg-min.js"></script>
-  		<script type="text/javascript" src="js/main.js"></script>
-  		<script src="js/jquery-3.1.1.min.js"></script>
+  			<script type="text/javascript" src="js/snap.svg-min.js"></script>
+  		<script type="text/javascript" src="js/events.js"></script>
 		<script src="js/material.min.js"></script>
+		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
+		
+  
+
 
 
 	</head>
@@ -27,7 +31,9 @@ width:400px;
 }
 </style>
 	<body class="event-gradient">
-	
+	<?php
+		include("sidebar.php");
+	 ?>
 		<header>
 			<div class="title row">
 				EVENTS
@@ -38,7 +44,7 @@ width:400px;
 		<a href="google.com" style="text-decoration:none;">
 						<button style="background-color: transparent;border:none;" class="button button--line button--effect-1">
 							<span class="twitter-shape" data-morph-active="M349.197,57.74H50.804c-23.826,0-43.142,19.317-43.142,43.141v199.527c0,23.825,19.318,43.141,43.142,43.141
-	h98.023v24.094H99.341c-8.937,0-16.179,7.243-16.179,16.179c0,8.937,7.242,16.179,16.179,16.179H300.66
+	h98.023v24.094H99.341c-8.937,0-16.179,7.243-16.179,16.179c0,8.937,7.242,16.179,16.179,16.179h500.66
 	c8.938,0,16.18-7.242,16.18-16.179c0-8.936-7.242-16.179-16.18-16.179h-49.486v-24.094h98.023c23.825,0,43.141-19.317,43.141-43.141
 	V100.881C392.338,77.056,373.021,57.74,349.197,57.74z M354.589,300.41c0,2.978-2.416,5.394-5.392,5.394H50.804
 	c-2.978,0-5.394-2.416-5.394-5.394V100.884c0-2.978,2.416-5.393,5.394-5.393h298.394c2.976,0,5.392,2.415,5.392,5.39V300.41z">
@@ -58,7 +64,7 @@ width:400px;
 			<a href="google.com" style="text-decoration:none;">
 						<button style="background-color: transparent;border:none;" class="button button--line button--effect-1">
 							<span class="twitter-shape" data-morph-active="M349.197,57.74H50.804c-23.826,0-43.142,19.317-43.142,43.141v199.527c0,23.825,19.318,43.141,43.142,43.141
-	h98.023v24.094H99.341c-8.937,0-16.179,7.243-16.179,16.179c0,8.937,7.242,16.179,16.179,16.179H300.66
+	h98.023v24.094H99.341c-8.937,0-16.179,7.243-16.179,16.179c0,8.937,7.242,16.179,16.179,16.179h500.66
 	c8.938,0,16.18-7.242,16.18-16.179c0-8.936-7.242-16.179-16.18-16.179h-49.486v-24.094h98.023c23.825,0,43.141-19.317,43.141-43.141
 	V100.881C392.338,77.056,373.021,57.74,349.197,57.74z M354.589,300.41c0,2.978-2.416,5.394-5.392,5.394H50.804
 	c-2.978,0-5.394-2.416-5.394-5.394V100.884c0-2.978,2.416-5.393,5.394-5.393h298.394c2.976,0,5.392,2.415,5.392,5.39V300.41z">
@@ -77,21 +83,21 @@ width:400px;
 						<div id="ece-logo" class="detail-div">
 							<a href="google.com" style="text-decoration:none;">
 						<button style="background-color: transparent;border:none;" class="button button--line button--effect-1">
-							<span class="twitter-shape" data-morph-active="M351.184,138.76v-9.589h34.558v-19.095h-34.558v-9.547h-46.076v19.452h-8.076V93.949
+							<span class="twitter-shape" data-morph-active="M351.184,138.76v-9.589h54.558v-19.095h-34.558v-9.547h-46.076v19.452h-8.076V93.949
 	c0-4.38-3.548-7.908-7.905-7.908H112.598c-4.379,0-7.908,3.528-7.908,7.908v27.994H94.604v-18.177H48.691v9.569H14.258v19.094
-	h34.433v9.548h45.912v-16.11h10.087v75.379H94.604v-17.155H48.691v9.589H14.258v19.095h34.433v9.549h45.912V205.17h10.087v77.781
-	H94.604v-17.146H48.691v9.549H14.258v19.097h34.433v9.565h45.912v-17.141h10.087v19.156c0,4.378,3.528,7.928,7.908,7.928h176.528
-	c4.357,0,7.905-3.55,7.905-7.928v-22.386h8.076v17.133h46.076v-9.525h34.558v-19.097h-34.558v-9.568h-46.076v17.133h-8.076v-78.268
-	h8.076v17.674h46.076v-9.549h34.558v-19.096h-34.558v-9.567h-46.076v16.614h-8.076v-73.624h8.076v14.855H351.184z M140.058,140.649
+	h54.433v9.548h45.912v-16.11h10.087v75.379H94.604v-17.155H48.691v9.589H14.258v19.095h54.433v9.549h45.912V205.17h10.087v77.781
+	H94.604v-17.146H48.691v9.549H14.258v19.097h54.433v9.565h45.912v-17.141h10.087v19.156c0,4.378,3.528,7.928,7.908,7.928h176.528
+	c4.357,0,7.905-3.55,7.905-7.928v-22.386h8.076v17.133h46.076v-9.525h54.558v-19.097h-34.558v-9.568h-46.076v17.133h-8.076v-78.268
+	h8.076v17.674h46.076v-9.549h54.558v-19.096h-34.558v-9.567h-46.076v16.614h-8.076v-73.624h8.076v14.855h551.184z M140.058,140.649
 	c-9.112,0-16.48-7.368-16.48-16.459c0-9.091,7.368-16.479,16.48-16.479c9.091,0,16.459,7.368,16.459,16.479
 	C156.517,133.26,149.169,140.649,140.058,140.649z">
 								<svg width="100%" height="100%" viewBox="0 0 400 400" preserveAspectRatio="none">
 									<path fill="#fff" d="M315.195,157.354v-7.307h26.332v-14.55h-26.332v-7.274h-35.107v14.822h-6.154v-19.835
 	c0-3.337-2.703-6.026-6.023-6.026H133.403c-3.337,0-6.025,2.688-6.025,6.026v21.33h-7.686v-13.85H84.709v7.291H58.472v14.549h26.237
-	v7.275h34.983V147.53h7.686v57.435h-7.686v-13.071H84.709v7.307H58.472v14.549h26.237v7.275h34.983v-13.07h7.686v59.266h-7.686
-	v-13.064H84.709v7.275H58.472v14.551h26.237v7.289h34.983v-13.061h7.686v14.596c0,3.336,2.688,6.041,6.025,6.041H267.91
-	c3.32,0,6.023-2.705,6.023-6.041V267.75h6.154v13.055h35.107v-7.258h26.332v-14.551h-26.332v-7.291h-35.107v13.055h-6.154v-59.637
-	h6.154v13.467h35.107v-7.275h26.332v-14.55h-26.332v-7.291h-35.107v12.659h-6.154v-56.098h6.154v11.319H315.195z M154.327,158.792
+	v7.275h54.983V147.53h7.686v57.435h-7.686v-13.071H84.709v7.307H58.472v14.549h26.237v7.275h54.983v-13.07h7.686v59.266h-7.686
+	v-13.064H84.709v7.275H58.472v14.551h26.237v7.289h54.983v-13.061h7.686v14.596c0,3.336,2.688,6.041,6.025,6.041H267.91
+	c3.32,0,6.023-2.705,6.023-6.041V267.75h6.154v13.055h55.107v-7.258h26.332v-14.551h-26.332v-7.291h-35.107v13.055h-6.154v-59.637
+	h6.154v13.467h55.107v-7.275h26.332v-14.55h-26.332v-7.291h-35.107v12.659h-6.154v-56.098h6.154v11.319h515.195z M154.327,158.792
 	c-6.943,0-12.557-5.614-12.557-12.541c0-6.927,5.614-12.557,12.557-12.557c6.927,0,12.541,5.614,12.541,12.557
 	C166.868,153.163,161.269,158.792,154.327,158.792z"
 	/>
@@ -263,25 +269,23 @@ width:400px;
 						</button>
 						</a>
 						</div>
-	<?php
-		include("sidebar.php");
-	 ?>
+	
 
 		<div class="dept-list">
 			<div class="list-1 row">
 				<div id="cse" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<h3>COMPUTER SCIENCE</h3>
+						<a href="cse-events.php" ><h5>COMPUTER SCIENCE</h5></a>
 				</div>
 				<div id="ece" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<h3>ELECTRICAL AND ELECTRONICS</h3>
+						<a href="ece-events.php" ><h5>ELECTRICAL AND ELECTRONICS</h5></a>
 				</div>
 			</div>
 			<div class="list-2 row">
 				<div id="eee" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<h3>ELECTRONICS AND COMMUNICATION</h3>
+						<a href="eee-events.php" ><h5>ELECTRONICS AND COMMUNICATION</h5></a>
 				</div>
 				<div  id="mech" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<h3>MECHANICAL</h3>
+						<a href="mech-events.php" ><h5>MECHANICAL</h5></a>
 				</div>
 			</div>
 		</div>
@@ -357,8 +361,8 @@ width:400px;
 
 			})();			
 		</script>
-		<!--<script src="js/particles.js"></script>
-		<script src="js/app.js"></script>-->
+		<!--<script src="js/particles.js"></script>-->
+		<script src="js/app.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
 </html>
