@@ -1,4 +1,6 @@
-
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>
 Are you ready to test your mettle?<br/>
 Do you have what it takes to win?<br/>

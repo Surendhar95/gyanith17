@@ -1,4 +1,6 @@
-
+<head>
+	<link href="../../style.css"/>
+</head>
 <p><b>The event is conducted in three rounds.</b><br/><br/>
 <b>Round 1(PRELIMS)</b>
 	Online Test (Mostly MCQs) along with spot offline test related to basic electrical and electronic topics.<br/><br/>

@@ -1,4 +1,6 @@
-
+<head>
+	<link href="../../style.css"/>
+</head>
 <p><b>The event is conducted in two rounds.</b><br/><br/>
 <b>Round 1:</b>
 	The first round is the puzzle round, where you will be given a technical crossword puzzle which is to be solved within the given time limit. <br/><br/>

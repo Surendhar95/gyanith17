@@ -214,10 +214,10 @@ var timeline = new mojs.Timeline({
 </div>
 <div class="col-sm-2 col-md-2 col-lg-2">
 <div class="svg-wrapper">
-  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+  <a href="events.php"> <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
     <rect class="shape" height="60" width="320" />
     <div class="text">EVENTS</div>
-  </svg>
+  </svg></a>
 </div>
 </div>
 <div class="col-sm-4 col-md-4 col-lg-4">

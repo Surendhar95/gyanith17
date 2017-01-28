@@ -1,3 +1,6 @@
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>
 
 Top 2 teams which can finish the model within the stipulated time will be declared as winners. <br/>

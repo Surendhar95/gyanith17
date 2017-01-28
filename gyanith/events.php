@@ -2,7 +2,7 @@
 	<head>
 
 		<meta charset="utf-8">
-  		<title>Gyanith '17  | CSE Events</title>
+  		<title>Gyanith '17  | Events</title>
   		<link rel="stylesheet" href="css/style.css">
   		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
@@ -36,7 +36,41 @@ width:400px;
 	 ?>
 		<header>
 			<div class="title row">
-				EVENTS
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="370px" height="130px" viewBox="0 0 370 130" enable-background="new 0 0 370 130" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#FFFFFF" d="M88.078,76.237l-2.515,15.208H43.228l0.011-0.657h0.832c2.299,0,4.164-1.842,4.207-4.13v-36.42
+			c-0.049-2.283-1.912-4.118-4.207-4.118H43.24l-0.011-0.652h21.843c2.832-0.027,6.612-0.683,7.833-1.196V57.82l-0.664-0.01v-0.513
+			c0.013-5.167-3.029-8.317-8.202-8.506h-2.297v18.335h9.129c4.174-0.079,7.132-3.052,7.119-7.177v-0.311l0.642-0.008v18.276
+			l-0.642-0.01v-0.309c0.014-4.098-2.908-7.059-7.033-7.176h-9.214v17.71H73.79c6.303,0,11.587-4.386,13.63-11.885H88.078
+			L88.078,76.237z"/>
+		<path fill="#FFFFFF" d="M123.5,45.672c2.167-4.987,9.025-18.298,23.012-16.458v0.657c-10.727,0.79-15.757,11.572-17.689,15.802
+			L111.67,83.226c-0.772,1.646-3.484,7.581-3.748,9.796h-0.592L86.523,49.75c-1.463-2.555-3.624-3.624-5.527-3.624h-0.525v-0.657
+			h24.904v0.651h-0.578c-1.695,0-3.464,1.494-2.544,4.123l9.425,22.549L123.5,45.672z"/>
+		<path fill="#FFFFFF" d="M177.208,76.237l-2.515,15.208h-42.334l0.011-0.657h0.831c2.299,0,4.164-1.842,4.207-4.13v-36.42
+			c-0.049-2.283-1.912-4.118-4.207-4.118h-0.831l-0.011-0.652h21.844c2.831-0.027,6.612-0.683,7.833-1.196V57.82l-0.664-0.01v-0.514
+			c0.012-5.166-3.029-8.316-8.203-8.506h-2.297v18.334h9.129c4.174-0.078,7.132-3.051,7.119-7.176v-0.31l0.642-0.009v18.275
+			l-0.642-0.008v-0.311c0.013-4.096-2.909-7.058-7.033-7.174h-9.214v17.709h12.047c6.302,0,11.587-4.387,13.63-11.886h0.657V76.237z
+			"/>
+		<path fill="#FFFFFF" d="M252.113,100.311c-10.237,6.238-19.907-0.525-26.03-6.831l-28.854-29.833v23.16
+			c0.043,2.204,1.84,3.98,4.055,3.98h1.213l0.01,0.657h-24.038l0.01-0.657h1.213c2.214,0,4.011-1.773,4.054-3.977V49.579
+			c-5.04-5.348-13.487-13.138-21.435-10.06l-0.329-0.637c9.393-6.627,20.212,0.889,25.978,6.85l26.998,27.919V50.105
+			c-0.042-2.205-1.838-3.981-4.055-3.981h-1.211l-0.011-0.656h24.044l-0.01,0.656h-1.213c-2.197,0-3.982,1.748-4.053,3.927v37.545
+			l1.154,1.194c3.813,3.97,11.809,13.822,22.201,10.867L252.113,100.311z"/>
+		<path fill="#FFFFFF" d="M283.671,57.723l-0.663-0.011V57.2c0.013-5.241-3.116-8.407-8.428-8.513h-6.452v38.025
+			c0.071,2.264,1.925,4.077,4.204,4.076h0.832l0.01,0.657h-23.571l0.011-0.657h0.829c2.283-0.002,4.104-1.788,4.204-4.032V48.686
+			h-12.265c-7.247,0-11.762,5.642-6.921,13.254l-0.703,0.329c-8.079-7.065-3.087-16.867,7.624-16.867h33.56
+			c2.817-0.042,6.522-0.687,7.727-1.194L283.671,57.723z"/>
+		<path fill="#FFFFFF" d="M317.731,66.473c17.035,9.669,8.431,31.804-12.785,31.804c-17.535,0-24.473-15.042-16.181-26.703
+			l0.592,0.46c-6.387,11.531,2.324,22.564,14.081,22.564c12.02,0,15.959-11.625,4.902-17.884l-10.709-6.26
+			c-5.949-3.507-8.773-7.974-8.051-14.147c0.854-7.355,6.239-11.756,15.303-11.756c2.365,0,7.275,0.294,11.087,0.674h5.111
+			l-1.418,10.687h-0.633c-0.028-4.793-3.97-8.076-10.472-8.076c-5.386,0-8.671,2.298-8.933,5.517
+			c-0.263,3.152,2.758,4.4,5.828,6.138L317.731,66.473z"/>
+	</g>
+</g>
+</svg>
+
 			</div>
 		</header>
 		
@@ -293,74 +327,7 @@ width:400px;
 			include "footer.php"
 		?> -->
 	</body>
-	<script>
-			(function() {
-
-				function extend( a, b ) {
-					for( var key in b ) { 
-						if( b.hasOwnProperty( key ) ) {
-							a[key] = b[key];
-						}
-					}
-					return a;
-				}
-				
-				function SVGButton( el, options ) {
-					this.el = el;
-					this.options = extend( {}, this.options );
-					extend( this.options, options );
-					this.init();
-				}
-
-				SVGButton.prototype.options = {
-					speed : { reset : 800, active : 150 },
-					easing : { reset : mina.elastic, active : mina.easein }
-				};
-
-				SVGButton.prototype.init = function() {
-					this.shapeEl = this.el.querySelector( 'span.twitter-shape' );
-
-					var s = Snap( this.shapeEl.querySelector( 'svg' ) );
-					this.pathEl = s.select( 'path' );
-					this.paths = {
-						reset : this.pathEl.attr( 'd' ),
-						active : this.shapeEl.getAttribute( 'data-morph-active' )
-					};
-
-					this.initEvents();
-				};
-
-				SVGButton.prototype.initEvents = function() {
-					this.el.addEventListener( 'mouseover', this.down.bind(this) );
-					this.el.addEventListener( 'touchstart', this.down.bind(this) );
-
-					this.el.addEventListener( 'mouseup', this.up.bind(this) );
-					this.el.addEventListener( 'touchend', this.up.bind(this) );
-
-					this.el.addEventListener( 'mouseout', this.up.bind(this) );
-				};
-
-				SVGButton.prototype.down = function() {
-					this.pathEl.stop().animate( { 'path' : this.paths.active }, this.options.speed.active, this.options.easing.active );
-				};
-
-				SVGButton.prototype.up = function() {
-					this.pathEl.stop().animate( { 'path' : this.paths.reset }, this.options.speed.reset, this.options.easing.reset );
-				};
-
-				[].slice.call( document.querySelectorAll( 'button.button--effect-1' ) ).forEach( function( el ) {
-					new SVGButton( el );
-				} );
-
-				[].slice.call( document.querySelectorAll( 'button.button--effect-2' ) ).forEach( function( el ) {
-					new SVGButton( el, {
-						speed : { reset : 650, active : 650 },
-						easing : { reset : mina.elastic, active : mina.elastic }
-					} );
-				} );
-
-			})();			
-		</script>
+	
 		<!--<script src="js/particles.js"></script>-->
 		<script src="js/app.js"></script>
 		<script src="js/classie.js"></script>

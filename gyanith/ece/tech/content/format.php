@@ -1,3 +1,6 @@
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>The event will be conducted in three rounds .<br/>
 •	Round 1<br/>
 Each group has to code in one of the mentioned platforms to get the desired output, which will give the clue of what you have to do in next stage.

@@ -1,4 +1,6 @@
-
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>•	Maximum of 20 groups can participate in this event.<br/>
 •	Each group can have a maximum of 3 members.<br/>
 •	The participants will not be allowed to use anything except the items provided.<br/>

@@ -1,3 +1,6 @@
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>
 •	Basics setup of bot.<br/>
 

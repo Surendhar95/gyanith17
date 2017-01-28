@@ -1,4 +1,6 @@
-
+<head>
+	<link href="../../style.css"/>
+</head>
 <p><b>The event is conducted in two rounds.</b><br/><br/>
 <b>Round 1: </b>
 	Simple Line Follower Competition and a simple RF module based test. The path/track is given by the event co-ordinators.<br/><br/>

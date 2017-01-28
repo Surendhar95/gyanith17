@@ -1,4 +1,6 @@
-
+<head>
+	<link href="../../style.css"/>
+</head>
 <p><b> The event is conducted in 2 rounds .</b><br/><br/>
 <b>Round 1</b>(Prelims)<br/>
 	INDENTIFYING THE CIRCUIT:<br/>

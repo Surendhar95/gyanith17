@@ -1,3 +1,6 @@
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>
 The event will be conducted in 3 rounds .<br/>
 •	Round 1<br/>

@@ -1,3 +1,7 @@
+
+<head>
+	<link href="../../style.css"/>
+</head>
 <style>
 table, th, td {
     border: 1px solid white;

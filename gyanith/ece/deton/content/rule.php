@@ -1,4 +1,6 @@
-
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>•	The contest is open to all the undergraduate students pursuing B.Tech.<br/>
 •	A team can have a maximum of three members.<br/>
 •	Each team may bring a scientific calculator, a pen.<br/>

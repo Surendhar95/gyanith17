@@ -1,3 +1,6 @@
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>
 1) This event consists of three rounds: time trial, free styling and main race rounds.<br/>
 2) In the first round, the one who finishes the fastest gets the most points.<br/>

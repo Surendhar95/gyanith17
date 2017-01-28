@@ -1,3 +1,6 @@
+<head>
+	<link href="../../style.css"/>
+</head>
 <ul>
 <li>Swaraj Mondal: +919585021090 </li>
 <li>Gowri Shankar: +919047210673 </li>

@@ -1,3 +1,6 @@
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>
 <b>Rules:</b><br/>
 1) Inspection Round will be done. If the specified fabrication is not done, points will be deducted accordingly.<br/>

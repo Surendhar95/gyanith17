@@ -1,3 +1,6 @@
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>1.	Participants are not allowed to bring any type of electronic gadgets inside the event hall.<br/>
 2.	Internet facility will not be provided to the participants.<br/>
 3.	Participants will be given a system, two A4 sheets and a pen.<br/>

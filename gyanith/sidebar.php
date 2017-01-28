@@ -2,7 +2,10 @@
 			<div class="menu-wrap"><!-- style="z-index: 7000;display: block;">-->
 				<nav class="menu">
 					<div class="icon-list"><!-- style="color:white">-->
-						<a href="events.php"><!-- style="color:white">--><i class="fa fa-cubes" aria-hidden="true"></i><span>Events</span></a>
+						<div class="home-logo">
+							<a href="/index.php"><img  src="/images/logo.svg"/></a>
+						</div>
+						<a href="/events.php"><!-- style="color:white">--><i class="fa fa-cubes" aria-hidden="true"></i><span>Events</span></a>
 						<a href="#"><!-- style="color:white">--><i class="fa fa-cogs" aria-hidden="true"></i><span>Workshops</span></a>
 						<a href="#"><!-- style="color:white">--><i class="fa fa-podcast" aria-hidden="true"></i><span>Guest Lectures</span></a>
 						<a href="#"><!-- style="color:white">--><i class="fa fa-gamepad" aria-hidden="true"></i><span>Non Technical</span></a>

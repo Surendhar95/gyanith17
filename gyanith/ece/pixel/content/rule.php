@@ -1,4 +1,6 @@
-
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>
 •	The contest is open to all the undergraduate students pursuing B.Tech or B.E.</br>
 •	Registrations can only be done online .</br>

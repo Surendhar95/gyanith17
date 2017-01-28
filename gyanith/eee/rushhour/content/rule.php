@@ -1,4 +1,6 @@
-
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>1. The bots need to be programed for 1st round and shouldn’t be remote controlled. Each robot may have only the following sensors, in these maximum quantities:<br/>
 •	5 Infrared (IR) LED assemblies (#350-00017)<br/>
 •	5 Infrared Receivers (#350-00014)<br/>

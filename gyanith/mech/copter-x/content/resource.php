@@ -1,3 +1,6 @@
+<head>
+	<link href="../../style.css"/>
+</head>
 <p>
 To get some idea about Quadcopters see these videos,<br/>
 <a href="https://www.youtube.com/watch?v=b6rfS1YO-lE" target="_blank">https://www.youtube.com/watch?v=b6rfS1YO-lE</a><br/>
