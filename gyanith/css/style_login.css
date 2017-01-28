@@ -11,6 +11,19 @@ body {
   background-attachment: fixed;
 }
 
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(https://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+p,h1,h2,h3,h4,h5,body,html {
+	font-family: 'Droid Sans', sans-serif;
+
+}
+
 
 .und,.undfrgt{
 	text-decoration: underline;
@@ -39,18 +52,20 @@ a{color:inherit;text-decoration:none}
 
 .login-wrap{
 	width:100%;
-	margin:auto;
+	margin: auto;
 	max-width:525px;
-	min-height:1050px;
+	min-height:1100px;
 	box-shadow: 0 0 40px rgba(0,0,0,1);
 	position:relative;
-
+	color:#000;
 	/*background:url(images/imageb.jpg) no-repeat center;*/
 	/*box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);*/
 }
 .login-html{
 	width:130%;
 	height:100%;
+	box-shadow: 0 0 40px rgba(0,0,0,1);
+	
 	margin-left: -13%;
 	position:absolute;
 	padding:40px 70px 20px 70px;

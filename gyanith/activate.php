@@ -74,6 +74,11 @@ if(!$mail->send()) {
 	$db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
 				$stmt=$db->prepare('UPDATE users SET active = 1 WHERE g_id = "'. $_GET["id"]. '"');
 				$stmt->execute();
+				//update timestamp
+				$stmt=$db->prepare('UPDATE users SET activetime=now() WHERE g_id = "'. $_GET["id"]. '"');
+				$stmt->execute();
+				
+				
 				$stmt1=$db->prepare('SELECT name,g_id,email FROM users WHERE g_id= "'. $_GET["id"]. '"');
 				$stmt1->execute();
 				$result=$stmt1->fetch();

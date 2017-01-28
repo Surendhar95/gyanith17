@@ -106,7 +106,7 @@
 
 /* Menu */
 .menu-wrap {
-	position: absolute;
+	/*position: absolute;*/position: fixed;
 	top:0px;
 	z-index: 6001;
 	width: 300px;

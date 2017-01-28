@@ -4,7 +4,7 @@
 <html lang="en">
 
 	<head>
-		<title>Forg0t Password</title>
+		<title>Forgot Password</title>
         <!--<link rel="stylesheet" href="css/style_login.css">
         <script src="js/frgtpass.js"></script>-->
     </head>
@@ -16,7 +16,7 @@
 
     <form id="frgtpassfrm" method="post" action="valid_frgtpass.php">
         <div class="group">
-        <div class="label" style="color:white;">Forgot Password</div>
+        <div class="label" style="text-align:left;">Forgot Password</div>
         </div><br/><br/><br/>
     <div id="infofrgt" name="infofrgt"><!--for showing mssg--></div>
     <div class="group">

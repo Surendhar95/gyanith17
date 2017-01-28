@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Dashboard</title>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
-<script src="js/jquery.js"></script>
-<script type="text/javascript" src="js/validation.min.js"></script>
-<link rel="stylesheet" href="css/style_dashboard.css">
-<script src="js/dashboard.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+  		
+    <title>Dashboard</title>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/validation.min.js"></script>
+    <script type="text/javascript" src="js/material.min.js"></script>
+	
+    <script type="text/javascript" src="js/dashboard.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
+	<link rel="stylesheet" type="text/css" href="css/material.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style_dashboard.css">
+    
+	<link rel="stylesheet" type="text/css" href="css/style_click_drop.css">
+			
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
+	<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
 
 </head>
-<body style="background-color:#103572">
+
+<body>
+    <?php include 'loginicon.php'; ?>
+				 <?php include 'sidebar.php'; ?>
+				
 <div class="login-wrap">
 <div class="login-html">
     
-<?php session_start();
+<?php //session_start();
 try{
 include("dbcon.php");
 $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
@@ -47,7 +68,7 @@ $e->getMessage();
 <option value="sync">SYNC</option>
 <option value="linkit">Linkit</option>
 <option value="rush_hour">Rush Hour</option>
-<option value="junkyard">Junkyard</option>
+<option value="junkyard">Junkyard Wars</option>
 <option value="burnout">Burn out</option>
 <option value="copterx">CopterX</option>
 <option value="pixel">Pixel</option>
@@ -108,10 +129,11 @@ $e->getMessage();
 </form>
 </div>
 
+<!--workshops regs start--><!--
 <div>
     <br/><br/><br/> <div class="hdng">Workshops Registration</div>
    <div class="hr"></div>
-<form id="dropworkshops" method="post"><!-- action="dbworkshops.php">-->
+<form id="dropworkshops" method="post"><!-- action="dbworkshops.php">
 <div id="alertwrk"></div>
 <div class="label">Workshops</div>
 <select name="workshops" id="workshops" class="selectdrp">
@@ -126,7 +148,7 @@ $e->getMessage();
 <div id='infowrk'><!--for mssg display-->
 
 <?php
-
+/*
 try{
 //include("dbcon.php");
 //$db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
@@ -143,11 +165,14 @@ if($result['hackpro']=='1')
 }
 catch(PDOException $e){
 $e->getMessage();
-}
+}*/
 ?>
-</div><br/>
+<!--</div><br/>
 </form>
 </div>
+-->
+<!--workshops regs end-->
+
 <br/>
 <div id="team">
 <div class="hdng">Teams</div>
@@ -169,10 +194,15 @@ if($tid==null){
 <div id="txtsub" name="txtsub">
 <input type="text" id="etname" name="etname" class="txtinp" placeholder="Enter team name"/><br/>
 <input type="text" id="emate1" name="emate1" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="terr1" class="alert alert-danger"></div><br/>
 <input type="text" id="emate2" name="emate2" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="terr2" class="alert alert-danger"></div><br/>
 <input type="text" id="emate3" name="emate3" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="terr3" class="alert alert-danger"></div><br/>
 <input type="text" id="emate4" name="emate4" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="terr4" class="alert alert-danger"></div><br/>
 <input type="text" id="emate5" name="emate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="terr5" class="alert alert-danger"></div><br/>
 <div class="label">Refer events details for number of members in team</div>
 <input type="submit" id="submittmeve" name="submittmeve"  class="bttn"/>
 </div>
@@ -197,11 +227,16 @@ $tname = $result['tname'];
 <form id="teamevents" method="post">
 <div id="txtsub" name="txtsub">
 <input type="text" id="etname" name="etname" class="txtinp" placeholder="Enter team name"/><br/>
-<input type="text" id="emate1" name="emate1" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<input type="text" id="emate2" name="emate2" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<input type="text" id="emate3" name="emate3" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<input type="text" id="emate4" name="emate4" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<input type="text" id="emate5" name="emate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<input type="text" id="emate1" name="emate1" class="txtinp" placeholder="Enter team Member GY-ID"/>
+<div id="terr1" class="alert alert-danger"></div><br/>
+<input type="text" id="emate2" name="emate2" class="txtinp" placeholder="Enter team Member GY-ID"/>
+<div id="terr2" class="alert alert-danger"></div><br/>
+<input type="text" id="emate3" name="emate3" class="txtinp" placeholder="Enter team Member GY-ID"/>
+<div id="terr3" class="alert alert-danger"></div><br/>
+<input type="text" id="emate4" name="emate4" class="txtinp" placeholder="Enter team Member GY-ID"/>
+<div id="terr4" class="alert alert-danger"></div><br/>
+<input type="text" id="emate5" name="emate5" class="txtinp" placeholder="Enter team Member GY-ID"/>
+<div id="terr5" class="alert alert-danger"></div><br/>
 <div class="label">Refer events details for number of members in team</div>
 <input type="submit" id="submittmeve" name="submittmeve"  class="bttn"/>
 </div>
@@ -212,16 +247,17 @@ $tname = $result['tname'];
 </div>
 
 <br/><br/>
+<!--team wrkshop regs begin--><!--
 <div id="teamwrk" class="boxsh">
 <div class="label" style="text-align:center;">Team for Workshops</div>
-<?php
+<?php/*
 $sql="SELECT t_id FROM workshops WHERE g_id=:gid";
 $stmt1 = $db->prepare($sql);
 $stmt1->execute(array(':gid'=>$g_id));
 $result=$stmt1->fetch();
 $tid = $result['t_id'];
 if($tid==null){
-     if($wtest==1){
+     if($wtest==1){*/
 ?>
 <div id="wcreateteam1">
 <button id="wplus" class="plus">+</button>
@@ -239,20 +275,20 @@ if($tid==null){
 </form>
 <div id="wtnmshow"></div>
 </div>
-<?php 
+<?php /*
 }
-else{?>
+else{ */?>
     <div class="label" id="dispwrk">&nbsp;Register in a team Workshops to create team</div>
-<?php }
+<?php/* }
 }else{
   $sql="SELECT tname FROM wrkteam WHERE t_id=:tid";  
   $stmt1 = $db->prepare($sql);
 $stmt1->execute(array(':tid'=>$tid));
 $result=$stmt1->fetch();
-$tname = $result['tname'];
+$tname = $result['tname'];*/
 ?>
 <div class="label" id="msgwrk">You are in team:&nbsp;&nbsp;<span class="tnote"><?php echo $tname ?></span></div>
-<?php }?>
+<?php/* } */?>
 <div id="wcreateteam">
 <button id="wplus" class="plus">+</button>
 <form id="teamworkshops" method="post">
@@ -269,12 +305,17 @@ $tname = $result['tname'];
 </form>
 <div id="wtnmshow"></div>
 </div>
+</div>-->
+<!--team wrkshop regs begin-->
+</div>
 </div>
 
 </div>
 </div>
 
-</div>
-</div>
+		<script type="text/javascript" src="js/classie.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		
+
 </body>
 </html>

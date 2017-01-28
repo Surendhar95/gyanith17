@@ -4,7 +4,7 @@ try{
 include("dbcon.php");
 $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
 $g_id=$_SESSION['g_id'];
-if(isset($_POST['submiteve'])){
+if(isset($_POST['submiteve']) && isset($_POST['events'])){
    //find whether present in table
       $select=$_POST['events'];
       // check for team events

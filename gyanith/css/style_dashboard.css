@@ -1,28 +1,59 @@
+body {  
+  background: #a9e4f7; /* Old browsers */
+  background: -moz-linear-gradient(135deg,  #00ACE9 0%,#222222 100%); /* FF3.6+ */
+  background: -webkit-gradient(left top, right bottom, color-stop(30%,#00ACE9), color-stop(70%, #222222 )); /* Chrome,Safari4+ */ 
+  background: -webkit-linear-gradient(135deg,  #00ACE9 0%,#222222 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(135deg, #00ACE9 0%,#222222 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(135deg, #00ACE9 0%,#222222 100%); /* IE10+ */
+  background: linear-gradient(135deg,#00ACE9,#222222); /* W3C */ 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ACE9', endColorstr='#222222',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/*background: linear-gradient(#000000 0%,#050858 100%);*/
+  background-attachment: fixed;
+}
+
+
 *,:after,:before{box-sizing:border-box}
 .clearfix:after,.clearfix:before{content:'';display:table}
 .clearfix:after{clear:both;display:block}
-body{
-	text-align: center;
+
+a{
+text-decoration:none;
 }
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(https://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+p,h1,h2,h3,h4,h5,body,html {
+	font-family: 'Droid Sans', sans-serif;
+
+}
+
+
 .login-wrap{
 	width:100%;
-	text-align:center;
 	margin:auto;
 	max-width:525px;
 	min-height:2200px;
 	box-shadow: 0 0 40px rgba(0,0,0,1);
 	position:relative;
-    font-family:"Comic Sans MS", cursive, sans-serif;
-    font-weight: bold;
+   /* font-family:"Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;*/
 }
 .login-html{
-	font-size: 18px;
+	/*width:100%;*/
 	width:130%;
-	margin-left: -13%;
 	height:100%;
+	margin-left: -13%;
+	box-shadow: 0 0 40px rgba(0,0,0,1);
+	
 	position:absolute;
 	padding:40px 70px 20px 70px;
-	background:#b3b3b3;
+	background:#999;
 }
 
 .hr{
@@ -35,33 +66,41 @@ body{
 	display:block;
 	position:relative;
 	color: #000;
-	font-size:18px;
+	font-size:17px;
     margin-bottom: 3px;
 }
 .txtval{
+/*background:#052f72; 
+/*border-radius: 6px;
+padding:3px;*/
+color:#000;
+/*box-shadow: 0 0 7px rgba(0,0,0,1);*/
+
 font-size: 18px;
-background:#052f72; 
-border-radius: 6px;
-padding:3px;
-color:#dee2e8;
-box-shadow: 0 0 7px rgba(0,0,0,1);
+	padding:8px 20px;
+	border-radius:20px;
+	background:rgba(255,255,255,0.3);
 }
 
 .hdng{
-	font-size: 19px;
     color:white;
-   
+    font-size: 1.5em;
 }
 .selectdrp{
-	font-size: 18px;
-    background-color:black;
+   /* background-color:black;
     color: white; 
-    width:100%;
-	display:block;
+   	border-radius: 6px;
+    padding:4px;*/
+	 width:100%;
+	 	display:block;
 	position:relative;
-	border-radius: 6px;
-    border: none;
-    padding:4px;
+	border: none;
+	font-size: 18px;
+	padding:8px 20px;
+	border-radius:20px;
+	background:rgba(255,255,255,0.3);
+	
+
 }
 .selectdrp option{
     background-color: #c0c0c0;
@@ -74,28 +113,33 @@ box-shadow: 0 0 7px rgba(0,0,0,1);
 .bttn{
     width:100%;
 	display:block;
-	position:relative;
-	border-radius: 6px;
-    border: none;
-    padding:4px;
+	position:relative; 
+	border: none;
+	padding:8px 20px;
+	border-radius:20px;
+	
     color:#fff;
-    background-color: #000;
+    background: rgba(0, 0, 0, 0.8);
 }
 .tnote{
-font-size: 18px;
 cursor:default;
-background-color:white;
+/*background-color:white;*/
+background:rgba(255,255,255,0.3);
 margin-right:6px;
 margin-bottom:6px;
 display: inline-block;
-box-shadow: 0 0 40px rgba(0,0,0,1);
+/*box-shadow: 0 0 40px rgba(0,0,0,1);
 padding: 3px;
-border-radius: 5px;
+border-radius: 5px;*/
+padding:8px 20px;
+	border-radius:20px;
+	
 }
 
 .boxsh{
-	box-shadow: 0 0 20px rgba(0,0,0,1);
-	background-color:#ced0e2;
+	/*box-shadow: 0 0 20px rgba(0,0,0,1);*/
+	/*background-color:#ced0e2;*/
+	background:rgba(255,255,255,0.3);
 	padding: 10px;
 }
 
@@ -105,12 +149,18 @@ border-radius: 5px;
 	border:none;
 }
 .txtinp{
-	background-color:rgba(255,255,255,1);
+	/*background-color:rgba(255,255,255,1);*/
     color: rgba(0,0,0,1); 
     width:100%;
 	display:block;
 	position:relative;
-	border-radius: 6px;
+	/*border-radius: 6px;*/
     border: none;
-    padding:4px;
+   /* padding:4px;*/
+
+
+   font-size: 18px;
+	padding:8px 20px;
+	border-radius:20px;
+	background:rgba(255,255,255,0.3);
 }
