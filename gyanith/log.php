@@ -11,9 +11,7 @@
     	<script type="text/javascript" src="js/material.min.js"></script>
 		<script type="text/javascript" src="js/script.js" ></script>
 		<script type="text/javascript" src="js/log_scr.js"></script>
-	    <script src="js/material.min.js"></script>
-      
-	
+	    
 	
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -33,16 +31,8 @@
 	<body>
 
 		<div class="container">
-		<div class="dropdown">
-					<button onclick="myFunction()" class="dropbtn mdl-button mdl-button--raised mdl-js-button mdl-button--fab mdl-js-ripple-effect" style="background-color:#fff;">
-                         <i class="material-icons md-48" style="color:black;">account_circle</i>
-                    </button>
-					<div id="myDropdown" class="dropdown-content">
-    					<a href="log.php">Login</a>
-  						<a href="#about">Schedule</a>
-    				</div>
-		</div>	
-				 
+		
+				 <?php include 'loginicon.php'; ?>
 				 <?php include 'sidebar.php'; ?>
 				
             <div class="login-wrap">
@@ -139,7 +129,7 @@
 				</div>
 
 				<div class="group">
-					&nbsp;&nbsp;&nbsp;<input type="checkbox" name="hospitality" value="hospitality" style="-ms-transform: scale(2, 2);  -webkit-transform: scale(2, 2);  transform: scale(2, 2);"/><span class="label" style="display:inline;">Register for accomodation</span><br>
+					&nbsp;&nbsp;&nbsp;<input type="checkbox" name="hospitality" value="hospitality" style="-ms-transform: scale(2, 2);  -webkit-transform: scale(2, 2);  transform: scale(2, 2);"/><span class="label" style="display:inline;">&nbsp;&nbsp;Register for accomodation</span><br>
 				</div>
 
 				<div class="group">
