@@ -11,27 +11,28 @@ $mail = new PHPMailer;
 $path="images/landlogo.png";
 $mail->isSMTP();                                      // Set mailer to use SMTP
 //$mail->Host = 'smtp.gmail.com';                     // Specify main and backup SMTP servers
-$mail->Host = 'smtp.mailgun.org';                     // Specify main and backup SMTP servers
+//$mail->Host = 'smtp.mailgun.org';                     // Specify main and backup SMTP servers
+$mail->Host = 'md-in-63.webhostbox.net'; 
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'postmaster@mail.gyanith.org';   // SMTP username
-$mail->Password = 'ea215a2bb46488c538e3904e52ee8f1d';                           // SMTP password
-$mail->SMTPSecure = 'tls';
-$mail->Port =587;    
-$mail->From='gyanith.nitpy@gmail.com';                             // Enable encryption, only 'tls' is accepted
+$mail->Username = 'team@gyanith.org';   // SMTP username
+$mail->Password = 'Whatever99**';                           // SMTP password
+$mail->SMTPSecure = 'ssl';
+$mail->Port =465;    
+$mail->From='team@gyanith.org';                             // Enable encryption, only 'tls' is accepted
 
-$mail->FromName = 'Gyanith17';
+$mail->FromName = 'Gyanith Team';
 $mail->addAddress($email);                 // Add a recipient
 
 $mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 
-$mail->Subject = 'gyanith 17 Registration';
+$mail->Subject = 'Gyanith Team';
 $mail->Body    = $body;
 $mail->AltBody  =  $body1;
 $mail->addAttachment($path);
 //$mail->SMTPDebug = 2;
 if(!$mail->send()) {
    // echo 'Message could not be sent.';
- //   echo 'Mailer Error: ' . $mail->ErrorInfo;
+   // echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
   // echo 'Message has been sent';
 }
@@ -102,75 +103,46 @@ $g_id=$g_id . str_pad($id,4,'0',STR_PAD_LEFT);
             // insert a row
             $stmt->execute();
            // echo 'Registered successfully!!'.'<br/>'.'Thank you for registering '.'<br/>'.'Your Gyanith id is '.$g_id;
+/*hospitality checkbox*/
+if(isset($_POST['hospitality']) && $_POST['hospitality'] == 'hospitality') 
+{
+    $sql="insert into hospitality (g_id) values (:gid)";
+    $stmt1 = $db->prepare($sql);
+    $stmt1->execute(array(':gid'=>$g_id));
+}
+
+
+
+
+
 
 /*BEGIN OF NEW VERSION*/
 $actual_link = "http://$_SERVER[HTTP_HOST]/"."gyanith/activate.php?id=" . $g_id;
-			$body="<p> Hello ".$name."<br>
-			Thank you for registering with <a href='http://www.knosys.in'>Knosys’16</a>.<br><br>
+			$body="<p>Greetings from team GYANITH!!<br>
+			Congrats.. You have successfully registered for GYANITH’17.<br><br>
 			 Click on the below link to activate your account.<br>
 ".$actual_link."<br><br>
 
-Greetings from team KNOSYS. <br><br>
-We extend the most warm welcome to all of you. Welcome to the 3rd technical fest conducted by the Department of CSE in NIT Puducherry. <br>
-<br><br><u><b>EVENTS</b></u><br><br>
-Antagon: Algorithmic coding event by codechef.<br>
-Codemath: Online math based coding event.<br>
-Ityuktha: Paper presentation.<br>
-Hackathon: Ethical hacking competition.<br>
-D’Bug C’Bug: Debugging in C language competition.<br>
-Linux Expert: linux OS command line competition.<br>
-Optimus: Code optimization competition in C and C++.<br>
-Cobweb: Online treasure hunt competition.<br>
-Shoot the Frame: Online photography competition.<br>
-Dubsmash: Online dubsmash competition.<br><br>
-<br><br><u><b>WORKSHOPS</b></u><br><br>
-HackPro: Ethical hacking workshop<br>
-Android Development: Android app development workshop. <br><br><br>
+We welcome you to NIT Puducherry to experience three days of innovation and science. Gear up to experience engineering like never before.
+GYANITH ‘17 is the first collaborated technical fest hosted by NIT Puducherry. It is a union of 4 departments, coming together to celebrate science and innovation. GYANITH literally translates to “inspiring”. Hence, we are here to inspire you and give you an unforgettable experience of learning, fun and creation. We invite you to join us, from 24th  to 26th of February, in the inaugural edition of GYANITH and get inspired.
+We have attached the schedule of events for your reference. Do visit our website www.gyanith.org for more information and registration of events. In case of any queries please contact                          
+We hope to serve you in the best way and provide you with a great learning experience.
 
-And that’s not it!! We have an amazing funroom for relaxation and gaming for the gamer in you.<br><br>
-Please follow us on social media and also be in touch with us on the website, to keep updated on the latest developments in knosys’16. <br>
-<a href=''>Facebook</a><a href=''> Twitter</a><a href=''> Google+</a><br><br>
-Welcome to the explosion of passion, technology and fun.<br><br><br><br>
-Regards,<br>
-Administrator,<br> 
-Knosys’16,<br>
-<a href='https://www.knosys.in'>https://www.knosys.in</a><br><br>
-This is an auto-generated email. Please do not reply to it as this email address is not monitored. This mail was sent because you or someone registered on the Knosys homesite with this mail id. Please ignore the mail otherwise.</p><br>
-<br><br>
-";
-$body1="<p> Hello ".$name."<br>
-			Thank you for registering with <a href='http://www.knosys.in'>Knosys’16</a>.<br>
+Regards,
+Team GYANITH.";
+
+$body1="<p>Greetings from team GYANITH!!<br>
+			Congrats.. You have successfully registered for GYANITH’17.<br><br>
 			 Click on the below link to activate your account.<br>
-".$actual_link."<br>
+".$actual_link."<br><br>
 
-Greetings from team KNOSYS. <br>
-We extend the most warm welcome to all of you. Welcome to the 3rd technical fest conducted by the Department of CSE in NIT Puducherry. <br>
-<u><b>EVENTS</b></u><br>
-Antagon: Algorithmic coding event by codechef.<br>
-Codemath: Online math based coding event.<br>
-Ityuktha: Paper presentation.<br>
-Hackathon: Ethical hacking competition.<br>
-D’Bug C’Bug: Debugging in C language competition.<br>
-Linux Expert: linux OS command line competition.<br>
-Optimus: Code optimization competition in C and C++.<br>
-Cobweb: Online treasure hunt competition.<br>
-Shoot the Frame: Online photography competition.<br>
-Dubsmash: Online dubsmash competition.<br>
-<u><b>WORKSHOPS</b></u><br>
-HackPro: Ethical hacking workshop<br>
-Android Development: Android app development workshop. <br>
+We welcome you to NIT Puducherry to experience three days of innovation and science. Gear up to experience engineering like never before.
+GYANITH ‘17 is the first collaborated technical fest hosted by NIT Puducherry. It is a union of 4 departments, coming together to celebrate science and innovation. GYANITH literally translates to “inspiring”. Hence, we are here to inspire you and give you an unforgettable experience of learning, fun and creation. We invite you to join us, from 24th  to 26th of February, in the inaugural edition of GYANITH and get inspired.
+We have attached the schedule of events for your reference. Do visit our website www.gyanith.org for more information and registration of events. In case of any queries please contact                          
+We hope to serve you in the best way and provide you with a great learning experience.
 
-And that’s not it!! We have an amazing funroom for relaxation and gaming for the gamer in you.<br>
-Please follow us on social media and also be in touch with us on the website, to keep updated on the latest developments in knosys’16. 
-<a href=''>Facebook</a><a href=''> Twitter</a><a href=''> Google+</a><br>
-Welcome to the explosion of passion, technology and fun.<br>
-Regards,<br>
-Administrator,<br> 
-Knosys’16,<br>
-<a href='https://www.knosys.in'>https://www.knosys.in</a><br>
-This is an auto-generated email. Please do not reply to it as this email address is not monitored. This mail was sent because you or someone registered on the Knosys homesite with this mail id. Please ignore the mail otherwise.</p><br>
-<br><br>
-";
+Regards,
+Team GYANITH.";
 
 
 /*END OF NEW VERSION*/

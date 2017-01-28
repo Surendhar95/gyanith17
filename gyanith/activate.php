@@ -92,20 +92,20 @@ if(!$mail->send()) {
 				Gid : ".$g_id."<br><br>
 				Regards,<br>
 	Administrator,<br> 
-	Knosys’16,<br>
-	<a href='https://www.knosys.in'>https://www.knosys.in</a><br>
-	This is an auto-generated email. Please do not reply to it as this email address is not monitored. This mail was sent because you or someone registered on the Knosys homesite with this mail id. Please ignore the mail otherwise.</p><br>
+	Gyanith '17,<br>
+	<a href='https://www.gyanith.org'>https://www.gyanith.org</a><br>
+	This is an auto-generated email. Please do not reply to it as this email address is not monitored. This mail was sent because you or someone registered on the Gyanith homesite with this mail id. Please ignore the mail otherwise.</p><br>
 	<br><br></p>";
 	$body1="<p>Your account has been activated.Your account details:<br><br>
 				Username : ".$name."<br>
-				Kid : ".$g_id."<br><br>
+				Gid : ".$g_id."<br><br>
 				Regards,<br>
 	Administrator,<br> 
-	Knosys’16,<br>
-	<a href='https://www.knosys.in'>https://www.knosys.in</a><br>
-	This is an auto-generated email. Please do not reply to it as this email address is not monitored. This mail was sent because you or someone registered on the Knosys homesite with this mail id. Please ignore the mail otherwise.</p><br>
+	Gyanith '17,<br>
+	<a href='https://www.gyanith.org'>https://www.gyanith.org</a><br>
+	This is an auto-generated email. Please do not reply to it as this email address is not monitored. This mail was sent because you or someone registered on the Gyanith homesite with this mail id. Please ignore the mail otherwise.</p><br>
 	<br><br></p>";
-				send_mail($email,$body,$body1);
+	send_mail($email,$body,$body1);
 }  
 
 	catch(PDOException $e){
