@@ -23,8 +23,8 @@
 	</head>
 	<style>
 .button{
-height:400px;
-width:400px;
+height:350px;
+width:350px;
 }
 </style>
 	<body class="event-gradient">
@@ -39,7 +39,7 @@ width:400px;
 		
 		<div class="logo row">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M286.332,94.704c0-15.145-12.09-27.795-26.947-28.201c-7.557-0.19-14.703,2.578-20.115,7.843
 		c-4.635,4.511-7.48,10.337-8.204,16.661h-16.867v31.626c-1.542,0.989-3.021,2.068-4.42,3.242V91.007h-20.486
@@ -68,7 +68,7 @@ width:400px;
 		</div>
 			<div id="detonate-logo" class="detail-div">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M286.332,94.704c0-15.145-12.09-27.795-26.947-28.201c-7.557-0.19-14.703,2.578-20.115,7.843
 		c-4.635,4.511-7.48,10.337-8.204,16.661h-16.867v31.626c-1.542,0.989-3.021,2.068-4.42,3.242V91.007h-20.486
@@ -97,7 +97,7 @@ width:400px;
 						</div>
 						<div id="tech-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
 		<g>
@@ -130,7 +130,7 @@ width:400px;
 						</div>
 						<div id="pixel-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path id="Robo.to" fill="#fff" d="M226.404,171.967c0-5.875,4.718-10.633,10.548-10.633c5.814,0,10.536,4.759,10.536,10.633
 		c0,5.872-4.722,10.634-10.536,10.634C231.12,182.598,226.404,177.835,226.404,171.967z M193.592,81.386h-0.087v14.575h13.378

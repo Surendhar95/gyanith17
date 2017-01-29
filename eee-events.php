@@ -20,11 +20,7 @@
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
 
 	</head>
-	<style>
-.button{
-height:400px;
-width:400px;
-}
+
 </style>
 	<body class="event-gradient">
 	<?php
@@ -38,7 +34,7 @@ width:400px;
 		
 		<div class="logo row">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M268.782,155.897c6.825,0,12.501,4.626,14.228,10.919h30.396v-19.234l-53.192-42.109H104.479v36.906h80.367
 		v24.647c5.512,2.028,9.469,7.277,9.469,13.492c0,7.966-6.458,14.43-14.431,14.43c-7.966,0-14.423-6.463-14.423-14.43
@@ -54,7 +50,7 @@ width:400px;
 		</div>
 			<div id="sync-logo" class="detail-div">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M268.782,155.897c6.825,0,12.501,4.626,14.228,10.919h30.396v-19.234l-53.192-42.109H104.479v36.906h80.367
 		v24.647c5.512,2.028,9.469,7.277,9.469,13.492c0,7.966-6.458,14.43-14.431,14.43c-7.966,0-14.423-6.463-14.423-14.43
@@ -70,7 +66,7 @@ width:400px;
 						</div>
 						<div id="rush-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
 		<g>
@@ -115,7 +111,7 @@ width:400px;
 						</div>
 						<div id="link-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M279.246,242.451c-5.342-2.768-11.916-0.68-14.676,4.646c-0.392,0.752-0.656,1.527-0.863,2.312
 		l-10.085-0.433c-0.464-2.414-1.392-4.766-2.983-6.869c-4.734-6.294-13.068-8.238-19.979-5.199l-23.273-37.98

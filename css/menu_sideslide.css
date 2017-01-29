@@ -49,7 +49,7 @@
 	height: 2.25em;
 	border: none;
 	text-indent: 2.5em;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: transparent;
 	background: transparent;
 }
@@ -128,7 +128,7 @@
 	z-index: 6000;
 }
 .icon-list {
-	font-size: 20px;
+	font-size: 16px;
 	text-decoration: none;
 }
 .icon-list span:hover{
@@ -234,8 +234,8 @@
 }
 
 .home-logo img {
-	width:250px;
-	height:120px;
+	width:200px;
+	height:80px;
 }
 
 .home-logo a {

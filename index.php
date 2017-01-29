@@ -4,24 +4,29 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   <meta name="description" content="Gyanith '17 is the first ever single technical symposium of NIT Puducherry.">
-  <meta name="author" content="Vincent Garreau" />
+  <meta name="author" content="Web Team,NIT Py" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta property="og:title" content="Gyanith '17" />
-  <meta property="og:description" content="Gyanith '17 is the first ever single technical symposium of NIT Puducherry." />
-  
   <title>Gyanith '17  | Feb 24-26</title>
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
   
+
+  <!-- Facebook -->
+ 
+  <meta property="fb:app_id"          content="108145976368443" /> 
+  <meta property="og:type"            content="Website" /> 
+  <meta property="og:url"             content="http://www.gyanith.org" /> 
+  <meta property="og:title"           content="Gyanith '17 | NIT Puducherry" /> 
+  <meta property="og:image"           content="https://www.dropbox.com/s/b567e31jytqaky8/gyanith_thumb.png?dl=0" /> 
+  <meta property="og:description" content="Gyanith '17 is the first ever single technical symposium of NIT Puducherry." />
+  <!-- Facebook tags end -->
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/material.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
   <link rel="stylesheet" type="text/css" href="css/style_click_drop.css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
- 
  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="js/material.min.js"></script>
   <script type="text/javascript" src="js/background.js"></script>
@@ -32,6 +37,9 @@
 <body>
 		<?php include 'loginicon.php';?>
 		<?php include "sidebar.php";?>
+		<?php
+			include('notify.php');
+ 		?>
 		
 		<div id="gradient" />
 		<script src='https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js'></script>
@@ -124,7 +132,7 @@
 		</div>
 		<div class="hover-menu"  style="text-align:center;">
 				<div class="row">
-						<div class="col-sm-2 col-md-2 col-lg-2">
+						<div class="col-sm-1 col-md-1 col-lg-1">
 						</div>
 						<div class="col-sm-2 col-md-2 col-lg-2">
 						<div class="svg-wrapper">
@@ -134,7 +142,9 @@
 						  </svg></a>
 						</div>
 						</div>
-						<div class="col-sm-4 col-md-4 col-lg-4">
+						<div class="col-sm-1 col-md-1 col-lg-1">
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
 						<div class="svg-wrapper">
 						  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
 							<rect class="shape" height="60" width="320" />
@@ -143,7 +153,7 @@
 						</div>
 						</div>
 
-						<div class="col-sm-2 col-md-2 col-lg-2" style="position: relative;left:-60px">
+						<div class="col-sm-2 col-md-2 col-lg-2" >
 						<div class="svg-wrapper">
 						  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
 							<rect class="shape" height="60" width="320" />
@@ -151,17 +161,14 @@
 						  </svg>
 						</div>
 						</div>
-						<div class="col-sm-1 col-md-1 col-lg-1">
+						<div class="col-sm-2 col-md-2 col-lg-2">
 						</div>
 				</div>
 		</div>
 
-		<!--image add end-->
-		<!-- particles.js container -->
+		
 		
 		<div id="particles-js"></div>
-
-		<!-- scripts -->
 		<script src="js/particles.js"></script>
 		<script src="js/app.js"></script>
 		<script src="js/classie.js"></script>

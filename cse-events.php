@@ -23,8 +23,8 @@
 	</head>
 	<style>
 .button{
-height:400px;
-width:400px;
+height:350px;
+width:350px;
 }
 </style>
 	<body class="event-gradient">
@@ -39,7 +39,7 @@ width:400px;
 		
 		<div class="logo row">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#fff" d="M299.275,102.933H108.455c-3.603,0-6.522,2.921-6.522,6.522v190.82c0,3.602,2.92,6.522,6.522,6.522h190.821
 	c3.602,0,6.521-2.921,6.521-6.522v-190.82C305.797,105.854,302.877,102.933,299.275,102.933z M210.758,168.727
 	c0.195-1.024,1.164-1.703,2.189-1.521c0.133,0.024,12.688,2.454,16.29,15.629c2.224-1.343,4.772-2.112,7.476-2.112
@@ -64,7 +64,7 @@ width:400px;
 		</div>
 			<div id="dbug-logo" class="detail-div">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#fff" d="M299.275,102.933H108.455c-3.603,0-6.522,2.921-6.522,6.522v190.82c0,3.602,2.92,6.522,6.522,6.522h190.821
 	c3.602,0,6.521-2.921,6.521-6.522v-190.82C305.797,105.854,302.877,102.933,299.275,102.933z M210.758,168.727
 	c0.195-1.024,1.164-1.703,2.189-1.521c0.133,0.024,12.688,2.454,16.29,15.629c2.224-1.343,4.772-2.112,7.476-2.112
@@ -89,7 +89,7 @@ width:400px;
 						</div>
 						<div id="web-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#fff" d="M354.162,90.697h-41.84l-4.607,5.013h-11.587l15.121-16.452c9.394-11.663,9.721-26.989,0.72-34.238
 	c-9.007-7.252-23.91-3.679-33.305,7.976l-95.145,135.181c-9.396,11.653-9.348,9.429-0.35,16.673
 	c1.929,1.555,3.326,2.775,4.452,3.657l-4.424,4.322c-9.553-9.411-28.218-13.943-34.497,2.605
@@ -105,7 +105,7 @@ width:400px;
 						</div>
 						<div id="enig-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M137.411,165.583c0,0-0.463-5.062-0.691-7.602c1.196-0.683,2.343-1.429,3.418-2.262
 		c1.902,1.097,5.692,3.292,5.692,3.292l6.476-1.699l7.337-12.684l-1.704-6.471c0,0-4.886-2.839-7.33-4.239
@@ -158,7 +158,7 @@ width:400px;
 						<div id="anta-logo" class="detail-div">
 							
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
 		<g>

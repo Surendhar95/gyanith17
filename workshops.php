@@ -38,7 +38,7 @@ width:400px;
 		<header>
 			<div class="title row">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="370px" height="130px" viewBox="0 0 370 130" enable-background="new 0 0 370 130" xml:space="preserve">
+	 width="300px" height="90px" viewBox="0 0 370 130" enable-background="new 0 0 370 130" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M62.209,51.891
 		c1.881-6.285,7.211-15.014,17.632-14.618v0.508c-8.438,0.344-12.464,8.709-14.326,14.111L55.75,80.221c0,0-1.033,3.229-1.111,5.65
@@ -97,7 +97,7 @@ width:400px;
 		
 		<div class="logo row">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
 		<polygon fill="#FFFFFF" points="73.53,130.547 73.53,238.982 178.682,238.982 200,216.154 221.318,238.982 326.47,238.982 

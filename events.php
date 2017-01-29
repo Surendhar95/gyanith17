@@ -38,7 +38,7 @@ width:400px;
 		<header>
 			<div class="title row">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="370px" height="130px" viewBox="0 0 370 130" enable-background="new 0 0 370 130" xml:space="preserve">
+	 width="300px" height="90px" viewBox="0 0 370 130" enable-background="new 0 0 370 130" xml:space="preserve">
 <g>
 	<g>
 		<path fill="#FFFFFF" d="M88.078,76.237l-2.515,15.208H43.228l0.011-0.657h0.832c2.299,0,4.164-1.842,4.207-4.13v-36.42
@@ -76,7 +76,7 @@ width:400px;
 		</header>
 		
 		<div class="logo row">
-		<a href="google.com" style="text-decoration:none;">
+		
 						<button style="background-color: transparent;border:none;" class="button button--line button--effect-1">
 							<span class="twitter-shape" data-morph-active="M349.197,57.74H50.804c-23.826,0-43.142,19.317-43.142,43.141v199.527c0,23.825,19.318,43.141,43.142,43.141
 	h98.023v24.094H99.341c-8.937,0-16.179,7.243-16.179,16.179c0,8.937,7.242,16.179,16.179,16.179h500.66
@@ -113,7 +113,7 @@ width:400px;
 								</svg>
 							</span>
 						</button>
-						</a>
+						
 						</div>
 						<div id="ece-logo" class="detail-div">
 							<a href="google.com" style="text-decoration:none;">

@@ -23,8 +23,8 @@
 	</head>
 	<style>
 .button{
-height:400px;
-width:400px;
+height:350px;
+width:350px;
 }
 </style>
 	<body class="event-gradient">
@@ -39,7 +39,7 @@ width:400px;
 		
 		<div class="logo row">
 		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M185.678,205.256l-8.426,8.424c-1.444,1.445-1.444,3.787,0,5.231c0.722,0.722,1.669,1.083,2.615,1.083
 		c0.947,0,1.893-0.361,2.616-1.083l8.425-8.425c1.444-1.445,1.444-3.787,0-5.23C189.463,203.811,187.123,203.811,185.678,205.256z"
@@ -111,7 +111,7 @@ width:400px;
 		</div>
 			<div id="junk-logo" class="detail-div">
 			<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M185.678,205.256l-8.426,8.424c-1.444,1.445-1.444,3.787,0,5.231c0.722,0.722,1.669,1.083,2.615,1.083
 		c0.947,0,1.893-0.361,2.616-1.083l8.425-8.425c1.444-1.445,1.444-3.787,0-5.23C189.463,203.811,187.123,203.811,185.678,205.256z"
@@ -183,7 +183,7 @@ width:400px;
 						</div>
 						<div id="burnout-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)">
 		<path fill="#fff" d="M830,4208.135c-109.175-40.864-134.282-177.471-47.3-253.955l20.444-17.515v-343.896v-343.872l-35.024-3.501
@@ -213,7 +213,7 @@ width:400px;
 						</div>
 						<div id="copter-logo" class="detail-div">
 							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M113.736,275.606c-1.012,0-2.008,0.409-2.722,1.129c-0.719,0.714-1.13,1.71-1.13,2.722c0,1.011,0.411,2.007,1.13,2.722
 		c0.713,0.719,1.705,1.129,2.722,1.129c1.011,0,2.007-0.41,2.721-1.129c0.719-0.715,1.129-1.711,1.129-2.722

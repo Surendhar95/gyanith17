@@ -55,3 +55,24 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
 
 setInterval(updateGradient,10);
 
+$(document).ready(function(){
+  var NcurrentIndex = 0,
+  Nitems = $('.notification div'),
+  NitemAmt = Nitems.length;
+
+function NcycleItems() {
+  var Nitem = $('.notification div').eq(NcurrentIndex);
+  Nitems.hide();
+  Nitem.css('display','inline-block');
+}
+
+var NautoSlide = setInterval(function() {
+  NcurrentIndex += 1;
+  if (NcurrentIndex > NitemAmt - 1) {
+    NcurrentIndex = 0;
+  }
+  NcycleItems();
+}, 3000);
+
+
+});

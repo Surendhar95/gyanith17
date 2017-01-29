@@ -429,7 +429,7 @@ margin:30px 40px;
 html, 
 .contain, 
 .content-wrap {
-	overflow: hidden;
+	overflow: auto;
 	width: 100%;
 	height: 100%;
 }
@@ -437,6 +437,7 @@ html,
 	 background-color: #000000;
    padding: 0px;
    margin: 0px;
+   overflow-y: auto;
  }
 
 #gradient,particles-js
@@ -738,7 +739,7 @@ html,
 	width:50%;
 	display: inline-block;
 	left: 25%;
-	height:400px;
+	height:350px;
 	text-align: center;
 	background-color: ;
 }
@@ -842,3 +843,28 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
 }
 
 
+/*Notification*/
+.notification {
+	text-align:center;
+	float: right;
+	position:relative;
+	top:220px;
+	right:35px;
+  
+}
+
+.notification div{
+	z-index: 7000;
+  	width:150px;
+  	height: 170px;
+  	display:none;
+  	opacity: 0.7;
+    background-color: black; 
+    color: #FFFFFF; 
+  border: 1px grey solid;
+    padding: 10px 10px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight:normal;
+    border-radius: 10px;
+}
