@@ -3,9 +3,10 @@
      display: inline-block;
      top:5%;
      right:5%;
+	 z-index:5000;
 }
 .dropbtn {
-    background-color: #000;
+    background-color: #fff;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -14,7 +15,7 @@
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #000;
+    background-color: #19f6e8;
 }
 
 /*.dropdown {

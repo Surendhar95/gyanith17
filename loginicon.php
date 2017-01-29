@@ -6,7 +6,7 @@ function myFunction() {
 </script>
 
 <div class="rightdropdown">
-					<button onclick="myFunction()" class="dropbtn mdl-button mdl-button--raised mdl-js-button mdl-button--fab mdl-js-ripple-effect" style="background-color:#fff;">
+					<button onclick="myFunction()" class="dropbtn mdl-button mdl-button--raised mdl-js-button mdl-button--fab mdl-js-ripple-effect">
                          <i class="material-icons md-48" style="color:black;">account_circle</i>
                     </button>
 					<div id="myDropdown" class="dropdown-content">
@@ -14,13 +14,13 @@ function myFunction() {
 				session_start();
 				 if(isset($_SESSION['g_id'])){ 				
 					 ?>
-					<a href="dashboard.php">Dashboard</a>
+					<a href="/dashboard.php">Dashboard</a>
   					<a href="#">Schedule</a>
-					<a href="logout.php">Log Out</a>
+					<a href="/logout.php">Log Out</a>
 					<?php }
 					else{
 						?>
-    					<a href="log.php">Login/Sign Up</a>
+    					<a href="/log.php">Login/Sign Up</a>
   						<a href="#">Schedule</a>
 					<?php } ?>
     				</div>

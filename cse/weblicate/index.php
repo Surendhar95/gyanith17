@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
   		<title>Gyanith '17  | WEBLICATE</title>
   		<link rel="stylesheet" href="css/style.css">
-  		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+  		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
@@ -16,6 +16,8 @@
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -27,7 +29,7 @@
 </head>
 <body >
 <?php 
-
+include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
 	<!--#222930
@@ -46,7 +48,7 @@
 	c3.076,0.052,44.7,0.594,49.112,0c4.574-0.619-0.007-4.277-5.8-8.559c-5.806-4.27-6.429-10.684-6.429-10.684l-2.179-13.927h-6.559
 	l-0.19-13.404h126.206c7.402,0,13.405-6.003,13.405-13.404v-194.38C367.567,96.7,361.564,90.697,354.162,90.697z M287.502,61.2
 	c0,0-1.396-1.619-6.029-5.325c6.949-11.352,20.609-9.271,20.609-9.271C289.132,54.251,287.502,61.2,287.502,61.2z"/>
-</svg><h1 id="head">WEBLICATE</h1></div>
+</svg><h1 id="head" style="position:relative;left:-4%;">WEBLICATE</h1></div>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">

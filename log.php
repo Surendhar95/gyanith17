@@ -122,7 +122,8 @@
 							<input id="pass" type="text" pattern="[789]{1}[0-9]{9}" title='Enter valid phone number' class="input" name="phone" id="phone">
 						</div><br>
 						<div class="group">
-						<div class="g-recaptcha"  style="position:relative;left:24%;" data-sitekey="6Ld3lhEUAAAAABmQ8BNIvQHpk8ZijgjE3TgWsPO1"></div>
+						<!--<div class="g-recaptcha"  style="position:relative;left:24%;" data-sitekey="6Ld3lhEUAAAAABmQ8BNIvQHpk8ZijgjE3TgWsPO1"></div>-->
+						<div class="g-recaptcha"  style="position:relative;left:24%;" data-sitekey="6LdjkhMUAAAAAMqucx_ESvFQLjysrDaIPmnCkOzT"></div>
 						</div>
 
 						<div class="group">

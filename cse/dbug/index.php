@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
   		<title>Gyanith '17  | D-BUG C-BUG</title>
   		
-  		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+  		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
@@ -15,6 +15,9 @@
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -24,7 +27,7 @@
 </head>
 <body >
 <?php 
-
+	include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
 	<!--#222930
@@ -53,7 +56,7 @@
 	c1.321-0.406,2.737,0.332,3.143,1.661c0,0,3.07,9.909,3.728,12.039c1.332,0.367,5.401,1.51,8.22,2.287
 	c0.095-0.447,0.179-0.898,0.291-1.335h39.139c0.099,0.437,0.186,0.888,0.287,1.335c2.814-0.773,6.878-1.919,8.217-2.287
 	c0.654-2.123,3.728-12.032,3.728-12.032c0.409-1.332,1.808-2.07,3.14-1.664C272.981,186.444,273.723,187.849,273.314,189.178z"/>
-</svg><h1 id="head">D-BUG C-BUG</h1></div>
+</svg><h1 id="head" style="position:relative;left:-4%;">D-BUG C-BUG</h1></div>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">

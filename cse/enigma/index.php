@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
   		<title>Gyanith '17  | ENIGMA</title>
   		<link rel="stylesheet" href="css/style.css">
-  		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+  		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
@@ -16,6 +16,9 @@
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -26,7 +29,7 @@
 </head>
 <body >
 <?php 
-
+	include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
 	<!--#222930
@@ -82,7 +85,7 @@
 		l13.601,16.954l1.693,2.109l-0.084,2.698l-0.229,6.989c2.819,1.752,5.526,3.434,5.526,3.434l11.569-2.649l13.732-22.063
 		L334.041,239.456z"/>
 </g>
-</svg><h1 id="head">ENIGMA</h1></div>
+</svg><h1 id="head" style="position:relative;left:-4%;">ENIGMA</h1></div>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">

@@ -2,6 +2,7 @@
 	<head>
 
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
   		<title>Gyanith '17  | CSE Events</title>
   		<link rel="stylesheet" href="css/style.css">
   		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
@@ -12,7 +13,9 @@
   		
 		<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
 		<link rel="stylesheet" href="css/material.min.css">
-		
+		<link rel="stylesheet" type="text/css" href="css/style_click_drop.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   		<script type="text/javascript" src="js/snap.svg-min.js"></script>
   		<script type="text/javascript" src="js/events.js"></script>
@@ -29,6 +32,7 @@ width:350px;
 </style>
 	<body class="event-gradient">
 	<?php
+		include 'loginicon.php';
 		include("sidebar.php");
 	 ?>
 		<header>

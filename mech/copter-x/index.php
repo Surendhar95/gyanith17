@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
   		<title>Gyanith '17  | COPTER-X</title>
   		<link rel="stylesheet" href="css/style.css">
-  		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+  		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
@@ -15,6 +15,8 @@
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -24,7 +26,7 @@
 </head>
 <body >
 <?php 
-
+	include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
 	<!--#222930
@@ -88,7 +90,7 @@
 		c0.713,0.719,1.71,1.13,2.722,1.13c1.011,0,2.007-0.411,2.721-1.13c0.719-0.713,1.129-1.709,1.129-2.721s-0.411-2.008-1.129-2.722
 		C115.744,103.489,114.748,103.079,113.736,103.079z"/>
 </g>
-</svg><h1 id="head">COPTER-X</h1></div>
+</svg><h1 id="head" style="position:relative;left:-4%;">COPTER-X</h1></div>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">

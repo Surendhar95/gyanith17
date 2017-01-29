@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
   		<title>Gyanith '17  | LINK IT</title>
   		<link rel="stylesheet" href="css/style.css">
-  		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+  		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
@@ -16,6 +16,9 @@
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -25,6 +28,7 @@
 </head>
 <body >
 <?php 
+include ('../../loginicon.php');
 
 	include ("../../sidebar.php");
 ?>
@@ -52,7 +56,7 @@
 		c5.27,2.232,11.556,1.736,16.482-1.959c3.95-2.967,6.126-7.35,6.502-11.9l9.677,0.399c0.552,3.264,2.544,6.23,5.702,7.87
 		c5.334,2.759,11.9,0.68,14.66-4.671C286.668,251.776,284.572,245.202,279.246,242.451z"/>
 </g>
-</svg><h1 id="head">LINK IT</h1></div>
+</svg><h1 id="head" style="position:relative;left:-4%;">LINK IT</h1></div>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">

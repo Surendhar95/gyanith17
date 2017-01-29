@@ -5,9 +5,10 @@
 	
 
 		<meta charset="utf-8">
+		
   		<title>Gyanith '17  | PIXEL</title>
   		<link rel="stylesheet" href="css/style.css">
-  		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+  		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
@@ -16,6 +17,8 @@
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -24,7 +27,7 @@
 </head>
 <body >
 <?php 
-
+include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
 	<!--#222930
@@ -59,7 +62,7 @@
 		c-0.115,0-0.254,0.01-0.375,0.01c-0.118,0-0.265-0.01-0.373-0.01c-0.114,0-0.258,0.01-0.375,0.01c-0.119,0-0.262-0.01-0.373-0.01
 		v0.013c-8.033,0.152-28.529,2.721-42.16,14.562C144.397,153.85,144.397,173.936,144.397,173.936z"/>
 </g>
-</svg><h1 id="head"> PIXEL</h1></div>
+</svg><h1 id="head" style="position:relative;left:-4%;"> PIXEL</h1></div>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">

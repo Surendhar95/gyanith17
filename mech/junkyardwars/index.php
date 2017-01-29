@@ -4,17 +4,20 @@
 		
 
         <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.5">
   		<title>Gyanith '17  | JUNKYARD WARS</title>
   		
-  		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+  		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
-
+	
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
   		
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -23,7 +26,7 @@
 </head>
 <body >
 <?php 
-
+include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
 	<!--#222930
@@ -99,7 +102,7 @@
 		c0.67,0.67,1.191,1.455,1.543,2.316l-9.316,9.315C292.111,302.939,291.326,302.419,290.656,301.749z M309.836,310.839
 		c-1.326,1.327-3.168,2.091-5.037,2.094c-1.885-0.003-3.727-0.767-5.053-2.094c-0.652-0.653-1.174-1.45-1.533-2.326l9.297-9.297
 		c0.877,0.358,1.674,0.879,2.326,1.533c1.33,1.329,2.094,3.169,2.094,5.038C311.926,307.671,311.162,309.513,309.836,310.839z"/>
-</g><h1 id="head">JUNKYARD WARS</h1></div>
+</g><h1 id="head" style="position:relative;left:-4%;">JUNKYARD WARS</h1></div>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
