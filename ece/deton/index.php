@@ -15,7 +15,7 @@
 
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
-		<link rel="stylesheet" href="../style.css"/>
+	
 		<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -24,6 +24,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
+			<link rel="stylesheet" href="../style.css"/>
 
 </head>
 <body >
@@ -62,7 +63,7 @@ include ('../../loginicon.php');
 		"/>
 </g>
 </svg></div>
-<h1 id="head" style="margin:-2px;position:relative;top:-50px;">DETONATE-X</h1>
+<h1 id="head" style="margin:-2px;position:relative;top:-50px;margin-bottom:20px;">DETONATE-X</h1>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
@@ -92,7 +93,7 @@ include ('../../loginicon.php');
 	</div>
 	</div>
 </div>
-<?php include("/../../footer.php") ?>
+<?php include("../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

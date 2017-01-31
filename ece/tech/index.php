@@ -68,7 +68,7 @@ include ('../../loginicon.php');
 </g>
 </svg>
 </div>
-<h1 id="head" style="position:relative;top:-80px;">TECH-PURSUIT</h1>
+<h1 id="head" style="position:relative;top:-80px;margin-bottom:25px;">TECH-PURSUIT</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -98,7 +98,7 @@ include ('../../loginicon.php');
 	</div>
 	</div>
 </div>
-<?php include("/../../footer.php") ?>
+<?php include("../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

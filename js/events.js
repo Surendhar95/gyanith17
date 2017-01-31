@@ -147,9 +147,9 @@ $("#game").hover(function(){
 
            
     });
- $("#solar").hover(function(){
+ $("#rc").hover(function(){
           
-            $(".logo").html($('#solar-logo').html());
+            $(".logo").html($('#rc-logo').html());
             return false;
 
            
