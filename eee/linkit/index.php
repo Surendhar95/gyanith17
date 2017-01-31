@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <head>
-	
-	
+
+
 
 		<meta charset="utf-8">
   		<title>Gyanith '17  | LINK IT</title>
@@ -12,7 +12,7 @@
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
-  		
+
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
@@ -24,10 +24,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-	
+
 </head>
 <body >
-<?php 
+<?php
 include ('../../loginicon.php');
 
 	include ("../../sidebar.php");
@@ -56,8 +56,8 @@ include ('../../loginicon.php');
 		c5.27,2.232,11.556,1.736,16.482-1.959c3.95-2.967,6.126-7.35,6.502-11.9l9.677,0.399c0.552,3.264,2.544,6.23,5.702,7.87
 		c5.334,2.759,11.9,0.68,14.66-4.671C286.668,251.776,284.572,245.202,279.246,242.451z"/>
 </g>
-</svg><h1 id="head" style="position:relative;left:-4%;">LINK IT</h1></div>
-
+</svg></div>
+<h1 id="head" style="position:relative;left:-160px;top:-110px;">LINK IT</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -66,11 +66,13 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			<br>
+			
+			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
+			
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
 		<!--<table id="nav">
@@ -97,14 +99,15 @@ include ('../../loginicon.php');
 			</tr>
 		</table>-->
 	</div>
-	<div class="col-lg-8" id="content" >
-		
+	<div class="col-lg-8" id="content" style="position:relative;top:-120px;">
+
 			<h1>Loading...</h1>
-			
-		
+
+
 	</div>
 	</div>
 </div>
+<?php include("/../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

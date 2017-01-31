@@ -740,29 +740,32 @@ html,
 	display: inline-block;
 	left: 25%;
 	height:350px;
+	margin-top:-50px;
 	text-align: center;
-	background-color: ;
+	
+	
+	
 }
 .dept-list {
 	position: absolute;
 	width: 90%;
 	margin-left: 5%;
-	height:auto;
+	height:100px;
 	text-align: center;
 	
 }
 .dept-list .list-1 {
 	width:90%;
 	margin-left: 5%;
-	height: 50%;
+	height: 10%;
 	text-align: center;
-	
+	margin-top:-20px;
 	
 }
 .dept-list .list-2 {
 	width:90%;
 	margin-left: 5%;
-	height: 50%;
+	height: 10%;
 	text-align: center;
 	
 	
@@ -770,7 +773,41 @@ html,
 .dept-list .list-3 {
 	width:90%;
 	margin-left: 5%;
-	height: 50%;
+	height: 10%;
+	text-align: center;
+	
+	
+}
+
+.wrk-list{
+	position: absolute;
+	width: 90%;
+	margin-left: 5%;
+	height:150px;
+	text-align: center;
+	margin-top:-80px;
+	
+}
+.wrk-list .list-1 {
+	width:90%;
+	margin-left: 5%;
+	height: 10%;
+	text-align: center;
+	
+	
+}
+.wrk-list .list-2 {
+	width:90%;
+	margin-left: 5%;
+	height: 10%;
+	text-align: center;
+	
+	
+}
+.wrk-list .list-3 {
+	width:90%;
+	margin-left: 5%;
+	height: 10%;
 	text-align: center;
 	
 	

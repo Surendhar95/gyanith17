@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <head>
-	
-	
+
+
 
 		<meta charset="utf-8">
   		<title>Gyanith '17  | SYNC</title>
@@ -12,7 +12,7 @@
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
-  		
+
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
@@ -23,11 +23,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-			
+
 
 </head>
 <body >
-<?php 
+<?php
 include ('../../loginicon.php');
     include "../../sidebar.php";
 
@@ -36,7 +36,7 @@ include ('../../loginicon.php');
 #4EB1BA
 #E9E9E9-->
 <div>
-	<div id="logo"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	<div id="logo" style="margin-bottom:-30px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M268.782,155.897c6.825,0,12.501,4.626,14.228,10.919h30.396v-19.234l-53.192-42.109H104.479v36.906h80.367
@@ -50,7 +50,7 @@ include ('../../loginicon.php');
 		c-8.177,0-14.811-6.634-14.811-14.817S260.605,155.897,268.782,155.897z"/>
 </g>
 </svg>
-<h1 id="head" style="position:relative;left:-4%;">SYNC</h1></div>
+<h1 id="head">SYNC</h1></div>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
@@ -60,25 +60,28 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			<br>
+			
+			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
+			
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
-		
+
 	</div>
 	<div class="col-lg-8" id="content" >
-		
+
 			<h1>Loading...</h1>
-			
-		
+
+
 	</div>
 	</div>
 </div>
+<?php include("/../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

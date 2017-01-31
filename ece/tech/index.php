@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-		
+
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -12,7 +12,7 @@
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
-  		
+
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
@@ -24,11 +24,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-		
-	
+
+
 </head>
 <body >
-<?php 
+<?php
 include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
@@ -36,9 +36,9 @@ include ('../../loginicon.php');
 #4EB1BA
 #E9E9E9-->
 <div>
-	<div id="logo">
+	<div id="logo" style="margin-bottom:-20px;">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="180px" height="180px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
 		<g>
@@ -67,8 +67,8 @@ include ('../../loginicon.php');
 	</g>
 </g>
 </svg>
-<h1 id="head" style="position:relative;left:-4%;">TECH-PURSUIT</h1></div>
-
+</div>
+<h1 id="head" style="position:relative;top:-80px;">TECH-PURSUIT</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -77,25 +77,28 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			<br>
+			
+			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
+			
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
-		
+
 	</div>
-	<div class="col-lg-8" id="content" >
-		
+	<div class="col-lg-8" id="content" style="position:relative;top:-80px;">
+
 			<h1>Loading...</h1>
-			
-		
+
+
 	</div>
 	</div>
 </div>
+<?php include("/../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

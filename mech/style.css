@@ -131,12 +131,12 @@ a:active {
 
 }
 #content{
-   margin-top: 5px;
+   margin-top: -10px;
   font-size: px;
   padding: 30px 20px;
   border-radius:15px;
     width: 60%;
-    height: 550px; 
+    height: 450px; 
     margin-left: 5%;
     /*font-family: 'Oleo Script Swash Caps', cursive;*/
     font-size: 1.2em;
@@ -162,7 +162,7 @@ a:active {
 }
 h1#head{
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   vertical-align: center;
   float: right;
   /*font-family: 'Merriweather Sans', sans-serif;
@@ -174,7 +174,7 @@ h1#head{
   text-align: center;
   padding-top: 8px;
   width:220px;
-  height:50px;
+  height:40px;
    background: #a9e4f7; /* Old browsers */
   background-color:#222222;
  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000000, endColorstr=#aaaaaa);

@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 <head>
-	
-	
+
+
 
 		<meta charset="utf-8">
-		
+
   		<title>Gyanith '17  | PIXEL</title>
   		<link rel="stylesheet" href="css/style.css">
   		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -13,7 +13,7 @@
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
-  		
+
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
@@ -23,10 +23,10 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
-		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>	
+		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
 </head>
 <body >
-<?php 
+<?php
 include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
@@ -34,8 +34,8 @@ include ('../../loginicon.php');
 #4EB1BA
 #E9E9E9-->
 <div>
-	<div id="logo"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	<div id="logo" style="margin-bottom:-50px;position:relative;left:40px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="180px" height="180px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path id="Robo.to" fill="#fff" d="M226.404,171.967c0-5.875,4.718-10.633,10.548-10.633c5.814,0,10.536,4.759,10.536,10.633
 		c0,5.872-4.722,10.634-10.536,10.634C231.12,182.598,226.404,177.835,226.404,171.967z M193.592,81.386h-0.087v14.575h13.378
@@ -62,8 +62,8 @@ include ('../../loginicon.php');
 		c-0.115,0-0.254,0.01-0.375,0.01c-0.118,0-0.265-0.01-0.373-0.01c-0.114,0-0.258,0.01-0.375,0.01c-0.119,0-0.262-0.01-0.373-0.01
 		v0.013c-8.033,0.152-28.529,2.721-42.16,14.562C144.397,153.85,144.397,173.936,144.397,173.936z"/>
 </g>
-</svg><h1 id="head" style="position:relative;left:-4%;"> PIXEL</h1></div>
-
+</svg></div>
+<h1 id="head" style="position:relative;top:-40px;"> PIXEL</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -72,27 +72,30 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			<br>
-			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			<br>
-			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			<br>
-			<li><div class="menu-tab"><a href="require.php">REQUIREMENTS</a></div></li>
-			<br>
-			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		
+			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
+			
+			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
+			
+			<li><div class="menu-tab"><a href="require.php">REQUIREMENTS</a></div></li>
+		
+			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
+		
+			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
+
 			</ul>
 		</div>
-	<div class="col-lg-8" id="content" >
-		
+	<div class="col-lg-8" id="content" style="position:relative;top:-40px;" >
+
 			<h1>Loading...</h1>
-			
-		
+
+
 	</div>
 	</div>
 </div>
+<?php include("/../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

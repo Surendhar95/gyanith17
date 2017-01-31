@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	
+
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
-  		
+
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
@@ -24,10 +24,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-	
+
 </head>
 <body >
-<?php 
+<?php
 include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
@@ -35,7 +35,7 @@ include ('../../loginicon.php');
 #4EB1BA
 #E9E9E9-->
 <div>
-	<div id="logo"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	<div id="logo" style="margin-bottom:-30px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M286.332,94.704c0-15.145-12.09-27.795-26.947-28.201c-7.557-0.19-14.703,2.578-20.115,7.843
@@ -58,10 +58,11 @@ include ('../../loginicon.php');
 		S255.719,192.276,237.104,192.276z M260.012,122.633V91.007h-20.02c0.666-3.91,2.537-7.498,5.443-10.325
 		c3.686-3.585,8.559-5.47,13.707-5.342c10.119,0.276,18.35,8.962,18.35,19.363v30.798c0,4.45-1.021,8.796-2.941,12.726
 		C271.098,131.882,266.072,126.517,260.012,122.633z"/>
-	<polygon fill="#fff" points="241.525,135.211 232.684,135.211 232.684,163.583 251.17,163.583 251.17,154.742 241.525,154.742 	
+	<polygon fill="#fff" points="241.525,135.211 232.684,135.211 232.684,163.583 251.17,163.583 251.17,154.742 241.525,154.742
 		"/>
 </g>
-</svg><h1 id="head" style="position:relative;left:-4%;">DETONATE-X</h1></div>
+</svg></div>
+<h1 id="head" style="margin:-2px;position:relative;top:-50px;">DETONATE-X</h1>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
@@ -71,24 +72,27 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			<br>
+			
+			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
+		
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
 		</div>
-	<div class="col-lg-8" id="content" >
-		
+	<div class="col-lg-8" id="content" style="position:relative;top:-35px;">
+
 			<h1>Loading...</h1>
-			
-		
+
+
 	</div>
 	</div>
 </div>
+<?php include("/../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

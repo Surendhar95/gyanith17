@@ -39,7 +39,7 @@ width:350px;
 			</div>
 		</header>
 		
-		<div class="logo row">
+		<div class="logo row"  style="margin-top:20px;">
 		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
@@ -364,6 +364,7 @@ width:350px;
 
 			})();			
 		</script>
+		<?php include("footer.php") ?>
 		<!--<script src="js/particles.js"></script>-->
 		<!-- <script src="js/app.js"></script> -->
 		<script src="js/classie.js"></script>

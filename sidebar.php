@@ -22,7 +22,7 @@
 
 						?>
 						<a href="/events.php"><!-- style="color:white">--><i class="fa fa-cubes" aria-hidden="true"></i><span>Events</span></a>
-						<a href="#"><!-- style="color:white">--><i class="fa fa-cogs" aria-hidden="true"></i><span>Workshops</span></a>
+						<a href="/workshops.php"><!-- style="color:white">--><i class="fa fa-cogs" aria-hidden="true"></i><span>Workshops</span></a>
 						<a href="#"><!-- style="color:white">--><i class="fa fa-podcast" aria-hidden="true"></i><span>Guest Lectures</span></a>
 						<a href="#"><!-- style="color:white">--><i class="fa fa-gamepad" aria-hidden="true"></i><span>Non Technical</span></a>
 						<a href="#"><!-- style="color:white">--><i class="fa fa-bed" aria-hidden="true"></i><span>Hospitality</span></a>

@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <head>
-	
-	
+
+
 
 		<meta charset="utf-8">
   		<title>Gyanith '17  | ENIGMA</title>
@@ -12,7 +12,7 @@
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
-  		
+
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
@@ -25,10 +25,10 @@
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
 
-	
+
 </head>
 <body >
-<?php 
+<?php
 	include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
@@ -36,8 +36,8 @@
 #4EB1BA
 #E9E9E9-->
 <div>
-	<div id="logo"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	<div id="logo" style="margin-top:20px;margin-bottom:-30px;position:relative;top:5px;left:50px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="150px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M137.411,165.583c0,0-0.463-5.062-0.691-7.602c1.196-0.683,2.343-1.429,3.418-2.262
 		c1.902,1.097,5.692,3.292,5.692,3.292l6.476-1.699l7.337-12.684l-1.704-6.471c0,0-4.886-2.839-7.33-4.239
@@ -63,7 +63,7 @@
 		c46.816,0,93.625,0,140.442,0C291.357,92.727,291.357,74.489,279.598,74.489z"/>
 	<path fill="#FFFFFF" d="M279.598,117.651c-46.815,0-20.688,0-67.504,0c-11.746,0-11.746,18.236,0,18.236
 		c46.815,0,20.688,0,67.504,0C291.357,135.887,291.357,117.651,279.598,117.651z"/>
-	<polygon fill="#FFFFFF" points="93.921,51.694 305.859,51.694 305.859,167.438 327.745,167.438 327.745,29.811 72.038,29.811 
+	<polygon fill="#FFFFFF" points="93.921,51.694 305.859,51.694 305.859,167.438 327.745,167.438 327.745,29.811 72.038,29.811
 		72.038,101.182 93.921,101.182 	"/>
 	<path fill="#FFFFFF" d="M289.207,290.902c-0.027-2.329-0.215-4.644-0.613-6.875c3.276-2.635,9.846-7.893,9.846-7.893l0.362-11.025
 		l-15.145-18.864l-11.048-0.354c0,0-5.365,4.315-8.051,6.467c-2.793-1.451-5.756-2.691-8.849-3.646
@@ -85,23 +85,23 @@
 		l13.601,16.954l1.693,2.109l-0.084,2.698l-0.229,6.989c2.819,1.752,5.526,3.434,5.526,3.434l11.569-2.649l13.732-22.063
 		L334.041,239.456z"/>
 </g>
-</svg><h1 id="head" style="position:relative;left:-4%;">ENIGMA</h1></div>
-
+</svg></div>
+<h1 id="head" style="position:relative;top:-30px;margin:-5px;">ENIGMA</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
 			<li>
-				<div class="menu-tab">
-					<a href="desc.php"> DESCRIPTION</a>
-				</div>
+				<div class="menu-tab"><a href="desc.php"> DESCRIPTION</a></div>
 			</li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			<br>
+			
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			<br>
+			
+			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
+			
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
 		<!--<table id="nav">
@@ -124,18 +124,22 @@
 					<td><a href="about.php">ABOUT US</a></td>
 			</tr>
 			<tr>
+					<td><a href="reg.php">REGISTER</a></td>
+			</tr>
+			<tr>
 			<td><a href="contact.php">CONTACT US</a></td>
 			</tr>
 		</table>-->
 	</div>
-	<div class="col-lg-8" id="content" >
-		
+	<div class="col-lg-8" id="content" style="position:relative;top:-5px;">
+
 			<h1>Loading...</h1>
-			
-		
+
+
 	</div>
 	</div>
 </div>
+<?php include("/../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

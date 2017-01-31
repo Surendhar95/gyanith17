@@ -5,13 +5,13 @@
 
 		<meta charset="utf-8">
   		<title>Gyanith '17  | D-BUG C-BUG</title>
-  		
+
   		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
-  		
+
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
@@ -23,10 +23,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-		
+
 </head>
 <body >
-<?php 
+<?php
 	include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
@@ -56,8 +56,8 @@
 	c1.321-0.406,2.737,0.332,3.143,1.661c0,0,3.07,9.909,3.728,12.039c1.332,0.367,5.401,1.51,8.22,2.287
 	c0.095-0.447,0.179-0.898,0.291-1.335h39.139c0.099,0.437,0.186,0.888,0.287,1.335c2.814-0.773,6.878-1.919,8.217-2.287
 	c0.654-2.123,3.728-12.032,3.728-12.032c0.409-1.332,1.808-2.07,3.14-1.664C272.981,186.444,273.723,187.849,273.314,189.178z"/>
-</svg><h1 id="head" style="position:relative;left:-4%;">D-BUG C-BUG</h1></div>
-
+</svg></div>
+<h1 id="head">D-BUG C-BUG</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -73,30 +73,33 @@
 			<br>
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
 			<br>
+			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
+			<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
-		
+
 	</div>
 	<div class="col-lg-8" id="content" >
-		
+
 			<h1>Loading...</h1>
 			<!--
  background: #a9e4f7; /* Old browsers */
   background: -moz-linear-gradient(-45deg,  #5B5B5B 0%,#AAAAAA 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#5B5B5B), color-stop(100%,#AAAAAA)); /* Chrome,Safari4+ */ 
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#5B5B5B), color-stop(100%,#AAAAAA)); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(-45deg,  #5B5B5B 0%,#AAAAAA 100%); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(-45deg,  #5B5B5B 0%,#AAAAAA 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(-45deg,  #5B5B5B 0%,#AAAAAA 100%); /* IE10+ */
-  background: linear-gradient(135deg,  #5B5B5B 0%,#AAAAAA 100%); /* W3C */ 
+  background: linear-gradient(135deg,  #5B5B5B 0%,#AAAAAA 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5B5B5B', endColorstr='#AAAAAA',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
   background-attachment: fixed;
 -->
-			
-		
+
+
 	</div>
 	</div>
 </div>
+<?php include("/../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

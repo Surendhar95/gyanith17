@@ -36,17 +36,7 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
  
   background-attachment: fixed;
 }
-/*body{
-  
-  background-color: #466368;
-  background: linear-gradient(#222222,#00ACE9);
-   background: -webkit-linear-gradient(#222222,#00ACE9); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#222222,#00ACE9); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#222222,#00ACE9); /* For Firefox 3.6 to 15 */
-   
-  border-radius: 16px;
-  height: 1000px;
-}*/
+
 div{
   background:transparent;
 }
@@ -115,9 +105,9 @@ a:active {
   top: -25px;
   left: 18px;
   margin-bottom: 20px;
-    padding: 20px; 
-    width: 85%;
-    height: 120px; 
+    padding: 10px; 
+    /*width: 85%;*/
+    height: 100px; 
     margin-left: 7%;
     margin-right: 5%;
   background:transparent;
@@ -132,12 +122,12 @@ a:active {
 }
 #content{
   overflow-y: auto;
-  margin-top: 5px;
+ /* margin-top: 5px;*/
   font-size: px;
   padding: 30px 20px;
   border-radius:15px;
     width: 60%;
-    height: 550px; 
+    height: 450px; 
     margin-left: 5%;
     /*font-family: 'Oleo Script Swash Caps', cursive;*/
     font-size: 1.2em;
@@ -149,6 +139,8 @@ a:active {
   background-attachment: fixed;
   opacity: 1;
   color: black;
+  position:relative;
+  top:-100px;
 }
 .p{
   text-align: justify;
@@ -158,11 +150,12 @@ a:active {
 }
 #head{
   position: relative;
-  top: 20px;
+  top: -100px;
+ left:-150px;
 }
 h1#head{
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   vertical-align: center;
   float: right;
   /*font-family: 'Merriweather Sans', sans-serif;
@@ -174,7 +167,7 @@ h1#head{
   text-align: center;
   padding-top: 8px;
   width:220px;
-  height:50px;
+  height:40px;
    background: #a9e4f7; /* Old browsers */
   background-color:#222222;
  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000000, endColorstr=#aaaaaa);

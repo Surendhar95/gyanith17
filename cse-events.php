@@ -41,7 +41,7 @@ width:350px;
 			</div>
 		</header>
 		
-		<div class="logo row">
+		<div class="logo row" style="margin-top:40px;margin-bottom:-10px;">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#fff" d="M299.275,102.933H108.455c-3.603,0-6.522,2.921-6.522,6.522v190.82c0,3.602,2.92,6.522,6.522,6.522h190.821
@@ -93,7 +93,7 @@ width:350px;
 						</div>
 						<div id="web-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#fff" d="M354.162,90.697h-41.84l-4.607,5.013h-11.587l15.121-16.452c9.394-11.663,9.721-26.989,0.72-34.238
 	c-9.007-7.252-23.91-3.679-33.305,7.976l-95.145,135.181c-9.396,11.653-9.348,9.429-0.35,16.673
 	c1.929,1.555,3.326,2.775,4.452,3.657l-4.424,4.322c-9.553-9.411-28.218-13.943-34.497,2.605
@@ -109,7 +109,7 @@ width:350px;
 						</div>
 						<div id="enig-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M137.411,165.583c0,0-0.463-5.062-0.691-7.602c1.196-0.683,2.343-1.429,3.418-2.262
 		c1.902,1.097,5.692,3.292,5.692,3.292l6.476-1.699l7.337-12.684l-1.704-6.471c0,0-4.886-2.839-7.33-4.239
@@ -162,7 +162,7 @@ width:350px;
 						<div id="anta-logo" class="detail-div">
 							
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
 		<g>
@@ -279,6 +279,8 @@ width:350px;
 
 			})();			
 		</script>
+
+		<?php include("footer.php") ?>
 		<!--<script src="js/particles.js"></script>-->
 		<!-- <script src="js/app.js"></script> -->
 		<script src="js/classie.js"></script>

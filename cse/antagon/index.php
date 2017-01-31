@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-		
+
 
 		<meta charset="utf-8">
-		
+
   		<title>Gyanith '17  | ANTAGON</title>
   		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -12,7 +12,7 @@
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
-  		
+
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
@@ -24,10 +24,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-		
+
 </head>
 <body >
-<?php 
+<?php
 	include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
@@ -59,7 +59,7 @@
 		</g>
 	</g>
 </g>
-</svg><h1 id="head" style="position:relative;left:-4%;">ANTAGON</h1></div>
+</svg><h1 id="head" style="position:relative;top:30px;left:-90px;">ANTAGON</h1></div>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
@@ -69,7 +69,9 @@
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			<br>
+			
+			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
+		
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
 		<!--<table id="nav">
@@ -92,18 +94,22 @@
 					<td><a href="about.php">ABOUT US</a></td>
 			</tr>
 			<tr>
+					<td><a href="reg.php">REGISTER</a></td>
+			</tr>
+			<tr>
 			<td><a href="contact.php">CONTACT US</a></td>
 			</tr>
 		</table>-->
 	</div>
-	<div class="col-lg-8" id="content" >
-		
+	<div class="col-lg-8" id="content" style="position:relative;top:-5px;">
+
 			<h1>Loading...</h1>
-			
-		
+
+
 	</div>
 	</div>
 </div>
+<?php include("/../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

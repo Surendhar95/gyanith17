@@ -7,12 +7,15 @@
   		
     <title>Gyanith '17 | Dashboard</title>
     
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jqDashboard</script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/validation.min.js"></script>
     <script type="text/javascript" src="js/material.min.js"></script>
 	
     <script type="text/javascript" src="js/dashboard.js"></script>
+    
     
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -316,6 +319,73 @@ $tname = $result['tname'];*/
 
 </div>
 </div>
+
+<!--footer in this file has different position property-->	
+		<div>
+	
+<style>
+footer{
+	
+	position:absolute;
+	top:2200px;
+	left:0%;
+	right:0%;
+	font-size:15px;
+	text-align:center;
+	color:#fff;
+	/*margin-bottom:2%;*/
+	opacity:0.7;
+}
+
+footer hr{
+	width:97%;
+	position:relative;
+	left:17px;
+	
+}
+.clrch:hover{
+color:#19f6e8;
+}
+#socialicon{
+	/*padding-left:5%;*/
+/*padding-right:20px;*/
+margin-bottom:5px;
+}
+
+</style>
+
+<div id="fb-root"></div>
+			<script>
+				(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+
+<footer>
+<hr/>
+	<div class="footer">
+		<div class="row">
+			<div id="socialicon" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+					<img src="/images/twitter.svg" />
+					<img src="/images/youtube.svg"/>
+					<img src="/images/insta.svg"/>
+					<div style="padding-bottom:-40px;" class="fb-like" data-href="https://www.facebook.com/gyanith.nitpy/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clrch">
+					MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">GYANITH LOGO</div>
+		</div>
+	</div>
+</footer>
+
+
+		</div>
+
 
 		<script type="text/javascript" src="js/classie.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>

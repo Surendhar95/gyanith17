@@ -1,18 +1,18 @@
 <!doctype html>
 <html>
 <head>
-		
+
 
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=0.5">
   		<title>Gyanith '17  | JUNKYARD WARS</title>
-  		
+
   		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
-	
+
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
-  		
+
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
 		<link rel="stylesheet" href="../style.css"/>
@@ -25,7 +25,7 @@
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
 </head>
 <body >
-<?php 
+<?php
 include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
@@ -117,6 +117,8 @@ include ('../../loginicon.php');
 			<br>
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
 			<br>
+			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
+			<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
 		<!--<table id="nav">
@@ -144,13 +146,14 @@ include ('../../loginicon.php');
 		</table>-->
 	</div>
 	<div class="col-lg-8" id="content" >
-		
+
 			<h1>Loading...</h1>
-			
-		
+
+
 	</div>
 	</div>
 </div>
+<?php include("/../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

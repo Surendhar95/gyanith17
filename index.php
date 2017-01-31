@@ -35,6 +35,8 @@
 </head>
 
 <body>
+		
+
 		<?php include 'loginicon.php';?>
 		<?php include "sidebar.php";?>
 		<?php
@@ -166,7 +168,7 @@
 				</div>
 		</div>
 
-		
+		<?php include("footer.php") ?>
 		
 		<div id="particles-js"></div>
 		<script src="js/particles.js"></script>
