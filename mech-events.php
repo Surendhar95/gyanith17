@@ -279,15 +279,15 @@ width:350px;
 		<div class="dept-list">
 			<div class="list-1 row">
 				<div id="junk" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="mech/junkyardwars/index.php"><h5>JUNKYARD WARS</h5></a>
+					<a href="mech/junkyardwars/index.php"><h4>JUNKYARD WARS</h4></a>
 				</div>
 				<div id="burnout" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="mech/burnout/index.php"><h5>BURNOUT</h5></a>
+					<a href="mech/burnout/index.php"><h4>BURNOUT</h4></a>
 				</div>
 			</div>
 			<div class="list-2 row">
 				<div id="copter" class="dept-name col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
-					<a href="mech/copter-x/index.php"><h5>COPTER-X</h5></a>
+					<a href="mech/copter-x/index.php"><h4>COPTER-X</h4></a>
 				</div>
 				
 			</div>

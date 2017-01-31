@@ -27,21 +27,20 @@
   <link rel="stylesheet" type="text/css" href="css/style_click_drop.css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
+  <link rel="stylesheet" type="text/css" href="css/buttons.css"/>
+  <link rel="stylesheet" type="text/css" href="css/animate.css"/>
  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="js/material.min.js"></script>
   <script type="text/javascript" src="js/background.js"></script>
   <script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-  
+  <script type="text/javascript" src="noty-2.4.0/js/noty/packaged/jquery.noty.packaged.js"></script>
+  <script type="text/javascript" src="js/notification.js"></script>
 </head>
 
 <body>
-		
-
 		<?php include 'loginicon.php';?>
 		<?php include "sidebar.php";?>
-		<?php
-			include('notify.php');
- 		?>
+		
 		
 		<div id="gradient" />
 		<script src='https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js'></script>
@@ -127,8 +126,21 @@
 		var timeline = new mojs.Timeline({
 		  repeat: 999
 		}).add(burst,burst1, burst3,burst5,circ, circ2,circ3).play();
+
+		
+		
+		
+  
+    	
+	        
+
+	      
+	      
+    
+    	
 		  </script>
-		<!--image add begin-->
+
+		
 		<div id="logo">
 			<img src="images/logo.svg"/>
 		</div>
@@ -168,7 +180,7 @@
 				</div>
 		</div>
 
-		<?php include("footer.php") ?>
+		
 		
 		<div id="particles-js"></div>
 		<script src="js/particles.js"></script>

@@ -170,15 +170,15 @@ width:350px;
 		<div class="dept-list">
 			<div class="list-1 row">
 				<div id="detonate" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="ece/deton/index.php"><h5>DETONATE-X</h5></a>
+					<a href="ece/deton/index.php"><h4>DETONATE-X</h4></a>
 				</div>
 				<div id="tech" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="ece/tech/index.php"><h5>TECH-PURSUIT</h5></a>
+					<a href="ece/tech/index.php"><h4>TECH-PURSUIT</h4></a>
 				</div>
 			</div>
 			<div class="list-2 row">
 				<div id="pixel" class="dept-name col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
-					<a href="ece/pixel/index.php"><h5>PIXEL</h5></a>
+					<a href="ece/pixel/index.php"><h4>PIXEL</h4></a>
 				</div>
 				
 			</div>

@@ -3,13 +3,13 @@
 
 		<meta charset="utf-8">
   		<title>Gyanith '17  | Events</title>
-  		<link rel="stylesheet" href="css/style.css">
+  		
   		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
 		
   		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
-  		 
+  		 <link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
 		<link rel="stylesheet" href="css/material.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style_click_drop.css"/>
@@ -310,18 +310,18 @@ width:400px;
 		<div class="dept-list">
 			<div class="list-1 row">
 				<div id="cse" class="dept-name col-sm-6 col-md-6 col-lg-6">
-						<a href="cse-events.php" ><h5>COMPUTER SCIENCE</h5></a>
+						<a href="cse-events.php" ><h4>COMPUTER SCIENCE</h4></a>
 				</div>
 				<div id="ece" class="dept-name col-sm-6 col-md-6 col-lg-6">
-						<a href="ece-events.php" ><h5>ELECTRONICS AND COMMUNICATION</h5></a>
+						<a href="ece-events.php" ><h4>ELECTRONICS AND COMMUNICATION</h4></a>
 				</div>
 			</div>
 			<div class="list-2 row">
 				<div id="eee" class="dept-name col-sm-6 col-md-6 col-lg-6">
-						<a href="eee-events.php" ><h5>ELECTRICAL AND ELECTRONICS</h5></a>
+						<a href="eee-events.php" ><h4>ELECTRICAL AND ELECTRONICS</h4></a>
 				</div>
 				<div  id="mech" class="dept-name col-sm-6 col-md-6 col-lg-6">
-						<a href="mech-events.php" ><h5>MECHANICAL</h5></a>
+						<a href="mech-events.php" ><h4>MECHANICAL</h4></a>
 				</div>
 			</div>
 		</div>

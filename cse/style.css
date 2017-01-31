@@ -14,7 +14,7 @@ p {
     font-size: 17px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 10px;
 
   }
   h2 {
@@ -75,7 +75,7 @@ body {
 /* unvisited link */
 #ind a:link {
     color: white;
-    font-size: 1.375em;
+    font-size: 1.1em;
   margin-left:5px;
     /*font-family: 'Bentham', serif;*/
     
@@ -123,24 +123,21 @@ a:active {
 #content{
   overflow-y: auto;
  /* margin-top: 5px;*/
-  font-size: px;
   padding: 30px 20px;
   border-radius:15px;
-    width: 60%;
-    height: 450px; 
-    margin-left: 5%;
-    /*font-family: 'Oleo Script Swash Caps', cursive;*/
-    font-size: 1.2em;
-  
-   background: #a9e4f7; /* Old browsers */
-  background-color:#b3b3b3;
-
- 
+  width: 60%;
+  height: 450px; 
+  margin-left: 5%;
+  margin-top: 10px;
+  font-size: 1.2em;
+  background: #a9e4f7; /* Old browsers */
+  background-color:#b3b3b3; 
   background-attachment: fixed;
   opacity: 1;
   color: black;
-  position:relative;
-  top:-100px;
+  position: relative;
+  top: -80px;
+  
 }
 .p{
   text-align: justify;

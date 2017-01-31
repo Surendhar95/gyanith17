@@ -192,18 +192,18 @@ width:350px;
 		<div class="dept-list">
 			<div class="list-1 row">
 				<div id="dbug" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="cse/dbug/index.php"><h5>D-BUG C-BUG</h5></a>
+					<a href="cse/dbug/index.php"><h4>D-BUG C-BUG</h4></a>
 				</div>
 				<div id="web" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="cse/weblicate/index.php"><h5>WEBLICATE</h5></a>
+					<a href="cse/weblicate/index.php"><h4>WEBLICATE</h4></a>
 				</div>
 			</div>
 			<div class="list-2 row">
 				<div id="enig" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="cse/enigma/index.php"><h5>ENIGMA</h5></a>
+					<a href="cse/enigma/index.php"><h4>ENIGMA</h4></a>
 				</div>
 				<div  id="anta" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="cse/antagon/index.php"><h5>ANTAGON</h5></a>
+					<a href="cse/antagon/index.php"><h4>ANTAGON</h4></a>
 				</div>
 			</div>
 		</div>

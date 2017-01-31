@@ -140,15 +140,15 @@
 		<div class="dept-list">
 			<div class="list-1 row">
 				<div id="sync" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="eee/sync/index.php"><h5>SYNC</h5></a>
+					<a href="eee/sync/index.php"><h4>SYNC</h4></a>
 				</div>
 				<div id="rush" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="eee/rushhour/index.php"><h5>RUSH HOUR</h5></a>
+					<a href="eee/rushhour/index.php"><h4>RUSH HOUR</h4></a>
 				</div>
 			</div>
 			<div class="list-2 row">
 				<div id="link" class="dept-name col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
-					<a href="eee/linkit/index.php"><h5>LINK IT</h5></a>
+					<a href="eee/linkit/index.php"><h4>LINK IT</h4></a>
 				</div>
 				
 			</div>
