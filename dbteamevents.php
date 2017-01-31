@@ -187,13 +187,13 @@ if(isset($_POST['submittmeve'])){
         echo 'crtd '.$tnm;
       }
       else{
-        echo 'ncrtd '.$tnm.'<br/>Your team mate';
-        if($p1==0){echo ' '.$emt1.' ';}
-        if($p2==0){echo ' '.$emt2.' ';}
-        if($p3==0){echo ' '.$emt3.' ';}
-        if($p4==0){echo ' '.$emt4.' ';}
-        if($p5==0){echo ' '.$emt5.' ';}
-        echo 'present in another team . Cannot be added to your team';
+        echo 'ncrtd '.$tnm.'<br/> Your friends';
+        if($p1==0){echo '<br/>'.$emt1.' ';}
+        if($p2==0){echo '<br/>'.$emt2.' ';}
+        if($p3==0){echo '<br/>'.$emt3.' ';}
+        if($p4==0){echo '<br/>'.$emt4.' ';}
+        if($p5==0){echo '<br/>'.$emt5.' ';}
+        echo '<br/> Present in another team.<br/> Cannot be added to your team';
       }
 }
 }

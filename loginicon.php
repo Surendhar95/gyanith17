@@ -3,6 +3,7 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+
 </script>
 
 <div class="rightdropdown">

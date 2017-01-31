@@ -39,7 +39,7 @@ width:400px;
 		<header>
 			<div class="title row">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="300px" height="90px" viewBox="0 0 370 130" enable-background="new 0 0 370 130" xml:space="preserve">
+	 width="300px" height="90px" viewBox="0 0 370 130" enable-background="new 0 0 370 130" xml:space="preserve" style="position:relative;left:-77%;">
 <g>
 	<g>
 		<path fill="#FFFFFF" d="M88.078,76.237l-2.515,15.208H43.228l0.011-0.657h0.832c2.299,0,4.164-1.842,4.207-4.13v-36.42

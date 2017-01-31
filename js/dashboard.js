@@ -47,7 +47,7 @@ $(document).ready(function (){
 						}
 					}
 					else if(data.startsWith("Already")){
-						$("#alerteve").append("<div class='tnote'>"+data+"</div>");
+						$("#alerteve").append("<div class='tnote rdtxt'>"+data+"</div>");
 					}
                 }
             });
@@ -59,7 +59,7 @@ $(document).ready(function (){
         });
 
         function submitworkshops(){
-			//alert('validate');
+			
             var data=$("#dropworkshops").serialize();
             $.ajax({
                 type:'POST',
@@ -69,33 +69,43 @@ $(document).ready(function (){
                      $("#submitwrk").val("sending.....");
                 },
                 success: function(data){
+					var dispv;
 					$('#alertwrk').html('');
-					$("#submitwrk").val("Register for events");
-					var ind=data.indexOf("bltm");
+					$("#submitwrk").val("Register for Workshops");
+					if(data.substring(4)=='game'){dispv='Game Development Using VR'}
+					if(data.substring(4)=='plugdin'){dispv='Get PlugdIn'}
+					if(data.substring(4)=='control'){dispv='Take Control'}
+					if(data.substring(4)=='renewate'){dispv='Renewate Out World'}
+					if(data.substring(4)=='crabot'){dispv='Crabot'}
+					if(data.substring(4)=='take'){dispv='Take Off'}
+					//var ind=data.indexOf("bltm");
 					if(data.startsWith("upd")){
-                       
-					    $("#infowrk").append("<div class='tnote'>"+data.substring(4,(ind-1))+"</div>");
-						if(data.substring((ind+5))=='1'){
+                      // alert('upd');
+					  
+
+					    $("#infowrk").append("<div class='tnote'>"+dispv+"</div>");
+						//if(data.substring((ind+5))=='1'){
 						$("#dispwrk").hide();
 					//	$("#createteam").hide();
 					if(!$('#wcreateteam1').is(':visible') && !$('#msgwrk').is(':visible'))
 						{
+							//alert('upd form show');
 						$("#wcreateteam").show();}
-					}
+					//}
 					}
 					else if(data.startsWith("ins")){
 						//$("#infoeve").append("<div>Registered events are:<br/><div>");
-						$("#infowrk").append("<div class='tnote'>"+data.substring(4,(ind-1))+"</div>");
-						if(data.substring((ind+5))=='1'){
+						$("#infowrk").append("<div class='tnote'>"+dispv+"</div>");
+					//	if(data.substring((ind+5))=='1'){
 							$("#dispwrk").hide();
 					//	$("#createteam").hide();
 					if(!$('#wcreateteam1').is(':visible') && !$('#msgwrk').is(':visible'))
 						{
 						$("#wcreateteam").show();}
-						}
+						//}
 					}
 					else{
-						$("#alertwrk").append("<div class='tnote'>"+data+"</div>");
+						$("#alertwrk").append("<div class='tnote rdtxt'>"+data+"</div>");
 					}
                 }
             });
@@ -130,11 +140,11 @@ $(document).ready(function (){
 					{
 						//alert("if");
 						var num=data.substring(6);
-						if(num==1){$("#terr1").html("<div>GY-ID not valid</div>")}
-						if(num==2){$("#terr2").html("<div>GY-ID not valid</div>")}
-						if(num==3){$("#terr3").html("<div>GY-ID not valid</div>")}
-						if(num==4){$("#terr4").html("<div>GY-ID not valid</div>")}
-						if(num==5){$("#terr5").html("<div>GY-ID not valid</div>")}
+						if(num==1){$("#terr1").html("<div class='rdtxt'>GY-ID not valid</div>")}
+						if(num==2){$("#terr2").html("<div class='rdtxt'>GY-ID not valid</div>")}
+						if(num==3){$("#terr3").html("<div class='rdtxt'>GY-ID not valid</div>")}
+						if(num==4){$("#terr4").html("<div class='rdtxt'>GY-ID not valid</div>")}
+						if(num==5){$("#terr5").html("<div class='rdtxt'>GY-ID not valid</div>")}
 					}
 					else if(data.startsWith('crtd')){
 						$("#txtsub").hide();
@@ -144,7 +154,7 @@ $(document).ready(function (){
 						$("#txtsub").hide();
 						var mtind=data.indexOf("Your");
 						$("#tnmshow").html("<div class='label'>You are in team:&nbsp;&nbsp;<span class='tnote'> "+ data.substring(6,(mtind-1))+"</span></div>");
-						$("#tnmshow").append("<div class='label'><span class='tnote'> "+ data.substring((mtind))+"</span></div>");
+						$("#tnmshow").append("<div class='label'><span class='tnote rdtxt'> "+ data.substring((mtind))+"</span></div>");
 					
 					}
 
@@ -185,13 +195,30 @@ $(document).ready(function (){
                      $("#submittmwrk").val("sending.....");
                 },
 				success: function(data){
-					$("#wtxtsub").hide();
-					if(data.startsWith('success')){
-					$("#wtnmshow").html("<div class='label'>You are in team:&nbsp;&nbsp;<span class='tnote'> "+ data.substring(8)+"</span></div>");
+					$("#submittmwrk").val("Submit");
+					$("#wterr1").html('');$("#wterr2").html('');$("#wterr3").html('');$("#wterr4").html('');$("#wterr5").html('');
+				
+					if(data.startsWith('error'))
+					{
+						//alert("if");
+						var num=data.substring(6);
+						if(num==1){$("#wterr1").html("<div class='rdtxt'>GY-ID not valid</div>")}
+						if(num==2){$("#wterr2").html("<div class='rdtxt'>GY-ID not valid</div>")}
+						if(num==3){$("#wterr3").html("<div class='rdtxt'>GY-ID not valid</div>")}
+						if(num==4){$("#wterr4").html("<div class='rdtxt'>GY-ID not valid</div>")}
+						if(num==5){$("#wterr5").html("<div class='rdtxt'>GY-ID not valid</div>")}
+					}
+					else if(data.startsWith('crtd')){
+						$("#wtxtsub").hide();
+						$("#wtnmshow").html("<div class='label'>You are in team:&nbsp;&nbsp;<span class='tnote'> "+ data.substring(5)+"</span></div>");	
 					}
 					else{
-						$("#wtnmshow").html("<div class='label'><span class='tnote'> "+data+"</span></div>");
-					}
+						$("#wtxtsub").hide();
+						var mtind=data.indexOf("Your");
+						$("#wtnmshow").html("<div class='label'>You are in team:&nbsp;&nbsp;<span class='tnote'> "+ data.substring(6,(mtind-1))+"</span></div>");
+						$("#wtnmshow").append("<div class='label'><span class='tnote rdtxt'> "+ data.substring((mtind))+"</span></div>");
+					
+					}					
 
 				}
 			 });

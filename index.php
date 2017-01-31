@@ -160,10 +160,10 @@
 						</div>
 						<div class="col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
 						<div class="svg-wrapper">
-						  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+						  <a href="workshops.php"><svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
 							<rect class="shape" height="60" width="320" />
 							<div class="text">WORKSHOPS</div>
-						  </svg>
+						  </svg></a>
 						</div>
 						</div>
 
@@ -181,7 +181,7 @@
 		</div>
 
 		
-		
+		<?php include("footer.php"); ?>
 		<div id="particles-js"></div>
 		<script src="js/particles.js"></script>
 		<script src="js/app.js"></script>

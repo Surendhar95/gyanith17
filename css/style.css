@@ -426,7 +426,7 @@ margin:30px 40px;
 
 /*Menu slideshare*/
 
-html, 
+/*html,*/ 
 .contain, 
 .content-wrap {
 	overflow: auto;
@@ -437,7 +437,7 @@ html,
 	 background-color: #000000;
    padding: 0px;
    margin: 0px;
-   overflow-y: auto;
+  /* overflow-y: auto;*/
  }
 
 #gradient,particles-js
@@ -751,7 +751,7 @@ html,
 	width: 90%;
 	margin-top: 50px;
 	margin-left: 5%;
-	height:100px;
+	/*height:100px;*/
 	text-align: center;
 	
 }
@@ -784,9 +784,10 @@ html,
 	position: absolute;
 	width: 90%;
 	margin-left: 5%;
-	height:150px;
-	margin-top: 50px;
+	/*height:150px;*/
+/*	margin-top: 50px;*/
 	text-align: center;
+	margin-top:-40px;
 	
 	
 }

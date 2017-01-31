@@ -136,17 +136,21 @@ $e->getMessage();
 </form>
 </div>
 
-<!--workshops regs start--><!--
+<!--workshops regs start-->
 <div>
     <br/><br/><br/> <div class="hdng">Workshops Registration</div>
    <div class="hr"></div>
-<form id="dropworkshops" method="post"><!-- action="dbworkshops.php">
+<form id="dropworkshops" method="post"><!-- action="dbworkshops.php">-->
 <div id="alertwrk"></div>
 <div class="label">Workshops</div>
 <select name="workshops" id="workshops" class="selectdrp">
 <option value="" disabled selected>Select workshops</option>
-<option value="android">Android</option>
-<option value="hackpro">Hackpro</option>
+<option value="game">Game Development Using VR</option>
+<option value="plugdin">Get PlugdIn</option>
+<option value="control">Take Control</option>
+<option value="renewate">Renewate Out World</option>
+<option value="crabot">Crabot</option>
+<option value="take">Take Off</option>
 </select>
 <br/>
 <input type="submit" id="submitwrk"  class="bttn" name="submitwrk" value="Click to Register for Workshops"/>
@@ -155,31 +159,36 @@ $e->getMessage();
 <div id='infowrk'><!--for mssg display-->
 
 <?php
-/*
+
 try{
-//include("dbcon.php");
-//$db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
-//$g_id=$_SESSION['g_id'];
 $sql="SELECT * FROM workshops WHERE g_id=:gid";
 $stmt2 = $db->prepare($sql);
 $stmt2->execute(array(':gid'=>$g_id));
 $result=$stmt2->fetch();
 $wtest=0;
-if($result['android']=='1')
-{	echo '<div class="tnote">Android</div>';$wtest=1;}
-if($result['hackpro']=='1')
-{	echo '<div class="tnote">Hackpro</div>';$wtest=1;}
+if($result['game']=='1')
+{	echo '<div class="tnote">Game Development Using VR</div>';$wtest=1;}
+if($result['plugdin']=='1')
+{	echo '<div class="tnote">Get PlugdIn</div>';$wtest=1;}
+if($result['control']=='1')
+{	echo '<div class="tnote">Take Control</div>';$wtest=1;}
+if($result['renewate']=='1')
+{	echo '<div class="tnote">Renewate Out World</div>';$wtest=1;}
+if($result['crabot']=='1')
+{	echo '<div class="tnote">Crabot</div>';$wtest=1;}
+if($result['take']=='1')
+{	echo '<div class="tnote">Take Off</div>';$wtest=1;}
 }
 catch(PDOException $e){
 $e->getMessage();
-}*/
+}
 ?>
-<!--</div><br/>
+</div><br/>
 </form>
 </div>
--->
-<!--workshops regs end-->
 
+<!--workshops regs end-->
+<br/><br/>
 <br/>
 <div id="team">
 <div class="hdng">Teams</div>
@@ -201,20 +210,20 @@ if($tid==null){
 <div id="txtsub" name="txtsub">
 <input type="text" id="etname" name="etname" class="txtinp" placeholder="Enter team name"/><br/>
 <input type="text" id="emate1" name="emate1" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="terr1" class="alert alert-danger"></div><br/>
+<div id="terr1" class=""></div><br/>
 <input type="text" id="emate2" name="emate2" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="terr2" class="alert alert-danger"></div><br/>
+<div id="terr2" class=""></div><br/>
 <input type="text" id="emate3" name="emate3" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="terr3" class="alert alert-danger"></div><br/>
+<div id="terr3" class=""></div><br/>
 <input type="text" id="emate4" name="emate4" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="terr4" class="alert alert-danger"></div><br/>
+<div id="terr4" class=""></div><br/>
 <input type="text" id="emate5" name="emate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="terr5" class="alert alert-danger"></div><br/>
+<div id="terr5" class=""></div><br/>
 <div class="label">Refer events details for number of members in team</div>
 <input type="submit" id="submittmeve" name="submittmeve"  class="bttn"/>
 </div>
 </form>
-<div id="tnmshow"></div>
+<div id="tnmshow" style="border:5px solid #fff;background-color:red;"></div>
 </div>
 <?php }
 else{?>
@@ -235,15 +244,15 @@ $tname = $result['tname'];
 <div id="txtsub" name="txtsub">
 <input type="text" id="etname" name="etname" class="txtinp" placeholder="Enter team name"/><br/>
 <input type="text" id="emate1" name="emate1" class="txtinp" placeholder="Enter team Member GY-ID"/>
-<div id="terr1" class="alert alert-danger"></div><br/>
+<div id="terr1" class=""></div><br/>
 <input type="text" id="emate2" name="emate2" class="txtinp" placeholder="Enter team Member GY-ID"/>
-<div id="terr2" class="alert alert-danger"></div><br/>
+<div id="terr2" class=""></div><br/>
 <input type="text" id="emate3" name="emate3" class="txtinp" placeholder="Enter team Member GY-ID"/>
-<div id="terr3" class="alert alert-danger"></div><br/>
+<div id="terr3" class=""></div><br/>
 <input type="text" id="emate4" name="emate4" class="txtinp" placeholder="Enter team Member GY-ID"/>
-<div id="terr4" class="alert alert-danger"></div><br/>
+<div id="terr4" class=""></div><br/>
 <input type="text" id="emate5" name="emate5" class="txtinp" placeholder="Enter team Member GY-ID"/>
-<div id="terr5" class="alert alert-danger"></div><br/>
+<div id="terr5" class=""></div><br/>
 <div class="label">Refer events details for number of members in team</div>
 <input type="submit" id="submittmeve" name="submittmeve"  class="bttn"/>
 </div>
@@ -254,17 +263,17 @@ $tname = $result['tname'];
 </div>
 
 <br/><br/>
-<!--team wrkshop regs begin--><!--
+<!--team wrkshop regs begin-->
 <div id="teamwrk" class="boxsh">
 <div class="label" style="text-align:center;">Team for Workshops</div>
-<?php/*
+<?php
 $sql="SELECT t_id FROM workshops WHERE g_id=:gid";
 $stmt1 = $db->prepare($sql);
 $stmt1->execute(array(':gid'=>$g_id));
 $result=$stmt1->fetch();
 $tid = $result['t_id'];
 if($tid==null){
-     if($wtest==1){*/
+     if($wtest==1){
 ?>
 <div id="wcreateteam1">
 <button id="wplus" class="plus">+</button>
@@ -272,47 +281,57 @@ if($tid==null){
     <div id="wtxtsub" name="wtxtsub">
 <input type="text" id="wtname" name="wtname" class="txtinp" placeholder="Enter team name" /><br/>
 <input type="text" id="wemate1" name="wemate1" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr1" class=""></div><br/>
 <input type="text" id="wemate2" name="wemate2" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr2" class=""></div><br/>
 <input type="text" id="wemate3" name="wemate3" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr3" class=""></div><br/>
 <input type="text" id="wemate4" name="wemate4" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr4" class=""></div><br/>
 <input type="text" id="wemate5" name="wemate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr5" class=""></div><br/>
 <div class="label">Refer Workshop details for number of members in team</div>
 <input type="submit" id="submittmwrk" name="submittmwrk" class="bttn" />
 </div>
 </form>
 <div id="wtnmshow"></div>
 </div>
-<?php /*
+<?php 
 }
-else{ */?>
+else{ ?>
     <div class="label" id="dispwrk">&nbsp;Register in a team Workshops to create team</div>
-<?php/* }
+<?php }
 }else{
   $sql="SELECT tname FROM wrkteam WHERE t_id=:tid";  
   $stmt1 = $db->prepare($sql);
 $stmt1->execute(array(':tid'=>$tid));
 $result=$stmt1->fetch();
-$tname = $result['tname'];*/
+$tname = $result['tname'];
 ?>
 <div class="label" id="msgwrk">You are in team:&nbsp;&nbsp;<span class="tnote"><?php echo $tname ?></span></div>
-<?php/* } */?>
+<?php } ?>
 <div id="wcreateteam">
 <button id="wplus" class="plus">+</button>
 <form id="teamworkshops" method="post">
     <div id="wtxtsub" name="wtxtsub">
 <input type="text" id="wtname" name="wtname" class="txtinp" placeholder="Enter team name" /><br/>
 <input type="text" id="wemate1" name="wemate1" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr1" class=""></div><br/>
 <input type="text" id="wemate2" name="wemate2" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr2" class=""></div><br/>
 <input type="text" id="wemate3" name="wemate3" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr3" class=""></div><br/>
 <input type="text" id="wemate4" name="wemate4" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr4" class=""></div><br/>
 <input type="text" id="wemate5" name="wemate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr5" class=""></div><br/>
 <div class="label">Refer Workshop details for number of members in team</div>
 <input type="submit" id="submittmwrk" name="submittmwrk" class="bttn" />
 </div>
 </form>
 <div id="wtnmshow"></div>
 </div>
-</div>-->
+</div>
 <!--team wrkshop regs begin-->
 </div>
 </div>
@@ -327,7 +346,7 @@ $tname = $result['tname'];*/
 footer{
 	
 	position:absolute;
-	top:2200px;
+	top:2400px;
 	left:0%;
 	right:0%;
 	font-size:15px;

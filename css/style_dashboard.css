@@ -16,6 +16,9 @@ body {
 .clearfix:after,.clearfix:before{content:'';display:table}
 .clearfix:after{clear:both;display:block}
 
+.rdtxt{
+	color:#b70021;
+}
 a{
 text-decoration:none;
 }
@@ -38,9 +41,10 @@ p,h1,h2,h3,h4,h5,body,html {
 	width:100%;
 	margin:auto;
 	max-width:525px;
-	min-height:2200px;
+	min-height:2400px;
 	box-shadow: 0 0 40px rgba(0,0,0,1);
 	position:relative;
+	top:10px;
    /* font-family:"Comic Sans MS", cursive, sans-serif;
     font-weight: bold;*/
 }
