@@ -908,3 +908,30 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
     font-weight:normal;
     border-radius: 10px;
 }
+
+/*Preloader*/
+.preloader { 
+  position: fixed;
+  z-index: 99999;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+  padding: 0;
+  background: black;
+}
+
+svg {
+  position: absolute;
+  width: 240px;
+  height: 120px;
+  top: 0; right: 0;
+  bottom: 0; left: 0; 
+  margin: auto;
+}
+.credit {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+
