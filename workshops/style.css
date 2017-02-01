@@ -119,6 +119,7 @@ a:active {
 }
 #index{
   /*margin-top: 50px;*/
+   margin-top: 50px;
     padding: 20px; 
     width: 22%;
     height: 450px; 
@@ -126,6 +127,7 @@ a:active {
 
 }
 #content{
+   margin-top: 40px;
   overflow-y: auto;
  /* margin-top: 5px;*/
   font-size: px;

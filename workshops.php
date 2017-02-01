@@ -4221,10 +4221,10 @@ AAAAAAAAAAAAAGg6/38A0BqISpTkwHEAAAAASUVORK5CYII=" transform="matrix(0.1746 0 0 0
 
 
 						</div>
-						<div id="energy-logo" class="detail-div">
+						<div id="rc-logo" class="detail-div">
 							
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#D8DCDB" d="M115.267,237.326l41.732,41.525c2.273,2.271,6.405,35.121,4.132,37.393l-8.264,8.264
 	c-2.272,2.271-5.991,2.271-8.264,0l-4.338-4.338l-33.055-33.055c-13.429-13.43-27.064-26.857-33.468-33.469l-4.132-4.132
 	c-2.272-2.272-2.272-5.991,0-8.264l8.264-8.264C80.146,230.715,112.994,235.053,115.267,237.326z"/>
