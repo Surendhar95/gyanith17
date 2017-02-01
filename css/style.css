@@ -830,6 +830,7 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
 }
 
 .dept-name {
+	height: 100%;
 	cursor: pointer;
 	margin-top: 2%;
 	text-align: center;
@@ -910,9 +911,9 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
 }
 
 /*Preloader*/
-.preloader { 
+/*.preloader { 
   position: fixed;
-  z-index: 99999;
+  z-index: 999999;
   width: 100%; 
   height: 100%;
   margin: 0; 
@@ -934,4 +935,4 @@ svg {
   width: 100%;
   text-align: center;
 }
-
+*/

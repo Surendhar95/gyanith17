@@ -38,20 +38,14 @@
 </head>
 
 <body>
-		<?php include "preloader.php";?>
+		
 		<?php include 'loginicon.php';?>
 		<?php include "sidebar.php";?>
 		
 		
 		<div id="gradient" />
 		<script src='https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js'></script>
-		<script type="text/javascript">
-			$(window).on('load', function() {
-   				$(".preloader").hide();
-			});
-
-
-		</script>
+		
 	<!--	<script>
 			'use strict';
 

@@ -113,7 +113,7 @@
 	height: 100%;
 	background: #373a47;
 	padding: 2.5em 1.5em 0;
-	font-size: 1.15em;
+	font-size: 1.2em;
 	-webkit-transform: translate3d(-320px,0,0);
 	transform: translate3d(-320px,0,0);
 	-webkit-transition: -webkit-transform 0.4s;
@@ -128,7 +128,7 @@
 	z-index: 6000;
 }
 .icon-list {
-	font-size: 16px;
+	font-size: 18px;
 	text-decoration: none;
 }
 .icon-list span:hover{
