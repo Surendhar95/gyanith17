@@ -22,7 +22,14 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
+<style>
+ #content ol li{
+	font-size: 17px;  
+  }
+ #content ul li{
+	  font-size: 17px;
+  }
+</style>
 </head>
 <body >
 <?php
@@ -33,7 +40,7 @@
 #4EB1BA
 #E9E9E9-->
 <div>
-	<div id="logo" style="margin-bottom:-35px;left:40px;margin-top:-8px;"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	<div id="logo" style="margin-bottom:-50px;left:40px;margin-top:-8px;"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="180px" height="180px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M113.736,275.606c-1.012,0-2.008,0.409-2.722,1.129c-0.719,0.714-1.13,1.71-1.13,2.722c0,1.011,0.411,2.007,1.13,2.722
@@ -90,8 +97,8 @@
 		c0.713,0.719,1.71,1.13,2.722,1.13c1.011,0,2.007-0.411,2.721-1.13c0.719-0.713,1.129-1.709,1.129-2.721s-0.411-2.008-1.129-2.722
 		C115.744,103.489,114.748,103.079,113.736,103.079z"/>
 </g>
-</svg><h1 id="head" style="position:relative;left:-5%;top:50%;">COPTER-X</h1></div>
-<br/>
+</svg><h1 id="head" style="position:relative;left:-8%;top:50%;">COPTER-X</h1></div>
+
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -100,17 +107,17 @@
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="resource.php">  RESOURCES</a></div></li>
-<br/>
+
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 			</ul>
 	</div>
@@ -122,7 +129,7 @@
 	</div>
 	</div>
 </div>
-<?php include("../../footer.php") ?>
+<?php include("/../../footer.php") ?>
 				<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

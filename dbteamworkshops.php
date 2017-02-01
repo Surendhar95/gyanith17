@@ -25,61 +25,71 @@ if(isset($_POST['submittmwrk'])){
       $result=$stmt2->execute(array(':tid'=>$tid,':gid'=>$g_id));
       
         //validate gid for team membe
-        $valid1=0;$valid2=0;$valid3=0;$valid4=0;$valid5=0;
+        $valid1=0;$valid2=0;$valid3=0;$valid4=0;$valid5=0;$valid6=0;
 
         $sql="SELECT * FROM users WHERE g_id=:gid";
         $stmt1 = $db->prepare($sql);
        
         if(!empty($_POST['wemate1'])){
           $emate1=$_POST['wemate1'];
-          
+          if($emate1!=$g_id){
           $stmt1->execute(array(':gid'=>$emate1));
           $result=$stmt1->fetch();
           $gid1 = $result['g_id'];
           if($gid1==null){echo 'error 1'; exit(); }
           $valid1=1;
+          }
         }
         if(!empty($_POST['wemate2'])){
           $emate2=$_POST['wemate2'];
-          
+           if($emate2!=$g_id){
           $stmt1->execute(array(':gid'=>$emate2));
           $result=$stmt1->fetch();
           $gid2 = $result['g_id'];
           if($gid2==null){echo 'error 2'; exit(); }
           $valid2=1;
-        }
+        }}
 
         if(!empty($_POST['wemate3'])){
           $emate3=$_POST['wemate3'];
-          
+           if($emate3!=$g_id){
           $stmt1->execute(array(':gid'=>$emate3));
           $result=$stmt1->fetch();
           $gid3 = $result['g_id'];
           if($gid3==null){echo 'error 3'; exit(); }
           $valid3=1;
-        }
+        }}
         if(!empty($_POST['wemate4'])){
           $emate4=$_POST['wemate4'];
-          
+           if($emate4!=$g_id){
           $stmt1->execute(array(':gid'=>$emate4));
           $result=$stmt1->fetch();
           $gid4 = $result['g_id'];
           if($gid4==null){echo 'error 4'; exit(); }
           $valid4=1;
-        }
+        }}
 
         if(!empty($_POST['wemate5'])){
           $emate5=$_POST['wemate5'];
-          
+           if($emate5!=$g_id){
           $stmt1->execute(array(':gid'=>$emate5));
           $result=$stmt1->fetch();
           $gid5 = $result['g_id'];
           if($gid5==null){echo 'error 5'; exit(); }
           $valid5=1;
-        }
+        }}
 
+        if(!empty($_POST['wemate6'])){
+          $emate6=$_POST['wemate6'];
+           if($emate6!=$g_id){
+          $stmt1->execute(array(':gid'=>$emate6));
+          $result=$stmt1->fetch();
+          $gid6 = $result['g_id'];
+          if($gid6==null){echo 'error 6'; exit(); }
+          $valid6=1;
+        }}
       //for echo selection
-        $p1=1;$p2=1;$p3=1;$p4=1;$p5=1;
+        $p1=1;$p2=1;$p3=1;$p4=1;$p5=1;$p6=1;
 
          //statemnt prepare for presence of mate in workshop table
         $sql="SELECT * FROM workshops WHERE g_id=:gid";
@@ -179,8 +189,23 @@ if(isset($_POST['submittmwrk'])){
         //  echo 'success '.$tnm;
       }
       }
+
+         if($valid6==1){
+        $stmt1->execute(array(':gid'=>$emate6));
+        $result=$stmt1->fetch();
+		  	$emt6 = $result['g_id'];
+        $etid6=$result['t_id'];
+        if($emt6!=null && $etid6==null){
+          $result=$stmt2->execute(array(':tid'=>$tid,':gid'=>$emt6));
+        }
+      else if($emt6!=null && $etid6!=null){$p6=0;
+         }
+      else{
+          $stmt3->execute(array(':gid'=>$emate6,':tid'=>$tid));
+        }
+      }
      
-      if($p1==1 && $p2==1 && $p3==1 && $p4==1 && $p5==1){
+      if($p1==1 && $p2==1 && $p3==1 && $p4==1 && $p5==1 && $p6==1){
         echo 'crtd '.$tnm;
       }
      else{
@@ -190,6 +215,7 @@ if(isset($_POST['submittmwrk'])){
         if($p3==0){echo '<br/>'.$emt3.' ';}
         if($p4==0){echo '<br/>'.$emt4.' ';}
         if($p5==0){echo '<br/>'.$emt5.' ';}
+        if($p6==0){echo '<br/>'.$emt6.' ';}
         echo '<br/> Present in another team.<br/> Cannot be added to your team';
       }
      

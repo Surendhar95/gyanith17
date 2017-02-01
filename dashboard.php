@@ -290,6 +290,8 @@ if($tid==null){
 <div id="wterr4" class=""></div><br/>
 <input type="text" id="wemate5" name="wemate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
 <div id="wterr5" class=""></div><br/>
+<input type="text" id="wemate6" name="wemate6" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr6" class=""></div><br/>
 <div class="label">Refer Workshop details for number of members in team</div>
 <input type="submit" id="submittmwrk" name="submittmwrk" class="bttn" />
 </div>
@@ -325,6 +327,8 @@ $tname = $result['tname'];
 <div id="wterr4" class=""></div><br/>
 <input type="text" id="wemate5" name="wemate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
 <div id="wterr5" class=""></div><br/>
+<input type="text" id="wemate6" name="wemate6" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr6" class=""></div><br/>
 <div class="label">Refer Workshop details for number of members in team</div>
 <input type="submit" id="submittmwrk" name="submittmwrk" class="bttn" />
 </div>
@@ -354,6 +358,7 @@ footer{
 	color:#fff;
 	/*margin-bottom:2%;*/
 	opacity:0.7;
+	z-index:-1;
 }
 
 footer hr{

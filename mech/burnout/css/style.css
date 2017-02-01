@@ -11,3 +11,9 @@ ul#nav li{
 ul#nav li a{
 	text-decoration: none;
 }
+ #content ol li{
+	font-size: 17px;  
+  }
+ #content ul li{
+	  font-size: 17px;
+  }

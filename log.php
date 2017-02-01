@@ -29,22 +29,6 @@
 	 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-<script>
-$(document).ready(function (){
- 	//alert('ready');
-           //colleges drop down
-		   $(".coltxt").hide();
-             $("#college").change(function() {
-                 if ($(this).val() == "0") {
-                    // alert('value');
-					$(".coltxt").show();
- 				}
-				 else{
-					 $(".coltxt").hide();
-				 }
-			 });
-			 });
-</script>
 
 
 	</head>
@@ -96,7 +80,7 @@ $(document).ready(function (){
 
 		<!--signup form begin-->
 					<div class="sign-up-htm">
-					<form method="post" id="signup-form" name="signupform" autocomplete="off" >
+					<form method="post" id="signup-form" autocomplete="off"><!-- method="post" action="valid_reg.php">-->
 					<br/><div class="group" style="text-align:center;position:relative;left:-15px;" id="error">
 									<!-- error will be showen here ! -->
 								</div>
@@ -131,7 +115,7 @@ $(document).ready(function (){
 						<div class="group">
 							<label for="pass" class="label">College</label>
 							<?php include ('collegeselect.php'); ?><br/>
-							<input name="college" id="college" type="text" class="input coltxt" placeholder="College name">
+							<input name="collegetxt" id="collegetxt" type="text" class="input coltxt" required placeholder="College name">
 						</div>
 						<div class="group">
 							<label for="pass" class="label">Mobile</label>
@@ -174,7 +158,7 @@ $(document).ready(function (){
 footer{
 	
 	position:absolute;
-	top:1100px;
+	top:1300px;
 	left:0%;
 	right:0%;
 	font-size:15px;
@@ -182,6 +166,7 @@ footer{
 	color:#fff;
 	/*margin-bottom:2%;*/
 	opacity:0.7;
+	z-index:-1;
 }
 
 footer hr{

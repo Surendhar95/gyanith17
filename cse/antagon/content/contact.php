@@ -1,22 +1,5 @@
-
-<head>
-	<link href="../../style.css"/>
-</head>
-<!-- <style>
-	p {
-		font-size: 18px;
-	}
-	h3 {
-		font-size: 18px;
-
-	}
-	h2 {
-		font-size: 20px;
-	}
-	h1 {
-		font-size: 24px;
-		font
-	}
-</style> -->
-<h1>Contact</h1>
-<p>Call us on 4200567891</p>
+<p>
+<b>Deepak.B</b><br>ph no: <b>+91 8686403746</b><br>Email: <b>bathaladeepak@gmail.com</b><br><br>
+<b>Dharma Teja.N</b><br>ph no: <b>+91 8179744315</b><br>Email: <b>dharmateja.ongole@gmail.com</b><br><br>
+<b>PoojithaDesu</b><br>ph no: <b>+91 8508815394</b><br>Email: <b>poojithadesu1207@gmail.com</b>  
+</p>

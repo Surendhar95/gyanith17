@@ -34,52 +34,52 @@ if(isset($_POST['submittmeve'])){
         
         if(!empty($_POST['emate1'])){
           $emate1=$_POST['emate1'];
-          
+          if($emate1!=$g_id){
           $stmt1->execute(array(':gid'=>$emate1));
           $result=$stmt1->fetch();
           $gid1 = $result['g_id'];
           if($gid1==null){echo 'error 1'; exit(); }
           $valid1=1;
-        }
+        }}
         
         if(!empty($_POST['emate2'])){
           $emate2=$_POST['emate2'];
-          
+          if($emate2!=$g_id){
           $stmt1->execute(array(':gid'=>$emate2));
           $result=$stmt1->fetch();
           $gid2 = $result['g_id'];
           if($gid2==null){echo 'error 2'; exit(); }
           $valid2=1;
-        }
+        }}
 
         if(!empty($_POST['emate3'])){
           $emate3=$_POST['emate3'];
-          
+          if($emate3!=$g_id){
           $stmt1->execute(array(':gid'=>$emate3));
           $result=$stmt1->fetch();
           $gid3 = $result['g_id'];
           if($gid3==null){echo 'error 3'; exit(); }
           $valid3=1;
-        }
+        }}
 
         if(!empty($_POST['emate4'])){
           $emate4=$_POST['emate4'];
-          
+          if($emate4!=$g_id){
           $stmt1->execute(array(':gid'=>$emate4));
           $result=$stmt1->fetch();
           $gid4 = $result['g_id'];
           if($gid4==null){echo 'error 4'; exit(); }
           $valid4=1;
-        }
+        }}
         if(!empty($_POST['emate5'])){
           $emate5=$_POST['emate5'];
-          
+          if($emate5!=$g_id){
           $stmt1->execute(array(':gid'=>$emate5));
           $result=$stmt1->fetch();
           $gid5 = $result['g_id'];
           if($gid5==null){echo 'error 5'; exit(); }
           $valid5=1;
-        }
+        }}
 
 
         //for echo selection

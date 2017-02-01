@@ -12,6 +12,7 @@ footer{
 	color:#fff;
 	/*margin-bottom:2%;*/
 	opacity:0.7;
+	z-index:50;
 }
 
 footer hr{
@@ -48,15 +49,15 @@ margin-bottom:5px;
 	<div class="footer">
 		<div class="row">
 			<div id="socialicon" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-					<a href="https://twitter.com/nitpygyanith" target="_blank"><img src="/images/twitter.svg" /></a>
-					<a href="" target="_blank"><img src="/images/youtube.svg"/></a>
-					<a href="https://www.instagram.com/nitpygyanith/" target="_blank"><img src="/images/insta.svg"/></a>
+					<img src="/images/twitter.svg" />
+					<img src="/images/youtube.svg"/>
+					<img src="/images/insta.svg"/>
 					<div style="padding-bottom:-40px;" class="fb-like" data-href="https://www.facebook.com/gyanith.nitpy/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clrch">
 					MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">GYANITH LOGO</div>
 		</div>
 	</div>
 </footer>
