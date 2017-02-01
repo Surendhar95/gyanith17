@@ -8,7 +8,7 @@ require_once "recaptchalib.php";
 require_once('PHPMailer-master/PHPMailerAutoload.php');
 
 $mail = new PHPMailer;
-$path="images/landlogo.png";
+$path="/pdf/Gyanith'17 Schedule.pdf";
 $mail->isSMTP();                                      // Set mailer to use SMTP
 //$mail->Host = 'smtp.gmail.com';                     // Specify main and backup SMTP servers
 //$mail->Host = 'smtp.mailgun.org';                     // Specify main and backup SMTP servers
@@ -131,9 +131,9 @@ $actual_link = "http://$_SERVER[HTTP_HOST]/"."activate.php?id=" . $g_id;
 			 Click on the below link to activate your account.<br>
 ".$actual_link."<br><br>
 
-We welcome you to NIT Puducherry to experience three days of innovation and science. Gear up to experience engineering like never before.
+We welcome you to NIT Puducherry to experience three days of innovation and science. Gear up to experience engineering like never before.<br/>
 GYANITH ‘17 is the first collaborated technical fest hosted by NIT Puducherry. It is a union of 4 departments, coming together to celebrate science and innovation. GYANITH literally translates to “inspiring”. Hence, we are here to inspire you and give you an unforgettable experience of learning, fun and creation. We invite you to join us, from 24th  to 26th of February, in the inaugural edition of GYANITH and get inspired.
-We have attached the schedule of events for your reference. Do visit our website www.gyanith.org for more information and registration of events. In case of any queries please contact                          
+We have attached the schedule of events for your reference.<br/> Do visit our website <a href='https://www.gyanith.org'>https://www.gyanith.org</a> for more information and registration of events. In case of any queries please contact                          
 We hope to serve you in the best way and provide you with a great learning experience.
 
 Regards,
@@ -144,9 +144,9 @@ $body1="<p>Greetings from team GYANITH!!<br>
 			 Click on the below link to activate your account.<br>
 ".$actual_link."<br><br>
 
-We welcome you to NIT Puducherry to experience three days of innovation and science. Gear up to experience engineering like never before.
+We welcome you to NIT Puducherry to experience three days of innovation and science. Gear up to experience engineering like never before.<br/>
 GYANITH ‘17 is the first collaborated technical fest hosted by NIT Puducherry. It is a union of 4 departments, coming together to celebrate science and innovation. GYANITH literally translates to “inspiring”. Hence, we are here to inspire you and give you an unforgettable experience of learning, fun and creation. We invite you to join us, from 24th  to 26th of February, in the inaugural edition of GYANITH and get inspired.
-We have attached the schedule of events for your reference. Do visit our website www.gyanith.org for more information and registration of events. In case of any queries please contact                          
+We have attached the schedule of events for your reference.<br/> Do visit our website <a href='https://www.gyanith.org'>https://www.gyanith.org</a> for more information and registration of events. In case of any queries please contact                          
 We hope to serve you in the best way and provide you with a great learning experience.
 
 Regards,
