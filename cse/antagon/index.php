@@ -60,7 +60,7 @@
 	</g>
 </g>
 </svg><h1 id="head" style="position:relative;top:30px;left:-90px;">ANTAGON</h1></div>
-<br/>
+
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -69,9 +69,9 @@
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-		<br/>	
+			
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-		<br/>
+		
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
 		<!--<table id="nav">

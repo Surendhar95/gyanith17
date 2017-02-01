@@ -64,7 +64,7 @@ include ('../../loginicon.php');
 </g>
 </svg></div>
 <h1 id="head" style="margin:-2px;position:relative;top:-50px;margin-bottom:20px;">DETONATE-X</h1>
-<br/>
+
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -73,15 +73,15 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-		<br/>
+		
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
 		</div>
