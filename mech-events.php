@@ -279,7 +279,7 @@ width:350px;
 		<div class="dept-list">
 			<div class="list-1 row">
 				<div id="junk" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="mech/junkyardwars/index.php"><h4>JUNKYARD WARS</h4></a>
+					<a href="mech/deadshot/index.php"><h4>DEADSHOT</h4></a>
 				</div>
 				<div id="burnout" class="dept-name col-sm-6 col-md-6 col-lg-6">
 					<a href="mech/burnout/index.php"><h4>BURNOUT</h4></a>

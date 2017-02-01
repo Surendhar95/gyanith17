@@ -35,23 +35,17 @@
   <script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
   <script type="text/javascript" src="noty-2.4.0/js/noty/packaged/jquery.noty.packaged.js"></script>
   <script type="text/javascript" src="js/notification.js"></script>
+
 </head>
 
 <body>
-		<?php include "preloader.php";?>
 		<?php include 'loginicon.php';?>
 		<?php include "sidebar.php";?>
 		
 		
 		<div id="gradient" />
 		<script src='https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js'></script>
-		<script type="text/javascript">
-			$(window).on('load', function() {
-   				$(".preloader").hide();
-			});
 
-
-		</script>
 	<!--	<script>
 			'use strict';
 
@@ -187,8 +181,9 @@
 				</div>
 		</div>
 
-		
+	
 		<?php include("footer.php"); ?>
+		
 		<div id="particles-js"></div>
 		<script src="js/particles.js"></script>
 		<script src="js/app.js"></script>

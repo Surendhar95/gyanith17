@@ -22,7 +22,14 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
+<style>
+ #content ol li{
+	font-size: 17px;  
+  }
+ #content ul li{
+	  font-size: 17px;
+  }
+</style>
 
 </head>
 <body >
@@ -34,7 +41,8 @@
 #4EB1BA
 #E9E9E9-->
 <div>
-	<div id="logo" style="margin-bottom:-30px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	<div id="logo" style="margin-bottom:-30px;">
+	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)">
@@ -61,7 +69,7 @@
 	</g>
 </g>
 </svg><h1 id="head" style="position:relative;left:-4%;">BURN OUT</h1></div>
-<br/>
+
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -70,15 +78,16 @@
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="rulenspec.php">  RULES</a></div></li>
-			<br/>
+			<li><div class="menu-tab"><a href="spec.php">  SPECIFICATIONS</a></div></li>
+			
 			<li><div class="menu-tab"><a href="resource.php">  RESOURCES</a></div></li>
-			<br/>
+			
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-		<br/>
+		
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 
 		</ul>
@@ -114,7 +123,7 @@
 	</div>
 	</div>
 </div>
-<?php include("../../footer.php") ?>
+<?php include("/../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

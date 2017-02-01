@@ -72,8 +72,16 @@ $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
         $sname=$_POST['second_name'];
         $email=$_POST['email'];
         $passwd=$_POST['password'];
+        if(!isset($_POST['sex'])){$gender='M';}
         $gender=$_POST['sex'];
+        if(!isset($_POST['sex'])){$gender='M';}
         $college=$_POST['college'];
+            if($college=='0')
+            {
+                $college=$_POST['collegetxt'];
+            }
+
+
         $phone=$_POST['phone'];
       $name=$fname." ".$sname;
  		if($gender=='female')
