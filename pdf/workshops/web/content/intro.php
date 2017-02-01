@@ -1,1 +1,0 @@
-<p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler.It makes use of an easy-to-use API syntax that works on multiple browsers. This workshop will give you full-fledged understanding of how to work with jQuery to improve the way we develop websites.</p>

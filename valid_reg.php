@@ -125,7 +125,7 @@ if(isset($_POST['hospitality']) && $_POST['hospitality'] == 'hospitality')
 
 
 /*BEGIN OF NEW VERSION*/
-$actual_link = "http://$_SERVER[HTTP_HOST]/"."gyanith/activate.php?id=" . $g_id;
+$actual_link = "http://$_SERVER[HTTP_HOST]/"."activate.php?id=" . $g_id;
 			$body="<p>Greetings from team GYANITH!!<br>
 			Congrats.. You have successfully registered for GYANITH’17.<br><br>
 			 Click on the below link to activate your account.<br>
