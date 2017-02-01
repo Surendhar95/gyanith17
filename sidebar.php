@@ -27,7 +27,7 @@
 						<a href="#"><!-- style="color:white">--><i class="fa fa-gamepad" aria-hidden="true"></i><span>Non Technical</span></a>
 						<a href="#"><!-- style="color:white">--><i class="fa fa-bed" aria-hidden="true"></i><span>Hospitality</span></a>
 						<a href="#"><!-- style="color:white">--><i class="fa fa-users" aria-hidden="true"></i><span>Teams</span></a>
-						<a href="#"><!-- style="color:white">--><i class="fa fa-info-circle" aria-hidden="true"></i><span>About Us</span></a>
+						<a href="about.php"><!-- style="color:white">--><i class="fa fa-info-circle" aria-hidden="true"></i><span>About Us</span></a>
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>

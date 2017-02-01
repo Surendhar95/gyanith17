@@ -15,6 +15,8 @@ function frgtpass(){
 }
 
 
+
+
 //for right side drop menu
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -25,6 +27,7 @@ function myFunction() {
 //validation and submit handling of signup
 $('document').ready(function()
 { 
+	
 	 $("#signup-form").validate(
 	{
 	
@@ -54,7 +57,9 @@ $('document').ready(function()
             required: true,
             email: true
             },
-            
+           sex:{
+				required: true,
+			},
             college:{
             required: true,
 
@@ -78,6 +83,9 @@ $('document').ready(function()
                       required: "Please provide a password",
                       minlength: "Password should at least have 8 characters"
                      },
+			sex:{
+				required:'Please select your gender',
+			},
             email: "Please enter a valid email address",
 			cpassword:{
 						required: "Please retype your password",
@@ -123,6 +131,8 @@ if ($(element).is("input#cpassword")) {
 				data : data,
 				beforeSend: function()
 				{	
+					
+
 					$("#error").fadeOut();
 				//	$("#btn-submit").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...');
 					$("#btn-submit").val('sending ...');

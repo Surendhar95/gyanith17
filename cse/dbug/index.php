@@ -79,7 +79,7 @@
 		</ul>
 
 	</div>
-	<div class="col-lg-8" id="content" >
+	<div class="col-lg-8" id="content" style="position:relative;top:-120px;">
 
 			<h1>Loading...</h1>
 			<!--

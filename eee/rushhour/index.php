@@ -75,7 +75,7 @@ include ('../../loginicon.php');
 </g>
 </svg></div>
 <h1 id="head" style="position:relative;top:-120px;left:-150px;">RUSH HOUR</h1>
-	<div class="row" id="ind">
+<br/>	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
 			<li>
@@ -83,13 +83,13 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			
+			<br/>
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			
+			<br/>
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			
+			<br/>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-		
+		<br/>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 			</ul>
 
@@ -102,7 +102,7 @@ include ('../../loginicon.php');
 	</div>
 	</div>
 </div>
-<?php include("/../../footer.php") ?>
+<?php include("../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

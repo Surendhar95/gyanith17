@@ -45,7 +45,7 @@
 		<div id="gradient" />
 		<script src='https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js'></script>
 
-		<script>
+	<!--	<script>
 			'use strict';
 
 		var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -138,7 +138,7 @@
 	      
     
     	
-		  </script>
+		  </script>-->
 
 		
 		<div id="logo">
