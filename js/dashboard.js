@@ -2,9 +2,26 @@ $(document).ready(function (){
 	$("#createteam").hide();
 	$("#wcreateteam").hide();
 	
+	//validate for sbi collect number 
+	
+
 /*event submit*/
         $("#dropevents").validate({
-            submitHandler: submitevents
+           rules:
+	 		 {
+				  events:{
+					  required:true
+				  },
+	 		 },
+	 		 messages:
+	 		  {
+				   events:{
+					   required:'Please select a event'
+				   },
+				   	
+			   },
+		   
+		    submitHandler: submitevents
         });
 
         function submitevents(){
@@ -55,6 +72,28 @@ $(document).ready(function (){
 
 /*workshop submit*/
         $("#dropworkshops").validate({
+			 rules:
+	 		 {
+				  workshops:{
+					  required:true
+				  },
+				   sbitxt:{
+					   required:true,
+					 minlength:10,
+					 maxlength:10
+				  }
+	 		 },
+	 		 messages:
+	 		  {
+				   workshops:{
+					   required:'Please select a workshop'
+				   },
+					   sbitxt:{
+						   required:'Please enter SBI collect number',
+						   minlength:'Please enter a valid SBI collect number',
+						   maxlength:'Please enter a valid SBI collect number'
+					}
+			   },
             submitHandler: submitworkshops
         });
 
@@ -118,6 +157,20 @@ $(document).ready(function (){
 
 		/*team events submit */
 		$("#teamevents").validate({
+			rules:
+	 		 {
+				  etname:{
+					  required:true
+				  },
+				   
+	 		 },
+	 		 messages:
+	 		  {
+				   etname:{
+					   required:'Please enter your team name'
+				   },
+				   
+			   },
             submitHandler: submitteamevents
         });
 		function submitteamevents(){
@@ -182,6 +235,20 @@ $(document).ready(function (){
     	});
 		/*team workshops submit */
 		$("#teamworkshops").validate({
+			rules:
+	 		 {
+				  wtname:{
+					  required:true
+				  },
+				   
+	 		 },
+	 		 messages:
+	 		  {
+				   wtname:{
+					   required:'Please enter your team name'
+				   },
+				   
+			   },
             submitHandler: submitteamworkshops
         });
 		function submitteamworkshops(){

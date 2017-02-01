@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-  		<title>Gyanith '17 | Feb 24-26</title>
+  		<title>Gyanith '17 | Login</title>
 		
 		<script type="text/javascript" src="js/jquery.js"></script>
     	<script type="text/javascript" src="js/validation.min.js"></script>
@@ -43,7 +43,7 @@
 		<div class="login-html">
 			<div id="mainpage1">
 
-				<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab" onclick=clr()>Sign In</label>
+				<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab" onclick=clr()>Log In</label>
 				<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab" onclick=clr1()>Sign Up</label>
 				<div class="login-form">
 				<!--login form begin-->

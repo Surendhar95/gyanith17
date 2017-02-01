@@ -2,10 +2,12 @@
 
 function clr(){
 	document.getElementById("error1").innerHTML = "";
+	$("title").html("Gyanith '17 | Login");
 	$('#log-form')[0].reset();
 }
 function clr1(){
 	document.getElementById("error").innerHTML = "";
+	$("title").html("Gyanith '17 | Sign Up");
 	$('#signup-form')[0].reset();
 }
 function frgtpass(){
@@ -27,7 +29,19 @@ function myFunction() {
 //validation and submit handling of signup
 $('document').ready(function()
 { 
-	
+	 $(".coltxt").hide();
+             $("#college").change(function() {
+                 if ($(this).val() == "0") {
+                    // alert('value');
+					$(".coltxt").show();
+ 				}
+				 else{
+					 $(".coltxt").hide();
+				 }
+			 });
+
+
+
 	 $("#signup-form").validate(
 	{
 	

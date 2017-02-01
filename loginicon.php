@@ -16,13 +16,13 @@ function myFunction() {
 				 if(isset($_SESSION['g_id'])){ 				
 					 ?>
 					<a href="/dashboard.php">Dashboard</a>
-  					<a href="#">Schedule</a>
+  					<a href="/pdf/Gyanith'17 Schedule.pdf" target="_blank">Schedule</a>
 					<a href="/logout.php">Log Out</a>
 					<?php }
 					else{
 						?>
     					<a href="/log.php">Login/Sign Up</a>
-  						<a href="#">Schedule</a>
+  						<a href="/pdf/Gyanith'17 Schedule.pdf" target="_blank">Schedule</a>
 					<?php } ?>
     				</div>
 		</div>	

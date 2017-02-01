@@ -153,6 +153,7 @@ $e->getMessage();
 <option value="take">Take Off</option>
 </select>
 <br/>
+<input type="text" id="sbitxt" name='sbitxt' class="txtinp" placeholder="Enter SBI collect number" title="Make payment to get SBI collect number. Refer website for payment details."/><br/>
 <input type="submit" id="submitwrk"  class="bttn" name="submitwrk" value="Click to Register for Workshops"/>
 <br/>
 <div>Registered Workshops are:</div><br/>
@@ -223,7 +224,7 @@ if($tid==null){
 <input type="submit" id="submittmeve" name="submittmeve"  class="bttn"/>
 </div>
 </form>
-<div id="tnmshow" style="border:5px solid #fff;background-color:red;"></div>
+<div id="tnmshow"></div>
 </div>
 <?php }
 else{?>
@@ -350,7 +351,7 @@ $tname = $result['tname'];
 footer{
 	
 	position:absolute;
-	top:2400px;
+	top:2600px;
 	left:0%;
 	right:0%;
 	font-size:15px;

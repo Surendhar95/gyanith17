@@ -24,6 +24,12 @@ if(isset($_POST['submitwrk']) && isset($_POST['workshops'])){
       $sql = "UPDATE workshops SET ".$select."=1 WHERE g_id=:gid";
       $stmt2 = $db->prepare($sql);
       $stmt2->execute(array(':gid'=>$g_id));
+      if(isset($_POST['sbitxt'])){
+     $sql = "UPDATE workshops SET sbi = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+     $stmt2 = $db->prepare($sql);
+      $stmt2->execute(array(':gid'=>$g_id));
+      
+   }
       echo "upd ".$select;
       }
       else{
@@ -34,8 +40,16 @@ if(isset($_POST['submitwrk']) && isset($_POST['workshops'])){
      $sql="insert into workshops(g_id,".$select.") values (:gid,1)";
      $stmt3 = $db->prepare($sql);
     $stmt3->execute(array(':gid'=>$g_id));
+    if(isset($_POST['sbitxt'])){
+     $sql = "UPDATE workshops SET sbi=".$_POST['sbitxt']." WHERE g_id=:gid";
+     $stmt2 = $db->prepare($sql);
+      $stmt2->execute(array(':gid'=>$g_id));
+      
+   }
     echo "ins ".$select;
    }
+
+   
 
 }
 }

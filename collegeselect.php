@@ -1,6 +1,6 @@
 <select name="college" id="college" class="selectdrp">
 <option value="" disabled selected>Select your College</option>
-<option value="0" >others</option>
+<option value="0" >--others--</option>
 <option value="A.C. College of Engineering and Technology" >A.C. College of Engineering and Technology</option>
 <option value="A.M.S College of Engineering" >A.M.S College of Engineering</option>
 <option value="Aalim Muhammed Salegh College Of Engineering" >Aalim Muhammed Salegh College Of Engineering</option>
