@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Gyanith '17  |  TAKE OFF</title>
+	<title>Gyanith '17  |  TAKE OFF - RC PLANE DESIGNING</title>
 	
 		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
 		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
@@ -23,7 +23,11 @@
 <link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css"/>
 <script type="text/javascript" src="../../js/material.min.js"></script>
 <script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
+<style>
+#index{
+	margin-top:-10px;
+}
+</style>
 
 </head>
 <body >
@@ -32,8 +36,9 @@
 		include("../../sidebar.php");
 	 ?>
 <div>
-	<div id="logo"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	<div id="logo">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="150px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#fff" d="M115.267,237.326l41.732,41.525c2.273,2.271,6.405,35.121,4.132,37.393l-8.264,8.264
 	c-2.272,2.271-5.991,2.271-8.264,0l-4.338-4.338l-33.055-33.055c-13.429-13.43-27.064-26.857-33.468-33.469l-4.132-4.132
 	c-2.272-2.272-2.272-5.991,0-8.264l8.264-8.264C80.146,230.715,112.994,235.053,115.267,237.326z"/>
@@ -58,8 +63,11 @@
 <path fill="#676868" d="M203.688,231.541l71.894,91.521c4.133,4.133,10.743,4.338,15.289,0.826l-79.332-100.197L203.688,231.541z
 	 M170.633,182.786L69.816,103.867c-3.099,4.545-2.686,10.743,1.24,14.668l91.728,71.894L170.633,182.786z"/>
 <path fill="#fff" d="M162.783,190.429l7.85-7.644l-22.725-17.767l-7.85,7.644L162.783,190.429z"/>
-</svg></div>
-	<h1 id="head">TAKE OFF</h1>
+</svg>
+
+	
+	</div>
+	<h1 id="head">TAKE OFF - RC PLANE DESIGNING</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">

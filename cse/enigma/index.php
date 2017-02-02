@@ -6,7 +6,7 @@
 
 		<meta charset="utf-8">
   		<title>Gyanith '17  | ENIGMA</title>
-  		<link rel="stylesheet" href="css/style.css">
+  	
   		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
@@ -15,7 +15,7 @@
 
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
-		<link rel="stylesheet" href="../style.css"/>
+		
 		<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -24,7 +24,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
+<link rel="stylesheet" href="../style.css"/>
 
 </head>
 <body >
@@ -32,11 +32,9 @@
 	include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
-	<!--#222930
-#4EB1BA
-#E9E9E9-->
+
 <div>
-	<div id="logo" style="margin-top:20px;margin-bottom:-30px;position:relative;top:5px;left:50px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	<div id="logo" ><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="150px" height="150px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M137.411,165.583c0,0-0.463-5.062-0.691-7.602c1.196-0.683,2.343-1.429,3.418-2.262
@@ -86,52 +84,27 @@
 		L334.041,239.456z"/>
 </g>
 </svg></div>
-<h1 id="head" style="position:relative;top:-30px;margin:-5px;">ENIGMA</h1>
+<h1 id="head" >ENIGMA</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
 			<li>
 				<div class="menu-tab"><a href="desc.php"> DESCRIPTION</a></div>
 			</li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
-		<!--<table id="nav">
-			<tr>
-					<td><a href="index.php">HOME</a></td>
-			</tr>
-			<tr>
-					<td><a href="desc.php">description</a></td>
-			</tr>
-			<tr>
-					<td><a href="format.php">format</a></td>
-			</tr>
-			<tr>
-					<td><a href="judge.php">judgement criteria</a></td>
-			</tr>
-			<tr>
-					<td><a href="rule.php">rules</a></td>
-			</tr>
-			<tr>
-					<td><a href="about.php">ABOUT US</a></td>
-			</tr>
-			<tr>
-					<td><a href="reg.php">REGISTER</a></td>
-			</tr>
-			<tr>
-			<td><a href="contact.php">CONTACT US</a></td>
-			</tr>
-		</table>-->
+
 	</div>
-	<div class="col-lg-8" id="content" style="position:relative;top:-5px;">
+	<div class="col-lg-8" id="content">
 
 			<h1>Loading...</h1>
 

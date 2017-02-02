@@ -15,7 +15,7 @@
 
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
-		<link rel="stylesheet" href="../style.css"/>
+		
 		<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -24,7 +24,7 @@
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
 
-
+<link rel="stylesheet" href="../style.css"/>
 
 </head>
 <body >
@@ -32,11 +32,9 @@
 include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
-	<!--#222930
-#4EB1BA
-#E9E9E9-->
+	
 <div>
-	<div id="logo" style="position:relative;left:40px;margin-bottom:-20px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	<div id="logo" ><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="180px" height="180px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#fff" d="M354.162,90.697h-41.84l-4.607,5.013h-11.587l15.121-16.452c9.394-11.663,9.721-26.989,0.72-34.238
 	c-9.007-7.252-23.91-3.679-33.305,7.976l-95.145,135.181c-9.396,11.653-9.348,9.429-0.35,16.673
@@ -49,7 +47,7 @@ include ('../../loginicon.php');
 	l-0.19-13.404h126.206c7.402,0,13.405-6.003,13.405-13.404v-194.38C367.567,96.7,361.564,90.697,354.162,90.697z M287.502,61.2
 	c0,0-1.396-1.619-6.029-5.325c6.949-11.352,20.609-9.271,20.609-9.271C289.132,54.251,287.502,61.2,287.502,61.2z"/>
 </svg></div>
-<h1 id="head"style="position:relative;top:-30px;margin:-5px;">WEBLICATE</h1>
+<h1 id="head">WEBLICATE</h1>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
@@ -59,19 +57,19 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-		
+			<br>
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-		
+			<br>
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-		
+		<br>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-		
+		<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 
 	</div>
-	<div class="col-lg-8" id="content"  style="position:relative;top:-5px;">
+	<div class="col-lg-8" id="content">
 
 			<h1>Loading...</h1>
 

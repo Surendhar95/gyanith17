@@ -15,7 +15,7 @@
 
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
-		<link rel="stylesheet" href="../style.css"/>
+	
 <link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -23,8 +23,12 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
-
+	<link rel="stylesheet" href="../style.css"/>
+	<style>
+	#content{
+		margin-top:100px;
+	}
+	</style>
 </head>
 <body >
 <?php
@@ -32,11 +36,8 @@ include ('../../loginicon.php');
     include "../../sidebar.php";
 
   ?>
-	<!--#222930
-#4EB1BA
-#E9E9E9-->
-<div>
-	<div id="logo" style="margin-bottom:-30px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	<div>
+	<div id="logo" "><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M268.782,155.897c6.825,0,12.501,4.626,14.228,10.919h30.396v-19.234l-53.192-42.109H104.479v36.906h80.367
@@ -49,8 +50,8 @@ include ('../../loginicon.php');
 		c6.897,0,12.638,4.843,14.063,11.313h28.873v-95.243h-30.565c-1.891,6.011-7.43,10.395-14.063,10.395
 		c-8.177,0-14.811-6.634-14.811-14.817S260.605,155.897,268.782,155.897z"/>
 </g>
-</svg>
-<h1 id="head">SYNC</h1></div>
+</svg></div>
+<h1 id="head">SYNC</h1>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
@@ -60,15 +61,15 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
 

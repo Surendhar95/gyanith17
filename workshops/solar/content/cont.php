@@ -1,17 +1,11 @@
 <p>
 <ol>
-<li><b>Intoduction </b></li><br>
-<li><b>Modelling of solar panel and validation using Matlab</b>
-	<ul>
-	<li>Performance study of solar panel with fixed and variable climatic condition</li>
-	</ul>
-	</li><br>
-<li><b>DC Motor instantiation and validation using Matlab</b></li><br>
-<li><b>Hardware implementation of solar fed motor</b>
-<ul>
-	<li>To design an voltage controller    to regulate the voltage of solar panel</li>
-	<li>Study of complete hardware setup</li>
-	</ul>
-	</li><br>
-</ol>
+<li>Basic introduction to renewable energy system
+</li><br><li>Basic introduction to power generation using pv panel
+</li><br><li>Modeling of solar panel and validation using MALTAB
+</li><br><li>Simulation of DC motor using MATLAB
+</li><br><li>Design of voltage regulator circuit
+</li><br><li>Hardware implementation of solar fed motor 
+</li><br><li>Hardware implementation of speed control of DC motor
+</li></ol>
 </p>

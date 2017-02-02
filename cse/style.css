@@ -45,6 +45,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   background:transparent;
+  overflow-y:hidden;
 }
 .row #index ul#nav{
   list-style-type:none;
@@ -113,22 +114,22 @@ a:active {
   background:transparent;
 }
 #index{
-  margin-top: 50px;
+  margin-top: 20px;
     padding: 20px; 
     width: 22%;
-    height: 450px; 
+    height: 400px; 
     margin-left: 7%;
 
 }
 #content{
   overflow-y: auto;
- /* margin-top: 5px;*/
+ /*margin-top: 5px;*/
   padding: 30px 20px;
   border-radius:15px;
   width: 60%;
   height: 450px; 
-  margin-left: 5%;
-  margin-top: 10px;
+  margin-left: 2%;
+  /*margin-top: 10px;*/
   font-size: 1.2em;
   background: #a9e4f7; /* Old browsers */
   background-color:#b3b3b3; 
@@ -136,7 +137,8 @@ a:active {
   opacity: 1;
   color: black;
   position: relative;
-  top: -80px;
+  top: -130px;
+  margin-bottom:10px;
   
 }
 .p{
@@ -147,8 +149,8 @@ a:active {
 }
 #head{
   position: relative;
-  top: -100px;
- left:-150px;
+  top: -120px;
+ left:-155px;
 }
 h1#head{
   text-align: center;
