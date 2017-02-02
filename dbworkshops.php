@@ -25,9 +25,41 @@ if(isset($_POST['submitwrk']) && isset($_POST['workshops'])){
       $stmt2 = $db->prepare($sql);
       $stmt2->execute(array(':gid'=>$g_id));
       if(isset($_POST['sbitxt'])){
-     $sql = "UPDATE workshops SET sbi = '".$_POST['sbitxt']."' WHERE g_id=:gid";
-     $stmt2 = $db->prepare($sql);
-      $stmt2->execute(array(':gid'=>$g_id));
+    // $sql = "UPDATE workshops SET sbi = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+    // $stmt2 = $db->prepare($sql);
+   //   $stmt2->execute(array(':gid'=>$g_id));
+
+
+      if($select=='game'){
+         $sql = "UPDATE workshops SET sbigame = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='plugdin'){
+        $sql = "UPDATE workshops SET sbiplugdin = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+      else if($select=='control'){
+        $sql = "UPDATE workshops SET sbicontrol = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='renewate'){
+        $sql = "UPDATE workshops SET sbirenewate = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='crabot'){
+        $sql = "UPDATE workshops SET sbicrabot = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='take'){
+        $sql = "UPDATE workshops SET sbitake = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
       
    }
       echo "upd ".$select;
@@ -41,9 +73,40 @@ if(isset($_POST['submitwrk']) && isset($_POST['workshops'])){
      $stmt3 = $db->prepare($sql);
     $stmt3->execute(array(':gid'=>$g_id));
     if(isset($_POST['sbitxt'])){
-     $sql = "UPDATE workshops SET sbi='".$_POST['sbitxt']."' WHERE g_id=:gid";
-     $stmt2 = $db->prepare($sql);
-      $stmt2->execute(array(':gid'=>$g_id));
+   //  $sql = "UPDATE workshops SET sbi='".$_POST['sbitxt']."' WHERE g_id=:gid";
+   //  $stmt2 = $db->prepare($sql);
+  //    $stmt2->execute(array(':gid'=>$g_id));
+  if($select=='game'){
+         $sql = "UPDATE workshops SET sbigame = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='plugdin'){
+        $sql = "UPDATE workshops SET sbiplugdin = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+      else if($select=='control'){
+        $sql = "UPDATE workshops SET sbicontrol = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='renewate'){
+        $sql = "UPDATE workshops SET sbirenewate = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='crabot'){
+        $sql = "UPDATE workshops SET sbicrabot = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='take'){
+        $sql = "UPDATE workshops SET sbitake = '".$_POST['sbitxt']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+
       
    }
     echo "ins ".$select;
