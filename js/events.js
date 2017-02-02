@@ -161,5 +161,30 @@ $("#game").hover(function(){
 
            
     });
+ $("#paper").hover(function(){
+          
+            $(".logo").html($('#paper-logo').html());
+            return false;
+    });
+$("#project").hover(function(){
+          
+            $(".logo").html($('#project-logo').html());
+            return false;
+    });
+$("#consilium").hover(function(){
+          
+            $(".logo").html($('#consilium-logo').html());
+            return false;
+    });
+$("#ityuktha").hover(function(){
+          
+            $(".logo").html($('#ityuktha-logo').html());
+            return false;
+    });
+$("#prastuti").hover(function(){
+          
+            $(".logo").html($('#prastuti-logo').html());
+            return false;
+    });
 });
  
