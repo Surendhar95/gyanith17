@@ -749,7 +749,7 @@ margin:30px 40px;
 .dept-list {
 	position: absolute;
 	width: 90%;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	margin-left: 5%;
 	/*height:100px;*/
 	text-align: center;
@@ -787,7 +787,7 @@ margin:30px 40px;
 	/*height:150px;*/
 /*	margin-top: 50px;*/
 	text-align: center;
-	margin-top:-40px;
+	margin-top:-70px;
 	
 	
 }

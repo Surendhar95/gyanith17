@@ -98,7 +98,7 @@ width:400px;
 		
 		<div class="logo row">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
 		<polygon fill="#fff" points="73.53,130.547 73.53,238.982 178.682,238.982 200,216.154 221.318,238.982 326.47,238.982 
@@ -123,7 +123,7 @@ width:400px;
 		</div>
 			<div id="game-logo" class="detail-div">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
 		<polygon fill="#fff" points="73.53,130.547 73.53,238.982 178.682,238.982 200,216.154 221.318,238.982 326.47,238.982 
@@ -149,7 +149,7 @@ width:400px;
 						<div id="website-logo" class="detail-div">
 							
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <rect x="0" y="133.384" fill="#fff" width="400" height="141.333"/>
 <image overflow="visible" width="2100" height="600" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACDQAAAJYCAYAAACXEiSmAAAACXBIWXMAAAsTAAALEwEAmpwYAAAK
 T2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AU
@@ -3968,7 +3968,7 @@ AAAAAAAAAAAAAGg6/38A0BqISpTkwHEAAAAASUVORK5CYII=" transform="matrix(0.1746 0 0 0
 						</div>
 						<div id="swarm-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
 		<path fill="#fff" d="M44.558,146.904c-0.176-0.176-0.387-0.32-0.586-0.473c-0.145-0.191-0.277-0.395-0.473-0.574l-6.191-6.203
@@ -4100,7 +4100,7 @@ AAAAAAAAAAAAAGg6/38A0BqISpTkwHEAAAAASUVORK5CYII=" transform="matrix(0.1746 0 0 0
 						<div id="energy-logo" class="detail-div">
 							
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#fff" d="M208.346,237.873v97.78c-2.781,0.214-5.563,0.214-8.345,0.214c-2.782,0-5.563,0-8.345-0.214v-97.78H208.346z
 	"/>
 <path fill="#fff" d="M274.46,207.275H125.542c-2.782,0-5.135,0.856-5.563,1.711l-19.471,65.26
@@ -4147,7 +4147,7 @@ AAAAAAAAAAAAAGg6/38A0BqISpTkwHEAAAAASUVORK5CYII=" transform="matrix(0.1746 0 0 0
 						<div id="crabot-logo" class="detail-div">
 							
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
 		<path fill="#fff" d="M306.237,171.801v-20.822c13.847-1.952,24.536-13.874,24.536-28.25V85.922
@@ -4240,7 +4240,7 @@ AAAAAAAAAAAAAGg6/38A0BqISpTkwHEAAAAASUVORK5CYII=" transform="matrix(0.1746 0 0 0
 						<div id="rc-logo" class="detail-div">
 							
 	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#fff" d="M115.267,237.326l41.732,41.525c2.273,2.271,6.405,35.121,4.132,37.393l-8.264,8.264
 	c-2.272,2.271-5.991,2.271-8.264,0l-4.338-4.338l-33.055-33.055c-13.429-13.43-27.064-26.857-33.468-33.469l-4.132-4.132
 	c-2.272-2.272-2.272-5.991,0-8.264l8.264-8.264C80.146,230.715,112.994,235.053,115.267,237.326z"/>
