@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Gyanith '17  | About Us</title>
+	<title>Gyanith '17  | Guest Talk</title>
 	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -16,27 +16,21 @@
 	<script src="js/material.min.js"></script>
 	<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
 
-		
-		
-		
-		
-
-		<style type="text/css">	
+<style type="text/css">	
 	p,h1,a{
 		font-family: 'Droid Sans', sans-serif;
 
 	}
-	html {  
-  background: #a9e4f7; /* Old browsers */
-  background-color:#222222;
- filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#222222, endColorstr=#00ACE9);
- background-image:-moz-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
-background-image:linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
-background-image:-webkit-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
-background-image:-o-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
-background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
- 
-  background-attachment: fixed;
+html {  
+    background: #a9e4f7; /* Old browsers */
+    background-color:#222222;
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#222222, endColorstr=#00ACE9);
+    background-image:-moz-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+    background-image:linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+    background-image:-webkit-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+    background-image:-o-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+    background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+    background-attachment: fixed;
 }
 
 div{
@@ -71,20 +65,20 @@ body {
 #content{
 	
 	/*margin-top: -10px;*/
- overflow:hidden;
- padding: 30px 20px;
+  font-size: px;
+  padding: 30px 20px;
   border-radius:15px;
     width: 60%;
     height: 450px; 
-    margin-left: 2%;
+    margin-left: 3%;
     /*font-family: 'Oleo Script Swash Caps', cursive;*/
-    font-size: 1em;
+    font-size: 1.2em;
      background: #a9e4f7; /* Old browsers */
   background-color:#b3b3b3;
   background-attachment: fixed;
   opacity: 1;
   color: black;
-  /*overflow-y: auto;*/
+  overflow-y: auto;
 	position:relative;
 	top:80px;
 }
@@ -98,7 +92,7 @@ p{
 
 h1#head{
 	text-align: center;
-	font-size: 3em;
+	font-size: 4em;
 	vertical-align: center;
 	float: right;
 	/*font-family: 'Merriweather Sans', sans-serif;
@@ -106,6 +100,7 @@ h1#head{
 
 }
 </style>
+
 </head>
 <body >
 <?php
@@ -122,16 +117,9 @@ h1#head{
 	</div>
 	<div class="col-lg-8" id="content" >
 		<p>
-		<b>"GYANITH17"</b> is the inaugural edition of the annual technical festival hosted by 
-		all departments of <b>NIT Puducherry</b> .  It is scheduled to be conducted from <b>February 
-		24th to 26th</b> . Gyanith literally translates to inspiring or the one who inspires.
-		Hence our main aim is to inspire  each and every one who come. We have put together
-		a platform for every science and engineering aspirant to showcase their talent. 
-		Students from various departments can participate in various interesting <b>events</b> 
-		and <b>win cash prize</b> . We also have a number of <b>workshops</b>  for training students in
-		different aspects which will help them throughout their life. 
-		A number of non-technical events will add a flavor of <b>fun</b>  to the festival.
-		</p>
+		Coming Soon .....
+        
+        	</p>
 				
 		
 	</div>

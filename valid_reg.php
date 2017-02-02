@@ -162,7 +162,7 @@ Team GYANITH.";
 /*END OF NEW VERSION*/
 send_mail($email,$body,$body1);
 
-			echo 'Registered.Please Activate your account through mail!!';
+			echo 'Activation link has been sent to your mail. Click on it to activate your account.';
 
 
 			}
@@ -175,4 +175,3 @@ catch(PDOException $e){
 	$e->getMessage();
 }
 ?>
-			
