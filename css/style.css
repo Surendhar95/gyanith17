@@ -155,7 +155,7 @@ overflow: hidden;
 	z-index: 6000;
 }
 .icon-list {
-	font-size: 20px;
+	font-size: 17px;
 	text-decoration: none;
 }
 .icon-list a:hover{
@@ -518,8 +518,8 @@ margin:30px 40px;
 
 /* Close Button */
 .close-button {
-	width: 1em;
-	height: 1em;
+	width: 1.1em;
+	height: 1.1em;
 	position: absolute;
 	right: 1em;
 	top: 1em;
