@@ -17,12 +17,11 @@ function generate(type, text) {
         
 
        	function generateAll() {
-       	 	generate("Welcome to Gyanith'17");
-            generate("Workshop registration starts on 31st Jan");
+       	 	generate("Welcome to Gyanith'17-Feb 24 to 26");
+            generate("Workshops registration started");
+            generate("Limited registrations. Register soon");
             generate("Event registration started");
-            
-       		
-
+            generate("Schedule is available for download at profile section");
 
        	}
 
