@@ -133,10 +133,13 @@ $actual_link = "http://$_SERVER[HTTP_HOST]/"."activate.php?id=" . $g_id;
 
 We welcome you to NIT Puducherry to experience three days of innovation and science. Gear up to experience engineering like never before.<br/>
 GYANITH ‘17 is the first collaborated technical fest hosted by NIT Puducherry. It is a union of 4 departments, coming together to celebrate science and innovation. GYANITH literally translates to “inspiring”. Hence, we are here to inspire you and give you an unforgettable experience of learning, fun and creation. We invite you to join us, from 24th  to 26th of February, in the inaugural edition of GYANITH and get inspired.
-We have attached the schedule of events for your reference.<br/> Do visit our website <a href='https://www.gyanith.org'>https://www.gyanith.org</a> for more information and registration of events. In case of any queries please contact                          
+We have attached the schedule of events for your reference.<br/> Do visit our website <a href='http://www.gyanith.org'>http://www.gyanith.org</a> for more information and registration of events. 
+<br>In case of any queries please contact:<br>
+Phone:+91 70942 50770<br>
+Mail : queries@gyanith.org<br>                          
 We hope to serve you in the best way and provide you with a great learning experience.
-
-Regards,
+<br><br>
+Regards,<br>
 Team GYANITH.";
 
 $body1="<p>Greetings from team GYANITH!!<br>
@@ -146,10 +149,13 @@ $body1="<p>Greetings from team GYANITH!!<br>
 
 We welcome you to NIT Puducherry to experience three days of innovation and science. Gear up to experience engineering like never before.<br/>
 GYANITH ‘17 is the first collaborated technical fest hosted by NIT Puducherry. It is a union of 4 departments, coming together to celebrate science and innovation. GYANITH literally translates to “inspiring”. Hence, we are here to inspire you and give you an unforgettable experience of learning, fun and creation. We invite you to join us, from 24th  to 26th of February, in the inaugural edition of GYANITH and get inspired.
-We have attached the schedule of events for your reference.<br/> Do visit our website <a href='https://www.gyanith.org'>https://www.gyanith.org</a> for more information and registration of events. In case of any queries please contact                          
+We have attached the schedule of events for your reference.<br/> Do visit our website <a href='http://www.gyanith.org'>http://www.gyanith.org</a> for more information and registration of events. 
+<br>In case of any queries please contact:<br>
+Phone:+91 70942 50770<br>
+Mail : queries@gyanith.org<br>                          
 We hope to serve you in the best way and provide you with a great learning experience.
-
-Regards,
+<br><br>
+Regards,<br>
 Team GYANITH.";
 
 

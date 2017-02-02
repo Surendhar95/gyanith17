@@ -911,7 +911,7 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
 }
 
 /*Preloader*/
-/*.preloader { 
+.preloader { 
   position: fixed;
   z-index: 999999;
   width: 100%; 
@@ -921,7 +921,7 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
   background: black;
 }
 
-svg {
+.preloader svg {
   position: absolute;
   width: 240px;
   height: 120px;
@@ -935,4 +935,4 @@ svg {
   width: 100%;
   text-align: center;
 }
-*/
+

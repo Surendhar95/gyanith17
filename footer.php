@@ -1,5 +1,5 @@
 
-
+<script type="text/javascript" src="js/snap.svg-min.js"></script>
 
 <style>
 footer{
