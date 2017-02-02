@@ -41,7 +41,7 @@ if(isset($_POST['submitwrk']) && isset($_POST['workshops'])){
      $stmt3 = $db->prepare($sql);
     $stmt3->execute(array(':gid'=>$g_id));
     if(isset($_POST['sbitxt'])){
-     $sql = "UPDATE workshops SET sbi=".$_POST['sbitxt']." WHERE g_id=:gid";
+     $sql = "UPDATE workshops SET sbi='".$_POST['sbitxt']."' WHERE g_id=:gid";
      $stmt2 = $db->prepare($sql);
       $stmt2->execute(array(':gid'=>$g_id));
       
