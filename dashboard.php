@@ -33,17 +33,22 @@
 </head>
 
 <body>
-    <?php include 'loginicon.php'; ?>
-				 <?php include 'sidebar.php'; ?>
+    <?php include 'loginicon.php'; 
+	if(!isset($_SESSION['g_id'])){
+header('Location: /log.php');
+} 
+				 include 'sidebar.php'; ?>
 				
 <div class="login-wrap">
 <div class="login-html">
     
-<?php //session_start();
-  
+<?php 
+//session_start();
+ 
       
-         if(!isset($_SESSION['g_id']))        
-          header("Location:/log.php");
+	  
+         //if(!isset($_SESSION['g_id']))        
+         //{ header("Location:/log.php");}
 try{
 include("dbcon.php");
 $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
