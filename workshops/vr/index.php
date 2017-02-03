@@ -52,7 +52,7 @@
 </svg></div>
 	<h1 id="head">GAME DEVELOPMENT USING VR</h1>
 	<div class="row" id="ind">
-		<div class="col-lg-4" id="index" style="margin-top:50px;">
+		<div class="col-lg-4" id="index">
 		<ul id="nav">
 			<li>
 				<div class="menu-tab">
