@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Gyanith '17  | Project X</title>
+	<title>Gyanith '17  | Project EXPO</title>
 	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
