@@ -4,7 +4,7 @@
 
 
 		<meta charset="utf-8">
-  		<title>Gyanith '17  | TREASURE HUNT</title>
+  		<title>Gyanith '17  | COB WEB</title>
 
   		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
@@ -57,7 +57,7 @@
 	c0.095-0.447,0.179-0.898,0.291-1.335h39.139c0.099,0.437,0.186,0.888,0.287,1.335c2.814-0.773,6.878-1.919,8.217-2.287
 	c0.654-2.123,3.728-12.032,3.728-12.032c0.409-1.332,1.808-2.07,3.14-1.664C272.981,186.444,273.723,187.849,273.314,189.178z"/>
 </svg></div>
-<h1 id="head">TREASURE HUNT</h1>
+<h1 id="head">COB WEB</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
