@@ -255,7 +255,7 @@ width:400px;
 						<a href="paper.php" ><h4>PAPER PRESENTATION</h4></a>
 				</div>
 				<div id="project" class="dept-name col-sm-6 col-md-6 col-lg-6">
-						<a href="project.php" ><h4>PROJECT X</h4></a>
+						<a href="project.php" ><h4>PROJECT EXPO</h4></a>
 				</div>
 			</div>
 			
