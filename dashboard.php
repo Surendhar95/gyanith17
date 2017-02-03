@@ -88,7 +88,8 @@ $e->getMessage();
 <option value="detonatex">Detonatex</option>
 <option value="consilium">Consilium</option>
 <option value="ityuktha">Ityuktha</option>
-<option value="prastuti">prastuti</option>
+<option value="prastuti">Prastuti</option>
+<option value="cobweb">Cobweb</option>
 </select>
 <br/>
 <input type="submit" id="submiteve" name="submiteve" class="bttn" value="Click to Register for events"/>

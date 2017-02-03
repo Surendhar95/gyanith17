@@ -1,13 +1,15 @@
+<p>
 <ol>
-<li>	Outrunner brushless motor – 1*</li>
-<li>	Servo motors – 3*</li>
-<li>	coroplast</li>
-<li>Epoxy glue</li>
-<li>	Wires</li>
-<li>Lithium polymer battery*</li>
-<li>	Strings</li>
-<li>	Electronic speed controller*</li>
-<li>Other necessary items</li>
-</ol><br>
-<p>Students can take all the kit except the items marked with *.<br>
-The non-give-away items can be purchased at the end of the workshop.</p>
+<li>
+Outrunner Brushless motor-1
+</li><br><li>Servo motors- 3
+</li><br><li>Coroplast
+</li><br><li>Epoxy Glue
+</li><br><li>Propeller
+</li><br><li>Lithium polymer battery
+</li><br><li>Airframe
+</li><br><li>Electronic speed controller
+</li><br><li>Other necessary items
+</li>
+</ol><br><br>
+</p>
