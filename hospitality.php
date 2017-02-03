@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Gyanith '17  | Hospitality</title>
+	<title>Gyanith '17  | HOSPITALITY</title>
 	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -15,22 +15,22 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="js/material.min.js"></script>
 	<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
-<style type="text/css">	
+		<style type="text/css">	
 	p,h1,a{
 		font-family: 'Droid Sans', sans-serif;
 
 	}
-html {  
-    background: #a9e4f7; /* Old browsers */
-    background-color:#222222;
-    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#222222, endColorstr=#00ACE9);
-    background-image:-moz-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
-    background-image:linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
-    background-image:-webkit-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
-    background-image:-o-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
-    background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
-    background-attachment: fixed;
+	html {  
+  background: #a9e4f7; /* Old browsers */
+  background-color:#222222;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#222222, endColorstr=#00ACE9);
+ background-image:-moz-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+background-image:linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+background-image:-webkit-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+background-image:-o-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
+ 
+  background-attachment: fixed;
 }
 
 div{
@@ -64,13 +64,12 @@ body {
 }
 #content{
 	
-	/*margin-top: -10px;*/
-  font-size: px;
-  padding: 30px 20px;
+	margin-top: -10px;
+   padding: 30px 20px;
   border-radius:15px;
-    width: 60%;
-    height: 450px; 
-    margin-left: 3%;
+    width: 65%;
+    height:430px; 
+    margin-right: 2%;
     /*font-family: 'Oleo Script Swash Caps', cursive;*/
     font-size: 1.2em;
      background: #a9e4f7; /* Old browsers */
@@ -80,14 +79,14 @@ body {
   color: black;
   overflow-y: auto;
 	position:relative;
-	top:80px;
+	top:100px;
 }
 p{
 	text-align: justify;
   display: inline-block;
   vertical-align: middle;
-   line-height:50px;
-  font-size: 1.3em;
+   line-height:40px;
+  font-size: 1.1em;
 }
 
 h1#head{
@@ -100,7 +99,6 @@ h1#head{
 
 }
 </style>
-
 </head>
 <body >
 <?php
@@ -117,11 +115,13 @@ h1#head{
 	</div>
 	<div class="col-lg-8" id="content" >
 		<p>
-		Coming Soon .....
-        
-        	</p>
+		All members of a team should register for accommodation individually.<br>
+		Accommodation will be provided on a sharing basis. However, large teams or teams from the same college may be put up in the same rooms.<br><br>
+		The column against <b>"I need accommodation"</b> must be checked while <b>sign up</b>. Accommodation will be provided on first come first serve basis. 
+		Registration for accommodation is on-spot. <b>Rs.200/-</b> should be given as caution deposit. 
+		This amount will be returned at the time of check out. Accommodation will be provided from <b>24th to 26th February</b> only.
+		</p>
 				
-		
 	</div>
 	<div class="col-lg-2">
 		

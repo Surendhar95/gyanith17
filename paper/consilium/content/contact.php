@@ -1,5 +1,5 @@
 <p>
-<b>J.Rajkiran</b><br>ph no:<b> +91 9486304494</b><br><br>
-<b>Sravya Sree</b><br>Email:<b>  sravyasree815@gmail.com</b><br><br>
-Email: <b>consilium@gyanith.org</b> 	
+J.Rajkiran<br>ph no: +91 9486304494<br><br>
+Sravya Sree<br>Email:  sravyasree815@gmail.com<br><br>
+Email: consilium@gyanith.org 	
 </p>

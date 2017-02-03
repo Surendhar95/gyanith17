@@ -1,5 +1,5 @@
 <p>
-<b>Geethanjali V</b><br>ph no: <b>+91 9003767223</b><br>Email: <b>geethv96@gmail.com</b><br><br>
-<b>PavaniSettem</b><br>ph no: <b>+91 8608977889</b><br>Email: <b>pavanisettem@yahoo.com</b><br><br>
-<b>Uttam Kumar.M</b><br>ph no: <b>+91 9445984273</b><br>Email: <b>uttamkumar3331@gmail.com</b>  
+GAYATHRI. S<br>ph no: +91 7502587817<br>Email: gayathriraj9598@gmail.com <br><br>
+PavaniSettem<br>ph no: +91 8608977889<br>Email: pavanisettem@yahoo.com<br><br>
+Uttam Kumar.M<br>ph no: +91 9445984273<br>Email: uttamkumar3331@gmail.com
 </p>

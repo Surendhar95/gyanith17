@@ -1,5 +1,5 @@
 <p>
-<b>Ashwani Kumar</b><br>ph no: <b>+91 9597092364</b><br>Email: <b>a.ashwani6262@gmail.com</b><br><br>
-<b>Manisha</b><br>ph no: <b>+91 9790071090</b><br>Email: <b>manisha2796@gmail.com</b><br><br>
-<b>Uttam Kumar.M</b><br>ph no: <b>+91 9445984273</b><br>Email: <b>uttamkumar3331@gmail.com</b>  
+Ashwani Kumar<br>ph no: +91 8489973064<br>Email: avanti.ashwani@gmail.com <br><br>
+Manisha<br>ph no: +91 9790071090<br>Email: manisha2796@gmail.com<br><br>
+Uttam Kumar.M<br>ph no: +91 9445984273<br>Email: uttamkumar3331@gmail.com  
 </p>

@@ -137,7 +137,8 @@ a:active {
   opacity: 1;
   color: black;
   position: relative;
-  top: -130px;
+top: -130px;
+  /*top: -28%;*/
   margin-bottom:10px;
   
 }
