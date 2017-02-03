@@ -178,7 +178,7 @@ width:350px;
 			</div>
 			<div class="list-2 row">
 				<div id="pixel" class="dept-name col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
-					<a href="ece/pixel/index.php"><h4>PIXEL</h4></a>
+					<a href="ece/spec/index.php"><h4>SPECULATE</h4></a>
 				</div>
 				
 			</div>

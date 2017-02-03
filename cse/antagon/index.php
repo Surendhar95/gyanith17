@@ -15,7 +15,7 @@
 
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
-		<link rel="stylesheet" href="../style.css"/>
+		
 		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -24,7 +24,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
+		<link rel="stylesheet" href="../style.css"/>
 </head>
 <body >
 <?php
@@ -59,7 +59,7 @@
 		</g>
 	</g>
 </g>
-</svg><h1 id="head" style="position:relative;top:30px;left:-90px;">ANTAGON</h1></div>
+</svg></div><h1 id="head">ANTAGON</h1>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
@@ -69,39 +69,14 @@
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-		
+			<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
-		<!--<table id="nav">
-			<tr>
-					<td><a href="index.php">HOME</a></td>
-			</tr>
-			<tr>
-					<td><a href="desc.php">description</a></td>
-			</tr>
-			<tr>
-					<td><a href="format.php">format</a></td>
-			</tr>
-			<tr>
-					<td><a href="judge.php">judgement criteria</a></td>
-			</tr>
-			<tr>
-					<td><a href="rule.php">rules</a></td>
-			</tr>
-			<tr>
-					<td><a href="about.php">ABOUT US</a></td>
-			</tr>
-			<tr>
-					<td><a href="reg.php">REGISTER</a></td>
-			</tr>
-			<tr>
-			<td><a href="contact.php">CONTACT US</a></td>
-			</tr>
-		</table>-->
+	
 	</div>
-	<div class="col-lg-8" id="content" style="position:relative;top:-5px;">
+	<div class="col-lg-8" id="content" >
 
 			<h1>Loading...</h1>
 

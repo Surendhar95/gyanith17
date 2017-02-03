@@ -4277,15 +4277,15 @@ AAAAAAAAAAAAAGg6/38A0BqISpTkwHEAAAAASUVORK5CYII=" transform="matrix(0.1746 0 0 0
 						<a href="workshops/vr/index.php" ><h5>GAME DEVELOPMENT USING VR</h5></a>
 				</div>
 				<div id="website" class="dept-name col-sm-6 col-md-6 col-lg-6">
-						<a href="workshops/web/index.php" ><h5>GET PLUGDIN</h5></a>
+						<a href="workshops/web/index.php" ><h5>GET PLUGDIN - JQUERY WORKSHOP</h5></a>
 				</div>
 			</div>
 			<div class="list-2 row">
 				<div id="swarm" class="dept-name col-sm-6 col-md-6 col-lg-6">
-						<a href="workshops/swarm/index.php"><h5>TAKE CONTROL</h5></a>
+						<a href="workshops/swarm/index.php"><h5>TAKE CONTROL - SWARM ROBOTICS</h5></a>
 				</div>
 				<div  id="energy" class="dept-name col-sm-6 col-md-6 col-lg-6">
-						<a href="workshops/solar/index.php" ><h5>RENEWATE OUT WORLD</h5></a>
+						<a href="workshops/solar/index.php" ><h5>SOLAR SMART ENERGY SYSTEM</h5></a>
 				</div>
 			</div>
 			<div class="list-3 row">
@@ -4293,7 +4293,7 @@ AAAAAAAAAAAAAGg6/38A0BqISpTkwHEAAAAASUVORK5CYII=" transform="matrix(0.1746 0 0 0
 						<a href="workshops/crabot/index.php" ><h5>CRABOT</h5></a>
 				</div>
 				<div  id="rc" class="dept-name col-sm-6 col-md-6 col-lg-6">
-						<a href="workshops/rc/index.php" ><h5>TAKE OFF</h5></a>
+						<a href="workshops/rc/index.php" ><h5>TAKE OFF - RC PLANE DESIGNING</h5></a>
 				</div>
 			</div>
 		</div>

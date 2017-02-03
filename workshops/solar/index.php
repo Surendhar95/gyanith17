@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Gyanith '17  |  RENEWATE OUT WORLD</title>
+	<title>Gyanith '17  |  SOLAR SMART ENERGY SYSTEM</title>
 	
 		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
 		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
@@ -70,7 +70,7 @@
 </g>
 <circle fill="#FFFFFF" cx="200.001" cy="139.663" r="29.099"/>
 </svg></div>
-	<h1 id="head">RENEWATE OUT WORLD</h1>
+	<h1 id="head">SOLAR SMART ENERGY SYSTEM</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index" style="margin-top:50px;">
 		<ul id="nav">

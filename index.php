@@ -38,9 +38,10 @@
 </head>
 
 <body>
-		<?php include "preloader.php" ?>
+		
 		<?php include 'loginicon.php';?>
 		<?php include "sidebar.php";?>
+		<?php include "preloader.php" ?>
 		
 		
 		<div id="gradient" />

@@ -24,7 +24,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
+	<style>
+	#content{
+		margin-top:100px;
+	}
+	</style>
 </head>
 <body >
 <?php
@@ -57,7 +61,7 @@ include ('../../loginicon.php');
 		c5.334,2.759,11.9,0.68,14.66-4.671C286.668,251.776,284.572,245.202,279.246,242.451z"/>
 </g>
 </svg></div>
-<h1 id="head" style="position:relative;left:-160px;top:-110px;">LINK IT</h1>
+<h1 id="head" >LINK IT</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -66,40 +70,18 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
-		<!--<table id="nav">
-			<tr>
-					<td><a href="index.php">HOME</a></td>
-			</tr>
-			<tr>
-					<td><a href="desc.php">description</a></td>
-			</tr>
-			<tr>
-					<td><a href="format.php">format</a></td>
-			</tr>
-			<tr>
-					<td><a href="judge.php">judgement criteria</a></td>
-			</tr>
-			<tr>
-					<td><a href="rule.php">rules</a></td>
-			</tr>
-			<tr>
-					<td><a href="about.php">ABOUT US</a></td>
-			</tr>
-			<tr>
-			<td><a href="contact.php">CONTACT US</a></td>
-			</tr>
-		</table>-->
+		
 	</div>
-	<div class="col-lg-8" id="content" style="position:relative;top:-120px;">
+	<div class="col-lg-8" id="content" >
 
 			<h1>Loading...</h1>
 

@@ -14,7 +14,7 @@
 
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
-		<link rel="stylesheet" href="../style.css"/>
+	
 <link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -22,13 +22,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
+			<link rel="stylesheet" href="../style.css"/>
 <style>
- #content ol li{
-	font-size: 17px;  
-  }
- #content ul li{
-	  font-size: 17px;
-  }
+#index{
+	margin-top:-5px;
+}
 </style>
 
 </head>
@@ -37,13 +35,11 @@
 	include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
-	<!--#222930
-#4EB1BA
-#E9E9E9-->
+
 <div>
-	<div id="logo" style="margin-bottom:-30px;">
+	<div id="logo" >
 	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="180px" height="180px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)">
 		<path fill="#fff" d="M830,4208.135c-109.175-40.864-134.282-177.471-47.3-253.955l20.444-17.515v-343.896v-343.872l-35.024-3.501
@@ -68,7 +64,7 @@
 			c-76.494,84.639-56.045,219.502,42.031,274.385C2712.861,2607.871,2767.724,2609.043,2827.275,2581.006z"/>
 	</g>
 </g>
-</svg><h1 id="head" style="position:relative;left:-4%;">BURN OUT</h1></div>
+</svg></div><h1 id="head">BURN OUT</h1>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
@@ -78,42 +74,21 @@
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="rulenspec.php">  RULES</a></div></li>
+			<br>
 			<li><div class="menu-tab"><a href="spec.php">  SPECIFICATIONS</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="resource.php">  RESOURCES</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-		
+		<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 
 		</ul>
-		<!--<table id="nav">
-			<tr>
-					<td><a href="index.php">HOME</a></td>
-			</tr>
-			<tr>
-					<td><a href="desc.php">description</a></td>
-			</tr>
-			<tr>
-					<td><a href="format.php">format</a></td>
-			</tr>
-			<tr>
-					<td><a href="judge.php">judgement criteria</a></td>
-			</tr>
-			<tr>
-					<td><a href="rule.php">rules</a></td>
-			</tr>
-			<tr>
-					<td><a href="about.php">ABOUT US</a></td>
-			</tr>
-			<tr>
-			<td><a href="contact.php">CONTACT US</a></td>
-			</tr>
-		</table>-->
+	
 	</div>
 	<div class="col-lg-8" id="content" >
 
@@ -123,7 +98,7 @@
 	</div>
 	</div>
 </div>
-<?php include("/../../footer.php") ?>
+<?php include("../../footer.php") ?>
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>

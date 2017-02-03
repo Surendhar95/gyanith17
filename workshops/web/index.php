@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Gyanith '17  |  GET PLUGDIN </title>
+	<title>Gyanith '17  |  GET PLUGDIN - JQUERY WORKSHOP</title>
 		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
 		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
 		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
@@ -17,7 +17,11 @@
 <link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css"/>
 <script type="text/javascript" src="../../js/material.min.js"></script>
 <script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
+<style>
+#index{
+	margin-top:-5px;
+}
+</style>
 </head>
 <body >
 
@@ -3832,7 +3836,7 @@ AAAAAAAAAAAAAGg6/38A0BqISpTkwHEAAAAASUVORK5CYII=" transform="matrix(0.1746 0 0 0
 
 	
 	
-	</div><h1 id="head"> GET PLUGDIN</h1>
+	</div><h1 id="head"> GET PLUGDIN - JQUERY WORKSHOP</h1>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">

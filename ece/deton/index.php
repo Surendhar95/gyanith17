@@ -8,7 +8,6 @@
   		<title>Gyanith '17  | DETONATE</title>
   		<link rel="stylesheet" href="css/style.css">
   		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
-  		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
   		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
@@ -32,11 +31,9 @@
 include ('../../loginicon.php');
 	include ("../../sidebar.php");
 ?>
-	<!--#222930
-#4EB1BA
-#E9E9E9-->
+	
 <div>
-	<div id="logo" style="margin-bottom:-30px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	<div id="logo" ><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="200px" height="200px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#fff" d="M286.332,94.704c0-15.145-12.09-27.795-26.947-28.201c-7.557-0.19-14.703,2.578-20.115,7.843
@@ -63,7 +60,7 @@ include ('../../loginicon.php');
 		"/>
 </g>
 </svg></div>
-<h1 id="head" style="margin:-2px;position:relative;top:-50px;margin-bottom:20px;">DETONATE-X</h1>
+<h1 id="head" >DETONATE-X</h1>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
@@ -73,19 +70,19 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-		
+			<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
 		</div>
-	<div class="col-lg-8" id="content" style="position:relative;top:-35px;">
+	<div class="col-lg-8" id="content">
 
 			<h1>Loading...</h1>
 

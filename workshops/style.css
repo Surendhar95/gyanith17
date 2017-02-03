@@ -13,14 +13,8 @@ p,h1,h2,h3,h4,h5,body,html {
 p {
     font-size: 17px;
   }
- #content ol li{
-	font-size: 17px;  
-  }
- #content ul li{
-	  font-size: 17px;
-  }
   h3 {
-    font-size: 18px;
+    font-size: 10px;
 
   }
   h2 {
@@ -42,6 +36,7 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
  
   background-attachment: fixed;
 }
+
 div{
   background:transparent;
 }
@@ -50,6 +45,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   background:transparent;
+  overflow-y:hidden;
 }
 .row #index ul#nav{
   list-style-type:none;
@@ -76,14 +72,7 @@ body {
   border-color:white;
 }
 
-#content p a:link{
-  color:#0066ff;
-  text-decoration: underline;
-}
-#content p a:visited{color:#0066ff;
-  text-decoration: underline;}
-  #content p a:hover{color:#fff;
-  text-decoration:none;}
+
 /* unvisited link */
 #ind a:link {
     color: white;
@@ -125,34 +114,33 @@ a:active {
   background:transparent;
 }
 #index{
-  margin-top: 30px;
+  margin-top: 20px;
     padding: 20px; 
     width: 22%;
-    height: 450px; 
+    height: 400px; 
     margin-left: 7%;
 
 }
 #content{
   overflow-y: auto;
- /* margin-top: 5px;*/
-  font-size: px;
+ /*margin-top: 5px;*/
   padding: 30px 20px;
   border-radius:15px;
-    width: 60%;
-    height: 450px; 
-    margin-left: 5%;
-    /*font-family: 'Oleo Script Swash Caps', cursive;*/
-    font-size: 1.2em;
-  
-   background: #a9e4f7; /* Old browsers */
-  background-color:#b3b3b3;
-
- 
+  width: 60%;
+  height: 450px; 
+  margin-left: 2%;
+  /*margin-top: 10px;*/
+  font-size: 1.2em;
+  background: #a9e4f7; /* Old browsers */
+  background-color:#b3b3b3; 
   background-attachment: fixed;
   opacity: 1;
   color: black;
-  position:relative;
-  top:-100px;
+  position: relative;
+top: -130px;
+  /*top: -28%;*/
+  margin-bottom:10px;
+  
 }
 .p{
   text-align: justify;
@@ -162,8 +150,8 @@ a:active {
 }
 #head{
   position: relative;
-  top: -100px;
- left:-150px;
+  top: -120px;
+ left:-155px;
 }
 h1#head{
   text-align: center;
@@ -198,6 +186,5 @@ background-image:-ms-linear-gradient(top, #000000 0%, #aaaaaa 50%,#000000 100%);
   opacity:1;
   color:white;
 
-}  
-
-/*  Inside style.css*/
+}
+/*  Inside style.css*/s

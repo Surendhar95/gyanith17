@@ -14,7 +14,7 @@
 
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
-		<link rel="stylesheet" href="../style.css"/>
+		
 		<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -23,7 +23,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
+		<link rel="stylesheet" href="../style.css"/>
 </head>
 <body >
 <?php
@@ -82,18 +82,7 @@
 	<div class="col-lg-8" id="content" >
 
 			<h1>Loading...</h1>
-			<!--
- background: #a9e4f7; /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  #5B5B5B 0%,#AAAAAA 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#5B5B5B), color-stop(100%,#AAAAAA)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg,  #5B5B5B 0%,#AAAAAA 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg,  #5B5B5B 0%,#AAAAAA 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg,  #5B5B5B 0%,#AAAAAA 100%); /* IE10+ */
-  background: linear-gradient(135deg,  #5B5B5B 0%,#AAAAAA 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5B5B5B', endColorstr='#AAAAAA',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-  background-attachment: fixed;
--->
 
 
 	</div>

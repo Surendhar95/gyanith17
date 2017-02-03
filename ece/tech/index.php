@@ -15,7 +15,7 @@
 
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
-		<link rel="stylesheet" href="../style.css"/>
+		
 		<link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -24,7 +24,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
+		<link rel="stylesheet" href="../style.css"/>
 
 </head>
 <body >
@@ -36,7 +36,7 @@ include ('../../loginicon.php');
 #4EB1BA
 #E9E9E9-->
 <div>
-	<div id="logo" style="margin-bottom:-20px;">
+	<div id="logo">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="180px" height="180px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
@@ -68,7 +68,7 @@ include ('../../loginicon.php');
 </g>
 </svg>
 </div>
-<h1 id="head" style="position:relative;top:-80px;margin-bottom:25px;">TECH-PURSUIT</h1>
+<h1 id="head">TECH-PURSUIT</h1>
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
 		<ul id="nav">
@@ -77,20 +77,20 @@ include ('../../loginicon.php');
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="format.php"> FORMAT</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
-			
+			<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>
 		</ul>
 
 	</div>
-	<div class="col-lg-8" id="content" style="position:relative;top:-80px;">
+	<div class="col-lg-8" id="content" >
 
 			<h1>Loading...</h1>
 

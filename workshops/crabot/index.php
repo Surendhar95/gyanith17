@@ -13,12 +13,26 @@
 		<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 			<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
-		<link rel="stylesheet" type="text/css" href="../style.css" />
+		
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css"/>
 <script type="text/javascript" src="../../js/material.min.js"></script>
 <script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<style>
+@supports (-webkit-appearance:none) {
+#content{
+	margin-top:100px;
+	
+}
+}
+    
 
+
+#index{
+	margin-top:-10px;
+}
+</style>
 </head>
 <body >
 <?php
@@ -26,7 +40,7 @@
 	include ("../../sidebar.php");
 	 ?>
 <div>
-	<div id="logo" style="position:relative;left:50px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	<div id="logo"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="180px" height="160px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<g>
@@ -113,8 +127,7 @@
 		<rect x="154.82" y="274.037" fill="#FFFFFF" width="25.07" height="8.002"/>
 	</g>
 </g>
-</svg></div>
-<h1 id="head" style="position:relative;">CRABOT</h1>
+</svg></div><h1 id="head" >CRABOT</h1>
 
 	<div class="row" id="ind">
 		<div class="col-lg-4" id="index">
@@ -137,14 +150,11 @@
 			<br>
 			<li><div class="menu-tab"><a href="faq.php">  FAQs</a></div></li>
 		</ul>
-		
-	</div>
-	<div class="col-lg-8" id="content" style="position:relative;">
+		</div>
+	<div class="col-lg-8" id="content" >
 		
 			<h1>Loading...</h1>
 
-			
-		
 	</div>
 	</div>
 </div>
