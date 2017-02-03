@@ -165,11 +165,11 @@ $e->getMessage();
 <select name="workshops" id="workshops" class="selectdrp">
 <option value="" disabled selected>Select workshops</option>
 <option value="game">Game Development Using VR</option>
-<option value="plugdin">Get PlugdIn</option>
-<option value="control">Take Control</option>
-<option value="renewate">Renewate Out World</option>
+<option value="plugdin"> Get Plugdin - jQuery Workshop</option>
+<option value="control">Take Control - Swarm Robotics</option>
+<option value="renewate">Solar Smart Energy System</option>
 <option value="crabot">Crabot</option>
-<option value="take">Take Off</option>
+<option value="take"> Take Off - RC Plane Designing</option>
 </select>
 <br/>
 <input type="text" id="sbitxt" name='sbitxt' class="txtinp" placeholder="Enter SBI collect number" title="Make payment to get SBI collect number. Refer website for payment details."/><br/>
