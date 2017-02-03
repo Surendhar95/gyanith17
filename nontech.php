@@ -41,7 +41,7 @@ width:350px;
 			</div>
 		</header>
 		
-		<div class="logo row" style="margin-top:40px;margin-bottom:-10px;">
+		<div class="logo row" style="margin-top:40px;margin-bottom:-10px;"><!--
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <path fill="#fff" d="M299.275,102.933H108.455c-3.603,0-6.522,2.921-6.522,6.522v190.82c0,3.602,2.92,6.522,6.522,6.522h190.821
@@ -185,14 +185,14 @@ width:350px;
 		</g>
 	</g>
 </g>
-</svg>
+</svg>-->
 						</div>
 	
 
 		<div class="dept-list">
 			<div class="list-1 row">
 				<div id="dbug" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="nontech/treasure/index.php"><h4>COBWEB</h4></a>
+					<a href="nontech/treasure/index.php"><h4>TREASURE HUNT</h4></a>
 				</div>
 				<div id="web" class="dept-name col-sm-6 col-md-6 col-lg-6">
 					<a href="nontech/music/index.php"><h4>MUSIC STATION</h4></a>
