@@ -51,6 +51,7 @@ $(document).ready(function (){
                 url:'dbevents.php',
                 data: data,
                 beforeSend:function(){
+					$('#alerteve').html('');
                      $("#submiteve").val("sending.....");
                 },
                 success: function(data){
@@ -124,6 +125,7 @@ $(document).ready(function (){
                 url:'dbworkshops.php',
                 data: data,
                 beforeSend:function(){
+					$('#alertwrk').html('');
                      $("#submitwrk").val("sending.....");
                 },
                 success: function(data){

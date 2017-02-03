@@ -128,7 +128,7 @@
 	</div>
 	</div>
 </div>
-<?php include("/../../footer.php") ?>
+<?php include("../../footer.php") ?>
 				<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<script src="../../js/app.js"></script>
