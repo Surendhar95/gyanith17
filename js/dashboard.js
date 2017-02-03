@@ -2,6 +2,19 @@ $(document).ready(function (){
 	$("#createteam").hide();
 	$("#wcreateteam").hide();
 	
+	//antagon codechef username 
+	$("#anttxt").hide();
+	 $("#events").change(function() {
+                 if ($(this).val() == 'antagon') {
+                   	$("#anttxt").show();
+ 				}
+				 else{
+					 $("#anttxt").hide();
+				 }
+			 });
+
+
+
 	//validate for sbi collect number 
 	
 
@@ -12,12 +25,18 @@ $(document).ready(function (){
 				  events:{
 					  required:true
 				  },
+				  anttxt:{
+					  required:true
+				  }
 	 		 },
 	 		 messages:
 	 		  {
 				   events:{
 					   required:'Please select a event'
 				   },
+				   anttxt:{
+					   required:'Please enter your CodeChef user name'
+				   }
 				   	
 			   },
 		   

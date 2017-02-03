@@ -7,7 +7,7 @@
   		
     <title>Gyanith '17 | Dashboard</title>
     
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
@@ -80,10 +80,10 @@ $e->getMessage();
 <option value="sync">SYNC</option>
 <option value="linkit">Linkit</option>
 <option value="rush_hour">Rush Hour</option>
-<option value="junkyard">Junkyard Wars</option>
+<option value="deadshot">DeadShot</option>
 <option value="burnout">Burn out</option>
 <option value="copterx">CopterX</option>
-<option value="pixel">Pixel</option>
+<option value="speculate">Speculate</option>
 <option value="techpursuit">TechPursuit</option>
 <option value="detonatex">Detonatex</option>
 <option value="consilium">Consilium</option>
@@ -92,6 +92,7 @@ $e->getMessage();
 <option value="cobweb">Cobweb</option>
 </select>
 <br/>
+<input type="text" id="anttxt" name='anttxt' class="txtinp" placeholder="Enter CodeChef Username" title="Refer Website for more details"/><br/>
 <input type="submit" id="submiteve" name="submiteve" class="bttn" value="Click to Register for events"/>
 <br/>
 <div id="regd">
@@ -123,18 +124,27 @@ if($result['linkit']=='1')
 {	echo '<div class="tnote">Linkit</div>';$test=1;}
 if($result['rush_hour']=='1')
 {	echo '<div class="tnote">Rush Hour</div>';$test=1;}
-if($result['junkyard']=='1')
-{	echo '<div class="tnote">Junkyard</div>';$test=1;}
+if($result['deadshot']=='1')
+{	echo '<div class="tnote">DeadShot</div>';$test=1;}
 if($result['burnout']=='1')
 {	echo '<div class="tnote">Burnout</div>';$test=1;}
 if($result['copterx']=='1')
 {	echo '<div class="tnote">Copterx</div>';$test=1;}
-if($result['pixel']=='1')
-{	echo '<div class="tnote">Pixel</div>';$test=1;}
+if($result['speculate']=='1')
+{	echo '<div class="tnote">Speculate</div>';$test=1;}
 if($result['techpursuit']=='1')
 {	echo '<div class="tnote">Techpursuit</div>';$test=1;}
 if($result['detonatex']=='1')
 {	echo '<div class="tnote">Detonatex</div>';$test=1;}
+if($result['consilium']=='1')
+{	echo '<div class="tnote">Consilium</div>';$test=1;}
+if($result['ityuktha']=='1')
+{	echo '<div class="tnote">Ityuktha</div>';$test=1;}
+if($result['prastuti']=='1')
+{	echo '<div class="tnote">Prastuti</div>';$test=1;}
+if($result['cobweb']=='1')
+{	echo '<div class="tnote">CobWeb</div>';$test=1;}
+
 }
 catch(PDOException $e){
 $e->getMessage();

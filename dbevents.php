@@ -72,7 +72,7 @@ if(isset($_POST['submiteve']) && isset($_POST['events'])){
         </p>
         Regards,
         Team Gyanith,
-        NIT Puducherry."
+        NIT Puducherry.";
         
         $body1="<p>
         Hi!<br/>
@@ -89,7 +89,7 @@ if(isset($_POST['submiteve']) && isset($_POST['events'])){
         </p>
         Regards,
         Team Gyanith,
-        NIT Puducherry."
+        NIT Puducherry.";
      if($gid!=null)
     {  
       if($events=='0'){
@@ -99,7 +99,18 @@ if(isset($_POST['submiteve']) && isset($_POST['events'])){
       $stmt2->execute(array(':gid'=>$g_id));
       //send mail for paper registration
      if($select=='consilium' || $select=='ityuktha' || $select=='prastuti')
-      { sendmail($email,$body,$body1);}
+      { sendmail($email,$body,$body1);
+      }
+      //for antagon code chef username
+      if($select=='antagon'){
+        if(isset($_POST['anttxt'])){
+          $sql="update events set codechef='".$_POST['anttxt']."' WHERE g_id=:gid";
+          $stmt2 = $db->prepare($sql);
+          $stmt2->execute(array(':gid'=>$g_id));
+      
+        }
+      }
+
       echo "upd ".$select." bltm ".$teame;
       }
       else{
@@ -113,7 +124,16 @@ if(isset($_POST['submiteve']) && isset($_POST['events'])){
     $stmt3->execute(array(':gid'=>$g_id));
     //send mail for paper registration
      if($select=='consilium' || $select=='ityuktha' || $select=='prastuti')
-      { sendmail($email,$body,$body1);}
+      { sendmail($email,$body,$body1);
+      }
+      if($select=='antagon'){
+        if(isset($_POST['anttxt'])){
+          $sql="update events set codechef='".$_POST['anttxt']."' WHERE g_id=:gid";
+          $stmt2 = $db->prepare($sql);
+          $stmt2->execute(array(':gid'=>$g_id));
+      
+        }
+      }
     echo "ins ".$select." bltm ".$teame;
    }
 
