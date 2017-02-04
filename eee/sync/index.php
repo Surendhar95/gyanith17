@@ -24,11 +24,7 @@
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
 	<link rel="stylesheet" href="../style.css"/>
-	<style>
-	#content{
-		margin-top:100px;
-	}
-	</style>
+	
 </head>
 <body >
 <?php
