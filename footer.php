@@ -24,8 +24,8 @@ footer hr{
 	
 }
 .foot-btn{
-height:35px;
-width:40px;
+height:25px;
+width:30px;
 opacity: 1;
 }
 .clrch:hover{
@@ -139,7 +139,7 @@ margin-bottom:5px;
 								</svg>
 							</span>
 						</button></a>
-					<div style="padding-bottom:-40px;" class="fb-like" data-href="https://www.facebook.com/gyanith.nitpy/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+					<div style="padding-bottom:-40px;" class="fb-like" data-href="https://www.facebook.com/gyanith.nitpy/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clrch">
 					MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY
