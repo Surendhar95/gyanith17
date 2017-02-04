@@ -4,7 +4,7 @@ function generate(type, text) {
             text        : type,
             type        : type,
             dismissQueue: false,
-            timeout: 5000,
+            timeout: 4000,
             layout      : 'topCenter',
             theme       : 'relax',
             progessBar	: true, 
@@ -22,6 +22,7 @@ function generate(type, text) {
             generate("Limited registrations. Register soon");
             generate("Event registration started");
             generate("Schedule is available for download at profile section");
+            generate("Gear up for an exciting auto-expo at Gyanith'17");
 
        	}
 

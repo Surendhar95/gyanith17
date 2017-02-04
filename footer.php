@@ -23,9 +23,10 @@ footer hr{
 	
 	
 }
-.button{
+.foot-btn{
 height:35px;
-width:35px;
+width:40px;
+opacity: 1;
 }
 .clrch:hover{
 color:#19f6e8;
@@ -54,7 +55,7 @@ margin-bottom:5px;
 	<div class="footer">
 		<div class="row">
 			<div id="socialicon" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-					<a href="https://twitter.com/nitpygyanith" target="_blank"><button style="background-color: transparent;border:none;"  class="button button--line button--effect-1">
+					<a href="https://twitter.com/nitpygyanith" target="_blank"><button style="background-color: transparent;border:none;"  class="foot-btn button button--line button--effect-1">
 							<span class="twitter-shape" data-morph-active="M361.5,118.5c-24-6.5-29.314-6.731-42.264-5.184c13.216-7.922,23.365-20.466,28.146-35.414
 		c-12.37,7.336-26.067,12.663-40.647,15.533c-11.676-12.44-28.313-20.213-46.725-20.213c-35.35,0-64.009,28.658-64.009,64.008
 		c0,5.017,0.566,9.902,1.657,14.587C144.459,149.147,104.571,100.727,73,62c-5.51,9.454-7,31.269-7,43
@@ -75,7 +76,7 @@ margin-bottom:5px;
 								</svg>
 							</span>
 						</button></a>
-					<a href=""><button style="background-color: transparent;border:none;"  class="button button--line button--effect-1">
+					<a href=""><button style="background-color: transparent;border:none;"  class="foot-btn button button--line button--effect-1">
 							<span class="twitter-shape" data-morph-active="M373.708,170.887c-0.127-6.987-0.681-15.82-1.646-26.492c-0.975-10.678-2.364-20.221-4.176-28.629
 		c-2.07-9.445-6.566-17.404-13.488-23.873c-6.922-6.472-14.977-10.222-24.166-11.259C301.505,77.401,258.095,65.5,200,65.5
 		S98.495,77.401,69.769,80.634c-9.188,1.036-17.211,4.788-24.067,11.259c-6.858,6.467-11.322,14.426-13.394,23.873
@@ -104,7 +105,7 @@ margin-bottom:5px;
 								</svg>
 							</span>
 						</button></a>
-					<a href="https://www.instagram.com/nitpygyanith/" target="_blank">			<button style="background-color: transparent;border:none;"  class="button button--line button--effect-1">
+					<a href="https://www.instagram.com/nitpygyanith/" target="_blank">			<button style="background-color: transparent;border:none;"  class="foot-btn button button--line button--effect-1">
 							<span class="twitter-shape" data-morph-active="M367.384,32.065c-9.114-9.118-20.039-13.676-32.768-13.676H65.389c-12.73,0-23.652,4.559-32.77,13.676
 		c-9.117,9.115-13.674,20.038-13.674,32.766v269.224c0,12.729,4.557,23.653,13.674,32.768c9.118,9.115,20.042,13.678,32.77,13.678
 		h269.224c12.725,0,23.652-4.56,32.768-13.678c9.12-9.113,13.673-20.039,13.673-32.768V64.831

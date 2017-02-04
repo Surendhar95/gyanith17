@@ -18,16 +18,13 @@
 		<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../../css/menu_sideslide.css" />
 		<link rel="stylesheet" href="../../css/material.min.css">
-		<link rel="stylesheet" type="text/css" href="../style.css" />
+		
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css"/>
+<link rel="stylesheet" type="text/css" href="../style.css" />
 <script type="text/javascript" src="../../js/material.min.js"></script>
 <script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-<style>
-#index{
-	margin-top:-10px;
-}
-</style>
+
 
 </head>
 <body >

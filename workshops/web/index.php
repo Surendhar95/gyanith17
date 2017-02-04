@@ -17,11 +17,7 @@
 <link rel="stylesheet" type="text/css" href="../../css/style_click_drop.css"/>
 <script type="text/javascript" src="../../js/material.min.js"></script>
 <script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-<style>
-#index{
-	margin-top:-5px;
-}
-</style>
+
 </head>
 <body >
 

@@ -117,7 +117,7 @@ width:400px;
 						
 						</div>
 						<div id="ece-logo" class="detail-div">
-							<a href="google.com" style="text-decoration:none;">
+							
 						<button style="background-color: transparent;border:none;" class="button button--line button--effect-1">
 							<span class="twitter-shape" data-morph-active="M351.184,138.76v-9.589h54.558v-19.095h-34.558v-9.547h-46.076v19.452h-8.076V93.949
 	c0-4.38-3.548-7.908-7.905-7.908H112.598c-4.379,0-7.908,3.528-7.908,7.908v27.994H94.604v-18.177H48.691v9.569H14.258v19.094
