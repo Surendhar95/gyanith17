@@ -186,5 +186,36 @@ $("#prastuti").hover(function(){
             $(".logo").html($('#prastuti-logo').html());
             return false;
     });
+$("#paper").hover(function(){
+          
+            $(".logo").html($('#paper-logo').html());
+            return false;
+    });
+$("#expo").hover(function(){
+          
+            $(".logo").html($('#expo-logo').html());
+            return false;
+    });
+    
+$("#treasure").hover(function(){
+          
+            $(".logo").html($('#treasure-logo').html());
+            return false;
+    });
+$("#music").hover(function(){
+          
+            $(".logo").html($('#music-logo').html());
+            return false;
+    });
+$("#lol").hover(function(){
+          
+            $(".logo").html($('#lol-logo').html());
+            return false;
+    });
+$("#mad").hover(function(){
+          
+            $(".logo").html($('#mad-logo').html());
+            return false;
+    });
 });
  

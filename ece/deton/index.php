@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
   		<title>Gyanith '17  | DETONATE</title>
-  		<link rel="stylesheet" href="css/style.css">
+  		
   		<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
 
@@ -23,7 +23,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="../../js/material.min.js"></script>
 		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-			<link rel="stylesheet" href="../style.css"/>
+		<link rel="stylesheet" href="../style.css"/>
 
 </head>
 <body >

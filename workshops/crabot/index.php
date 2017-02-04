@@ -19,19 +19,7 @@
 <script type="text/javascript" src="../../js/material.min.js"></script>
 <script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
 <link rel="stylesheet" type="text/css" href="../style.css" />
-<style>
-@supports (-webkit-appearance:none) {
-#content{
-	margin-top:100px;
-	
-}
-}
-    
 
-
-#index{
-	margin-top:-10px;
-}
 </style>
 </head>
 <body >
