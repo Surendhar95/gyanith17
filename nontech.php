@@ -43,7 +43,7 @@ width:350px;
 		
 		<div class="logo row" style="margin-top:40px;margin-bottom:-10px;">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g transform="translate(1 1)">
 	<g>
 		<g>
@@ -104,7 +104,7 @@ width:350px;
 		</div>
 			<div id="treasure-logo" class="detail-div">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g transform="translate(1 1)">
 	<g>
 		<g>
@@ -165,7 +165,7 @@ width:350px;
 						</div>
 						<div id="music-logo" class="detail-div">
 							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M325.852,101.776V42.177c0-2.798-1.367-5.466-3.58-7.092c-2.277-1.626-5.205-2.147-7.873-1.301
 		L136.837,90.195c-3.644,1.171-6.116,4.555-6.116,8.394v59.664v0.065v114.059c-9.304-6.442-21.211-9.955-33.704-9.955
@@ -265,10 +265,10 @@ width:350px;
 						</div>
 	
 
-		<div class="dept-list">
+		<div class="wrk-list">
 			<div class="list-1 row">
-				<div id="treasure" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="nontech/treasure/"><h4>TREASURE HUNT</h4></a>
+				<div id="cobweb" class="dept-name col-sm-6 col-md-6 col-lg-6">
+					<a href="nontech/cobweb/"><h4>COBWEB</h4></a>
 				</div>
 				<div id="music" class="dept-name col-sm-6 col-md-6 col-lg-6">
 					<a href="nontech/music/"><h4>MUSIC STATION</h4></a>
@@ -282,6 +282,12 @@ width:350px;
 					<a href="nontech/lol/"><h4>LOL</h4></a>
 				</div>
 			</div>
+			<div class="list-3 row">
+				<div id="treasure" class="dept-name col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+					<a href="nontech/treasure/"><h4>Treasure Hunt</h4></a>
+				</div>
+				</div>
+			
 		</div>
 		<!-- <?php 
 			include "footer.php"

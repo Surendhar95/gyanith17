@@ -81,7 +81,7 @@
 			<br>
 			<li><div class="menu-tab"><a href="spec.php">  SPECIFICATIONS</a></div></li>
 			<br>
-			<li><div class="menu-tab"><a href="resource.php">  RESOURCES</a></div></li>
+			<li><div class="menu-tab"><a href="judge.php">  JUDGEMENT CRITERIA</a></div></li>
 			<br>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
 		<br>

@@ -32,6 +32,28 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
  
   background-attachment: fixed;
 }
+#content{
+  overflow-y: auto;
+ margin-top: 45px;
+  padding: 30px 20px;
+  border-radius:15px;
+  width: 65%;
+  height: 450px; 
+  margin-left: 2%;
+  /*margin-top: 10px;*/
+  font-size: 1.2em;
+  background: #d9d9d9; /* Old browsers */
+  background-color:rgba(217,217,217,0.4); 
+  background-attachment: fixed;
+ 
+  color: black;
+  position: relative;
+  /*top: -130px;*/
+  margin-bottom:10px;
+  border: 1px white solid;
+  
+}
+
 
 div{
 	background:transparent;
@@ -62,25 +84,7 @@ body {
     margin-right: 5%;
 	background:transparent;
 }
-#content{
-	
-	margin-top: -10px;
-   padding: 30px 20px;
-  border-radius:15px;
-    width: 65%;
-    height:430px; 
-    margin-right: 2%;
-    /*font-family: 'Oleo Script Swash Caps', cursive;*/
-    font-size: 1.2em;
-     background: #a9e4f7; /* Old browsers */
-  background-color:#b3b3b3;
-  background-attachment: fixed;
-  opacity: 1;
-  color: black;
-  overflow-y: auto;
-	position:relative;
-	top:100px;
-}
+
 p{
 	text-align: justify;
   display: inline-block;

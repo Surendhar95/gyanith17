@@ -1,19 +1,14 @@
 <head>
 	<link href="../../style.css"/>
 </head>
-<!-- <style>
-	p {
-		font-size: 18px;
-	}
-	h3 {
-		font-size: 18px;
 
-	}
-	h2 {
-		font-size: 20px;
-	}
-	h1 {
-		font-size: 22px;
-	}
-</style> -->
-<p>Are you the geek in your friend circle?? Do you enjoy coding more than a movie? Is coffee your best friend?? Then this is your event. We challenge you to compete in one of the biggest competitive programming platform, CODECHEF. </p>
+<p>
+<ol>
+<li>	This is an online event which will be hosted in Codechef  website as a closed event.
+</li><br><li>The participant gets access to the portal at the start of the event on 25/02/2017,  06:00 PM.
+</li><br><li>	 5 programs will be given which the participant has to complete in 2 hrs. 
+</li><br><li>The solutions to the problems are pure algorithmic and mathematical. 
+</li><br><li>	Participants can code in any language accepted by Codechef.          
+</li>
+</ol>
+</p>
