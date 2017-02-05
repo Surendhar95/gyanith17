@@ -23,8 +23,8 @@
 	</head>
 	<style>
 .button{
-height:350px;
-width:350px;
+height:300px;
+width:300px;
 }
 </style>
 	<body class="event-gradient">
@@ -34,13 +34,13 @@ width:350px;
 	 ?>
 		<header>
 			<div class="title row">
-				EVENTS
+				
 			</div>
 		</header>
 		
 		<div class="logo row" style="margin-top:20px;">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M323.708,73.637h-9.722V312.48c0,15.867-12.916,28.783-28.783,28.783H186.7h-78.33v8.854
 		c0,10.14,8.229,18.367,18.367,18.367h98.468h98.468c10.14,0,18.367-8.228,18.367-18.367V92.004
@@ -61,7 +61,7 @@ width:350px;
 		</div>
 			<div id="consilium-logo" class="detail-div">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M323.708,73.637h-9.722V312.48c0,15.867-12.916,28.783-28.783,28.783H186.7h-78.33v8.854
 		c0,10.14,8.229,18.367,18.367,18.367h98.468h98.468c10.14,0,18.367-8.228,18.367-18.367V92.004
@@ -82,7 +82,7 @@ width:350px;
 						</div>
 						<div id="ityuktha-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M323.708,73.637h-9.722V312.48c0,15.867-12.916,28.783-28.783,28.783H186.7h-78.33v8.854
 		c0,10.14,8.229,18.367,18.367,18.367h98.468h98.468c10.14,0,18.367-8.228,18.367-18.367V92.004
@@ -104,7 +104,7 @@ width:350px;
 						</div>
 						<div id="prastuti-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="350px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M323.708,73.637h-9.722V312.48c0,15.867-12.916,28.783-28.783,28.783H186.7h-78.33v8.854
 		c0,10.14,8.229,18.367,18.367,18.367h98.468h98.468c10.14,0,18.367-8.228,18.367-18.367V92.004
