@@ -68,25 +68,47 @@ body {
     margin-right: 5%;
 	background:transparent;
 }
-#content{
+/*#content{
 	
-	/*margin-top: -10px;*/
+
  overflow:hidden;
  padding: 30px 20px;
   border-radius:15px;
     width: 60%;
     height: 450px; 
     margin-left: 2%;
-    /*font-family: 'Oleo Script Swash Caps', cursive;*/
+ 
     font-size: 1em;
-     background: #a9e4f7; /* Old browsers */
+     background: #a9e4f7; 
   background-color:#b3b3b3;
   background-attachment: fixed;
   opacity: 1;
   color: black;
-  /*overflow-y: auto;*/
+  
 	position:relative;
 	top:80px;
+}*/
+
+#content{
+  overflow-y: hidden;
+ margin-top: 45px;
+  padding: 30px 20px;
+  border-radius:15px;
+  width: 65%;
+  height: 500px; 
+  margin-left: 2%;
+  /*margin-top: 10px;*/
+  font-size: 1.1em;
+  background: #d9d9d9; /* Old browsers */
+  background-color:rgba(217,217,217,0.4); 
+  background-attachment: fixed;
+ 
+  color: black;
+  position: relative;
+  /*top: -130px;*/
+  margin-bottom:10px;
+  border: 1px white solid;
+  
 }
 p{
 	text-align: justify;
