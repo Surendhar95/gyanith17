@@ -3,7 +3,7 @@
 				<nav class="menu">
 					<div class="icon-list"><!-- style="color:white">-->
 						<div class="home-logo">
-							<a href="/index.php"><img  src="/images/logo.svg"/></a>
+							<a href="/"><img  src="/images/logo.svg"/></a>
 						</div>
 						<?php
 							 
