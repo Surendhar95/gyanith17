@@ -284,7 +284,7 @@ width:350px;
 			</div>
 			<div class="list-3 row">
 				<div id="treasure" class="dept-name col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
-					<a href="nontech/treasure/"><h4>Treasure Hunt</h4></a>
+					<a href="nontech/treasure/"><h4>TREASURE HUNT</h4></a>
 				</div>
 				</div>
 			
