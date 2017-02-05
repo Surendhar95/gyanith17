@@ -63,24 +63,25 @@ body {
 	background:transparent;
 }
 #content{
-	
-	/*margin-top: -10px;*/
-  font-size: px;
+  overflow-y: hidden;
+ margin-top: 45px;
   padding: 30px 20px;
   border-radius:15px;
-    width: 60%;
-    height: 450px; 
-    margin-left: 3%;
-    /*font-family: 'Oleo Script Swash Caps', cursive;*/
-    font-size: 1.2em;
-     background: #a9e4f7; /* Old browsers */
-  background-color:#b3b3b3;
+  width: 65%;
+  height: 500px; 
+  margin-left: 2%;
+  /*margin-top: 10px;*/
+  font-size: 1.1em;
+  background: #d9d9d9; /* Old browsers */
+  background-color:rgba(217,217,217,0.4); 
   background-attachment: fixed;
-  opacity: 1;
+ 
   color: black;
-  overflow-y: auto;
-	position:relative;
-	top:80px;
+  position: relative;
+  /*top: -130px;*/
+  margin-bottom:10px;
+  border: 1px white solid;
+  
 }
 p{
 	text-align: justify;
