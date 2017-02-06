@@ -94,7 +94,7 @@ include ('../../loginicon.php');
 			</ul>
 
 	</div>
-	<div class="col-lg-8" id="content" style="position:relative;top:-120px;">
+	<div class="col-lg-8" id="content">
 
 			<h1>Loading...</h1>
 

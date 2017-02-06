@@ -56,6 +56,8 @@ Eventcoordinator Name :<input  type='text' name='name'></br></br>
                 <option value="renewate">Solar Smart Energy System</option>
                 <option value="crabot">Crabot</option>
                 <option value="take"> Take Off - RC Plane Designing</option>
+		<option value="hospitality"> Hospitality</option>
+				
 
 
         </select>

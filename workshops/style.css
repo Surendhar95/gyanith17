@@ -1,3 +1,7 @@
+
+html{
+	overflow-y: auto;
+}
 font-face {
   font-family: 'Droid Sans';
   font-style: normal;

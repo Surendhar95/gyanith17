@@ -1,3 +1,7 @@
+
+html{
+	overflow-y: auto;
+}
 #content{
   overflow-y: hidden;
  margin-top: 45px;
