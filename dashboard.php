@@ -172,7 +172,7 @@ $e->getMessage();
 <option value="take"> Take Off - RC Plane Designing</option>
 </select>
 <br/>
-<input type="text" id="sbitxt" name='sbitxt' class="txtinp" placeholder="Enter SBI collect number" title="Make payment to get SBI collect number. Refer website for payment details."/><br/>
+<input type="text" id="sbitxt" name='sbitxt' class="txtinp" placeholder="Enter Bank Transaction Reference number" title="Make payment to get Reference number. Refer website for payment details."/><br/>
 <input type="submit" id="submitwrk"  class="bttn" name="submitwrk" value="Click to Register for Workshops"/>
 <br/>
 <div>Registered Workshops are:</div><br/>

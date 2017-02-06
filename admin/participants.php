@@ -31,10 +31,16 @@ $event=$_SESSION['event'];
 <th width=20%>Phone</th>
 <?php if($event=='antagon'){
 	echo '<th width=20%>CodeChef username</th>';
-} ?>
+}
+if($event!='hospitality') { ?>
 <th width=20%>Team ID</th>
 <th width=20%>Team Name</th>
 <?php
+}
+	if($event=='hospitality'){ ?>
+
+		<th width=20%>Paid</th>
+<?php	}
 	if($event=='game' || $event=='plugdin' || $event=='control' || $event=='renewate' || $event=='crabot' || $event=='take')
 	{ 
 		echo '<th width=20%>SBI COLLECT</th>';
@@ -57,6 +63,10 @@ $ant=$db->prepare($sql);
 //for workshops
 $sql='select workshops.t_id,workshops.g_id,workshops.sbi'.$event.',users.g_id,users.name,users.email,users.gender,users.college,users.phone,wrkteam.tname from workshops inner join users on users.g_id = workshops.g_id LEFT JOIN wrkteam on workshops.t_id=wrkteam.t_id where workshops.'.$event.'=1';
 $wrk=$db->prepare($sql);
+
+//for hospitality
+$sql='select hospitality.g_id,hospitality.paid,users.g_id,users.name,users.email,users.gender,users.college,users.phone from hospitality inner join users on hospitality.g_id=users.g_id ';
+$hos=$db->prepare($sql);
 
 
 if($event == "dbugcbug"){
@@ -156,6 +166,10 @@ else if($event == "take"){
 $wrk->execute();
 $result=$wrk->fetchAll();
 }
+else if($event == "hospitality"){
+$hos->execute();
+$result=$hos->fetchAll();
+}
 
 $refno='sbi'.$event;
 
@@ -177,12 +191,16 @@ echo"<center>";
 	if($event=='antagon'){
 	echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['codechef']."</b></td>";	
 	}
-	echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['t_id']."</b></td>";
-    echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['tname']."</b></td>";
-
+	if($event!='hospitality'){
+		echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['t_id']."</b></td>";
+ 	    echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['tname']."</b></td>";
+	}
 	if($event=='game' || $event=='plugdin' || $event=='control' || $event=='renewate' || $event=='crabot' || $event=='take')
 	{
 		echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row[$refno]."</b></td>";
+	}
+	if($event == "hospitality"){
+		echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['paid']."</b></td>";
 	}
 	echo"<tr>";
 	echo"</tbody>";

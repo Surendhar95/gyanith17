@@ -1,3 +1,14 @@
+#prizepara{
+text-align:center;font-weight:bold;font-size:1.2em;}
+
+#prizepara #rupee{
+  color:#fff;
+}
+
+html{
+	overflow-y: auto;
+}
+
 font-face {
   font-family: 'Droid Sans';
   font-style: normal;

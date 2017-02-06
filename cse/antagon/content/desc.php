@@ -11,4 +11,10 @@
 </li><br><li>	Participants can code in any language accepted by Codechef.          
 </li>
 </ol>
+<br>
+<p id="prizepara">
+Price Money<br/>
+First Price : <span id="rupee">4000 </span>(INR) &nbsp;&nbsp;&nbsp;
+Second Price: <span id="rupee">2500 </span>(INR)
+</p>
 </p>

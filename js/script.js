@@ -29,6 +29,17 @@ function myFunction() {
 //validation and submit handling of signup
 $('document').ready(function()
 { 
+
+	//code for scroll up after sign up
+	/*$(function () {
+		$('#btn-submit').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+*/
 	 $(".coltxt").hide();
              $("#college").change(function() {
                  if ($(this).val() == "0") {
@@ -154,7 +165,15 @@ if ($(element).is("input#cpassword")) {
 				success :  function(data)
 						   {						
 								if(data==1){
-									
+									$(function () {
+										
+											$('body,html').animate({
+												scrollTop: 0
+											}, 800);
+											//return false;
+										
+									});
+
 									$("#error").fadeIn(1000, function(){
 											
 											
@@ -168,7 +187,14 @@ if ($(element).is("input#cpassword")) {
 								}
 								else if(data=="registered")
 								{
-									
+									$(function () {
+										
+											$('body,html').animate({
+												scrollTop: 0
+											}, 800);
+											//return false;
+										
+									});
 									$("#btn-submit").val(' Signing Up ...');
 									//$('#signup-form')[0].reset();
 									//$('#signup-form').children('input').val('');
@@ -176,6 +202,14 @@ if ($(element).is("input#cpassword")) {
 								
 								}
 								else{
+									$(function () {
+										
+											$('body,html').animate({
+												scrollTop: 0
+											}, 800);
+											//return false;
+										
+									});
 										
 									$("#error").fadeIn(1000, function(){
 									$("#error").html('<div class="alert alert-danger"><span class="glyphicon glyphicon-info-sign"></span> &nbsp;'+data+' !</div>');	
