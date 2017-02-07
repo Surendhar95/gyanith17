@@ -113,8 +113,6 @@
 			<br>
 			<li><div class="menu-tab"><a href="resource.php">  RESOURCES</a></div></li>
 			<br>
-			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
-			<br>
 			<li><div class="menu-tab"><a href="reg.php">  REGISTER</a></div></li>
 			<br>
 			<li><div class="menu-tab"><a href="contact.php">  CONTACT US</a></div></li>

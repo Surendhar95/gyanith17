@@ -59,8 +59,8 @@
 					<a href="desc.php"> DESCRIPTION</a>
 				</div>
 			</li>
-			<br>
-			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>
+			<!--<br>
+			<li><div class="menu-tab"><a href="rule.php">  RULES</a></div></li>-->
 			</ul>
 
 	</div>

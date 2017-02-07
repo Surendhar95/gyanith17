@@ -129,15 +129,15 @@ width:300px;
 		<div class="dept-list">
 			<div class="list-1 row">
 				<div id="consilium" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="paper/consilium/index.php"><h4>CONSILIUM</h4></a>
+					<a href="paper/consilium/index.php"><h4>CONSILIUM (ECE)</h4></a>
 				</div>
 				<div id="ityuktha" class="dept-name col-sm-6 col-md-6 col-lg-6">
-					<a href="paper/ityuktha/index.php"><h4>ITYUKTHA</h4></a>
+					<a href="paper/ityuktha/index.php"><h4>ITYUKTHA (CSE)</h4></a>
 				</div>
 			</div>
 			<div class="list-2 row">
 				<div id="prastuti" class="dept-name col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
-					<a href="paper/prastuti/index.php"><h4>PRASTUTI</h4></a>
+					<a href="paper/prastuti/index.php"><h4>PRASTUTI (EEE+MECH)</h4></a>
 				</div>
 				
 			</div>

@@ -6,7 +6,7 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1"> 
   		
     <title>Gyanith '17 | Dashboard</title>
-    
+<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">    
     <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
