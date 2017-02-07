@@ -15,9 +15,6 @@ $(document).ready(function (){
 
 
 
-	//validate for sbi collect number 
-	
-
 /*event submit*/
         $("#dropevents").validate({
            rules:
@@ -98,7 +95,7 @@ $(document).ready(function (){
 					  required:true
 				  },
 				   sbitxt:{
-					   required:true,
+					  required:true,
 					 minlength:10,
 					 maxlength:10
 				  }
@@ -109,9 +106,9 @@ $(document).ready(function (){
 					   required:'Please select a workshop'
 				   },
 					   sbitxt:{
-						   required:'Please enter SBI collect number',
-						   minlength:'Please enter a valid SBI collect number',
-						   maxlength:'Please enter a valid SBI collect number'
+						   required:'Please enter Bank transaction Reference number',
+						   minlength:'Please enter a valid Bank transaction Reference number',
+						   maxlength:'Please enter a valid Bank transaction Reference number'
 					}
 			   },
             submitHandler: submitworkshops

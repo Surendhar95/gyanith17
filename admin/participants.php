@@ -1,7 +1,7 @@
 <?php 
 try{
 	//include('db.php');
-include('/dbcon.php');
+include('../dbcon.php');
 
 
 
