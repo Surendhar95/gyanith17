@@ -8,4 +8,21 @@ Enter the world of COPTER-X and find out.<br/><br/>
 The task is to make the quadcopter complete the course consisting of various obstacles 
 like rings, poles evading them and reaching the finish line. A team of maximum five members
  is allowed for this event. This is a challenging event as one can only estimate the conditions from the ground.<br/>
+
+<!--prize start-->
+<br/>
+<style>
+th, td {
+    padding: 5px;
+}
+</style>
+<p style="text-align:center;font-size:1.2em;">
+<table align="center">
+<tr><th style="text-align:center" colspan=2>Price Money</th></tr>
+<tr><td>First Price :</td><td>7000</td></tr>
+<tr><td>Second Price:</td><td>3500</td></tr>
+</table>
+
+</p>
+<!--prize end-->
 </p>

@@ -1,6 +1,46 @@
 <head>
 	<link href="../../style.css"/>
 </head>
+<!--new rules-->
+<p>
+<ol>
+<li>
+Jamming devices, such as an IR LED intended to saturate the opponent's IR sensor - such devices are not permitted to be operated by robots, by team members, subject to disqualification, by audience members in the Competition Hall, subject to removal from the Competition Hall.
+</li><br/>
+<li>
+The potential difference between any two points of the bot should not exceed 12volts.
+</li><br/>
+<li>
+Devices that can store solids, liquid, powder, or air, or produce flame, to throw at the opponent or the Sumo Ring are not allowed.
+</li><br/>
+<li>
+Each match is estimated to be of 3 min unless extended by the event coordinators.
+</li><br/>
+<li>
+The bot size should not exceed the 25cmx25cmx25cm
+</li><br/>
+<li>
+Each contestant scores points based on the moves and attacks as the opponent’s bots enters the danger zone in the arena.
+</li><br/>
+<li>
+When a robot is knocked over or falls over but remains within the Sumo Ring, no point is given and the round continues.
+</li><br/>
+<li>A match ends when:<br/>
+<ul>
+<li>Either robot fully goes outside the Sumo Ring, in the Ring Area.</li>
+<li>The end of the 3 minute overall time limit is reached without either robot exiting the Sumo Ring.</li>
+<li>A robot remain still for 30 seconds after starting of match.</li>
+</ul>
+</li>
+
+</ol>
+</p>
+
+<!--new rules end-->
+
+
+
+<!--
 <p><ol><li> The bots need to be programed for 1st round and shouldn’t be remote controlled. 
 Each robot may have only the following sensors, in these maximum quantities:<ul>
 <li>	5 Infrared (IR) LED assemblies (#350-00017)
@@ -45,4 +85,4 @@ foam tape) or any device to assist in adding more down force (such as a vacuum d
  </li></ol>
  </li>
 </ol>
-</p>
+</p>-->
