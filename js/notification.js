@@ -23,6 +23,8 @@ function generate(type, text) {
             generate("Event registration started");
             generate("Schedule is available for download at profile section");
             generate("Gear up for an exciting auto-expo at Gyanith'17");
+            generate("Antagon-online Codechef event");
+            generate("Rush hour-the robo wrestling event");
 
        	}
 
