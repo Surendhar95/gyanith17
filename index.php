@@ -37,7 +37,7 @@
   <script type="text/javascript" src="js/notification.js"></script>
 </head>
 
-<body>
+<body style="overflow-y: auto;">
 		
 		<?php include 'loginicon.php';?>
 		<?php include "sidebar.php";?>
@@ -50,6 +50,7 @@
 			$(window).on('load',function(){
 				$('.preloader').hide();
 			});
+
 
 		</script>
 	<!--	<script>
@@ -134,17 +135,7 @@
 		  repeat: 999
 		}).add(burst,burst1, burst3,burst5,circ, circ2,circ3).play();
 
-		
-		
-		
-  
-    	
-	        
 
-	      
-	      
-    
-    	
 		  </script>-->
 
 		
@@ -186,6 +177,42 @@
 						<div class="col-sm-2 col-md-2 col-lg-2">
 						</div>
 				</div>
+				<div class="row">
+						<div class="col-sm-1 col-md-1 col-lg-1">
+						</div>
+						<div class="col-sm-2 col-md-2 col-lg-2">
+						<div class="svg-wrapper">
+						  <a href="paper.php"> <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+							<rect class="shape" height="60" width="320" />
+							<div class="text">PAPER</div>
+						  </svg></a>
+						</div>
+						</div>
+						<div class="col-sm-1 col-md-1 col-lg-1">
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
+						<div class="svg-wrapper">
+						  <a href="nontech.php"><svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+							<rect class="shape" height="60" width="320" />
+							<div class="text">BAZINGA</div>
+						  </svg></a>
+						</div>
+						</div>
+
+						<div class="col-sm-2 col-md-2 col-lg-2" >
+						<div class="svg-wrapper">
+						<a href="expo.php">
+						 <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+							<rect class="shape" height="60" width="320" />
+							<div class="text">PROJECT EXPO</div>
+						  </svg></a>
+						</div>
+						</div>
+						<div class="col-sm-2 col-md-2 col-lg-2">
+						</div>
+				</div>
+						
+
 		</div>
 
 		

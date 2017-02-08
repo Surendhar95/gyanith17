@@ -1,5 +1,5 @@
 
-html{
+html,body{
 	overflow-y: auto;
 }
 #content{
@@ -797,9 +797,10 @@ margin:30px 40px;
 .hover-menu {
 	width: 100%;
 	position: absolute;
-	top:75%;
+	top:70%;
 	z-index: 2000;
 }
+
 .menu{
 	z-index: 6010;
 }

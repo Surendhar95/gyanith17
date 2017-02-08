@@ -1,7 +1,7 @@
 function generate(type, text) {
 
             var n = noty({
-            text        : type,
+            text        : text,
             type        : type,
             dismissQueue: false,
             timeout: 4000,
@@ -17,19 +17,44 @@ function generate(type, text) {
         
 
        	function generateAll() {
-       	 	generate("Welcome to Gyanith'17-Feb 24 to 26");
-            generate("Workshops registration started");
-            generate("Limited registrations. Register soon");
-            generate("Event registration started");
-            generate("Schedule is available for download at profile section");
-            generate("Gear up for an exciting auto-expo at Gyanith'17");
-            generate("Antagon-online Codechef event");
-            generate("Rush hour-the robo wrestling event");
+          generate("warning","Prizes worth 1.5 lakhs to be won")
+            generate('notification',"Workshops registration started");
+            generate('notification',"Workshop payment can be now done via SBICollect/DD/NEFT/Internet banking.Refer Workshop pages for details")
+            generate('notification',"Limited registrations. Register soon");
+            generate('notification',"Schedule is available for download at profile section");
+            generate('notification',"Antagon-online Codechef event");
+            generate('notification',"Rush hour-the robo wrestling event");
+            generate('notification',"Gear up for an exciting auto-expo at Gyanith'17");
+          
 
        	}
 
-       	$(document).ready(function(){
+        // function generate(type, text) {
 
+        //     var n = noty({
+        //         text        : text,
+        //         type        : type,
+        //         dismissQueue: true,
+        //         progressBar : true,
+        //         timeout     : 5000,
+        //         layout      : 'Left',
+        //         closeWith   : ['click'],
+        //         theme       : 'relax',
+        //         maxVisible  : 10,
+        //         animation   : {
+        //             open  : 'animated bounceInLeft',
+        //             close : 'animated bounceOutLeft',
+        //             easing: 'swing',
+        //             speed : 500
+        //         }
+        //     });
+        //     console.log('html: ' + n.options.id);
+        //     return n;
+        // }
+
+
+       	$(document).ready(function(){
+         // generate("information","hi","hi");
        		setInterval(function () {
             generateAll();
           

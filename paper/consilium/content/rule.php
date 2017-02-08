@@ -3,7 +3,7 @@
 </head>
 <p>
 <ol>
-<li>	The abstract must be submitted on or before 15th of February to papersubmit@gyanith.org
+<li>	The abstract must be submitted on or before 18th of February to papersubmit@gyanith.org
 </li><br><li>The competition is open to undergraduate students of all disciplines.
 </li><br><li>A team can consist of up to 2 people, not necessarily from the same college.
 </li><br><li>	Single participant teams are welcome too.
