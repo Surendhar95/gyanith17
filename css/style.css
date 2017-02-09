@@ -395,7 +395,7 @@ width:500px;
 #logo{
 
 position: fixed;
-  top: 50%;
+  top: 40%;
   left: 48%;
   z-index: 10000;
   
@@ -797,8 +797,17 @@ margin:30px 40px;
 .hover-menu {
 	width: 100%;
 	position: absolute;
-	top:70%;
+	top:65%;
 	z-index: 2000;
+}
+#payment {
+	float:right;
+	position: relative;
+	right: 3%;
+	top: 30%;
+}
+#payment a:hover {
+	color:#19f6e8; 
 }
 
 .menu{
@@ -814,11 +823,23 @@ margin:30px 40px;
 	position: relative;
 	display: inline-block;
 	width:40%;
+	margin-left: 30%;
+	margin-top: auto;
+	text-align:center;
+	height:auto;
+	color:white;
+	
+}
+.title1 {
+	position: relative;
+	display: inline-block;
+	width:40%;
 	left:30%;
 	margin-left: 30%;
 	margin-top: auto;
 	text-align:center;
 	height:auto;
+	color:white;
 	
 }
 
@@ -828,14 +849,14 @@ margin:30px 40px;
 	display: inline-block;
 	left: 25%;
 	height:350px;
-	margin-top:-50px;
 	text-align: center;
-	
+	top:-30px;
 	
 	
 }
 .dept-list {
 	position: absolute;
+
 	width: 90%;
 	/*margin-top: 50px;*/
 	margin-left: 5%;
@@ -1008,7 +1029,17 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
   padding: 0;
   background: black;
 }
-
+#payment {
+	float:right;
+	position: relative;
+	right: 3%;
+	top: 35%;
+	text-decoration: underline;
+	color: white;
+}
+#payment a:hover {
+	color:#19f6e8; 
+}
 .preloader svg {
   position: absolute;
   width: 240px;
@@ -1024,3 +1055,23 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
   text-align: center;
 }
 
+/*Team page*/
+
+.pic-row {
+	height:25%;
+	width:90%;
+	padding-left: 5%;
+}
+
+.pic-frame {
+	width:100%;
+	height: 70%;
+
+}
+
+.pic-caption {
+	width:100%;
+	height: 30%;
+	background-color: rgba(255,255,255,0.6);
+	color:white;
+}
