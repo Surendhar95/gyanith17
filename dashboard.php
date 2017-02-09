@@ -160,7 +160,7 @@ $e->getMessage();
 <div>
     <br/><br/><br/> <div class="hdng">Workshops Registration</div>
    <div class="hr"></div>
-<div style="">For any queries please contact: P.Chandra Prabhu - +91 9486850501</div> <br/>
+<div style="">For any queries please contact: Chanthiraprabhu - +91 9486850501</div> <br/>
 <form id="dropworkshops" method="post"><!-- action="dbworkshops.php">-->
 <div id="alertwrk"></div>
 <div class="label">Workshops</div>
@@ -182,7 +182,7 @@ $e->getMessage();
 <option value="NET BANKING"  style="width:100%">Internet banking</option>
 </select>
 <br/>
-<input type="text" id="sbitxt" name='sbitxt' class="txtinp" placeholder="Enter DD/UTR/NET banking Reference number" title="Make payment to get Reference number. Refer workshop page for payment details."/><br/>
+<input type="text" id="sbitxt" name='sbitxt' class="txtinp" placeholder="Enter DD/UTR/NET banking Reference number" title="Make payment to get Reference number. Refer workshop page for payment details." style="background:rgba(255,255,255,0.5);"/><br/>
 <input type="submit" id="submitwrk"  class="bttn" name="submitwrk" value="Click to Register for Workshops"/>
 <br/>
 <div>Registered Workshops are:</div><br/>
