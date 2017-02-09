@@ -37,7 +37,7 @@ width:350px;
 	 ?>
 		<header>
 			<div class="title row">
-				Non Tech Events
+				<h2><b>BAZINGA</b></h2>
 			</div>
 		</header>
 		

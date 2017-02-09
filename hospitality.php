@@ -5,9 +5,10 @@
 	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-  	<link rel="stylesheet" href="css/style.css">
+  
   	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+  		<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
 	<link rel="stylesheet" href="css/material.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style_click_drop.css">
@@ -38,7 +39,7 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
   padding: 30px 20px;
   border-radius:15px;
   width: 65%;
-  height: 450px; 
+  height: 400px; 
   margin-left: 2%;
   /*margin-top: 10px;*/
   font-size: 1.2em;
@@ -63,6 +64,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   background:transparent;
+  overflow-x: hidden;
 }
 
 
@@ -109,7 +111,13 @@ h1#head{
 	include ('loginicon.php');
 		include("sidebar.php");
 	 ?>
+	 <header>
+			<div class="title row">
+				<h2><b>HOSPITALITY</b></h2>
+			</div>
+		</header>
 <div>
+
 	<div id="logo"><!--<img width="10%"src="dragon.svg"/><h1 id="head"></h1>--></div>
 
 	<div class="row" id="ind">

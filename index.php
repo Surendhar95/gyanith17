@@ -139,7 +139,7 @@
 		  </script>-->
 
 		<div id="payment">
-		<a href="<?php echo "https://www.onlinesbi.com/prelogin/icollecthome.htm"; ?>" target="_blank"><h4 style="color: white">Payment via SBI Collect</h4></a>
+		<a href="<?php echo "https://www.onlinesbi.com/prelogin/icollecthome.htm"; ?>" target="_blank"><h5 style="color: white">Click here for payment via SBI Collect</h5></a>
 		</div>
 		<div id="logo">
 			<img src="images/logo.svg"/>
