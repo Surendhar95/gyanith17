@@ -37,7 +37,7 @@
   <script type="text/javascript" src="js/notification.js"></script>
 </head>
 
-<body style="overflow-y: auto;">
+<body>
 		
 		<?php include 'loginicon.php';?>
 		<?php include "sidebar.php";?>
@@ -138,7 +138,9 @@
 
 		  </script>-->
 
-		
+		<div id="payment">
+		<a href="<?php echo "https://www.onlinesbi.com/prelogin/icollecthome.htm"; ?>" target="_blank"><h4 style="color: white">Payment via SBI Collect</h4></a>
+		</div>
 		<div id="logo">
 			<img src="images/logo.svg"/>
 		</div>
