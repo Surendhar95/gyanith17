@@ -7,10 +7,20 @@ $g_id=$_SESSION['g_id'];
 if(isset($_POST['submittmwrk'])){
      //insert team name in wrkteam table and update tid in workshops table
       $tnm=$_POST['wtname'];
+
+      //check for presence of tname and gid in wrkteam table
+      $sql="select * from wrkteam where g_id=:gid && tname=:tnm";
+      $stmt3 = $db->prepare($sql);
+      $stmt3->execute(array(':gid'=>$g_id,':tnm'=>$tnm));
+      $res=$stmt3->fetch();
+      $tn=$res['tname'];
+
+
+      if($tn==null){
       $sql="insert into wrkteam(g_id,tname) values (:gid,:tnm)";
       $stmt3 = $db->prepare($sql);
       $stmt3->execute(array(':gid'=>$g_id,':tnm'=>$tnm));
-      
+      }
 
       //getting id
         $sql="SELECT t_id FROM wrkteam WHERE tname=:tnm and g_id=:gid";
@@ -112,7 +122,9 @@ if(isset($_POST['submittmwrk'])){
         if($emt1!=null && $etid1==null){
           $result=$stmt2->execute(array(':tid'=>$tid,':gid'=>$emt1));
         }
-      else if($emt1!=null && $etid1!=null){$p1=0;
+      else if($emt1!=null && $etid1!=null){
+            //$p1=0;
+            echo 'team 1'; exit();
          }
       else{
           $stmt3->execute(array(':gid'=>$emate1,':tid'=>$tid));
@@ -128,7 +140,9 @@ if(isset($_POST['submittmwrk'])){
          if($emt2!=null  && $etid2==null){
         $result=$stmt2->execute(array(':tid'=>$tid,':gid'=>$emt2));
       }
-      else if($emt2!=null  && $etid2!=null){$p2=0;
+      else if($emt2!=null  && $etid2!=null){
+            //$p2=0;
+             echo 'team 2'; exit();
        }
         else{
            $stmt3->execute(array(':gid'=>$emate2,':tid'=>$tid));
@@ -144,7 +158,10 @@ if(isset($_POST['submittmwrk'])){
         //update tid in workshops table
        $result=$stmt2->execute(array(':tid'=>$tid,':gid'=>$emt3));
        }
-      else if($emt3!=null && $etid3!=null){$p3=0;
+      else if($emt3!=null && $etid3!=null){
+        
+            //$p3=0;
+            echo 'team 3'; exit();
         }
       else{
            $stmt3->execute(array(':gid'=>$emate3,':tid'=>$tid));
@@ -161,7 +178,9 @@ if(isset($_POST['submittmwrk'])){
         //update tid in workshops table
         $result=$stmt2->execute(array(':tid'=>$tid,':gid'=>$emt4));
       }
-      else if($emt4!=null && $etid4!=null){$p4=0;
+      else if($emt4!=null && $etid4!=null){
+            //$p4=0;
+            echo 'team 4'; exit();
       }
       else{
         //echo 'Your team member '.$emt4.'has not registered with any workshops';
@@ -180,7 +199,9 @@ if(isset($_POST['submittmwrk'])){
         //update tid in workshops table
         $result=$stmt2->execute(array(':tid'=>$tid,':gid'=>$emt5));
        }
-      else if($emt5!=null && $etid5!=null){$p5=0;
+      else if($emt5!=null && $etid5!=null){
+            //$p5=0;
+            echo 'team 5'; exit();
       //  echo 'success '.$tnm.'<br/>Your team mate'.$emt5.' is in another team. Cannot be added to your team';
       }
       else{
@@ -198,7 +219,9 @@ if(isset($_POST['submittmwrk'])){
         if($emt6!=null && $etid6==null){
           $result=$stmt2->execute(array(':tid'=>$tid,':gid'=>$emt6));
         }
-      else if($emt6!=null && $etid6!=null){$p6=0;
+      else if($emt6!=null && $etid6!=null){
+            //$p6=0;
+            echo 'team 6'; exit();
          }
       else{
           $stmt3->execute(array(':gid'=>$emate6,':tid'=>$tid));

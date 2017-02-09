@@ -160,6 +160,7 @@ $e->getMessage();
 <div>
     <br/><br/><br/> <div class="hdng">Workshops Registration</div>
    <div class="hr"></div>
+<div style="">For any queries please contact: P.Chandra Prabhu - +91 9486850501</div> <br/>
 <form id="dropworkshops" method="post"><!-- action="dbworkshops.php">-->
 <div id="alertwrk"></div>
 <div class="label">Workshops</div>

@@ -231,6 +231,16 @@ $(document).ready(function (){
 						if(num==4){$("#terr4").html("<div class='rdtxt'>GY-ID not valid</div>")}
 						if(num==5){$("#terr5").html("<div class='rdtxt'>GY-ID not valid</div>")}
 					}
+					else if(data.startsWith('team'))
+					{
+						//alert("if");
+						var num=data.substring(5);
+						if(num==1){$("#terr1").html("<div class='rdtxt'>Already Present in another team</div>")}
+						if(num==2){$("#terr2").html("<div class='rdtxt'>Already Present in another team</div>")}
+						if(num==3){$("#terr3").html("<div class='rdtxt'>Already Present in another team</div>")}
+						if(num==4){$("#terr4").html("<div class='rdtxt'>Already Present in another team</div>")}
+						if(num==5){$("#terr5").html("<div class='rdtxt'>Already Present in another team</div>")}
+					}
 					else if(data.startsWith('crtd')){
 						$("#txtsub").hide();
 						$("#tnmshow").html("<div class='label'>You are in team:&nbsp;&nbsp;<span class='tnote'> "+ data.substring(5)+"</span></div>");	
@@ -306,6 +316,18 @@ $(document).ready(function (){
 						if(num==3){$("#wterr3").html("<div class='rdtxt'>GY-ID not valid</div>")}
 						if(num==4){$("#wterr4").html("<div class='rdtxt'>GY-ID not valid</div>")}
 						if(num==5){$("#wterr5").html("<div class='rdtxt'>GY-ID not valid</div>")}
+						if(num==6){$("#wterr6").html("<div class='rdtxt'>GY-ID not valid</div>")}
+					}
+					else if(data.startsWith('team'))
+					{
+						//alert("if");
+						var num=data.substring(5);
+						if(num==1){$("#wterr1").html("<div class='rdtxt'>Already Present in another team</div>")}
+						if(num==2){$("#wterr2").html("<div class='rdtxt'>Already Present in another team</div>")}
+						if(num==3){$("#wterr3").html("<div class='rdtxt'>Already Present in another team</div>")}
+						if(num==4){$("#wterr4").html("<div class='rdtxt'>Already Present in another team</div>")}
+						if(num==5){$("#wterr5").html("<div class='rdtxt'>Already Present in another team</div>")}
+						if(num==6){$("#wterr6").html("<div class='rdtxt'>Already Present in another team</div>")}
 					}
 					else if(data.startsWith('crtd')){
 						$("#wtxtsub").hide();
