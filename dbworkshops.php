@@ -24,6 +24,44 @@ if(isset($_POST['submitwrk']) && isset($_POST['workshops'])){
       $sql = "UPDATE workshops SET ".$select."=1 WHERE g_id=:gid";
       $stmt2 = $db->prepare($sql);
       $stmt2->execute(array(':gid'=>$g_id));
+
+      //update payment method 
+      if(isset($_POST['pay'])){
+          if($select=='game'){
+         $sql = "UPDATE workshops SET paygame = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='plugdin'){
+        $sql = "UPDATE workshops SET payplugdin = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+      else if($select=='control'){
+        $sql = "UPDATE workshops SET paycontrol = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='renewate'){
+        $sql = "UPDATE workshops SET payrenewate = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='crabot'){
+        $sql = "UPDATE workshops SET paycrabot = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='take'){
+        $sql = "UPDATE workshops SET paytake = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }        
+
+      
+      }
+
+
       if(isset($_POST['sbitxt'])){
     // $sql = "UPDATE workshops SET sbi = '".$_POST['sbitxt']."' WHERE g_id=:gid";
     // $stmt2 = $db->prepare($sql);
@@ -72,6 +110,44 @@ if(isset($_POST['submitwrk']) && isset($_POST['workshops'])){
      $sql="insert into workshops(g_id,".$select.") values (:gid,1)";
      $stmt3 = $db->prepare($sql);
     $stmt3->execute(array(':gid'=>$g_id));
+
+    //update payment method 
+      if(isset($_POST['pay'])){
+          if($select=='game'){
+         $sql = "UPDATE workshops SET paygame = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='plugdin'){
+        $sql = "UPDATE workshops SET payplugdin = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+      else if($select=='control'){
+        $sql = "UPDATE workshops SET paycontrol = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='renewate'){
+        $sql = "UPDATE workshops SET payrenewate = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='crabot'){
+        $sql = "UPDATE workshops SET paycrabot = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }
+     else if($select=='take'){
+        $sql = "UPDATE workshops SET paytake = '".$_POST['pay']."' WHERE g_id=:gid";
+         $stmt2 = $db->prepare($sql);
+         $stmt2->execute(array(':gid'=>$g_id));
+      }        
+
+      
+      }
+
+
     if(isset($_POST['sbitxt'])){
    //  $sql = "UPDATE workshops SET sbi='".$_POST['sbitxt']."' WHERE g_id=:gid";
    //  $stmt2 = $db->prepare($sql);
