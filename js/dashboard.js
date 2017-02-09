@@ -2,6 +2,7 @@ $(document).ready(function (){
 	$("#createteam").hide();
 	$("#wcreateteam").hide();
 	
+	
 	//antagon codechef username 
 	$("#anttxt").hide();
 	 $("#events").change(function() {
@@ -12,6 +13,13 @@ $(document).ready(function (){
 					 $("#anttxt").hide();
 				 }
 			 });
+	
+	//payment mode textbox
+	$("#sbitxt").hide();
+	 $("#pay").change(function() {
+                 $("#sbitxt").show();
+			 });
+	
 
 
 
@@ -94,10 +102,13 @@ $(document).ready(function (){
 				  workshops:{
 					  required:true
 				  },
+				  pay:{
+					  required:true
+				  },
 				   sbitxt:{
 					  required:true,
-					 minlength:10,
-					 maxlength:10
+					 //minlength:10,
+					// maxlength:10
 				  }
 	 		 },
 	 		 messages:
@@ -105,10 +116,13 @@ $(document).ready(function (){
 				   workshops:{
 					   required:'Please select a workshop'
 				   },
+				   pay:{
+					   required:'Please select payment method'
+				   },
 					   sbitxt:{
 						   required:'Please enter Bank transaction Reference number',
-						   minlength:'Please enter a valid Bank transaction Reference number',
-						   maxlength:'Please enter a valid Bank transaction Reference number'
+						   //minlength:'Please enter a valid Bank transaction Reference number',
+						  // maxlength:'Please enter a valid Bank transaction Reference number'
 					}
 			   },
             submitHandler: submitworkshops

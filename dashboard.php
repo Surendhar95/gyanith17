@@ -72,25 +72,26 @@ $e->getMessage();
 <div id="alerteve"></div>
 <div class="label">Events</div>
 <select name="events" id="events" class="selectdrp">
-<option value="" disabled selected>Select events</option>
-<option value="dbugcbug">D-Bug C-Bug</option>
-<option value="weblicate">Weblicate</option>
-<option value="enigma">Enigma</option>
-<option value="antagon">Antagon</option>
-<option value="sync">SYNC</option>
-<option value="linkit">Linkit</option>
-<option value="rush_hour">Rush Hour</option>
-<option value="deadshot">DeadShot</option>
-<option value="burnout">Burn out</option>
-<option value="copterx">CopterX</option>
-<option value="speculate">Speculate</option>
-<option value="techpursuit">TechPursuit</option>
-<option value="detonatex">Detonatex</option>
-<option value="consilium">Consilium</option>
-<option value="ityuktha">Ityuktha</option>
-<option value="prastuti">Prastuti</option>
-<option value="cobweb">Cobweb</option>
+<option value="" disabled selected  style="width:100%">Select events</option>
+<option value="dbugcbug"  style="width:100%">D-Bug C-Bug</option>
+<option value="weblicate"  style="width:100%">Weblicate</option>
+<option value="enigma"  style="width:100%">Enigma</option>
+<option value="antagon"  style="width:100%">Antagon</option>
+<option value="sync"  style="width:100%">SYNC</option>
+<option value="linkit"  style="width:100%">Linkit</option>
+<option value="rush_hour"  style="width:100%">Rush Hour</option>
+<option value="deadshot"  style="width:100%">DeadShot</option>
+<option value="burnout"  style="width:100%">Burn out</option>
+<option value="copterx"  style="width:100%">CopterX</option>
+<option value="speculate"  style="width:100%">Speculate</option>
+<option value="techpursuit"  style="width:100%">TechPursuit</option>
+<option value="detonatex"  style="width:100%">Detonatex</option>
+<option value="consilium"  style="width:100%">Consilium</option>
+<option value="ityuktha"  style="width:100%">Ityuktha</option>
+<option value="prastuti"  style="width:100%">Prastuti</option>
+<option value="cobweb"  style="width:100%">Cobweb</option>
 </select>
+
 <br/>
 <input type="text" id="anttxt" name='anttxt' class="txtinp" placeholder="Enter CodeChef Username" title="Refer Website for more details"/><br/>
 <input type="submit" id="submiteve" name="submiteve" class="bttn" value="Click to Register for events"/>
@@ -163,13 +164,21 @@ $e->getMessage();
 <div id="alertwrk"></div>
 <div class="label">Workshops</div>
 <select name="workshops" id="workshops" class="selectdrp">
-<option value="" disabled selected>Select workshops</option>
-<option value="game">Game Development Using VR</option>
-<option value="plugdin"> Get Plugdin - jQuery Workshop</option>
-<option value="control">Take Control - Swarm Robotics</option>
-<option value="renewate">Solar Smart Energy System</option>
-<option value="crabot">Crabot</option>
-<option value="take"> Take Off - RC Plane Designing</option>
+<option value="" disabled selected  style="width:100%">Select workshops</option>
+<option value="game"  style="width:100%">Game Development Using VR</option>
+<option value="plugdin"  style="width:100%"> Get Plugdin - jQuery Workshop</option>
+<option value="control"  style="width:100%">Take Control - Swarm Robotics</option>
+<option value="renewate"  style="width:100%">Solar Smart Energy System</option>
+<option value="crabot"  style="width:100%">Crabot</option>
+<option value="take"  style="width:100%"> Take Off - RC Plane Designing</option>
+</select>
+<br/>
+<select name="pay" id="pay" class="selectdrp">
+<option value="" disabled selected  style="width:100%">Select your Payment method</option>
+<option value="SBI COLLECT"  style="width:100%">SBICollect</option>
+<option value="DD"  style="width:100%">DD</option>
+<option value="NEFT"  style="width:100%">NEFT</option>
+<option value="NET BANKING"  style="width:100%">Internet banking</option>
 </select>
 <br/>
 <input type="text" id="sbitxt" name='sbitxt' class="txtinp" placeholder="Enter DD/UTR/NET banking Reference number" title="Make payment to get Reference number. Refer workshop page for payment details."/><br/>
@@ -436,7 +445,7 @@ margin-bottom:5px;
 <style>
 footer{
 	position:absolute;
-	top:2600px;
+	top:2700px;
 	left:0%;
 	right:0%;
 	font-size:15px;
