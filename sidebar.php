@@ -28,7 +28,7 @@
 						<a href="/guest.php"><!-- style="color:white">--><i class="fa fa-podcast" aria-hidden="true"></i><span>Guest Lectures</span></a>
 						<a href="/nontech.php"><!-- style="color:white">--><i class="fa fa-gamepad" aria-hidden="true"></i><span>Bazinga</span></a>
 						<a href="/hospitality.php"><!-- style="color:white">--><i class="fa fa-bed" aria-hidden="true"></i><span>Hospitality</span></a>
-						<a href="/teams.php"><!-- style="color:white">--><i class="fa fa-users" aria-hidden="true"></i><span>Teams</span></a>
+						<a href="/team.php"><!-- style="color:white">--><i class="fa fa-users" aria-hidden="true"></i><span>Our team</span></a>
 						<a href="/about.php"><!-- style="color:white">--><i class="fa fa-info-circle" aria-hidden="true"></i><span>About Us</span></a>
 					</div>
 				</nav>
