@@ -1,6 +1,6 @@
 $(document).ready(function (){
 	$("#createteam").hide();
-	$("#wcreateteam").hide();
+//	$("#wcreateteam").hide();
 	
 	
 	//antagon codechef username 
@@ -137,6 +137,7 @@ $(document).ready(function (){
                 data: data,
                 beforeSend:function(){
 					$('#alertwrk').html('');
+					$('#alertwrkteam').html('');
                      $("#submitwrk").val("sending.....");
                 },
                 success: function(data){
@@ -146,34 +147,32 @@ $(document).ready(function (){
 					if(data.substring(4)=='game'){dispv='Game Development Using VR'}
 					if(data.substring(4)=='plugdin'){dispv='Get PlugdIn'}
 					if(data.substring(4)=='control'){dispv='Take Control'}
-					if(data.substring(4)=='renewate'){dispv='Renewate Out World'}
+					if(data.substring(4)=='renewate'){dispv='Solar Smart Energy System'}
 					if(data.substring(4)=='crabot'){dispv='Crabot'}
 					if(data.substring(4)=='take'){dispv='Take Off'}
-					//var ind=data.indexOf("bltm");
+					
 					if(data.startsWith("upd")){
-                      // alert('upd');
-					  
-
+                    
 					    $("#infowrk").append("<div class='tnote'>"+dispv+"</div>");
-						//if(data.substring((ind+5))=='1'){
 						$("#dispwrk").hide();
-					//	$("#createteam").hide();
-					if(!$('#wcreateteam1').is(':visible') && !$('#msgwrk').is(':visible'))
+					
+						/*	if(!$('#wcreateteam1').is(':visible') && !$('#msgwrk').is(':visible'))
 						{
-							//alert('upd form show');
-						$("#wcreateteam").show();}
-					//}
+					
+						$("#wcreateteam").show();} */
+					
 					}
 					else if(data.startsWith("ins")){
-						//$("#infoeve").append("<div>Registered events are:<br/><div>");
 						$("#infowrk").append("<div class='tnote'>"+dispv+"</div>");
-					//	if(data.substring((ind+5))=='1'){
 							$("#dispwrk").hide();
-					//	$("#createteam").hide();
-					if(!$('#wcreateteam1').is(':visible') && !$('#msgwrk').is(':visible'))
+					
+				/*	if(!$('#wcreateteam1').is(':visible') && !$('#msgwrk').is(':visible'))
 						{
-						$("#wcreateteam").show();}
+						$("#wcreateteam").show();} */
 						//}
+					}
+					else if(data.startsWith('eng')){
+						$('#alertwrkteam').append("<div class='rdtxt'>"+data.substring(4)+"</div>");
 					}
 					else{
 						$("#alertwrk").append("<div class='tnote rdtxt'>"+data+"</div>");
@@ -221,7 +220,7 @@ $(document).ready(function (){
 					$("#terr1").html('');$("#terr2").html('');$("#terr3").html('');$("#terr4").html('');$("#terr5").html('');
 					//$("#txtsub").hide();
 					
-					if(data.startsWith('error'))
+					if(data.startsWith("error"))
 					{
 						//alert("if");
 						var num=data.substring(6);
@@ -231,7 +230,7 @@ $(document).ready(function (){
 						if(num==4){$("#terr4").html("<div class='rdtxt'>GY-ID not valid</div>")}
 						if(num==5){$("#terr5").html("<div class='rdtxt'>GY-ID not valid</div>")}
 					}
-					else if(data.startsWith('team'))
+					else if(data.startsWith("team"))
 					{
 						//alert("if");
 						var num=data.substring(5);
@@ -270,79 +269,280 @@ $(document).ready(function (){
 		}
 
 
-		$("#wtxtsub").hide();
+	/*	$("#wtxtsub").hide();
 		$("#wplus").click(function(){
 			$("#wplus").hide();
         $("#wtxtsub").show();
     	});
-		/*team workshops submit */
-		$("#teamworkshops").validate({
+		
+		*/
+
+		//hiding divs for team wrk
+		$("#wtxtsub1").hide();
+		$("#wplus1").click(function(){
+					if($('#wtxtsub2').is(':visible')){
+						$("#wtxtsub2").hide();
+						$("#wplus2").show();
+					}
+					if($('#wtxtsub3').is(':visible')){
+						$("#wtxtsub3").hide();
+						$("#wplus3").show();
+					}
+					$("#wplus1").hide();
+					$("#wtxtsub1").show();
+		});
+
+		$("#wtxtsub2").hide();
+		$("#wplus2").click(function(){
+			if($('#wtxtsub1').is(':visible')){
+						$("#wtxtsub1").hide();
+						$("#wplus1").show();
+					}
+					if($('#wtxtsub3').is(':visible')){
+						$("#wtxtsub3").hide();
+						$("#wplus3").show();
+					}
+						$("#wplus2").hide();
+					$("#wtxtsub2").show();
+					
+    	});
+
+		$("#wtxtsub3").hide();
+		$("#wplus3").click(function(){
+						if($('#wtxtsub2').is(':visible')){
+						$("#wtxtsub2").hide();
+						$("#wplus2").show();
+					}
+					if($('#wtxtsub1').is(':visible')){
+						$("#wtxtsub1").hide();
+						$("#wplus1").show();
+					}
+						$("#wplus3").hide();
+					$("#wtxtsub3").show();
+		});
+		
+		/*team1 workshop submit begin*/
+		$("#teamworkshops1").validate({
 			rules:
 	 		 {
-				  wtname:{
+				  wtname1:{
 					  required:true
 				  },
 				   
 	 		 },
 	 		 messages:
 	 		  {
-				   wtname:{
+				   wtname1:{
 					   required:'Please enter your team name'
 				   },
 				   
 			   },
-            submitHandler: submitteamworkshops
+            submitHandler: submitteamworkshops1
         });
-		function submitteamworkshops(){
-			//alert('validate');
-            var data=$("#teamworkshops").serialize();
+		function submitteamworkshops1(){
+			
+            var data=$("#teamworkshops1").serialize();
 			 $.ajax({
                 type:'POST',
-                url:'dbteamworkshops.php',
+                url:'dbteamworkshops1.php',
                 data: data,
                 beforeSend:function(){
-                     $("#submittmwrk").val("sending.....");
+                     $("#submittmwrk1").val("sending.....");
                 },
 				success: function(data){
-					$("#submittmwrk").val("Submit");
-					$("#wterr1").html('');$("#wterr2").html('');$("#wterr3").html('');$("#wterr4").html('');$("#wterr5").html('');
-				
-					if(data.startsWith('error'))
+					data=data.trim();
+					$("#submittmwrk1").val("Submit");
+					$("#wtnm1").html('');$("#wterr11").html('');$("#wterr12").html('');$("#wterr13").html('');$("#wterr14").html('');$("#wterr15").html('');$("#wterr16").html('');
+					
+					if(data.startsWith("error"))
 					{
-						//alert("if");
 						var num=data.substring(6);
-						if(num==1){$("#wterr1").html("<div class='rdtxt'>GY-ID not valid</div>")}
-						if(num==2){$("#wterr2").html("<div class='rdtxt'>GY-ID not valid</div>")}
-						if(num==3){$("#wterr3").html("<div class='rdtxt'>GY-ID not valid</div>")}
-						if(num==4){$("#wterr4").html("<div class='rdtxt'>GY-ID not valid</div>")}
-						if(num==5){$("#wterr5").html("<div class='rdtxt'>GY-ID not valid</div>")}
-						if(num==6){$("#wterr6").html("<div class='rdtxt'>GY-ID not valid</div>")}
+						if(num==1){$("#wterr11").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==2){$("#wterr12").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==3){$("#wterr13").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==4){$("#wterr14").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==5){$("#wterr15").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==6){$("#wterr16").html("<div class='rdtxt'>GY-ID not valid</div>");}
 					}
 					else if(data.startsWith('team'))
 					{
 						//alert("if");
 						var num=data.substring(5);
-						if(num==1){$("#wterr1").html("<div class='rdtxt'>Already Present in another team</div>")}
-						if(num==2){$("#wterr2").html("<div class='rdtxt'>Already Present in another team</div>")}
-						if(num==3){$("#wterr3").html("<div class='rdtxt'>Already Present in another team</div>")}
-						if(num==4){$("#wterr4").html("<div class='rdtxt'>Already Present in another team</div>")}
-						if(num==5){$("#wterr5").html("<div class='rdtxt'>Already Present in another team</div>")}
-						if(num==6){$("#wterr6").html("<div class='rdtxt'>Already Present in another team</div>")}
+						if(num==1){$("#wterr11").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==2){$("#wterr12").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==3){$("#wterr13").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==4){$("#wterr14").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==5){$("#wterr15").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==6){$("#wterr16").html("<div class='rdtxt'>Already Present in three teams</div>");}
 					}
 					else if(data.startsWith('crtd')){
-						$("#wtxtsub").hide();
-						$("#wtnmshow").html("<div class='label'>You are in team:&nbsp;&nbsp;<span class='tnote'> "+ data.substring(5)+"</span></div>");	
+						$("#wtxtsub1").hide();
+						var vind = data.lastIndexOf("tmid");
+						$("#wtnmshow1").html("<div class='label'>You are in team:&nbsp;&nbsp;<span class='tnote'> "+ data.substring(5,vind-1)+"</span></div>");
+						$("#teamdd").append($("<option style='width:100%'></option>").val(data.substring(vind+5)).html(data.substring(5,vind-1)));	
+					}
+					else if(data.startsWith('ter0')){
+						$("#wtnm1").html("<div class='rdtxt'>Team name already exists</div>");
 					}
 					else{
-						$("#wtxtsub").hide();
-						var mtind=data.indexOf("Your");
-						$("#wtnmshow").html("<div class='label'>You are in team:&nbsp;&nbsp;<span class='tnote'> "+ data.substring(6,(mtind-1))+"</span></div>");
-						$("#wtnmshow").append("<div class='label'><span class='tnote rdtxt'> "+ data.substring((mtind))+"</span></div>");
-					
-					}					
+						$("#wtxtsub1").hide();
+						$("#wtnmshow1").append(data);
+					}	
+			}
+			 });
+		}
+		
+	
+		/*team1 workshop submit end*/
 
+		/*team2 workshop submit end*/
+		$("#teamworkshops2").validate({
+			rules:
+	 		 {
+				  wtname2:{
+					  required:true
+				  },
+				   
+	 		 },
+	 		 messages:
+	 		  {
+				   wtname2:{
+					   required:'Please enter your team name'
+				   },
+				   
+			   },
+            submitHandler: submitteamworkshops2
+        });
+		function submitteamworkshops2(){
+			//alert('validate');
+            var data=$("#teamworkshops2").serialize();
+			 $.ajax({
+                type:'POST',
+                url:'dbteamworkshops2.php',
+                data: data,
+                beforeSend:function(){
+                     $("#submittmwrk2").val("sending.....");
+                },
+				success: function(data){
+					data=data.trim();
+					$("#submittmwrk2").val("Submit");
+					$("#wtnm2").html('');$("#wterr21").html('');$("#wterr22").html('');$("#wterr23").html('');$("#wterr24").html('');$("#wterr25").html('');$("#wterr26").html('');
+					if(data.startsWith("error"))
+					{
+						var num=data.substring(6);
+						if(num==1){$("#wterr21").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==2){$("#wterr22").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==3){$("#wterr23").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==4){$("#wterr24").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==5){$("#wterr25").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==6){$("#wterr26").html("<div class='rdtxt'>GY-ID not valid</div>");}
+					}
+					else if(data.startsWith('team'))
+					{
+						//alert("if");
+						var num=data.substring(5);
+						if(num==1){$("#wterr21").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==2){$("#wterr22").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==3){$("#wterr23").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==4){$("#wterr24").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==5){$("#wterr25").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==6){$("#wterr26").html("<div class='rdtxt'>Already Present in three teams</div>");}
+					}
+					else if(data.startsWith('crtd')){
+						$("#wtxtsub2").hide();
+						var vind = data.lastIndexOf("tmid");
+						$("#wtnmshow2").html("<div class='label'>You are in team:&nbsp;&nbsp;<span class='tnote'> "+ data.substring(5,vind-1)+"</span></div>");
+						$("#teamdd").append($("<option style='width:100%'></option>").val(data.substring(vind+5)).html(data.substring(5,vind-1)));	
+					}
+					else if(data.startsWith('ter0')){
+						$("#wtnm2").html("<div class='rdtxt'>Team name already exists</div>");
+					}
+					else{
+						$("#wtxtsub2").hide();
+						$("#wtnmshow2").append(data);
+					}
 				}
 			 });
 		}
+		
+		/*team2 workshop submit end*/
+		
+		
+		/*team3 workshop submit end*/
+		$("#teamworkshops3").validate({
+			rules:
+	 		 {
+				  wtname3:{
+					  required:true
+				  },
+				   
+	 		 },
+	 		 messages:
+	 		  {
+				   wtname3:{
+					   required:'Please enter your team name'
+				   },
+				   
+			   },
+            submitHandler: submitteamworkshops3
+        });
+		function submitteamworkshops3(){
+			//alert('validate');
+            var data=$("#teamworkshops3").serialize();
+			 $.ajax({
+                type:'POST',
+                url:'dbteamworkshops3.php',
+                data: data,
+                beforeSend:function(){
+                     $("#submittmwrk3").val("sending.....");
+                },
+				success: function(data){
+					data=data.trim();
+					$("#submittmwrk3").val("Submit");
+					$("#wtnm3").html('');$("#wterr31").html('');$("#wterr32").html('');$("#wterr33").html('');$("#wterr34").html('');$("#wterr35").html('');$("#wterr36").html('');
+					if(data.startsWith("error"))
+					{
+						var num=data.substring(6);
+						if(num==1){$("#wterr31").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==2){$("#wterr32").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==3){$("#wterr33").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==4){$("#wterr34").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==5){$("#wterr35").html("<div class='rdtxt'>GY-ID not valid</div>");}
+						if(num==6){$("#wterr36").html("<div class='rdtxt'>GY-ID not valid</div>");}
+					}
+					else if(data.startsWith('team'))
+					{
+						//alert("if");
+						var num=data.substring(5);
+						if(num==1){$("#wterr31").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==2){$("#wterr32").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==3){$("#wterr33").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==4){$("#wterr34").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==5){$("#wterr35").html("<div class='rdtxt'>Already Present in three teams</div>");}
+						if(num==6){$("#wterr36").html("<div class='rdtxt'>Already Present in three teams</div>");}
+					}
+					else if(data.startsWith('crtd')){
+						$("#wtxtsub3").hide();
+						var vind = data.lastIndexOf("tmid");
+						$("#wtnmshow3").html("<div class='label'>You are in team:&nbsp;&nbsp;<span class='tnote'> "+ data.substring(5,vind-1)+"</span></div>");
+						$("#teamdd").append($("<option style='width:100%'></option>").val(data.substring(vind+5)).html(data.substring(5,vind-1)));	
+					}
+					else if(data.startsWith('ter0')){
+						$("#wtnm3").html("<div class='rdtxt'>Team name already exists</div>");
+					}
+					else{
+						$("#wtxtsub3").hide();
+						$("#wtnmshow3").append(data);
+					}
+				}
+			 });
+		}
+		
+		/*team3 workshop submit end*/
+
+
+
+
+		
 
 });

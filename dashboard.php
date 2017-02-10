@@ -183,6 +183,69 @@ $e->getMessage();
 </select>
 <br/>
 <input type="text" id="sbitxt" name='sbitxt' class="txtinp" placeholder="Enter DD/UTR/NET banking Reference number" title="Make payment to get Reference number. Refer workshop page for payment details." style="background:rgba(255,255,255,0.5);"/><br/>
+<select id="teamdd" name="teamdd" class="selectdrp">
+		<option value="" disabled selected  style="width:100%">Select your team for this Workshop</option>
+		<?php 
+				$sql="select t_id1 from workshops where g_id=:gid";
+				$stmt1 = $db->prepare($sql);
+				$stmt1->execute(array(':gid'=>$g_id));
+				$result=$stmt1->fetch();
+				$tid1 = $result['t_id1'];
+
+				if($tid1!=null){
+					$sql="select tname from wrkteam where t_id=:tid";
+					$stmt1 = $db->prepare($sql);
+					$stmt1->execute(array(':tid'=>$tid1));
+					$result=$stmt1->fetch();
+					$tnm1 = $result['tname'];
+		?>
+
+		<option value=<?php echo $tid1 ?> style="width:100%"> <?php echo $tnm1 ?> </option>
+
+		<?php 
+		}
+
+		$sql="select t_id2 from workshops where g_id=:gid";
+		$stmt1 = $db->prepare($sql);
+		$stmt1->execute(array(':gid'=>$g_id));
+		$result=$stmt1->fetch();
+		$tid2 = $result['t_id2'];
+
+		if($tid2!=null){
+			$sql="select tname from wrkteam where t_id=:tid";
+			$stmt1 = $db->prepare($sql);
+			$stmt1->execute(array(':tid'=>$tid2));
+			$result=$stmt1->fetch();
+			$tnm2 = $result['tname'];
+			?>
+
+		<option value=<?php echo $tid2 ?> style="width:100%"> <?php echo $tnm2 ?> </option>
+
+		<?php 
+		}
+
+		$sql="select t_id3 from workshops where g_id=:gid";
+		$stmt1 = $db->prepare($sql);
+		$stmt1->execute(array(':gid'=>$g_id));
+		$result=$stmt1->fetch();
+		$tid3 = $result['t_id3'];
+
+		if($tid3!=null){
+			$sql="select tname from wrkteam where t_id=:tid";
+			$stmt1 = $db->prepare($sql);
+			$stmt1->execute(array(':tid'=>$tid3));
+			$result=$stmt1->fetch();
+			$tnm3 = $result['tname'];
+			?>
+
+		<option value=<?php echo $tid3 ?> style="width:100%"> <?php echo $tnm3 ?> </option>
+
+		<?php 
+		}
+	?>
+</select>
+<br/>
+<div id='alertwrkteam'></div><br/>
 <input type="submit" id="submitwrk"  class="bttn" name="submitwrk" value="Click to Register for Workshops"/>
 <br/>
 <div>Registered Workshops are:</div><br/>
@@ -203,7 +266,7 @@ if($result['plugdin']=='1')
 if($result['control']=='1')
 {	echo '<div class="tnote">Take Control</div>';$wtest=1;}
 if($result['renewate']=='1')
-{	echo '<div class="tnote">Renewate Out World</div>';$wtest=1;}
+{	echo '<div class="tnote">Solar Smart Energy System</div>';$wtest=1;}
 if($result['crabot']=='1')
 {	echo '<div class="tnote">Crabot</div>';$wtest=1;}
 if($result['take']=='1')
@@ -218,8 +281,10 @@ $e->getMessage();
 </div>
 
 <!--workshops regs end-->
+
 <br/><br/>
 <br/>
+
 <div id="team">
 <div class="hdng">Teams</div>
 <div class="hr"></div>
@@ -293,152 +358,170 @@ $tname = $result['tname'];
 </div>
 
 <br/><br/>
+
 <!--team wrkshop regs begin-->
-<div id="teamwrk" class="boxsh">
-<div class="label" style="text-align:center;">Team for Workshops</div>
+<div id="teamwrk">
+<div class="label" style="text-align:center;">Teams for Workshops</div>
+<!--team 1 div begin-->
+<div class='boxsh'>
+
 <?php
-$sql="SELECT t_id FROM workshops WHERE g_id=:gid";
+$sql="SELECT t_id1 FROM workshops WHERE g_id=:gid";
 $stmt1 = $db->prepare($sql);
 $stmt1->execute(array(':gid'=>$g_id));
 $result=$stmt1->fetch();
-$tid = $result['t_id'];
-if($tid==null){
-     if($wtest==1){
+$tid1 = $result['t_id1'];
+if($tid1==null){
 ?>
 <div id="wcreateteam1">
-<button id="wplus" class="plus">+</button>
-<form id="teamworkshops" method="post">
-    <div id="wtxtsub" name="wtxtsub">
-<input type="text" id="wtname" name="wtname" class="txtinp" placeholder="Enter team name" /><br/>
-<input type="text" id="wemate1" name="wemate1" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr1" class=""></div><br/>
-<input type="text" id="wemate2" name="wemate2" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr2" class=""></div><br/>
-<input type="text" id="wemate3" name="wemate3" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr3" class=""></div><br/>
-<input type="text" id="wemate4" name="wemate4" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr4" class=""></div><br/>
-<input type="text" id="wemate5" name="wemate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr5" class=""></div><br/>
-<input type="text" id="wemate6" name="wemate6" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr6" class=""></div><br/>
+<button id="wplus1" class="plus">+</button>
+<form id="teamworkshops1" method="post">
+    <div id="wtxtsub1" name="wtxtsub1">
+<input type="text" id="wtname1" name="wtname1" class="txtinp" placeholder="Enter team name" /><br/>
+<div id="wtnm1" class=""></div><br/>
+<input type="text" id="wemate11" name="wemate11" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr11" class=""></div><br/>
+<input type="text" id="wemate12" name="wemate12" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr12" class=""></div><br/>
+<input type="text" id="wemate13" name="wemate13" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr13" class=""></div><br/>
+<input type="text" id="wemate14" name="wemate14" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr14" class=""></div><br/>
+<input type="text" id="wemate15" name="wemate15" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr15" class=""></div><br/>
+<input type="text" id="wemate16" name="wemate16" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr16" class=""></div><br/>
 <div class="label">Refer Workshop details for number of members in team</div>
-<input type="submit" id="submittmwrk" name="submittmwrk" class="bttn" />
+<input type="submit" id="submittmwrk1" name="submittmwrk1" class="bttn" />
 </div>
 </form>
-<div id="wtnmshow"></div>
+<div id="wtnmshow1"></div>
 </div>
-<?php 
-}
-else{ ?>
-    <div class="label" id="dispwrk">&nbsp;Register in a team Workshops to create team</div>
-<?php }
-}else{
+<?php
+ }
+ else{
   $sql="SELECT tname FROM wrkteam WHERE t_id=:tid";  
   $stmt1 = $db->prepare($sql);
-$stmt1->execute(array(':tid'=>$tid));
+$stmt1->execute(array(':tid'=>$tid1));
 $result=$stmt1->fetch();
-$tname = $result['tname'];
+$tname1 = $result['tname'];
 ?>
-<div class="label" id="msgwrk">You are in team:&nbsp;&nbsp;<span class="tnote"><?php echo $tname ?></span></div>
+<div class="label" id="msgwrk">You are in team:&nbsp;&nbsp;<span class="tnote"><?php echo $tname1 ?></span></div>
 <?php } ?>
-<div id="wcreateteam">
-<button id="wplus" class="plus">+</button>
-<form id="teamworkshops" method="post">
-    <div id="wtxtsub" name="wtxtsub">
-<input type="text" id="wtname" name="wtname" class="txtinp" placeholder="Enter team name" /><br/>
-<input type="text" id="wemate1" name="wemate1" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr1" class=""></div><br/>
-<input type="text" id="wemate2" name="wemate2" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr2" class=""></div><br/>
-<input type="text" id="wemate3" name="wemate3" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr3" class=""></div><br/>
-<input type="text" id="wemate4" name="wemate4" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr4" class=""></div><br/>
-<input type="text" id="wemate5" name="wemate5" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr5" class=""></div><br/>
-<input type="text" id="wemate6" name="wemate6" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
-<div id="wterr6" class=""></div><br/>
+</div>
+<!--team 1 div end-->
+<br/>
+<!--team 2 div begin-->
+<div class='boxsh'>
+
+<?php
+$sql="SELECT t_id2 FROM workshops WHERE g_id=:gid";
+$stmt1 = $db->prepare($sql);
+$stmt1->execute(array(':gid'=>$g_id));
+$result=$stmt1->fetch();
+$tid2 = $result['t_id2'];
+if($tid2==null){
+?>
+<div id="wcreateteam2">
+<button id="wplus2" class="plus">+</button>
+<form id="teamworkshops2" method="post">
+    <div id="wtxtsub2" name="wtxtsub2">
+<input type="text" id="wtname2" name="wtname2" class="txtinp" placeholder="Enter team name" /><br/>
+<div id="wtnm2" class=""></div><br/>
+<input type="text" id="wemate21" name="wemate21" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr21" class=""></div><br/>
+<input type="text" id="wemate22" name="wemate22" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr22" class=""></div><br/>
+<input type="text" id="wemate23" name="wemate23" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr23" class=""></div><br/>
+<input type="text" id="wemate24" name="wemate24" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr24" class=""></div><br/>
+<input type="text" id="wemate25" name="wemate25" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr25" class=""></div><br/>
+<input type="text" id="wemate26" name="wemate26" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr26" class=""></div><br/>
 <div class="label">Refer Workshop details for number of members in team</div>
-<input type="submit" id="submittmwrk" name="submittmwrk" class="bttn" />
+<input type="submit" id="submittmwrk2" name="submittmwrk2" class="bttn" />
 </div>
 </form>
-<div id="wtnmshow"></div>
+<div id="wtnmshow2"></div>
+</div>
+<?php
+ }
+ else{
+  $sql="SELECT tname FROM wrkteam WHERE t_id=:tid";  
+  $stmt1 = $db->prepare($sql);
+$stmt1->execute(array(':tid'=>$tid2));
+$result=$stmt1->fetch();
+$tname2 = $result['tname'];
+?>
+<div class="label" id="msgwrk">You are in team:&nbsp;&nbsp;<span class="tnote"><?php echo $tname2 ?></span></div>
+<?php } ?>
+</div>
+<!--team 2 div end-->
+<br/>
+<!--team 3 div begin-->
+<div class='boxsh'>
+<?php
+$sql="SELECT t_id3 FROM workshops WHERE g_id=:gid";
+$stmt1 = $db->prepare($sql);
+$stmt1->execute(array(':gid'=>$g_id));
+$result=$stmt1->fetch();
+$tid3 = $result['t_id3'];
+if($tid3==null){
+?>
+<div id="wcreateteam3">
+<button id="wplus3" class="plus">+</button>
+<form id="teamworkshops3" method="post">
+    <div id="wtxtsub3" name="wtxtsub3">
+<input type="text" id="wtname3" name="wtname3" class="txtinp" placeholder="Enter team name" /><br/>
+<div id="wtnm3" class=""></div><br/>
+<input type="text" id="wemate31" name="wemate31" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr31" class=""></div><br/>
+<input type="text" id="wemate32" name="wemate32" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr32" class=""></div><br/>
+<input type="text" id="wemate33" name="wemate33" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr33" class=""></div><br/>
+<input type="text" id="wemate34" name="wemate34" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr34" class=""></div><br/>
+<input type="text" id="wemate35" name="wemate35" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr35" class=""></div><br/>
+<input type="text" id="wemate36" name="wemate36" class="txtinp" placeholder="Enter team Member GY-ID"/><br/>
+<div id="wterr36" class=""></div><br/>
+<div class="label">Refer Workshop details for number of members in team</div>
+<input type="submit" id="submittmwrk3" name="submittmwrk3" class="bttn" />
+</div>
+</form>
+<div id="wtnmshow3"></div>
+</div>
+<?php
+ }
+ else{
+  $sql="SELECT tname FROM wrkteam WHERE t_id=:tid";  
+  $stmt1 = $db->prepare($sql);
+$stmt1->execute(array(':tid'=>$tid3));
+$result=$stmt1->fetch();
+$tname3 = $result['tname'];
+?>
+<div class="label" id="msgwrk">You are in team:&nbsp;&nbsp;<span class="tnote"><?php echo $tname3 ?></span></div>
+<?php } ?>
+</div>
+<!--team 3 div end-->
+
+</div>
+
+<!--team for workshops end-->
+
+
+
+
 </div>
 </div>
-<!--team wrkshop regs begin-->
-</div>
-</div>
 
 </div>
 </div>
 
-<!--footer in this file has different position property-->	
-	<!--	<div>
-	
-<style>
-footer{
-	
-	position:absolute;
-	top:2600px;
-	left:0%;
-	right:0%;
-	font-size:15px;
-	text-align:center;
-	color:#fff;
-	/*margin-bottom:2%;*/
-	opacity:0.7;
-	z-index:-1;
-}
 
-footer hr{
-	width:97%;
-	position:relative;
-	left:17px;
-	
-}
-.clrch:hover{
-color:#19f6e8;
-}
-#socialicon{
-	/*padding-left:5%;*/
-/*padding-right:20px;*/
-margin-bottom:5px;
-}
-
-</style>
-
-<div id="fb-root"></div>
-			<script>
-				(function(d, s, id) {
-					var js, fjs = d.getElementsByTagName(s)[0];
-					if (d.getElementById(id)) return;
-					js = d.createElement(s); js.id = id;
-					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-					fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-			</script>
-
-<footer>
-<hr/>
-	<div class="footer">
-		<div class="row">
-			<div id="socialicon" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-					<img src="/images/twitter.svg" />
-					<img src="/images/youtube.svg"/>
-					<img src="/images/insta.svg"/>
-					<div style="padding-bottom:-40px;" class="fb-like" data-href="https://www.facebook.com/gyanith.nitpy/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clrch">
-					MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-		</div>
-	</div>
-</footer>
-
-
-		</div>-->
 		<!--footer start-->
 		
 <script type="text/javascript" src="js/snap.svg-min.js"></script>
@@ -585,7 +668,7 @@ margin-bottom:5px;
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clrch">
 					MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">queries@gyanith.org &nbsp&nbsp&nbsp+91 70942 50770</div>
 		</div>
 	</div>
 </footer>
