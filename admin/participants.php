@@ -25,8 +25,8 @@ $event=$_SESSION['event'];
 <th  width=10%>SNo</th>
 <th width=10%>GY-id</th>
 <th width=20%>Name</th>
-<th width=10%>Email</th>
-<th width=20%>Gender</th>
+<th width=20%>Email</th>
+<th width=10%>Gender</th>
 <th width=20%>College</th>
 <th width=20%>Phone</th>
 <?php if($event=='antagon'){
@@ -43,7 +43,8 @@ if($event!='hospitality') { ?>
 <?php	}
 	if($event=='game' || $event=='plugdin' || $event=='control' || $event=='renewate' || $event=='crabot' || $event=='take')
 	{ 
-		echo '<th width=20%>SBI COLLECT</th>';
+		echo '<th width=20%>Payment Mode</th>';
+		echo '<th width=20%>Reference number</th>';
 	} ?>
 <tr>
 </thead>
@@ -61,13 +62,16 @@ $sql='select events.t_id,events.g_id,events.codechef,users.g_id,users.name,users
 $ant=$db->prepare($sql);
 
 //for workshops
-$sql='select workshops.t_id,workshops.g_id,workshops.sbi'.$event.',users.g_id,users.name,users.email,users.gender,users.college,users.phone,wrkteam.tname from workshops inner join users on users.g_id = workshops.g_id LEFT JOIN wrkteam on workshops.t_id=wrkteam.t_id where workshops.'.$event.'=1';
-$wrk=$db->prepare($sql);
+//$sql='select workshops.t_id,workshops.g_id,workshops.sbi'.$event.',users.g_id,users.name,users.email,users.gender,users.college,users.phone,wrkteam.tname from workshops inner join users on users.g_id = workshops.g_id LEFT JOIN wrkteam on workshops.t_id=wrkteam.t_id where workshops.'.$event.'=1';
+//$wrk=$db->prepare($sql);
 
 //for hospitality
 $sql='select hospitality.g_id,hospitality.paid,users.g_id,users.name,users.email,users.gender,users.college,users.phone from hospitality inner join users on hospitality.g_id=users.g_id ';
 $hos=$db->prepare($sql);
 
+//for  workshop
+$sql='select workshops.team'.$event.',workshops.pay'.$event.',workshops.sbi'.$event.',users.g_id,users.name,users.email,users.gender,users.college,users.phone,wrkteam.tname from workshops inner join users on users.g_id = workshops.g_id LEFT JOIN wrkteam on workshops.team'.$event.'=wrkteam.t_id where workshops.'.$event.'=1';
+$wrk=$db->prepare($sql);
 
 if($event == "dbugcbug"){
 $eve->execute();
@@ -172,6 +176,8 @@ $result=$hos->fetchAll();
 }
 
 $refno='sbi'.$event;
+$paymode='pay'.$event;
+$teamid='team'.$event;
 
 $i=0;
 foreach($result as $row)
@@ -191,17 +197,26 @@ echo"<center>";
 	if($event=='antagon'){
 	echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['codechef']."</b></td>";	
 	}
-	if($event!='hospitality'){
+	if($event!='hospitality' && $event!='game' && $event!='plugdin' && $event!='control' && $event!='renewate' && $event!='crabot' && $event!='take'){
 		echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['t_id']."</b></td>";
- 	    echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['tname']."</b></td>";
 	}
 	if($event=='game' || $event=='plugdin' || $event=='control' || $event=='renewate' || $event=='crabot' || $event=='take')
 	{
-		echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row[$refno]."</b></td>";
+		echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row[$teamid]."</b></td>";
+	}
+	if($event!='hospitality'){
+		
+ 	    echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['tname']."</b></td>";
 	}
 	if($event == "hospitality"){
 		echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row['paid']."</b></td>";
 	}
+	if($event=='game' || $event=='plugdin' || $event=='control' || $event=='renewate' || $event=='crabot' || $event=='take')
+	{
+		echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row[$paymode]."</b></td>";
+		echo"<td style='background-color:lightgrey;text-align:center;color:black;'><b>".$row[$refno]."</b></td>";
+	}
+	
 	echo"<tr>";
 	echo"</tbody>";
 	echo"</center>";
