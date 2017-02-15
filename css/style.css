@@ -1,8 +1,9 @@
 
 html,body{
-	overflow-y: auto;
+	overflow-y: hidden;
+	overflow-x: hidden;
 }
-#content{
+#content {
   overflow-y: hidden;
  margin-top: 45px;
   padding: 30px 20px;
@@ -98,13 +99,7 @@ p,h1,h2,h3,h4,h5,body,html {
 	font-family: 'Droid Sans', sans-serif;
 
 }
-html, 
-.contain, 
-.content-wrap {
-overflow: hidden;
-	width: 100%;
-	height: 100%;
-}
+
 		
 
 #gradient,particles-js
@@ -1074,4 +1069,24 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
 	height: 30%;
 	background-color: rgba(255,255,255,0.6);
 	color:white;
+}
+.team-col {
+	text-align: center;
+	background:rgba(255, 255, 255, 0.75);
+	border: 3px solid rgba(255, 255, 255, 0.75);
+	border-radius: 3px;
+}
+
+.team-col:hover {
+	background:rgba(25, 246, 232, 0.50);
+	color: #fff;
+	border: 3px solid rgba(25, 246, 232, 0.50);
+    
+}
+.team-pic {
+	box-sizing: border-box;
+	background-size: cover;
+	width: 100%;
+	height:24%;
+	
 }
