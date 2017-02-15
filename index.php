@@ -137,7 +137,12 @@
 
 
 		  </script>-->
-
+			<div id="ongc">
+					<img src="images/ongc-big.jpg" style="height:100px;width:100px;"/><br/>
+				 	Title sponsor
+			</div>	
+		
+			
 		<div id="payment">
 		<a href="<?php echo "https://www.onlinesbi.com/prelogin/icollecthome.htm"; ?>" target="_blank"><h5 style="color: white">Click here for payment via SBI Collect</h5></a>
 		</div>
