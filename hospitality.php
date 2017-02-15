@@ -39,7 +39,7 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
   padding: 30px 20px;
   border-radius:15px;
   width: 65%;
-  height: 400px; 
+  height: 440px; 
   margin-left: 2%;
   /*margin-top: 10px;*/
   font-size: 1.2em;
@@ -128,10 +128,12 @@ h1#head{
 	<div class="col-lg-8" id="content" >
 		<p>
 		All members of a team should register for accommodation individually.<br>
-		Accommodation will be provided on a sharing basis. However, large teams or teams from the same college may be put up in the same rooms.<br><br>
-		The column against <b>"I need accommodation"</b> must be checked while <b>sign up</b>. Accommodation will be provided on first come first serve basis. 
+		Accommodation will be provided on a sharing basis. However, large teams or teams from the same college may be put up in the same rooms.<br>
+		The column against <b>"Register for accommodation"</b> must be checked while <b>sign up</b>. Accommodation will be provided on first come first serve basis. 
 		Registration for accommodation is on-spot. <b>Rs.200/-</b> should be given as caution deposit. 
-		This amount will be returned at the time of check out. Accommodation will be provided from <b>24th to 26th February</b> only.
+		This amount will be returned at the time of check out. Accommodation will be provided from <b>24th to 26th February</b> only.<br>
+		<b>Limited registrations only!</b><br>
+		<b>Contact</b>: +91-75981 81886
 		</p>
 				
 	</div>
