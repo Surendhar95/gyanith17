@@ -19,8 +19,11 @@ function generate(type, text) {
        	function generateAll() {
           generate("warning","Prizes worth 1.5 lakhs to be won")
             generate('notification',"Workshops registration started");
+            generate('notification',"Cobweb postponed to 17th Feb 12:00 PM.Stay tuned! ");
             generate('notification',"Workshop payment can be now done via SBICollect/DD/NEFT/Internet banking.Refer Workshop pages for details")
             generate('notification',"Limited registrations. Register soon");
+        
+
             generate('notification',"Schedule is available for download at profile section");
             generate('notification',"Antagon-online Codechef event");
             generate('notification',"Rush hour-the robo wrestling event");
