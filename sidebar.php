@@ -30,6 +30,7 @@
 						<a href="/hospitality.php"><!-- style="color:white">--><i class="fa fa-bed" aria-hidden="true"></i><span>Hospitality</span></a>
 						<a href="/team.php"><!-- style="color:white">--><i class="fa fa-users" aria-hidden="true"></i><span>Our team</span></a>
 						<a href="/about.php"><!-- style="color:white">--><i class="fa fa-info-circle" aria-hidden="true"></i><span>About Us</span></a>
+						<a href="/reach.php"><!-- style="color:white">--><i class="fa fa-map-marker" aria-hidden="true"></i><span>Reach Us</span></a>
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>
