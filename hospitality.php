@@ -78,7 +78,8 @@ body {
 }
 
 #logo{
-	
+	position: relative;
+	top:2%;
     padding: 20px; 
     width: 85%;
     height: 120px; 
@@ -112,7 +113,7 @@ h1#head{
 		include("sidebar.php");
 	 ?>
 	 <header>
-			<div class="title row">
+			<div class="title1 row">
 				<h2><b>HOSPITALITY</b></h2>
 			</div>
 		</header>

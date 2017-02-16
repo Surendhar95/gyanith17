@@ -6,9 +6,10 @@
   		<title>Gyanith '17  | Paper Presentation</title>
         <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
 
-  		<link rel="stylesheet" href="css/style.css">
+  		
   		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+  		<link rel="stylesheet" href="css/style.css">
   		<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
 		<link rel="stylesheet" href="css/material.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style_click_drop.css">
@@ -33,11 +34,11 @@ width:300px;
 		include("sidebar.php");
 	 ?>
 		<header>
-			<div class="title row">
-				
+			<div class="title1 row">
+				<h2><b>PAPER PRESENTATION</b></h2>
 			</div>
 		</header>
-		
+		<br><br><br><br><br>
 		<div class="logo row" style="margin-top:20px;">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">

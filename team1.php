@@ -1,33 +1,22 @@
+<!doctype html>
 <html>
-	<head>
-
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  		<title>Gyanith '17  | Our Team</title>
+<head>
+	<title>Gyanith '17  | HOSPITALITY</title>
+	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
   
-  		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
-  		<!--<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />-->
-  		<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
-
-  		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+  	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+  	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
   		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
-		<link rel="stylesheet" href="css/material.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style_click_drop.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  		<script type="text/javascript" src="js/snap.svg-min.js"></script>
-  		<script type="text/javascript" src="js/events.js"></script>
-		<script src="js/material.min.js"></script>
-		<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
-
-
-	</head>
-  <style>
-  html {
-  	overflow-y: auto;
-  }
+	<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
+	<link rel="stylesheet" href="css/material.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style_click_drop.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/material.min.js"></script>
+	<script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
+		<style type="text/css">	
 	.thumbnail {
 	background:rgba(255, 255, 255, 0.75);
     position:relative;
@@ -61,37 +50,72 @@
 	position: relative;
 	top:-15%;
 }
-  </style>
-  <body class="event-gradient" >
+</style>
+</head>
+<body >
+<?php
+	include ('loginicon.php');
+		include("sidebar.php");
+	 ?>
+	 <header>
+			<div class="title row">
+				<h2><b>HOSPITALITY</b></h2>
+			</div>
+		</header>
+<div>
+
+	<div id="logo"><!--<img width="10%"src="dragon.svg"/><h1 id="head"></h1>--></div>
+
+	<div class="row" id="ind">
+		<div class="col-lg-2">
+		
+		
+	</div>
+	<div class="col-lg-8" id="content" >
+		<p>
+		All members of a team should register for accommodation individually.<br>
+		Accommodation will be provided on a sharing basis. However, large teams or teams from the same college may be put up in the same rooms.<br><br>
+		The column against <b>"I need accommodation"</b> must be checked while <b>sign up</b>. Accommodation will be provided on first come first serve basis. 
+		Registration for accommodation is on-spot. <b>Rs.200/-</b> should be given as caution deposit. 
+		This amount will be returned at the time of check out. Accommodation will be provided from <b>24th to 26th February</b> only.
+		</p>
+				
+	</div>
+	<div class="col-lg-2">
+		
+		
+	</div>
+	</div>
+</div>
+ <?php 
+			include ('footer.php');
+		?> 
+		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+			<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>
+		<body class="event-gradient" style="overflow-y: auto;">
   <?php
     include 'loginicon.php';
     include("sidebar.php");
    ?>
     <header>
-      <div class="title1 row">
-        <h2><b>OUR TEAM</b></h2>
+      <div class="title row">
+        <h2><b>TEAM</b></h2>
       </div>
     </header>
-    <br><br><br>
 <div class="container-fluid">
 <div class="row-fluid" style="width:90%; padding-left: 150px; padding-top: 150px;">
-
 	<div class="col-sm-3">
-		<div class="team-col">
-			<div class="team-pic" style="background-image: url('team/1.jpg')" >
+		<div class="thumbnail">
+			<img src="team/1.jpg" alt="Team1" style="width:100%">
+				<div class="caption">
+					<p class="text-center">BALA MURUGAN<br>PRESIDENT<br>+91-9444616846</p>
+					</div>
 			</div>
-				
-			<div class="caption">
-				<p class="text-center">BALA MURUGAN<br>PRESIDENT<br>+91-9444616846</p>
-			</div>
-				
 		</div>
-	</div>
-
 		<div class="col-sm-3">
-		<div class="team-col">
-			<div class="team-pic" style="background-image: url('team/2.jpg')" >
-			</div>
+		<div class="thumbnail">
+			<img src="team/2.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">THIPPARTHI PRASAD
 					<br>SECRETARY
@@ -100,9 +124,8 @@
 			</div>
 		</div>
 		<div class="col-sm-3 ">
-			<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/3.jpg')" >
-				</div>
+				<div class="thumbnail">
+				<img src="team/3.jpg" alt="Team1" style="width:100%">
 						<div class="caption">
 						<p class="text-center">JAKKULA AKHIL
 						<br>OVERALL COORDINATOR
@@ -111,9 +134,8 @@
 				</div>
 		</div>
 		<div class="col-sm-3">
-			<div class="team-col">
-			<div class="team-pic" style="background-image: url('team/4.jpg')" >
-			</div>
+			<div class="thumbnail">
+				<img src="team/4.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">MARISSA CATHERINE N
 						<br>OVERALL COORDINATOR
@@ -124,13 +146,11 @@
 		</div>
 	</div>
 	</div>
-	<br>
-		<div class=container-fluid>
+	<div class=container-fluid>
 	<div class="row-fluid" style="width:90%; padding-left: 150px;">
 	<div class="col-sm-3">
-			<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/5.jpg')" >
-				</div>
+		<div class="thumbnail">
+			<img src="team/5.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">MACHARLA NIKHIL
 						<br>VICE PRESIDENT
@@ -140,9 +160,8 @@
 			</div>
 		</div>
 		<div class="col-sm-3">
-			<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/6.jpg')" >
-				</div>
+		<div class="thumbnail">
+			<img src="team/6.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">YELURI GIFT BABU
 						<br>JOINT SECRETARY
@@ -152,9 +171,8 @@
 			</div>
 		</div>
 		<div class="col-sm-3 ">
-					<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/7.jpg')" >
-				</div>
+				<div class="thumbnail">
+				<img src="team/7.jpg" alt="Team1" style="width:100%">
 						<div class="caption">
 						<p class="text-center">SURENDHAR E
 						<br>HEAD WEB OPERATIONS
@@ -163,9 +181,8 @@
 				</div>
 		</div>
 		<div class="col-sm-3">
-				<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/8.jpg')" >
-				</div>
+			<div class="thumbnail">
+				<img src="team/8.jpg" alt="Team1" style="width:100%">
 				
 					<div class="caption">
 						<p class="text-center">SURENDAR S
@@ -178,27 +195,11 @@
 		</div>
 	</div>
 </div>
-<br>
 <div class="container-fluid">
 <div class="row-fluid" style="width:90%; padding-left: 150px; ">
-<div class="col-sm-3">
-				<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/treasurer.png')" >
-				</div>
-				
-					<div class="caption">
-						<p class="text-center">SAI PANDU RANGA RAO 
-						<br>HEAD TREASURER
-						<br>+91-9490138668</p>
-						</div>
-					
-				</div>
-			</div>
 	<div class="col-sm-3">
-	
-			<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/9.jpg')" >
-				</div>
+		<div class="thumbnail">
+			<img src="team/9.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">CHANTHIRAPRABU B S
 						<br>HEAD WORKSHOPS
@@ -208,9 +209,8 @@
 			</div>
 		</div>
 		<div class="col-sm-3">
-		<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/10.jpg')" >
-				</div>
+		<div class="thumbnail">
+			<img src="team/10.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">VANI LAKSHMI POOJITHA DESU
 						<br>HEAD EVENTS
@@ -220,9 +220,8 @@
 			</div>
 		</div>
 		<div class="col-sm-3 ">
-					<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/11.jpg')" >
-				</div>
+				<div class="thumbnail">
+				<img src="team/11.jpg" alt="Team1" style="width:100%">
 						<div class="caption">
 						<p class="text-center">BRAHMA SANTOSH
 						<br>HEAD EVENTS
@@ -230,15 +229,9 @@
 						</div>
 				</div>
 		</div>
-		
-	</div>
-	</div>
-	<br>
-	<div class=container-fluid>
-	<div class="row-fluid" style="width:90%; padding-left: 150px;">
-	<div class="col-sm-3 ">
-					<div class="thumbnail">
-				<img src="team/12.png" alt="Team1" style="height:24%;width:100%">
+		<div class="col-sm-3 ">
+				<div class="thumbnail">
+				<img src="team/12.png" alt="Team1" style="height:33%;width:100%">
 					<div class="caption">
 					<p class="text-center">MADASU UTTAM KUMAR
 						<br>HEAD EVENTS
@@ -247,10 +240,13 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	</div>
+	<div class=container-fluid>
+	<div class="row-fluid" style="width:90%; padding-left: 150px;">
 	<div class="col-sm-3">
-			<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/13.jpg')" >
-				</div>
+		<div class="thumbnail">
+			<img src="team/13.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">SWARAJ MONDAL
 						<br>HEAD EVENTS
@@ -260,9 +256,8 @@
 			</div>
 		</div>
 		<div class="col-sm-3">
-			<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/22.jpg')" >
-				</div>
+		<div class="thumbnail">
+			<img src="team/22.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">CHRISTINE GEORGE
 						<br>HEAD CONTENTS
@@ -272,9 +267,8 @@
 			</div>
 		</div>
 		<div class="col-sm-3">
-				<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/20.jpg')" >
-				</div>
+			<div class="thumbnail">
+				<img src="team/20.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">K SRIKANTH
 						<br>HEAD FINANCE
@@ -283,18 +277,9 @@
 				</div>
 			</div>
 		</div>
-		
-	
-		
-	</div>
-</div>
-<br>
-<div class=container-fluid>
-	<div class="row-fluid" style="width:90%; padding-left: 150px;">
-	<div class="col-sm-3 ">
-				<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/15.jpg')" >
-				</div>
+		<div class="col-sm-3 ">
+				<div class="thumbnail">
+				<img src="team/15.jpg" alt="Team1" style="width:100%">
 						<div class="caption">
 						<p class="text-center">SRIDHAR L
 						<br>HEAD PUBLICITY
@@ -302,10 +287,15 @@
 						</div>
 				</div>
 		</div>
+	
+		
+	</div>
+</div>
+<div class=container-fluid>
+	<div class="row-fluid" style="width:90%; padding-left: 150px;">
 		<div class="col-sm-3">
-			<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/14.jpg')" >
-				</div>
+		<div class="thumbnail">
+			<img src="team/14.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">GIRIDHARAN S
 						<br>HEAD PUBLICITY
@@ -315,9 +305,8 @@
 			</div>
 		</div>
 	<div class="col-sm-3">
-				<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/16.jpg')" >
-				</div>
+			<div class="thumbnail">
+				<img src="team/16.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">RAMKUMAR A R
 						<br>HEAD MARKETING
@@ -327,9 +316,8 @@
 			</div>
 		</div>
 	<div class="col-sm-3">
-			<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/17.jpg')" >
-				</div>
+		<div class="thumbnail">
+			<img src="team/17.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">K.G.ANANDARAMAN
 						<br>HEAD MARKETING
@@ -338,18 +326,9 @@
 				</div>
 			</div>
 		</div>
-		
-		
-		
-	</div>
-</div>
-<br>
-<div class=container-fluid>
-	<div class="row-fluid" style="width:90%; padding-left: 150px;">
-	<div class="col-sm-3">
-		<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/18.jpg')" >
-				</div>
+		<div class="col-sm-3">
+		<div class="thumbnail"> 
+			<img src="team/18.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">AKSHAY M. M
 						<br>HEAD HOSPITALITY
@@ -358,10 +337,15 @@
 				</div>
 			</div>
 		</div>
+		
+		
+	</div>
+</div>
+<div class=container-fluid>
+	<div class="row-fluid" style="width:90%; padding-left: 150px;">
 	<div class="col-sm-3 ">
-				<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/19.jpg')" >
-				</div>
+				<div class="thumbnail">
+				<img src="team/19.jpg" alt="Team1" style="width:100%">
 						<div class="caption">
 						<p class="text-center">G.PRAVIN KUMAR
 						<br>HEAD HOSPITALITY
@@ -371,9 +355,8 @@
 		</div>
 
 	<div class="col-sm-3">
-		<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/21.jpg')" >
-				</div>
+		<div class="thumbnail">
+			<img src="team/21.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">AASHISH K MOORTHY
 						<br>HEAD PROGRAMMING
@@ -385,9 +368,8 @@
 
 		
 		<div class="col-sm-3 ">
-					<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/23.jpg')" >
-				</div>
+				<div class="thumbnail">
+				<img src="team/23.jpg" alt="Team1" style="width:100%">
 						<div class="caption">
 						<p class="text-center">AMMU BINDU
 						<br>HEAD NON-TECHNICAL
@@ -395,15 +377,9 @@
 						</div>
 				</div>
 		</div>
-		
-	</div>
-</div>
-<br>
-<div class=container-fluid>
-	<div class="row-fluid" style="width:90%; padding-left: 150px;">
-	<div class="col-sm-3">
-				<div class="thumbnail">
-				<img src="team/24.jpeg" alt="Team1" style="height:22%;width:100%">
+		<div class="col-sm-3">
+			<div class="thumbnail">
+				<img src="team/24.jpeg" alt="Team1" style="height:33%;width:100%">
 				<div class="caption">
 					<p class="text-center">RAQEEB MOHAMED
 						<br>HEAD NON-TECHNICAL
@@ -412,10 +388,13 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class=container-fluid>
+	<div class="row-fluid" style="width:90%; padding-left: 150px;">
 	<div class="col-sm-3">
-			<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/25.jpg')" >
-				</div>
+		<div class="thumbnail">
+			<img src="team/25.jpg" alt="Team1" style="width:100%">
 				<div class="caption">
 					<p class="text-center">DARSHANAM RAHUL
 						<br>HEAD NON-TECHNICAL
@@ -425,12 +404,6 @@
 			</div>
 		</div>
 </div>
-
- <?php 
-			include ('footer.php');
-		?> 
-		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-			<script src="js/classie.js"></script>
-		<script src="js/main.js"></script>
+	
 </body>
-	</html>
+</html>
