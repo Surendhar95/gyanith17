@@ -14,9 +14,9 @@ th, td {
 </style>
 <p style="text-align:center;font-size:1.2em;">
 <table align="center">
-<tr><th style="text-align:center" colspan=2>Price Money</th></tr>
-<tr><td>First Price :</td><td>6000</td></tr>
-<tr><td>Second Price:</td><td>2500</td></tr>
+<tr><th style="text-align:center" colspan=2>Prize Money</th></tr>
+<tr><td>First Prize :</td><td>6000 (INR)</td></tr>
+<tr><td>Second Prize:</td><td>2500 (INR)</td></tr>
 </table>
 
 </p>
