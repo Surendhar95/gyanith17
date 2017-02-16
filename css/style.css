@@ -3,6 +3,7 @@ html,body{
 	overflow-y: hidden;
 	overflow-x: hidden;
 }
+
 #content {
   overflow-y: hidden;
  margin-top: 45px;
@@ -390,7 +391,7 @@ width:500px;
 #logo{
 
 position: fixed;
-  top: 40%;
+  top: 48%;
   left: 48%;
   z-index: 10000;
   
@@ -776,8 +777,8 @@ margin:30px 40px;
 }
 .text {
  
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 28px;
   letter-spacing: 8px;
   color: #fff;
   top: -48px;
@@ -815,26 +816,25 @@ margin:30px 40px;
 /* global events and workshop Layouts */
 
 .title {
-	position: relative;
-	display: inline-block;
-	width:40%;
-	margin-left: 30%;
-	margin-top: auto;
-	text-align:center;
-	height:auto;
-	color:white;
+	position: absolute;
+	width:20%;
+	margin-top: 0%;
+	margin-left: 53%;
+	border-bottom: 10%;
+	text-align: center;
+	color: #fff;
+
 	
 }
 .title1 {
-	position: relative;
-	display: inline-block;
-	width:40%;
-	left:30%;
-	margin-left: 30%;
-	margin-top: auto;
-	text-align:center;
-	height:auto;
-	color:white;
+	position: absolute;
+	width:20%;
+	margin-top: 0%;
+	margin-left: 38%;
+	border-bottom: 10%;
+	text-align: center;
+	color: #fff;
+
 	
 }
 
@@ -845,7 +845,7 @@ margin:30px 40px;
 	left: 25%;
 	height:350px;
 	text-align: center;
-	top:-30px;
+	margin-top:5%;
 	
 	
 }
@@ -968,18 +968,7 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
 	color:#19f6e8;
 	text-decoration: none;
 }
-.dept-name a:visited {
-	color:#19f6e8;
-	text-decoration: none;
-	outline: 0;
-	border: 0;
-}
-.dept-name a:click {
-	color:#19f6e8;
-	text-decoration: none;
-	outline: 0;
-	border: 0;
-}
+
 .dept-name a:focus {
 	color:#19f6e8;
 	text-decoration: none;
@@ -1025,12 +1014,10 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
   background: black;
 }
 #payment {
-	float:right;
-	position: relative;
-	right: 3%;
-	top: 35%;
-	text-decoration: underline;
-	color: white;
+	position: absolute;
+	top:3%;
+	right: 14%;
+	font-size: 16px; 
 }
 #payment a:hover {
 	color:#19f6e8; 
@@ -1095,8 +1082,9 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
 	
 	width:15%;
 	height:15%;
-	position:absolute;
-	top:23%;
-	right:3%;
+	position: absolute;
+	margin-left: 42%;
+	margin-top: 14%;
 	color:#fff;
+	text-align: center;
 }

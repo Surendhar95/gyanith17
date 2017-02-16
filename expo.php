@@ -36,10 +36,11 @@ width:350px;
 		include("sidebar.php");
 	 ?>
 		<header>
-			<div class="title row">
+			<div class="title1 row">
 				<h2><b>PROJECT EXPO</b></h2>
 			</div>
 		</header>
+		<br><br><br><br>
 		
 		<div class="logo row" style="margin-top:40px;margin-bottom:-10px;">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
