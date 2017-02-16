@@ -144,7 +144,9 @@ margin-bottom:5px;
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clrch">
 					MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">queries@gyanith.org &nbsp&nbsp&nbsp+91 70942 50770</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">queries@gyanith.org &nbsp&nbsp&nbsp+91 70942 50770
+			<br/><a href="/reach.php"><span style="color:pink">How to reach us</span></a>
+			</div>
 		</div>
 	</div>
 </footer>
