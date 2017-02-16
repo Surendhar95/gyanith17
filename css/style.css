@@ -1090,3 +1090,13 @@ background-image:-ms-linear-gradient(top, #222222 0%, #00ACE9 50%,#222222 100%);
 	height:24%;
 	
 }
+
+#ongc{
+	
+	width:15%;
+	height:15%;
+	position:absolute;
+	top:23%;
+	right:3%;
+	color:#fff;
+}
