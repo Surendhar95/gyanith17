@@ -148,7 +148,7 @@
 .icon-list a {
 	color:white;
 	display: block;
-	padding: 0.8em;
+	padding: 0.65em;
 	-webkit-transform: translate3d(0,500px,0);
 	transform: translate3d(0,500px,0);
 }
