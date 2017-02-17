@@ -44,7 +44,7 @@ Get ready to find your way out of this Cobweb in one of the most trickiest quest
 			{
 		 ?>
 		<br/>
-		<a class="blinking" href="http://cobweb-knosys16.rhcloud.com/mod2.php" target="_blank">Link to CobWeb</a>
+		<a class="blinking" href="http://cobweb-knosys16.rhcloud.com" target="_blank">Link to CobWeb</a>
 		<?php
 		 } 
 		?>
