@@ -255,7 +255,7 @@ p,h1,h2,h3,h4,h5,body,html {
 .icon-list a {
 	color:white;
 	display: block;
-	padding: 0.8em;
+	padding: 0.65em;
 	-webkit-transform: translate3d(0,500px,0);
 	transform: translate3d(0,500px,0);
 }
@@ -668,7 +668,7 @@ margin:30px 40px;
 }
 .icon-list a {
 	display: block;
-	padding: 0.8em;
+	padding: 0.65em;
 	color:white;
 	-webkit-transform: translate3d(0,500px,0);
 	transform: translate3d(0,500px,0);
