@@ -175,7 +175,7 @@ setInterval(blinker, 800);
 		</div>
 	<div id="cobweb">
 		<?php if(isset($_SESSION['cobweb'])){ ?>
-		<br/><a class="blinking" href="http://cobweb-knosys16.rhcloud.com/mod2.php" target="_blank">Link to CobWeb</a>
+		<br/><a class="blinking" href="http://cobweb-knosys16.rhcloud.com" target="_blank">Link to CobWeb</a>
 		<?php } ?>
 		</div>
 
