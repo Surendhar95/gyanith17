@@ -35,6 +35,33 @@
   <script src="https://use.fontawesome.com/ce3b4b3f41.js"></script>
   <script type="text/javascript" src="noty-2.4.0/js/noty/packaged/jquery.noty.packaged.js"></script>
   <script type="text/javascript" src="js/notification.js"></script>
+<!--cobweb -->
+<style>
+#cobweb{
+	
+	float:right;
+	position: absolute;
+	top:2%;
+	left: 28%;
+	font-size: 16px; 
+}
+#cobweb a{
+	color:#fff;
+}
+#cobweb a:hover{
+	color:#19f6e8;
+}
+</style>
+
+<script>
+function blinker() {
+	$('.blinking').fadeOut(500);
+	$('.blinking').fadeIn(500);
+}
+setInterval(blinker, 800);
+</script>
+
+<!--cobweb -->
 </head>
 
 <body>
@@ -146,6 +173,12 @@
 		<div id="payment">
 		<a href="<?php echo "https://www.onlinesbi.com/prelogin/icollecthome.htm"; ?>" target="_blank"><h4 style="color: white">Click here for payment via SBI Collect</h4></a>
 		</div>
+	<div id="cobweb">
+		<?php if(isset($_SESSION['cobweb'])){ ?>
+		<br/><a class="blinking" href="http://cobweb-knosys16.rhcloud.com/mod2.php" target="_blank">Link to CobWeb</a>
+		<?php } ?>
+		</div>
+
 		<div id="logo">
 			<img src="images/logo.svg"/>
 		</div>
