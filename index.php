@@ -37,18 +37,20 @@
   <script type="text/javascript" src="js/notification.js"></script>
 <!--cobweb -->
 <style>
-#cobweb{
-	
-	float:right;
+#cobweb1{
+float:right;
 	position: absolute;
 	top:2%;
 	left: 28%;
 	font-size: 16px; 
 }
-#cobweb a{
+
+#cobweb1 {
 	color:#fff;
+	cursor:pointer;
+	
 }
-#cobweb a:hover{
+#cobweb1 a:hover{
 	color:#19f6e8;
 }
 </style>
@@ -59,6 +61,13 @@ function blinker() {
 	$('.blinking').fadeIn(500);
 }
 setInterval(blinker, 800);
+
+$(document).ready(
+function(){
+$( "#cobweblink" ).click(function() {
+  $( "#cobwebform" ).submit();
+});
+});
 </script>
 
 <!--cobweb -->
@@ -173,9 +182,14 @@ setInterval(blinker, 800);
 		<div id="payment">
 		<a href="<?php echo "https://www.onlinesbi.com/prelogin/icollecthome.htm"; ?>" target="_blank"><h4 style="color: white">Click here for payment via SBI Collect</h4></a>
 		</div>
-	<div id="cobweb">
+	<div id="cobweb1">
 		<?php if(isset($_SESSION['cobweb'])){ ?>
-		<br/><a class="blinking" href="http://cobweb-knosys16.rhcloud.com" target="_blank">Link to CobWeb</a>
+		<br/>
+			<form action="http://cobweb-knosys16.rhcloud.com" method="post" id="cobwebform" target="_blank">
+			<input type="hidden" name="g_id" value=<?php echo $_SESSION['g_id']; ?>>
+			<input type="hidden" name="name" value=<?php echo $_SESSION['name'];?>>
+			<span class="blinking" id="cobweblink">Link to CobWeb</span>
+			</form>
 		<?php } ?>
 		</div>
 

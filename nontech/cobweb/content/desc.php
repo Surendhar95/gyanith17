@@ -1,3 +1,5 @@
+
+
 <!--cobweb start-->
 
 <style>
@@ -5,8 +7,9 @@
 	text-align:center;
 }
 
-#cobweb1 a{
+#cobweb1 {
 	color:#fff;
+	cursor:pointer;
 	
 }
 #cobweb1 a:hover{
@@ -20,6 +23,12 @@ function blinker() {
 	$('.blinking').fadeIn(500);
 }
 setInterval(blinker, 800);
+$(document).ready(
+function(){
+$( "#cobweblink" ).click(function() {
+  $( "#cobwebform" ).submit();
+});
+});
 </script>
 
 <!--cobweb end-->
@@ -44,7 +53,13 @@ Get ready to find your way out of this Cobweb in one of the most trickiest quest
 			{
 		 ?>
 		<br/>
-		<a class="blinking" href="http://cobweb-knosys16.rhcloud.com" target="_blank">Link to CobWeb</a>
+			<form action="http://cobweb-knosys16.rhcloud.com" method="post" id="cobwebform" target="_blank">
+			<input type="hidden" name="g_id" value=<?php echo $_SESSION['g_id']; ?>>
+			<input type="hidden" name="name" value=<?php echo $_SESSION['name'];?>>
+			<span class="blinking" id="cobweblink">Link to CobWeb</span>
+			</form>
+
+		
 		<?php
 		 } 
 		?>
