@@ -35,6 +35,15 @@ $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
 				$_SESSION['g_id']= $g_id;
 			$_SESSION['name'] = $name;
 			$_SESSION['email'] = $email;
+			//for cobweb
+			$stmt2=$db->prepare('SELECT cobweb FROM events WHERE g_id=:gid');
+			$stmt2->execute(array(':gid'=>$g_id));
+			$result3=$stmt2->fetch();
+			$cob=$result3['cobweb'];
+			if($cob=='1'){
+				$_SESSION['cobweb']='cob';
+			}
+			//end cobweb
 				echo 'logged';
 			}
 			else if($user == NULL){

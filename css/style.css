@@ -230,6 +230,7 @@ p,h1,h2,h3,h4,h5,body,html {
 	transition: transform 0.4s;
 	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	
 }
 
 .menu, 
@@ -796,6 +797,8 @@ margin:30px 40px;
 	top:65%;
 	z-index: 2000;
 }
+
+
 #payment {
 	float:right;
 	position: relative;

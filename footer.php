@@ -141,15 +141,20 @@ margin-bottom:5px;
 						</button></a>
 					<div style="padding-bottom:-40px;" class="fb-like" data-href="https://www.facebook.com/gyanith.nitpy/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clrch">
+			<div class="col-lg-5 col-md-4 col-sm-4 col-xs-4 clrch">
 					MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">queries@gyanith.org &nbsp&nbsp&nbsp+91 70942 50770
-			<br/><a href="/reach.php"><span style="color:pink">How to reach us</span></a>
+
+			
+			<div class="col-lg-4 col-md-3 col-sm-3 col-xs-3">
+			<a href="/reach.php"><span style="color:pink">How to reach us</span></a>&nbsp&nbsp&nbsp
+			queries@gyanith.org &nbsp&nbsp&nbsp+91 70942 50770
+			
 			</div>
 		</div>
 	</div>
 </footer>
+
 <script>
 			(function() {
 

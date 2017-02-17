@@ -24,9 +24,7 @@
 		
 
 		<style type="text/css">	
- #mapg{
-     
- }
+
 	p,h1,a{
 		font-family: 'Droid Sans', sans-serif;
 
@@ -160,7 +158,9 @@ h1#head{
 		<div class="col-lg-4 col-xs-4 col-sm-4 col-md-4">
          <!-- <div style="position:fixed;" > -->
 		 <iframe id="mapg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18630.754320683933!2d79.83301898509258!3d10.991001896159796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a55112cc3dc97d9%3A0x6b8a0f3ccb72149e!2sNational+Institute+of+Technology%2C+Puducherry!5e0!3m2!1sen!2sin!4v1487270480716" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-      <!--  </div>-->
+      <br/>
+		<b> Contact:<br/> Akshay</b> <br/> +91-75981 81886
+	  <!--  </div>-->
         </div>
 		<div class="col-lg-8 col-xs-8 col-sm-8 col-md-8">
       <p> 
