@@ -112,6 +112,10 @@ if(isset($_POST['submiteve']) && isset($_POST['events'])){
         }
       }
 
+      //set session for cobweb when registered
+      if($select=='cobweb'){
+        $_SESSION['cobweb']='cob';
+      }
       echo "upd ".$select." bltm ".$teame;
       }
       else{
@@ -134,6 +138,10 @@ if(isset($_POST['submiteve']) && isset($_POST['events'])){
           $stmt2->execute(array(':gid'=>$g_id));
       
         }
+      }
+       //set session for cobweb when registered
+      if($select=='cobweb'){
+        $_SESSION['cobweb']='cob';
       }
     echo "ins ".$select." bltm ".$teame;
    }
