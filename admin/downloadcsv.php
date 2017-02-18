@@ -22,7 +22,7 @@ $event=$_SESSION['event'];
 		$wrk=$db->prepare($sql);
 		
 
-		if($event == "dbugcbug" || $event == "cobweb" || $event == "ityuktha" || $event == "prastuti" || $event == "consilium" || $event == "detonatex" || $event == "techpursuit" || $event == "burnout" || $event == "speculate" || $event == "copterx" || $event == "weblicate" || $event == "enigma" || $event == "sync" || $event == "linkit" || $event == "rush_hour" || $event == "deadshot"){
+		if($event == "dbugcbug" || $event == "buzzitup" || $event == "cobweb" || $event == "ityuktha" || $event == "prastuti" || $event == "consilium" || $event == "detonatex" || $event == "techpursuit" || $event == "burnout" || $event == "speculate" || $event == "copterx" || $event == "weblicate" || $event == "enigma" || $event == "sync" || $event == "linkit" || $event == "rush_hour" || $event == "deadshot"){
 		$eve->execute();
 		$result=$eve->fetchAll();
 		}

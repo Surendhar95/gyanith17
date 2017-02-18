@@ -25,12 +25,13 @@
 						<a href="/workshops.php"><!-- style="color:white">--><i class="fa fa-cogs" aria-hidden="true"></i><span>Workshops</span></a>
 						<a href="/paper.php"><!-- style="color:white">--><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i><span>Paper Presentation</span></a>
 						<a href="/expo.php"><!-- style="color:white">--><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Project Expo</span></a>
+						<a href="/buzzit"><!-- style="color:white">--><i class="fa fa-bullhorn" aria-hidden="true"></i><span>Buzz It Up</span></a>
 						<a href="/guest.php"><!-- style="color:white">--><i class="fa fa-podcast" aria-hidden="true"></i><span>Guest Lectures</span></a>
 						<a href="/nontech.php"><!-- style="color:white">--><i class="fa fa-gamepad" aria-hidden="true"></i><span>Bazinga</span></a>
 						<a href="/hospitality.php"><!-- style="color:white">--><i class="fa fa-bed" aria-hidden="true"></i><span>Hospitality</span></a>
 						<a href="/team.php"><!-- style="color:white">--><i class="fa fa-users" aria-hidden="true"></i><span>Our team</span></a>
 						<a href="/about.php"><!-- style="color:white">--><i class="fa fa-info-circle" aria-hidden="true"></i><span>About Us</span></a>
-						<a href="/reach.php"><!-- style="color:white">--><i class="fa fa-map-marker" aria-hidden="true"></i><span>Reach Us</span></a>
+						
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>
