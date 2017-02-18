@@ -57,7 +57,7 @@ Eventcoordinator Name :<input  type='text' name='name'></br></br>
                 <option value="crabot">Crabot</option>
                 <option value="take"> Take Off - RC Plane Designing</option>
 		<option value="hospitality"> Hospitality</option>
-				
+		<option value="buzzitup">Buzz It Up</option>		
 
 
         </select>

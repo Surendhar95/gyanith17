@@ -90,6 +90,7 @@ $e->getMessage();
 <option value="ityuktha"  style="width:100%">Ityuktha</option>
 <option value="prastuti"  style="width:100%">Prastuti</option>
 <option value="cobweb"  style="width:100%">Cobweb</option>
+<option value="buzzitup"  style="width:100%">Buzz It Up</option>
 </select>
 
 <br/>
@@ -145,7 +146,8 @@ if($result['prastuti']=='1')
 {	echo '<div class="tnote">Prastuti</div>';$test=1;}
 if($result['cobweb']=='1')
 {	echo '<div class="tnote">CobWeb</div>';$test=1;}
-
+if($result['buzzitup']=='1')
+{	echo '<div class="tnote">Buzz It Up</div>';$test=1;}
 }
 catch(PDOException $e){
 $e->getMessage();
