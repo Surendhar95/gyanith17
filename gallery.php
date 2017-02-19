@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Gyanith '17  | ABOUT US</title>
+	<title>Gyanith '17  | GALLERY</title>
 	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -106,7 +106,7 @@ header{
 	 ?>
 	 <header>
 			<div class="title1 row">
-				<h2><b>ABOUT US</b></h2>
+				<h2><b>GALLERY</b></h2>
 			</div>
 		</header>
 <div>
@@ -114,23 +114,28 @@ header{
 
 	<div class="row" id="ind">
 		<div class="col-lg-2">
-		
-		
-	</div>
+		</div>
 	<div class="col-lg-8" id="content" >
-		<p>
-		<b>"GYANITH17"</b> is the inaugural edition of the annual technical festival hosted by 
-		all departments of <b>NIT Puducherry</b> .  It is scheduled to be conducted from <b>February 
-		24th to 26th</b> . Gyanith literally translates to inspiring or the one who inspires.
-		Hence our main aim is to inspire  each and every one who come. We have put together
-		a platform for every science and engineering aspirant to showcase their talent. 
-		Students from various departments can participate in various interesting <b>events</b> 
-		and <b>win cash prize</b> . We also have a number of <b>workshops</b>  for training students in
-		different aspects which will help them throughout their life. 
-		A number of non-technical events will add a flavor of <b>fun</b>  to the festival.
-		</p>
-				
-		
+		<div style="height=100%">
+		<div class="row">
+			<div class="col-lg-offset-1 col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-4 col-md-4 col-xs-4 col-sm-4 ">
+				<img src="images/2.jpeg" class="pics" style="height:100%;width:100%"/>
+			</div>
+			<div class="col-lg-offset-2 col-md-offset-2 col-xs-offset-2 col-sm-offset-2 col-lg-4 col-md-4 col-xs-4 col-sm-4 ">
+				<img src="images/3.jpeg" class="pics" style="height:100%;width:100%"/>
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-sm-offset-4 col-lg-4 col-md-4 col-xs-4 col-sm-4 ">
+				<img src="images/1.jpeg" class="pics" style="height:100%;width:100%"/>
+			</div>
+		</div>
+		<br/><br/>
+		<div class="row" style="text-align:center">
+			<span ><b>Our New Campus Gallery</b></span>
+		</div>
+		</div>
 	</div>
 	<div class="col-lg-2">
 		
