@@ -1,60 +1,86 @@
 <div class="preloader">
-			<svg version="1.1" id="preloader" x="0px" y="0px" width="240px" height="120px" viewBox="0 0 240 120">
+<style type="text/css">
+body {
+	background: #161616 url(pattern_40.gif) top left repeat;
+	margin: 0;
+	padding: 0;
+	font: 12px normal Verdana, Arial, Helvetica, sans-serif;
+	height: 100%;
+}
 
-<style type="text/css" >
-	<![CDATA[
+* {margin: 0; padding: 0; outline: none;}
 
-		#plug,
-		#socket { fill:#FDB515 }
+img {border: none;}
 
-		#loop-normal { fill: none; stroke: #FDB515; stroke-width: 12 }
-		#loop-offset { display: none }
+a { 
+	text-decoration:none; 
+	color:#00c6ff;
+}
 
-	]]>
+
+
+.contain {width: 960px; margin:auto; margin-top:15%; overflow: hidden;background:transparent;}
+.content {width:800px; margin:0 auto; padding-top:50px;background:transparent;}
+.contentBar {width:90px; margin:0 auto; padding-top:50px; padding-bottom:50px;background:transparent;}
+
+/* Second Loadin Circle */
+
+.circle {
+	background-color: rgba(0,0,0,0);
+	border:10px solid rgba(0,183,229,0.9);
+	opacity:.9;
+	border-right:10px solid rgba(0,0,0,0);
+	border-left:10px solid rgba(0,0,0,0);
+	border-radius:150px;
+	box-shadow: 0 0 65px #2187e7;
+	width:120px;
+	height:120px;
+	margin:0 auto;
+	-moz-animation:spinPulse 1s infinite ease-in-out;
+	-webkit-animation:spinPulse 1s infinite linear;
+}
+.circle1 {
+	background-color: rgba(0,0,0,0);
+	border:5px solid rgba(0,183,229,0.9);
+	opacity:.9;
+	border-left:5px solid rgba(0,0,0,0);
+	border-right:5px solid rgba(0,0,0,0);
+	border-radius:50px;
+	box-shadow: 0 0 15px #2187e7; 
+	width:50px;
+	height:50px;
+	margin:0 auto;
+	position:relative;
+	top:-85px;
+	-moz-animation:spinoffPulse 1s infinite linear;
+	-webkit-animation:spinoffPulse 1s infinite linear;
+}
+
+@-moz-keyframes spinPulse {
+	0% { -moz-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7;}
+	50% { -moz-transform:rotate(145deg); opacity:1; }
+	100% { -moz-transform:rotate(-320deg); opacity:0; }
+}
+@-moz-keyframes spinoffPulse {
+	0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(360deg);  }
+}
+@-webkit-keyframes spinPulse {
+	0% { -webkit-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7; }
+	50% { -webkit-transform:rotate(145deg); opacity:1;}
+	100% { -webkit-transform:rotate(-320deg); opacity:0; }
+}
+@-webkit-keyframes spinoffPulse {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
 </style>
-
-<path id="loop-normal" class="st1" d="M120.5,60.5L146.48,87.02c14.64,14.64,38.39,14.65,53.03,0s14.64-38.39,0-53.03s-38.39-14.65-53.03,0L120.5,60.5
-L94.52,87.02c-14.64,14.64-38.39,14.64-53.03,0c-14.64-14.64-14.64-38.39,0-53.03c14.65-14.64,38.39-14.65,53.03,0z">
-	<animate attributeName="stroke-dasharray" attributeType="XML"
-    	from="500, 50"  to="450 50"
-    	begin="0s" dur="2s"
-    	repeatCount="indefinite"/>
-	<animate attributeName="stroke-dashoffset" attributeType="XML"
-    	from="-40"  to="-540"
-    	begin="0s" dur="2s"
-    	repeatCount="indefinite"/>  
-</path>
-  
-<path id="loop-offset" d="M146.48,87.02c14.64,14.64,38.39,14.65,53.03,0s14.64-38.39,0-53.03s-38.39-14.65-53.03,0L120.5,60.5
-L94.52,87.02c-14.64,14.64-38.39,14.64-53.03,0c-14.64-14.64-14.64-38.39,0-53.03c14.65-14.64,38.39-14.65,53.03,0L120.5,60.5
-L146.48,87.02z"/>
-  
-<path id="socket" d="M7.5,0c0,8.28-6.72,15-15,15l0-30C0.78-15,7.5-8.28,7.5,0z"/>  
-  
-<path id="plug" d="M0,9l15,0l0-5H0v-8.5l15,0l0-5H0V-15c-8.29,0-15,6.71-15,15c0,8.28,6.71,15,15,15V9z"/>
-  
-<animateMotion
-	xlink:href="#plug"
-  	dur="2s"
-	rotate="auto"
-	repeatCount="indefinite"
-	calcMode="linear"
-	keyTimes="0;1"    
-	keySplines="0.42, 0, 0.58, 1">
-	<mpath xlink:href="#loop-normal"/>
-</animateMotion>
-  
-<animateMotion             
-	xlink:href="#socket"
-  	dur="2s"
-	rotate="auto"
-	repeatCount="indefinite"
-	calcMode="linear"
-	keyTimes="0;1"
-	keySplines="0.42, 0, 0.58, 1">
-	<mpath xlink:href="#loop-offset"/>
-</animateMotion>  
-</svg>
-
-
-		</div>
+</head>
+<body>
+<div class="contain">
+	<div class="content">
+    <div class="circle"></div>
+    <div class="circle1"></div>
+    </div>
+</div>
+</div>
