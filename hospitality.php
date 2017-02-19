@@ -67,7 +67,7 @@ body {
   padding: 30px 20px;
   border-radius:15px;
   width: 65%;
-  height: 450px; 
+  height: 480px; 
   margin-left: 2%;
  
   font-size: 1.1em;
@@ -87,7 +87,7 @@ p{
 	text-align: justify;
   display: inline-block;
   vertical-align: middle;
-   line-height:50px;
+   line-height:45px;
   font-size: 1.3em;
 }
 

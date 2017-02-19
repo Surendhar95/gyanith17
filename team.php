@@ -420,7 +420,7 @@
 	</div>
 	<div class="col-sm-3">
 				<div class="thumbnail">
-				<img src="team/24.jpeg" alt="Team1" style="height:22%;width:100%">
+				<img src="team/raqeeb.jpg" alt="Team1" style="height:22%;width:100%">
 				<div class="caption">
 					<p class="text-center">RAQEEB MOHAMED
 						<br>HEAD NON-TECHNICAL
