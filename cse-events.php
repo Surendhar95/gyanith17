@@ -143,7 +143,7 @@ width:350px;
 						</div>
 						<div id="enig-logo" class="detail-div">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	 width="300px" height="300px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve" style="position:relative;top:50px;">
 <g>
 	<path fill="#FFFFFF" d="M137.411,165.583c0,0-0.463-5.062-0.691-7.602c1.196-0.683,2.343-1.429,3.418-2.262
 		c1.902,1.097,5.692,3.292,5.692,3.292l6.476-1.699l7.337-12.684l-1.704-6.471c0,0-4.886-2.839-7.33-4.239
