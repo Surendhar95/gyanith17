@@ -116,7 +116,7 @@
 			</div>
 				<div class="caption">
 					<p class="text-center">MARISSA CATHERINE N
-						<br>OVERALL COORDINATOR
+						<br>VICE PRESIDENT
 						<br>+91-9679533132</p>
 					
 				</div>
@@ -164,6 +164,25 @@
 		</div>
 		<div class="col-sm-3">
 				<div class="team-col">
+				<div class="team-pic" style="background-image: url('team/uttam.jpg')" >
+				</div>
+				
+					<div class="caption">
+						<p class="text-center">PANASALA UTTAM KUMAR
+						<br>HEAD DESIGN
+						<br>+91-9487821859</p>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<div class="container-fluid">
+<div class="row-fluid" style="width:90%; padding-left: 150px; ">
+			<div class="col-sm-3">
+				<div class="team-col">
 				<div class="team-pic" style="background-image: url('team/8.jpg')" >
 				</div>
 				
@@ -175,13 +194,7 @@
 					
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
-<br>
-<div class="container-fluid">
-<div class="row-fluid" style="width:90%; padding-left: 150px; ">
-<div class="col-sm-3">
+		<div class="col-sm-3">
 				<div class="team-col">
 				<div class="team-pic" style="background-image: url('team/treasurer.png')" >
 				</div>
@@ -219,7 +232,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-3 ">
+		
+		
+	</div>
+	</div>
+	<br>
+	<div class=container-fluid>
+	<div class="row-fluid" style="width:90%; padding-left: 150px;">
+	<div class="col-sm-3 ">
 					<div class="team-col">
 				<div class="team-pic" style="background-image: url('team/11.jpg')" >
 				</div>
@@ -230,12 +250,6 @@
 						</div>
 				</div>
 		</div>
-		
-	</div>
-	</div>
-	<br>
-	<div class=container-fluid>
-	<div class="row-fluid" style="width:90%; padding-left: 150px;">
 	<div class="col-sm-3 ">
 					<div class="thumbnail">
 				<img src="team/12.png" alt="Team1" style="height:24%;width:100%">
@@ -271,7 +285,16 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-3">
+		
+		
+	
+		
+	</div>
+</div>
+<br>
+<div class=container-fluid>
+	<div class="row-fluid" style="width:90%; padding-left: 150px;">
+	<div class="col-sm-3">
 				<div class="team-col">
 				<div class="team-pic" style="background-image: url('team/20.jpg')" >
 				</div>
@@ -283,14 +306,6 @@
 				</div>
 			</div>
 		</div>
-		
-	
-		
-	</div>
-</div>
-<br>
-<div class=container-fluid>
-	<div class="row-fluid" style="width:90%; padding-left: 150px;">
 	<div class="col-sm-3 ">
 				<div class="team-col">
 				<div class="team-pic" style="background-image: url('team/15.jpg')" >
@@ -326,6 +341,15 @@
 				</div>
 			</div>
 		</div>
+	
+		
+		
+		
+	</div>
+</div>
+<br>
+<div class=container-fluid>
+	<div class="row-fluid" style="width:90%; padding-left: 150px;">
 	<div class="col-sm-3">
 			<div class="team-col">
 				<div class="team-pic" style="background-image: url('team/17.jpg')" >
@@ -338,14 +362,6 @@
 				</div>
 			</div>
 		</div>
-		
-		
-		
-	</div>
-</div>
-<br>
-<div class=container-fluid>
-	<div class="row-fluid" style="width:90%; padding-left: 150px;">
 	<div class="col-sm-3">
 		<div class="team-col">
 				<div class="team-pic" style="background-image: url('team/18.jpg')" >
@@ -384,7 +400,14 @@
 		</div>
 
 		
-		<div class="col-sm-3 ">
+		
+		
+	</div>
+</div>
+<br>
+<div class=container-fluid>
+	<div class="row-fluid" style="width:90%; padding-left: 150px;">
+	<div class="col-sm-3 ">
 					<div class="team-col">
 				<div class="team-pic" style="background-image: url('team/23.jpg')" >
 				</div>
@@ -394,13 +417,7 @@
 						<br>+91-8508825316</p>
 						</div>
 				</div>
-		</div>
-		
 	</div>
-</div>
-<br>
-<div class=container-fluid>
-	<div class="row-fluid" style="width:90%; padding-left: 150px;">
 	<div class="col-sm-3">
 				<div class="thumbnail">
 				<img src="team/24.jpeg" alt="Team1" style="height:22%;width:100%">
@@ -425,7 +442,7 @@
 			</div>
 		</div>
 </div>
-
+</div>
  <?php 
 			include ('footer.php');
 		?> 
