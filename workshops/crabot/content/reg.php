@@ -2,7 +2,7 @@
 	<link href="../../style.css"/>
 </head>
 <p>
-Registration for the workshop is over.
+Registration for the workshop was over on 20/02/2017 at 4:00 PM.
 <!--
 
 Click <a href="<?php// echo "../../dashboard.php"; ?>">here</a> to register for Workshop.
