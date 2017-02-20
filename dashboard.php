@@ -171,7 +171,7 @@ $e->getMessage();
 <option value="game"  style="width:100%">Game Development Using VR</option>
 <option value="plugdin"  style="width:100%"> Get Plugdin - jQuery Workshop</option>
 <option value="control"  style="width:100%">Take Control - Swarm Robotics</option>
-<option value="renewate"  style="width:100%">Solar Smart Energy System</option>
+<!--<option value="renewate"  style="width:100%">Solar Smart Energy System</option>-->
 <!--<option value="crabot"  style="width:100%">Crabot</option>-->
 <option value="take"  style="width:100%"> Take Off - RC Plane Designing</option>
 </select>
@@ -524,8 +524,8 @@ $tname3 = $result['tname'];
 </div>
 
 
-		<!--footer start-->
-		
+<!--footer start-->
+
 <script type="text/javascript" src="js/snap.svg-min.js"></script>
 
 <style>
@@ -566,21 +566,21 @@ margin-bottom:5px;
 </style>
 
 <div id="fb-root"></div>
-			<script>
-				(function(d, s, id) {
-					var js, fjs = d.getElementsByTagName(s)[0];
-					if (d.getElementById(id)) return;
-					js = d.createElement(s); js.id = id;
-					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-					fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-			</script>
+<script>
+	(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+			fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
 
 <footer>
 <hr/>
 	<div class="footer">
 		<div class="row">
-			<div id="socialicon" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<div id="socialicon" class="col-md-3">   <!-- col-lg-3 col-sm-3 col-xs-3">-->
 					<a href="https://twitter.com/nitpygyanith" target="_blank"><button style="background-color: transparent;border:none;"  class="foot-btn button button--line button--effect-1">
 							<span class="twitter-shape" data-morph-active="M361.5,118.5c-24-6.5-29.314-6.731-42.264-5.184c13.216-7.922,23.365-20.466,28.146-35.414
 		c-12.37,7.336-26.067,12.663-40.647,15.533c-11.676-12.44-28.313-20.213-46.725-20.213c-35.35,0-64.009,28.658-64.009,64.008
@@ -665,17 +665,22 @@ margin-bottom:5px;
 								</svg>
 							</span>
 						</button></a>
-					<div style="padding-bottom:-40px;" class="fb-like" data-href="https://www.facebook.com/gyanith.nitpy/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+					<div class="fb-like" style="position:relative;top:2px;" data-href="https://www.facebook.com/gyanith.nitpy/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clrch">
+			<div class="col-md-5 clrch" style="padding-left:12%;"><!-- col-md-4 col-sm-4 col-xs-4 ">-->
 					MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">queries@gyanith.org &nbsp&nbsp&nbsp+91 70942 50770
-			<br/><a href="/reach.php"><span style="color:pink">How to reach us</span></a>
+
+			
+			<div class="col-md-4"><!--" col-lg-3 col-sm-3 col-xs-3">-->
+			<a href="/reach.php"><span style="color:pink">How to reach us</span></a>&nbsp&nbsp&nbsp
+			queries@gyanith.org &nbsp&nbsp&nbsp+91 70942 50770
+			
 			</div>
 		</div>
 	</div>
 </footer>
+
 <script>
 			(function() {
 
@@ -744,7 +749,8 @@ margin-bottom:5px;
 
 			})();			
 		</script>
-		<!--footer end-->
+
+<!--footer end-->
 		<script type="text/javascript" src="js/classie.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		
