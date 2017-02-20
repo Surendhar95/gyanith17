@@ -20,7 +20,8 @@ function generate(type, text) {
           generate("warning","Prizes worth 1.5 lakhs to be won")
             generate('notification',"COBWEB has started ");
             generate('notification',"Workshops registration started");
-           
+
+            //generate('notification',"On the spot Entry fee to participate in all the events - Rs.200");
             generate('notification',"Workshop payment can be now done via SBICollect/DD/NEFT/Internet banking.Refer Workshop pages for details")
             generate('notification',"Limited registrations. Register soon");
         
