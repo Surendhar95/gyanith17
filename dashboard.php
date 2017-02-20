@@ -162,7 +162,7 @@ $e->getMessage();
 <div>
     <br/><br/><br/> <div class="hdng">Workshops Registration</div>
    <div class="hr"></div>
-<div style="">For any queries please contact: Chanthiraprabhu - +91 9486850501</div> <br/>
+<div style="">For any queries: Chanthiraprabhu - +91 9486850501 workshops@gyanith.org</div> <br/>
 <form id="dropworkshops" method="post"><!-- action="dbworkshops.php">-->
 <div id="alertwrk"></div>
 <div class="label">Workshops</div>
@@ -172,7 +172,7 @@ $e->getMessage();
 <option value="plugdin"  style="width:100%"> Get Plugdin - jQuery Workshop</option>
 <option value="control"  style="width:100%">Take Control - Swarm Robotics</option>
 <option value="renewate"  style="width:100%">Solar Smart Energy System</option>
-<option value="crabot"  style="width:100%">Crabot</option>
+<!--<option value="crabot"  style="width:100%">Crabot</option>-->
 <option value="take"  style="width:100%"> Take Off - RC Plane Designing</option>
 </select>
 <br/>
