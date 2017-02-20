@@ -173,10 +173,10 @@ $( "#cobweblink" ).click(function() {
 
 
 		  </script>-->
-			<div id="ongc">
+			<!-- <div id="ongc">
 					<img src="images/ongc-big.jpg" style="height:70px;width:70px;"/><br/>
 				 	
-			</div>	
+			</div>	 -->
 		
 			
 		<div id="payment">
@@ -221,10 +221,10 @@ $( "#cobweblink" ).click(function() {
 
 						<div class="col-sm-2 col-md-2 col-lg-2" >
 						<div class="svg-wrapper">
-						<a href="gallery.php">
+						<a href="guest.php">
 						 <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
 							<rect class="shape" height="60" width="320" />
-							<div class="text">GALLERY</div>
+							<div class="text">GUEST TALKS</div>
 						  </svg></a>
 						</div>
 						</div>
