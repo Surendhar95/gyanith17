@@ -182,6 +182,18 @@ $(document).ready(function (){
         }
 		$("#txtsub").hide();
 		$("#plus").click(function(){
+					if($('#wtxtsub1').is(':visible')){
+						$("#wtxtsub1").hide();
+						$("#wplus1").show();
+					}
+					if($('#wtxtsub2').is(':visible')){
+						$("#wtxtsub2").hide();
+						$("#wplus2").show();
+					}
+					if($('#wtxtsub3').is(':visible')){
+						$("#wtxtsub3").hide();
+						$("#wplus3").show();
+					}
 			$("#plus").hide();
         $("#txtsub").show();
     	});
@@ -288,6 +300,10 @@ $(document).ready(function (){
 						$("#wtxtsub3").hide();
 						$("#wplus3").show();
 					}
+					if($('#txtsub').is(':visible')){
+						$("#txtsub").hide();
+						$("#plus").show();
+					}
 					$("#wplus1").hide();
 					$("#wtxtsub1").show();
 		});
@@ -301,6 +317,10 @@ $(document).ready(function (){
 					if($('#wtxtsub3').is(':visible')){
 						$("#wtxtsub3").hide();
 						$("#wplus3").show();
+					}
+					if($('#txtsub').is(':visible')){
+						$("#txtsub").hide();
+						$("#plus").show();
 					}
 						$("#wplus2").hide();
 					$("#wtxtsub2").show();
@@ -316,6 +336,10 @@ $(document).ready(function (){
 					if($('#wtxtsub1').is(':visible')){
 						$("#wtxtsub1").hide();
 						$("#wplus1").show();
+					}
+					if($('#txtsub').is(':visible')){
+						$("#txtsub").hide();
+						$("#plus").show();
 					}
 						$("#wplus3").hide();
 					$("#wtxtsub3").show();
