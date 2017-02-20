@@ -255,7 +255,7 @@ p,h1,h2,h3,h4,h5,body,html {
 .icon-list a {
 	color:white;
 	display: block;
-	padding: 0.6em;
+	padding: 0.65em;
 	-webkit-transform: translate3d(0,500px,0);
 	transform: translate3d(0,500px,0);
 }
@@ -392,7 +392,7 @@ width:500px;
 #logo{
 
 position: fixed;
-  top: 48%;
+  top: 40%;
   left: 48%;
   z-index: 10000;
   
