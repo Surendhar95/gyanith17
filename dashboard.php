@@ -168,7 +168,7 @@ $e->getMessage();
 <div class="label">Workshops</div>
 <select name="workshops" id="workshops" class="selectdrp">
 <option value="" disabled selected  style="width:100%">Select workshops</option>
-<option value="game"  style="width:100%">Game Development Using VR</option>
+<!--<option value="game"  style="width:100%">Game Development Using VR</option>-->
 <option value="plugdin"  style="width:100%"> Get Plugdin - jQuery Workshop</option>
 <option value="control"  style="width:100%">Take Control - Swarm Robotics</option>
 <!--<option value="renewate"  style="width:100%">Solar Smart Energy System</option>-->
