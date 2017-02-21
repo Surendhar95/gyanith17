@@ -265,9 +265,7 @@ width:350px;
 				</div>
 			
 		</div>
-		<!-- <?php 
-			include "footer.php"
-		?> -->
+	
 	</body>
 	<script>
 			(function() {

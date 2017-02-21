@@ -80,7 +80,7 @@ body {
  
   margin-bottom:10px;
   border: 1px white solid;
-  
+  overflow-y: auto;
   
 }
 p{
