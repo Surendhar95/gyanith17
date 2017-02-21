@@ -325,11 +325,9 @@ width:400px;
 				</div>
 			</div>
 		</div>
-		<!-- <?php 
-			include "footer.php"
-		?> -->
+		<!--<?php include("footer.php") ?>-->
 	</body>
-	<?php include("footer.php") ?>
+		<?php include("footer.php") ?>
 		<!--<script src="js/particles.js"></script>-->
 		<script src="js/app.js"></script>
 		<script src="js/classie.js"></script>
