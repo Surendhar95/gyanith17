@@ -1,3 +1,0 @@
- <div style='position:absolute;top:20px;width:280px'>
-      <div id='back' style='width:80px;float:left;position:relative;top:-10px'><a><img src='img/back.png' /></a></div>
-      <div id='tit' style='width:200px;position:relative;top:-28px;text-decoration:none'><a><h3>ANDROID<h3></a> </div>
