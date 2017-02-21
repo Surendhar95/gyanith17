@@ -170,10 +170,10 @@ $e->getMessage();
 <option value="" disabled selected  style="width:100%">Select workshops</option>
 <!--<option value="game"  style="width:100%">Game Development Using VR</option>-->
 <option value="plugdin"  style="width:100%"> Get Plugdin - jQuery Workshop</option>
-<option value="control"  style="width:100%">Take Control - Swarm Robotics</option>
+<!--<option value="control"  style="width:100%">Take Control - Swarm Robotics</option>-->
 <!--<option value="renewate"  style="width:100%">Solar Smart Energy System</option>-->
 <!--<option value="crabot"  style="width:100%">Crabot</option>-->
-<option value="take"  style="width:100%"> Take Off - RC Plane Designing</option>
+<!--<option value="take"  style="width:100%"> Take Off - RC Plane Designing</option>-->
 </select>
 <br/>
 <select name="pay" id="pay" class="selectdrp">
@@ -554,8 +554,12 @@ height:25px;
 width:30px;
 opacity: 1;
 }
-.clrch:hover{
-color:#19f6e8;
+.clrch a{
+	color:#fff;
+}
+.clrch a:hover{
+	text-decoration:none;
+	color:#19f6e8;
 }
 #socialicon{
 	padding-left:5%;
@@ -668,7 +672,7 @@ margin-bottom:5px;
 					<div class="fb-like" style="position:relative;top:2px;" data-href="https://www.facebook.com/gyanith.nitpy/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 			</div>
 			<div class="col-md-5 clrch" style="padding-left:12%;"><!-- col-md-4 col-sm-4 col-xs-4 ">-->
-					MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY
+					<a href="/webteam.php">MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY</a>
 			</div>
 
 			
