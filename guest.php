@@ -63,24 +63,21 @@ body {
 	background:transparent;
 }
 #content{
-  overflow-y: hidden;
- margin-top: 45px;
+  overflow-y: auto;
+    margin-top:100px;
   padding: 30px 20px;
   border-radius:15px;
-  width: 65%;
-  height: 500px; 
-  margin-left: 2%;
-  /*margin-top: 10px;*/
-  font-size: 1.1em;
+  width: 75%;
+  height: 450px; 
+  font-size: 1em;
   background: #d9d9d9; /* Old browsers */
   background-color:rgba(217,217,217,0.4); 
   background-attachment: fixed;
- 
   color: black;
   position: relative;
-  /*top: -130px;*/
   margin-bottom:10px;
   border: 1px white solid;
+  right:6%;
   
 }
 p{
@@ -91,15 +88,28 @@ p{
   font-size: 1.3em;
 }
 
-h1#head{
-	text-align: center;
-	font-size: 4em;
-	vertical-align: center;
-	float: right;
-	/*font-family: 'Merriweather Sans', sans-serif;
-	font-family: 'Merriweather', serif;*/
-
+header{
+	position:relative;
+	top:2%;
+	left:40%;
 }
+.title2 {
+	position: absolute;
+	width:30%;
+	/*margin-top: 0%;
+	margin-left: 38%;*/
+	border-bottom: 10%;
+	text-align: center;
+	color: #fff;
+
+	
+}
+.pic-col{
+           
+            height:200px;
+            width:200px;
+            /*float:left;*/
+        }
 </style>
 
 </head>
@@ -108,6 +118,11 @@ h1#head{
 	include ('loginicon.php');
 		include("sidebar.php");
 	 ?>
+	 <header>
+			<div class="title2 row">
+				<h2><b>GUEST TALK</b></h2>
+			</div>
+		</header>
 <div>
 	<div id="logo"><!--<img width="10%"src="dragon.svg"/><h1 id="head"></h1>--></div>
 
@@ -117,12 +132,22 @@ h1#head{
 		
 	</div>
 	<div class="col-lg-8" id="content" >
-		<p>
-		Coming Soon .....
-        
-        	</p>
-				
-		
+
+        <div class="row">
+		<div class="col-lg-3">
+        <br/><br/><br/><br/>
+        <div class="pic-col" style="background:url('images/saravanan.jpg');background-size:200px;background-repeat: no-repeat;"></div>
+        <div class="captn" style="margin-left:15%;">Dr. M Saravanan</div>
+        <!-- <img src="images/saravanan.jpg" height="100px" width="100px" />-->
+		 
+
+        </div>
+		<div class="col-lg-9"> 
+      <p>The guest lecture will be given by <b>Dr. M Saravanan</b>, a Master researcher from Ericsson Research India from seven years. He has worked as a senior scientist in Checktronics India. He has published over 8 journals in 64 National and International conferences in China, France, Turkey, Egypt and Taiwan. His areas of interest are Data Mining, Text Mining, Information Retrieval, Mobile Social Network Analysis, IOT, Security and Privacy. He has been granted 3 patents. He has also chaired Session in International conferences like PAKD, ASONAM, DATA etc. Presently, he is working on IOT related projects. The guest talk will be on <b>IOT AND  ITS CHALLENGES</b>.</p>
+
+        </div>	
+		</div>
+
 	</div>
 	<div class="col-lg-2">
 		
@@ -130,7 +155,7 @@ h1#head{
 	</div>
 	</div>
 </div>
- <?php 
+  <?php 
 			include ('footer.php');
 		?> 
 		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
