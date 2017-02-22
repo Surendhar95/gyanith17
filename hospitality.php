@@ -127,8 +127,8 @@ header{
 		This amount will be returned at the time of check out. Accommodation will be provided from <b>24th to 26th February</b> only.<br>
 		<b>Limited registrations only!</b><br>
 		<b>Contact</b>
-		Boys: +91-75981 81886 <br>
-		Girls: +91 9489 716395
+		Boys: +91-75981 81886 &nbsp &nbsp &nbsp Girls: +91 9489 716395
+		
 		</p>
 				
 	</div>
