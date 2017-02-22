@@ -85,7 +85,7 @@ p{
   display: inline-block;
   vertical-align: middle;
    line-height:50px;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 header{

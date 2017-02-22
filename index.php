@@ -180,19 +180,19 @@ $( "#cobweblink" ).click(function() {
 		-->
 			
 		<div id="payment">
-	<!--	<a href="<?php echo "https://www.onlinesbi.com/prelogin/icollecthome.htm"; ?>" target="_blank"><h4 style="color: white">Click here for payment via SBI Collect</h4></a>-->
+	<!--	<a href="<?php //echo "https://www.onlinesbi.com/prelogin/icollecthome.htm"; ?>" target="_blank"><h4 style="color: white">Click here for payment via SBI Collect</h4></a>-->
 		</div>
-	<div id="cobweb1">
-		<?php if(isset($_SESSION['cobweb'])){ ?>
+	<!-- <div id="cobweb1"> -->
+		<!-- <?php //if(isset($_SESSION['cobweb'])){ ?>
 		<br/>
 			<form action="http://cobweb-knosys16.rhcloud.com" method="post" id="cobwebform" target="_blank">
-			<input type="hidden" name="g_id" value=<?php echo $_SESSION['g_id']; ?>>
-			<input type="hidden" name="name" value=<?php echo $_SESSION['name'];?>>
+			<input type="hidden" name="g_id" value=<?php //echo $_SESSION['g_id']; ?>>
+			<input type="hidden" name="name" value=<?php// echo $_SESSION['name'];?>>
 			<span class="blinking" id="cobweblink">Link to CobWeb</span>
 			</form>
-		<?php } ?>
-		</div>
-
+		<?php //} ?> -->
+	<!-- 	</div>
+ -->
 		<div id="logo">
 			<img src="images/logo.svg"/>
 		</div>
