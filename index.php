@@ -180,7 +180,7 @@ $( "#cobweblink" ).click(function() {
 		-->
 			
 		<div id="payment">
-		<a href="<?php echo "https://www.onlinesbi.com/prelogin/icollecthome.htm"; ?>" target="_blank"><h4 style="color: white">Click here for payment via SBI Collect</h4></a>
+	<!--	<a href="<?php echo "https://www.onlinesbi.com/prelogin/icollecthome.htm"; ?>" target="_blank"><h4 style="color: white">Click here for payment via SBI Collect</h4></a>-->
 		</div>
 	<div id="cobweb1">
 		<?php if(isset($_SESSION['cobweb'])){ ?>

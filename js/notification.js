@@ -18,9 +18,10 @@ function generate(type, text) {
 
        	function generateAll() {
           generate("warning","Prizes worth 1.5 lakhs to be won")
+            generate('notification',"Workshops registrations stopped");
+            generate('notification',"The candidates selected for the Second phase of the Paper Presentation events such as ITyuktha, Consilium and Prastuti have been personally notified with an email");
             generate('notification',"COBWEB has started ");
-            generate('notification',"Workshops registration started");
-
+            
             //generate('notification',"On the spot Entry fee to participate in all the events - Rs.200");
             generate('notification',"Workshop payment can be now done via SBICollect/DD/NEFT/Internet banking.Refer Workshop pages for details")
             generate('notification',"Limited registrations. Register soon");
