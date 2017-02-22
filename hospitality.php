@@ -126,7 +126,9 @@ header{
 		Registration for accommodation is on-spot. <b>Rs.200/-</b> should be given as caution deposit. 
 		This amount will be returned at the time of check out. Accommodation will be provided from <b>24th to 26th February</b> only.<br>
 		<b>Limited registrations only!</b><br>
-		<b>Contact</b>: +91-75981 81886
+		<b>Contact</b>
+		Boys: +91-75981 81886 <br>
+		Girls: +91 9489 716395
 		</p>
 				
 	</div>
