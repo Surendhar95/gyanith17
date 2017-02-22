@@ -59,7 +59,7 @@
 }
 .container-fluid {
 	position: relative;
-	top:-15%;
+	
 }
   </style>
   <body class="event-gradient" >
@@ -74,7 +74,7 @@
     </header>
     <br><br><br>
 <div class="container-fluid">
-<div class="row-fluid" style="width:90%; padding-left: 150px; padding-top: 150px;">
+<div class="row-fluid" style="width:90%; padding-left: 150px; padding-top: 100px;">
 
 	<div class="col-sm-3">
 		<div class="team-col">
@@ -196,7 +196,7 @@
 			</div>
 		<div class="col-sm-3">
 				<div class="team-col">
-				<div class="team-pic" style="background-image: url('team/treasurer.png')" >
+				<div class="team-pic" style="background-image: url('team/111.png')" >
 				</div>
 				
 					<div class="caption">

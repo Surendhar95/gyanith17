@@ -3,13 +3,16 @@
 
 <style>
 footer{
-	position:fixed;
-	bottom:0%;
+	/*position:fixed;*/
+	position:absolute;
+    top:0px;
+	
 	left:0%;
 	right:0%;
 	font-size:15px;
 	text-align:center;
 	color:#fff;
+	/*margin-bottom:2%;*/
 	opacity:0.7;
 	z-index:50;
 }
@@ -26,16 +29,12 @@ height:25px;
 width:30px;
 opacity: 1;
 }
-.clrch a{
-	color:#fff;
-}
-.clrch a:hover{
-	text-decoration:none;
-	color:#19f6e8;
+.clrch:hover{
+color:#19f6e8;
 }
 #socialicon{
 	padding-left:5%;
-
+/*padding-right:20px;*/
 margin-bottom:5px;
 }
 
@@ -55,8 +54,8 @@ margin-bottom:5px;
 <footer>
 <hr/>
 	<div class="footer">
-		<div class="row">
-			<div id="socialicon" class="col-md-3">  
+		<div class="row" style="height:100%;">
+			<div id="socialicon" class="col-md-3">   <!-- col-lg-3 col-sm-3 col-xs-3">-->
 					<a href="https://twitter.com/nitpygyanith" target="_blank"><button style="background-color: transparent;border:none;"  class="foot-btn button button--line button--effect-1">
 							<span class="twitter-shape" data-morph-active="M361.5,118.5c-24-6.5-29.314-6.731-42.264-5.184c13.216-7.922,23.365-20.466,28.146-35.414
 		c-12.37,7.336-26.067,12.663-40.647,15.533c-11.676-12.44-28.313-20.213-46.725-20.213c-35.35,0-64.009,28.658-64.009,64.008
@@ -143,12 +142,12 @@ margin-bottom:5px;
 						</button></a>
 					<div class="fb-like" data-href="https://www.facebook.com/gyanith.nitpy/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 			</div>
-			<div class="col-md-5 clrch" style="padding-left:12%;">
-					<a href="/webteam.php">MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY</a>
+			<div class="col-md-5 clrch" style="padding-left:12%;"><!-- col-md-4 col-sm-4 col-xs-4 ">-->
+					MADE WITH <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> BY WEB TEAM NITPY
 			</div>
 
 			
-			<div class="col-md-4">
+			<div class="col-md-4"><!--" col-lg-3 col-sm-3 col-xs-3">-->
 			<a href="/reach.php"><span style="color:pink">How to reach us</span></a>&nbsp&nbsp&nbsp
 			queries@gyanith.org &nbsp&nbsp&nbsp+91 70942 50770
 			
