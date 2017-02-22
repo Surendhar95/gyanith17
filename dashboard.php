@@ -165,16 +165,17 @@ $e->getMessage();
 <div style="">For any queries: Chanthiraprabhu - +91 9486850501 workshops@gyanith.org</div> <br/>
 <form id="dropworkshops" method="post"><!-- action="dbworkshops.php">-->
 <div id="alertwrk"></div>
-<div class="label">Workshops</div>
-<select name="workshops" id="workshops" class="selectdrp">
-<option value="" disabled selected  style="width:100%">Select workshops</option>
+<!--<div class="label">Workshops</div>-->
+<span class="label" style="text-align:center;">Registration for the workshops was over on 22.02.2017.</span><br/><br/>
+<!--<select name="workshops" id="workshops" class="selectdrp">-->
+<!--<option value="" disabled selected  style="width:100%">Select workshops</option>-->
 <!--<option value="game"  style="width:100%">Game Development Using VR</option>-->
-<option value="plugdin"  style="width:100%"> Get Plugdin - jQuery Workshop</option>
+<!--<option value="plugdin"  style="width:100%"> Get Plugdin - jQuery Workshop</option>-->
 <!--<option value="control"  style="width:100%">Take Control - Swarm Robotics</option>-->
 <!--<option value="renewate"  style="width:100%">Solar Smart Energy System</option>-->
 <!--<option value="crabot"  style="width:100%">Crabot</option>-->
 <!--<option value="take"  style="width:100%"> Take Off - RC Plane Designing</option>-->
-</select>
+<!--</select>
 <br/>
 <select name="pay" id="pay" class="selectdrp">
 <option value="" disabled selected  style="width:100%">Select your Payment method</option>
@@ -249,7 +250,7 @@ $e->getMessage();
 <br/>
 <div id='alertwrkteam'></div><br/>
 <input type="submit" id="submitwrk"  class="bttn" name="submitwrk" value="Click to Register for Workshops"/>
-<br/>
+<br/>-->
 <div>Registered Workshops are:</div><br/>
 <div id='infowrk'><!--for mssg display-->
 
