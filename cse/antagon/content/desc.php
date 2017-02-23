@@ -1,5 +1,19 @@
 <head>
 	<link href="../../style.css"/>
+<style>
+#antagon1 a{
+	text-decoration:none;
+    color:#fff;
+	cursor:pointer;
+    
+}
+#antagon1{
+    text-align:center;
+}
+#antagon1 a:hover{
+	color:#19f6e8;
+}
+</style>
 </head>
 
 <p>
@@ -11,7 +25,9 @@
 </li><br><li>	Participants can code in any language accepted by Codechef.          
 </li>
 </ol>
-
+<div id="antagon1">
+			<a href="https://www.codechef.com/ATGN2017" target="_blank">Link to Antagon</a>
+		</div>
 
 <!--
 <br>
@@ -22,7 +38,7 @@ Second Prize: <span id="rupee">2500 </span>(INR)
 </p>
 -->
 <!--prize start-->
-<br/>
+
 <style>
 th, td {
     padding: 5px;
