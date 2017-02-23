@@ -17,7 +17,10 @@ Devices that can store solids, liquid, powder, or air, or produce flame, to thro
 Each match is estimated to be of 3 min unless extended by the event coordinators.
 </li><br/>
 <li>
-The bot size should not exceed the 25cmx25cmx25cm
+The bot size should not exceed the <b> 30cmx30cmx30cm</b>
+</li><br/>
+<li>
+The weight of the bot should <b> not exceed 2.5kg</b>
 </li><br/>
 <li>
 Each contestant scores points based on the moves and attacks as the opponent’s bots enters the danger zone in the arena.
