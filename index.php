@@ -53,6 +53,23 @@ float:right;
 #cobweb1 a:hover{
 	color:#19f6e8;
 }
+#antagon1 a{
+
+	position: absolute;
+	top:5%;
+	left: 28%;
+	font-size: 18px; 
+	text-decoration:none;
+}
+
+#antagon1 a {
+	color:#fff;
+	cursor:pointer;
+	
+}
+#antagon1 a:hover{
+	color:#19f6e8;
+}
 </style>
 
 <script>
@@ -181,6 +198,9 @@ $( "#cobweblink" ).click(function() {
 			
 	<div id="payment">
 		<a href="pdf/bus.pdf" target="_blank"><h4 style="color: white">Bus Schedule at NITPy</h4></a>
+		</div>
+		<div id="antagon1">
+			<a href="https://www.codechef.com/ATGN2017" target="_blank">Link to Antagon</a>
 		</div>
 	<!-- <div id="cobweb1"> -->
 		<!-- <?php //if(isset($_SESSION['cobweb'])){ ?>
