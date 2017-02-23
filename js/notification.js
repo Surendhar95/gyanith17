@@ -17,7 +17,8 @@ function generate(type, text) {
         
 
        	function generateAll() {
-          generate("warning","Prizes worth 1.5 lakhs to be won")
+          generate("warning","Prizes worth 1.5 lakhs to be won");
+		  generate("notification","On spot registration for Project Expo for college students has stopped");
             generate('notification',"Workshops registrations stopped");
             generate('notification',"The candidates selected for the Second phase of the Paper Presentation events such as ITyuktha, Consilium and Prastuti have been personally notified with an email");
             generate('error',"For hospitality contact : +91-75981 81886");
